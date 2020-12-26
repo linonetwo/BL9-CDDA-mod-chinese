@@ -79,7 +79,9 @@ let translationCache = {};
 const translationCacheFilePath = '翻译缓存.json';
 function initializeTranslationCache() {
   try {
-    translationCache = JSON.parse(fs.read(translationCacheFilePath, 'utf8'));
+    if (Object.keys(translationCache).length === 0) {
+      translationCache = JSON.parse(fs.read(translationCacheFilePath, 'utf8'));
+    }
   } catch (error) {
     console.error(error);
     writeTranslationCache();
