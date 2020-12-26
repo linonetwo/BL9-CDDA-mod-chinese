@@ -1,0 +1,677 @@
+[
+  {
+    "id": "9mmBL9mag",
+    "type": "MAGAZINE",
+    "name": {
+      "str": "BL9 9mm 弹夹"
+    },
+    "description": "一个塑料弹匣，用于制造BL9毫米口径的弹药",
+    "weight": "490 g",
+    "volume": "500 ml",
+    "price": 9920,
+    "price_postapoc": 500,
+    "material": [
+      "plastic"
+    ],
+    "symbol": "#",
+    "color": "light_gray",
+    "ammo_type": [
+      "9mmBL9_type",
+      "9mm",
+      "45",
+      "22",
+      "380"
+    ],
+    "capacity": 12,
+    "reload_time": 125,
+    "flags": [
+      "MAG_COMPACT"
+    ],
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE",
+        "rigid": true,
+        "ammo_restriction": {
+          "22": 12,
+          "45": 12,
+          "380": 12,
+          "9mmBL9_type": 12,
+          "9mm": 12
+        }
+      }
+    ]
+  },
+  {
+    "id": "9mmBL9mk2mag",
+    "type": "MAGAZINE",
+    "name": {
+      "str": "BL9 9mm MK ii 弹夹"
+    },
+    "description": "为BL9 9毫米MK ii口径弹药制造的塑料弹匣",
+    "weight": "490 g",
+    "volume": "500 ml",
+    "price": 9920,
+    "price_postapoc": 500,
+    "material": [
+      "plastic"
+    ],
+    "symbol": "#",
+    "color": "light_gray",
+    "ammo_type": [
+      "9mmBL9mk2_type",
+      "9mm",
+      "45",
+      "22",
+      "380"
+    ],
+    "capacity": 16,
+    "reload_time": 110,
+    "flags": [
+      "MAG_COMPACT"
+    ],
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE",
+        "rigid": true,
+        "ammo_restriction": {
+          "22": 16,
+          "45": 16,
+          "380": 16,
+          "9mmBL9mk2_type": 16,
+          "9mm": 16
+        }
+      }
+    ]
+  },
+  {
+    "id": "9mmBL9mk3mag",
+    "type": "MAGAZINE",
+    "name": {
+      "str": "BL9 9mm MK iii弹匣"
+    },
+    "description": "一个塑料弹匣为BL9毫米MK iii口径弹药制造",
+    "weight": "490 g",
+    "volume": "500 ml",
+    "price": 9920,
+    "price_postapoc": 500,
+    "material": [
+      "plastic"
+    ],
+    "symbol": "#",
+    "color": "light_gray",
+    "ammo_type": [
+      "9mmBL9mk2_type",
+      "9mm",
+      "45",
+      "22",
+      "380"
+    ],
+    "capacity": 20,
+    "reload_time": 95,
+    "flags": [
+      "MAG_COMPACT"
+    ],
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE",
+        "rigid": true,
+        "ammo_restriction": {
+          "22": 20,
+          "45": 20,
+          "380": 20,
+          "9mmBL9mk2_type": 20,
+          "9mm": 20
+        }
+      }
+    ]
+  },
+  {
+    "id": "9mmBL9smgmag",
+    "type": "MAGAZINE",
+    "name": {
+      "str": "BL9 9mm smg 弹夹"
+    },
+    "description": "为BL9毫米口径smg弹药制作的塑料弹匣",
+    "weight": "210 g",
+    "volume": "500 ml",
+    "price": 4700,
+    "price_postapoc": 500,
+    "material": [
+      "plastic"
+    ],
+    "symbol": "#",
+    "color": "light_gray",
+    "ammo_type": [
+      "9mmBL9smg_type",
+      "9mm",
+      "45",
+      "22",
+      "40"
+    ],
+    "capacity": 50,
+    "reload_time": 125,
+    "flags": [
+      "MAG_COMPACT"
+    ],
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE",
+        "rigid": true,
+        "ammo_restriction": {
+          "22": 50,
+          "40": 50,
+          "45": 50,
+          "9mmBL9smg_type": 50,
+          "9mm": 50
+        }
+      }
+    ]
+  },
+  {
+    "id": "9mmBL9smgmk2mag",
+    "type": "MAGAZINE",
+    "name": {
+      "str": "BL9 9mm MK ii smg 弹夹"
+    },
+    "description": "一个为BL9毫米MK ii口径smg弹药制造的塑料弹匣",
+    "weight": "210 g",
+    "volume": "500 ml",
+    "price": 4700,
+    "price_postapoc": 500,
+    "material": [
+      "plastic"
+    ],
+    "symbol": "#",
+    "color": "light_gray",
+    "ammo_type": [
+      "9mmBL9smgmk2_type",
+      "9mm",
+      "45",
+      "22",
+      "40"
+    ],
+    "capacity": 65,
+    "reload_time": 110,
+    "flags": [
+      "MAG_COMPACT"
+    ],
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE",
+        "rigid": true,
+        "ammo_restriction": {
+          "22": 65,
+          "40": 65,
+          "45": 65,
+          "9mmBL9smgmk2_type": 65,
+          "9mm": 65
+        }
+      }
+    ]
+  },
+  {
+    "id": "9mmBL9smgmk3mag",
+    "type": "MAGAZINE",
+    "name": {
+      "str": "BL9 9mm MK iii smg 弹夹"
+    },
+    "description": "一个塑料弹匣，用于BL9 9毫米MK iii口径smg弹药",
+    "weight": "210 g",
+    "volume": "500 ml",
+    "price": 4700,
+    "price_postapoc": 500,
+    "material": [
+      "plastic"
+    ],
+    "symbol": "#",
+    "color": "light_gray",
+    "ammo_type": [
+      "9mmBL9smgmk2_type",
+      "9mm",
+      "45",
+      "22",
+      "40"
+    ],
+    "capacity": 80,
+    "reload_time": 90,
+    "flags": [
+      "MAG_COMPACT"
+    ],
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE",
+        "rigid": true,
+        "ammo_restriction": {
+          "22": 80,
+          "40": 80,
+          "45": 80,
+          "9mmBL9smgmk2_type": 80,
+          "9mm": 80
+        }
+      }
+    ]
+  },
+  {
+    "id": "308BL9mag",
+    "type": "MAGAZINE",
+    "name": {
+      "str": "BL9 308狙击手弹匣"
+    },
+    "description": "为BL9308口径狙击步枪子弹制作的塑料弹匣",
+    "weight": "105 g",
+    "volume": "250 ml",
+    "price": 2900,
+    "price_postapoc": 100,
+    "material": [
+      "plastic"
+    ],
+    "symbol": "#",
+    "color": "light_gray",
+    "ammo_type": [
+      "308BL9_type",
+      "308",
+      "3006"
+    ],
+    "capacity": 7,
+    "reload_time": 175,
+    "flags": [
+      "MAG_COMPACT"
+    ],
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE",
+        "rigid": true,
+        "ammo_restriction": {
+          "308": 7,
+          "3006": 7,
+          "308BL9_type": 7
+        }
+      }
+    ]
+  },
+  {
+    "id": "308BL9mk2mag",
+    "type": "MAGAZINE",
+    "name": {
+      "str": "BL9 308 MK ii狙击手弹匣"
+    },
+    "description": "为BL9308 MK ii口径狙击步枪弹药制作的塑料弹匣",
+    "weight": "105 g",
+    "volume": "250 ml",
+    "price": 2900,
+    "price_postapoc": 100,
+    "material": [
+      "plastic"
+    ],
+    "symbol": "#",
+    "color": "light_gray",
+    "ammo_type": [
+      "308BL9mk2_type",
+      "308",
+      "3006"
+    ],
+    "capacity": 10,
+    "reload_time": 160,
+    "flags": [
+      "MAG_COMPACT"
+    ],
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE",
+        "rigid": true,
+        "ammo_restriction": {
+          "308": 10,
+          "3006": 10,
+          "308BL9mk2_type": 10
+        }
+      }
+    ]
+  },
+  {
+    "id": "308BL9mk3mag",
+    "type": "MAGAZINE",
+    "name": {
+      "str": "BL9 308 MK iii狙击手弹匣"
+    },
+    "description": "为BL9308 MK iii口径狙击步枪弹药制造的塑料弹匣",
+    "weight": "105 g",
+    "volume": "250 ml",
+    "price": 2900,
+    "price_postapoc": 100,
+    "material": [
+      "plastic"
+    ],
+    "symbol": "#",
+    "color": "light_gray",
+    "ammo_type": [
+      "308BL9mk2_type",
+      "308",
+      "3006"
+    ],
+    "capacity": 14,
+    "reload_time": 140,
+    "flags": [
+      "MAG_COMPACT"
+    ],
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE",
+        "rigid": true,
+        "ammo_restriction": {
+          "308": 14,
+          "3006": 14,
+          "308BL9mk2_type": 14
+        }
+      }
+    ]
+  },
+  {
+    "id": "556223BL9mag",
+    "type": "MAGAZINE",
+    "name": {
+      "str": "BL9 556/223自动 弹夹"
+    },
+    "description": "装有BL9556和223口径自动步枪弹药的塑料弹匣",
+    "weight": "105 g",
+    "volume": "250 ml",
+    "price": 2900,
+    "price_postapoc": 100,
+    "material": [
+      "plastic"
+    ],
+    "symbol": "#",
+    "color": "light_gray",
+    "ammo_type": [
+      "556BL9_type",
+      "223"
+    ],
+    "capacity": 30,
+    "reload_time": 140,
+    "flags": [
+      "MAG_COMPACT"
+    ],
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE",
+        "rigid": true,
+        "ammo_restriction": {
+          "223": 30,
+          "556BL9_type": 30
+        }
+      }
+    ]
+  },
+  {
+    "id": "556223BL9mk2mag",
+    "type": "MAGAZINE",
+    "name": {
+      "str": "BL9 556/223 MK ii自动 弹夹"
+    },
+    "description": "BL9556和223 MK ii口径自动步枪弹药的塑料弹匣",
+    "weight": "105 g",
+    "volume": "250 ml",
+    "price": 2900,
+    "price_postapoc": 100,
+    "material": [
+      "plastic"
+    ],
+    "symbol": "#",
+    "color": "light_gray",
+    "ammo_type": [
+      "556BL9mk2_type",
+      "223"
+    ],
+    "capacity": 45,
+    "reload_time": 125,
+    "flags": [
+      "MAG_COMPACT"
+    ],
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE",
+        "rigid": true,
+        "ammo_restriction": {
+          "223": 45,
+          "556BL9mk2_type": 45
+        }
+      }
+    ]
+  },
+  {
+    "id": "556223BL9mk3mag",
+    "type": "MAGAZINE",
+    "name": {
+      "str": "BL9 556/223 MK iii自动 弹夹"
+    },
+    "description": "BL9556和223 MK iii口径自动步枪弹药的塑料弹匣",
+    "weight": "105 g",
+    "volume": "250 ml",
+    "price": 2900,
+    "price_postapoc": 100,
+    "material": [
+      "plastic"
+    ],
+    "symbol": "#",
+    "color": "light_gray",
+    "ammo_type": [
+      "556BL9mk2_type",
+      "223"
+    ],
+    "capacity": 60,
+    "reload_time": 110,
+    "flags": [
+      "MAG_COMPACT"
+    ],
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE",
+        "rigid": true,
+        "ammo_restriction": {
+          "223": 60,
+          "556BL9mk2_type": 60
+        }
+      }
+    ]
+  },
+  {
+    "id": "tank_BL9",
+    "type": "MAGAZINE",
+    "name": {
+      "str": "BL9油箱"
+    },
+    "description": "一个临时的2L罐里装有一个活的液化BL9，它是非常酸的，可以用在一个临时的“BL9投掷器”中`",
+    "weight": "800 g",
+    "volume": "2 L",
+    "price": 5000,
+    "price_postapoc": 50,
+    "material": [
+      "steel"
+    ],
+    "symbol": "#",
+    "color": "light_gray",
+    "ammo_type": [
+      "BL9spray_type"
+    ],
+    "capacity": 500,
+    "reload_time": 3,
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE",
+        "rigid": true,
+        "ammo_restriction": {
+          "BL9spray_type": 500
+        },
+        "watertight": true
+      }
+    ]
+  },
+  {
+    "id": "tank_BL9_mk2",
+    "type": "MAGAZINE",
+    "name": {
+      "str": "BL9增强型坦克"
+    },
+    "description": "一个临时的2L罐含有一种更具腐蚀性的液态BL9，它具有很强的酸性，可以用在一个临时的“BL9投掷器”中`",
+    "weight": "800 g",
+    "volume": "2 L",
+    "price": 5000,
+    "price_postapoc": 50,
+    "material": [
+      "steel"
+    ],
+    "symbol": "#",
+    "color": "light_gray",
+    "ammo_type": [
+      "BL9spraymk2_type"
+    ],
+    "capacity": 600,
+    "reload_time": 3,
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE",
+        "rigid": true,
+        "ammo_restriction": {
+          "BL9spraymk2_type": 600
+        },
+        "watertight": true
+      }
+    ]
+  },
+  {
+    "id": "tank_BL9_mk3",
+    "type": "MAGAZINE",
+    "name": {
+      "str": "BL9超耐坦克"
+    },
+    "description": "一个临时的2L罐含有一种腐蚀性极强的液态BL9，它具有非常致命和危险的腐蚀性，可以用在一个临时的BL9投掷器中`",
+    "weight": "800 g",
+    "volume": "2 L",
+    "price": 5000,
+    "price_postapoc": 50,
+    "material": [
+      "steel"
+    ],
+    "symbol": "#",
+    "color": "light_gray",
+    "ammo_type": [
+      "BL9spraymk2_type"
+    ],
+    "capacity": 800,
+    "reload_time": 3,
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE",
+        "rigid": true,
+        "ammo_restriction": {
+          "BL9spraymk2_type": 800
+        },
+        "watertight": true
+      }
+    ]
+  },
+  {
+    "id": "40BL9mag",
+    "type": "MAGAZINE",
+    "name": {
+      "str": "BL9弹匣"
+    },
+    "description": "一个精心建造但相当笨重的弹匣，供BL9发射器发射不稳定的BL9碎片-“BL9炸弹”",
+    "weight": "400 g",
+    "volume": "590 ml",
+    "price": 0,
+    "price_postapoc": 0,
+    "material": [
+      "plastic"
+    ],
+    "symbol": "#",
+    "color": "light_gray",
+    "ammo_type": [
+      "40mmBL9_type",
+      "40x46mm"
+    ],
+    "capacity": 5,
+    "flags": [
+      "MAG_BULKY"
+    ],
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE",
+        "rigid": true,
+        "ammo_restriction": {
+          "40mmBL9_type": 5,
+          "40x46mm": 5
+        }
+      }
+    ]
+  },
+  {
+    "id": "40_BL9mk2mag",
+    "type": "MAGAZINE",
+    "name": {
+      "str": "BL9发射器MK ii弹匣"
+    },
+    "description": "一个精心建造但相当笨重的弹匣，为BL9发射器mk2发射非常不稳定的BL9-“BL9炸弹”",
+    "weight": "600 g",
+    "volume": "790 ml",
+    "price": 0,
+    "price_postapoc": 0,
+    "material": [
+      "plastic"
+    ],
+    "symbol": "#",
+    "color": "light_gray",
+    "ammo_type": [
+      "40mmBL9mk2_type",
+      "40x46mm"
+    ],
+    "capacity": 7,
+    "flags": [
+      "MAG_BULKY"
+    ],
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE",
+        "rigid": true,
+        "ammo_restriction": {
+          "40mmBL9mk2_type": 7,
+          "40x46mm": 7
+        }
+      }
+    ]
+  },
+  {
+    "id": "40_BL9mk3mag",
+    "type": "MAGAZINE",
+    "name": {
+      "str": "BL9发射器MK iii弹匣"
+    },
+    "description": "一个精心建造但相当笨重的弹匣，为BL9发射器mk3发射难以置信的不稳定，似乎急于爆炸的BL9-“BL9百万炸弹”",
+    "weight": "600 g",
+    "volume": "790 ml",
+    "price": 0,
+    "price_postapoc": 0,
+    "material": [
+      "plastic"
+    ],
+    "symbol": "#",
+    "color": "light_gray",
+    "ammo_type": [
+      "40mmBL9mk2_type",
+      "40x46mm"
+    ],
+    "capacity": 10,
+    "flags": [
+      "MAG_BULKY"
+    ],
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE",
+        "rigid": true,
+        "ammo_restriction": {
+          "40mmBL9mk2_type": 10,
+          "40x46mm": 10
+        }
+      }
+    ]
+  }
+]

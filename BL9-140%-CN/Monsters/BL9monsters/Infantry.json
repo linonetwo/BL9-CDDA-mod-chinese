@@ -1,0 +1,2228 @@
+[
+  {
+    "id": "mon_BL9_cultist_bash",
+    "looks_like": "mon_dementia",
+    "type": "MONSTER",
+    "name": "Armed BL9-Cultist - Flail",
+    "description": "被BL9感染的狂热分子。它似乎是有知觉的，除了异常庄严的凝视，死气沉沉的皮肤和血迹斑斑的眼睛表明了BL9的存在，他们的动机是杀死那些不接受他们“迪奥”祝福的人，这个人装备连枷，似乎知道如何使用它。",
+    "default_faction": "BL9_cultists",
+    "species": [
+      "ZOMBIE",
+      "HUMAN"
+    ],
+    "volume": "62500 ml",
+    "weight": "81500 g",
+    "hp": 143,
+    "speed": 100,
+    "material": [
+      "hflesh"
+    ],
+    "symbol": "@",
+    "color": "brown",
+    "aggression": 100,
+    "morale": 100,
+    "melee_skill": 5,
+    "melee_dice": 1,
+    "harvest": "zombie",
+    "melee_dice_sides": 1,
+    "melee_cut": 1,
+    "attack_effs": [
+      {
+        "id": "BL9_bleed_immun",
+        "duration": 15,
+        "bp": "torso"
+      }
+    ],
+    "melee_damage": [
+      {
+        "damage_type": "bash",
+        "amount": 3,
+        "armor_penetration": 9
+      }
+    ],
+    "dodge": 3,
+    "armor_bash": 7,
+    "armor_cut": 7,
+    "special_attacks": [
+      [
+        "PARROT",
+        11
+      ]
+    ],
+    "death_function": [
+      "NORMAL"
+    ],
+    "death_drops": "BL9_Drops_Cult",
+    "flags": [
+      "SEES",
+      "HEARS",
+      "SMELLS",
+      "WARM",
+      "BASHES",
+      "GROUP_BASH",
+      "POISON",
+      "NO_BREATHE",
+      "BONES",
+      "GRABS",
+      "PUSH_MON"
+    ]
+  },
+  {
+    "id": "mon_BL9_cultist_stab",
+    "looks_like": "mon_zombie_master",
+    "type": "MONSTER",
+    "name": "Armed BL9-Cultist - Spear",
+    "description": "被BL9感染的狂热分子。它似乎是有知觉的，除了异常庄严的凝视、死气沉沉的皮肤和血迹斑斑的眼睛表明了BL9的存在，它们的动机是杀死那些不接受“迪奥”祝福的人，这个人手持长矛，似乎知道如何使用它。",
+    "default_faction": "BL9_cultists",
+    "species": [
+      "ZOMBIE",
+      "HUMAN"
+    ],
+    "volume": "62500 ml",
+    "weight": "81500 g",
+    "hp": 143,
+    "speed": 100,
+    "material": [
+      "hflesh"
+    ],
+    "symbol": "@",
+    "color": "brown",
+    "aggression": 100,
+    "morale": 100,
+    "melee_skill": 5,
+    "melee_dice": 1,
+    "harvest": "zombie",
+    "melee_dice_sides": 1,
+    "melee_cut": 1,
+    "attack_effs": [
+      {
+        "id": "BL9_bleed_immun",
+        "duration": 15,
+        "bp": "torso"
+      }
+    ],
+    "melee_damage": [
+      {
+        "damage_type": "stab",
+        "amount": 3,
+        "armor_penetration": 9
+      }
+    ],
+    "dodge": 3,
+    "armor_bash": 7,
+    "armor_cut": 7,
+    "special_attacks": [
+      [
+        "PARROT",
+        11
+      ]
+    ],
+    "death_function": [
+      "NORMAL"
+    ],
+    "death_drops": "BL9_Drops_Cult",
+    "flags": [
+      "SEES",
+      "HEARS",
+      "SMELLS",
+      "WARM",
+      "BASHES",
+      "GROUP_BASH",
+      "POISON",
+      "NO_BREATHE",
+      "BONES",
+      "GRABS",
+      "PUSH_MON"
+    ]
+  },
+  {
+    "id": "mon_BL9_patrolcultist_stab",
+    "looks_like": "mon_zombie_master",
+    "type": "MONSTER",
+    "name": "Armed Patrolling BL9-Cultist - Spear",
+    "description": "被BL9感染的狂热分子。它似乎是有知觉的，除了异常庄严的凝视、死气沉沉的皮肤和血迹斑斑的眼睛表明了BL9的存在，它们的动机是杀死那些不接受“迪奥”祝福的人，这个人手持长矛，似乎知道如何使用它。",
+    "default_faction": "BL9_cultists",
+    "species": [
+      "ZOMBIE",
+      "HUMAN"
+    ],
+    "volume": "62500 ml",
+    "weight": "81500 g",
+    "hp": 143,
+    "speed": 75,
+    "material": [
+      "hflesh"
+    ],
+    "symbol": "@",
+    "color": "brown",
+    "aggression": 100,
+    "morale": 100,
+    "melee_skill": 5,
+    "melee_dice": 1,
+    "harvest": "zombie",
+    "melee_dice_sides": 1,
+    "melee_cut": 1,
+    "attack_effs": [
+      {
+        "id": "BL9_bleed_immun",
+        "duration": 15,
+        "bp": "torso"
+      }
+    ],
+    "melee_damage": [
+      {
+        "damage_type": "stab",
+        "amount": 3,
+        "armor_penetration": 9
+      }
+    ],
+    "dodge": 3,
+    "armor_bash": 1,
+    "armor_cut": 1,
+    "special_attacks": [
+      [
+        "PARROT",
+        11
+      ]
+    ],
+    "death_function": [
+      "NORMAL"
+    ],
+    "death_drops": "BL9_Drops_Cultistpatrolgrunt",
+    "flags": [
+      "SEES",
+      "HEARS",
+      "SMELLS",
+      "WARM",
+      "BASHES",
+      "GROUP_BASH",
+      "POISON",
+      "NO_BREATHE",
+      "BONES",
+      "GRABS",
+      "PUSH_MON"
+    ]
+  },
+  {
+    "id": "mon_BL9_mutant_1",
+    "looks_like": "mon_zombie_gasbag_impaler",
+    "type": "MONSTER",
+    "name": "BL9 Mutant - Type i ",
+    "description": "一个注射了BL9的人的头部破裂，露出一条细长的卷须状鞭子。这鞭子顶端有一把锋利灵活的刀刃。",
+    "default_faction": "BL9_cultists",
+    "species": [
+      "ZOMBIE",
+      "HUMAN"
+    ],
+    "volume": "62500 ml",
+    "weight": "81500 g",
+    "hp": 196,
+    "speed": 70,
+    "material": [
+      "hflesh"
+    ],
+    "symbol": "@",
+    "color": "brown",
+    "aggression": 100,
+    "morale": 100,
+    "melee_skill": 5,
+    "melee_dice": 1,
+    "harvest": "zombie",
+    "melee_dice_sides": 2,
+    "melee_cut": 1,
+    "attack_effs": [
+      {
+        "id": "BL9_bleed_immun",
+        "duration": 15,
+        "bp": "torso"
+      }
+    ],
+    "melee_damage": [
+      {
+        "damage_type": "cut",
+        "amount": 4,
+        "armor_penetration": 10
+      }
+    ],
+    "dodge": 3,
+    "armor_bash": 8,
+    "armor_cut": 8,
+    "death_function": [
+      "NORMAL"
+    ],
+    "death_drops": "BL9_Drops_Cult",
+    "special_attacks": [
+      {
+        "type": "monster_attack",
+        "attack_type": "melee",
+        "cooldown": 8,
+        "move_cost": 140,
+        "damage_max_instance": [
+          {
+            "damage_type": "cut",
+            "amount": 7,
+            "armor_penetration": 13
+          }
+        ],
+        "hit_dmg_u": "The %1$s swings it's blade-like whip at you!",
+        "hit_dmg_npc": "The %1$s swings it's blade-like whip at <npcname>!",
+        "no_dmg_msg_u": "The %1$s tries to swing it's blade-like whip at you, but fails to penetrate your armor!",
+        "no_dmg_msg_npc": "The %1$s tries to swings it's blade-like whip at <npcname>, but fails to penetrate their armor!",
+        "miss_msg_u": "The %s swings it's blade-like whip at you, but you dodge!",
+        "miss_msg_npc": "The %s swings it's blade-like whip at <npcname>, but they dodge!"
+      },
+      {
+        "type": "spell",
+        "spell_data": {
+          "id": "BL9_1_horizontalslash"
+        },
+        "cooldown": 10,
+        "monster_message": "<color_light_red>%1$s在%3$s处扫过它的叶片卷须！\n卷须疯狂地扭动！</color>"
+      }
+    ],
+    "flags": [
+      "SEES",
+      "HEARS",
+      "SMELLS",
+      "WARM",
+      "BASHES",
+      "GROUP_BASH",
+      "POISON",
+      "NO_BREATHE",
+      "BONES",
+      "GRABS",
+      "PUSH_MON"
+    ]
+  },
+  {
+    "id": "mon_BL9_cultist_cut",
+    "looks_like": "mon_zombie_necro",
+    "type": "MONSTER",
+    "name": "Armed BL9-Cultist - Sword",
+    "description": "被BL9感染的狂热分子。它似乎有知觉，拥有正常人的所有特征，除了异常庄严的凝视，死气沉沉的皮肤和血迹斑斑的眼睛表明了BL9的存在，他们的动机是杀死那些不接受他们“迪奥”祝福的人，这个人手持一把剑，似乎知道如何使用它。",
+    "default_faction": "BL9_cultists",
+    "species": [
+      "ZOMBIE",
+      "HUMAN"
+    ],
+    "volume": "62500 ml",
+    "weight": "81500 g",
+    "hp": 143,
+    "speed": 100,
+    "material": [
+      "hflesh"
+    ],
+    "symbol": "@",
+    "color": "brown",
+    "aggression": 100,
+    "morale": 100,
+    "melee_skill": 5,
+    "melee_dice": 1,
+    "harvest": "zombie",
+    "melee_dice_sides": 2,
+    "melee_cut": 1,
+    "attack_effs": [
+      {
+        "id": "BL9_bleed_immun",
+        "duration": 15,
+        "bp": "torso"
+      }
+    ],
+    "melee_damage": [
+      {
+        "damage_type": "cut",
+        "amount": 3,
+        "armor_penetration": 9
+      }
+    ],
+    "dodge": 3,
+    "armor_bash": 7,
+    "armor_cut": 7,
+    "special_attacks": [
+      [
+        "PARROT",
+        11
+      ]
+    ],
+    "death_function": [
+      "NORMAL"
+    ],
+    "death_drops": "BL9_Drops_Cult",
+    "flags": [
+      "SEES",
+      "HEARS",
+      "SMELLS",
+      "WARM",
+      "BASHES",
+      "GROUP_BASH",
+      "POISON",
+      "NO_BREATHE",
+      "BONES",
+      "GRABS",
+      "PUSH_MON"
+    ]
+  },
+  {
+    "id": "mon_BL9_patrolcultist_cut",
+    "looks_like": "mon_zombie_necro",
+    "type": "MONSTER",
+    "name": "Armed Patrolling BL9-Cultist - Sword",
+    "description": "被BL9感染的狂热分子。它似乎有知觉，拥有正常人的所有特征，除了异常庄严的凝视，死气沉沉的皮肤和血迹斑斑的眼睛表明了BL9的存在，他们的动机是杀死那些不接受他们“迪奥”祝福的人，这个人手持一把剑，似乎知道如何使用它。",
+    "default_faction": "BL9_cultists",
+    "species": [
+      "ZOMBIE",
+      "HUMAN"
+    ],
+    "volume": "62500 ml",
+    "weight": "81500 g",
+    "hp": 143,
+    "speed": 75,
+    "material": [
+      "hflesh"
+    ],
+    "symbol": "@",
+    "color": "brown",
+    "aggression": 100,
+    "morale": 100,
+    "melee_skill": 5,
+    "melee_dice": 1,
+    "harvest": "zombie",
+    "melee_dice_sides": 2,
+    "melee_cut": 1,
+    "attack_effs": [
+      {
+        "id": "BL9_bleed_immun",
+        "duration": 15,
+        "bp": "torso"
+      }
+    ],
+    "melee_damage": [
+      {
+        "damage_type": "cut",
+        "amount": 3,
+        "armor_penetration": 9
+      }
+    ],
+    "dodge": 3,
+    "armor_bash": 1,
+    "armor_cut": 1,
+    "special_attacks": [
+      [
+        "PARROT",
+        11
+      ]
+    ],
+    "death_function": [
+      "NORMAL"
+    ],
+    "death_drops": "BL9_Drops_Cultistpatrolgrunt",
+    "flags": [
+      "SEES",
+      "HEARS",
+      "SMELLS",
+      "WARM",
+      "BASHES",
+      "GROUP_BASH",
+      "POISON",
+      "NO_BREATHE",
+      "BONES",
+      "GRABS",
+      "PUSH_MON"
+    ]
+  },
+  {
+    "id": "mon_BL9_mutant_2",
+    "looks_like": "mon_dark_wyrm",
+    "type": "MONSTER",
+    "name": "BL9 Mutant - type ii",
+    "description": "一个由BL9诱发的人类头部破裂，显示出一个巨大而细长的蠕虫状寄生虫。由于它的大嘴巴，当它咬的时候可能是致命的。",
+    "default_faction": "BL9_cultists",
+    "species": [
+      "ZOMBIE",
+      "HUMAN"
+    ],
+    "volume": "62500 ml",
+    "weight": "81500 g",
+    "hp": 196,
+    "speed": 65,
+    "material": [
+      "hflesh"
+    ],
+    "symbol": "@",
+    "color": "brown",
+    "aggression": 100,
+    "morale": 100,
+    "melee_skill": 5,
+    "melee_dice": 1,
+    "harvest": "zombie",
+    "melee_dice_sides": 2,
+    "melee_cut": 1,
+    "attack_effs": [
+      {
+        "id": "BL9_bleed_immun",
+        "duration": 15,
+        "bp": "torso"
+      }
+    ],
+    "melee_damage": [
+      {
+        "damage_type": "bash",
+        "amount": 4,
+        "armor_penetration": 10
+      }
+    ],
+    "dodge": 3,
+    "armor_bash": 8,
+    "armor_cut": 8,
+    "death_function": [
+      "NORMAL"
+    ],
+    "death_drops": "BL9_Drops_Cult",
+    "special_attacks": [
+      {
+        "type": "monster_attack",
+        "attack_type": "melee",
+        "cooldown": 8,
+        "move_cost": 140,
+        "damage_max_instance": [
+          {
+            "damage_type": "bash",
+            "amount": 7,
+            "armor_penetration": 13
+          }
+        ],
+        "hit_dmg_u": "The %1$s stretches out it's worm-like body swinging at you with it wildly!",
+        "hit_dmg_npc": "The %1$s stretches out it's worm-like body swinging at <npcname> with it wildly!",
+        "no_dmg_msg_u": "The %1$s stretches out it's worm-like body trying to swing at you with it wildly, but fails to damage your armor!",
+        "no_dmg_msg_npc": "The %1$s stretches out it's worm-like body trying to swing at <npcname> with it wildly, but fails to damage their armor!",
+        "miss_msg_u": "The %s streches out it's worm-like body trying to swing at you with it wildly, but you dodge!",
+        "miss_msg_npc": "The %s stretches out it's worm-like body trying to swing at <npcname> with it wildly, but they dodge!"
+      },
+      {
+        "type": "monster_attack",
+        "attack_type": "melee",
+        "cooldown": 12,
+        "move_cost": 215,
+        "accuracy": 12,
+        "damage_max_instance": [
+          {
+            "damage_type": "stab",
+            "amount": 10,
+            "armor_penetration": 16
+          }
+        ],
+        "hit_dmg_u": "The %1$s devours you!",
+        "hit_dmg_npc": "The %1$s devours <npcname>!",
+        "no_dmg_msg_u": "The %1$s tries to devour you, but fails to penetrate your armor!",
+        "no_dmg_msg_npc": "The %1$s tries to devour <npcname>, but fails to penetrate their armor!",
+        "miss_msg_u": "The %s devours you, but you step aside!",
+        "miss_msg_npc": "The %s devours <npcname>, but they dodge!"
+      }
+    ],
+    "flags": [
+      "SEES",
+      "HEARS",
+      "SMELLS",
+      "WARM",
+      "BASHES",
+      "GROUP_BASH",
+      "POISON",
+      "NO_BREATHE",
+      "BONES",
+      "GRABS",
+      "PUSH_MON"
+    ]
+  },
+  {
+    "id": "mon_BL9_cultist_crossbow",
+    "looks_like": "mon_dementia",
+    "type": "MONSTER",
+    "name": "Armed BL9-Cultist - Crossbow",
+    "description": "被BL9感染的狂热分子。它似乎是有知觉的，拥有正常人的所有特征，除了奇怪的庄严的凝视，死气沉沉的皮肤和血迹斑斑的眼睛表明了BL9的存在，他们的动机是杀死那些不接受他们“迪奥”祝福的人，这只手上有一把弩，它似乎知道如何使用它。",
+    "default_faction": "BL9_cultists",
+    "species": [
+      "ZOMBIE",
+      "HUMAN"
+    ],
+    "volume": "62500 ml",
+    "weight": "81500 g",
+    "hp": 143,
+    "speed": 100,
+    "material": [
+      "hflesh"
+    ],
+    "symbol": "@",
+    "color": "brown",
+    "aggression": 100,
+    "morale": 100,
+    "melee_skill": 5,
+    "melee_dice": 1,
+    "harvest": "zombie",
+    "melee_dice_sides": 2,
+    "melee_cut": 1,
+    "attack_effs": [
+      {
+        "id": "BL9_bleed_immun",
+        "duration": 15,
+        "bp": "torso"
+      }
+    ],
+    "dodge": 3,
+    "armor_bash": 7,
+    "armor_cut": 7,
+    "death_function": [
+      "NORMAL"
+    ],
+    "special_attacks": [
+      [
+        "PARROT",
+        11
+      ],
+      {
+        "type": "gun",
+        "cooldown": 8,
+        "move_cost": 1100,
+        "gun_type": "mongun_BL9_crossbow",
+        "fake_skills": [
+          [
+            "gun",
+            8
+          ],
+          [
+            "rifle",
+            8
+          ]
+        ],
+        "fake_dex": 8,
+        "fake_per": 8,
+        "require_targeting_player": false,
+        "description": "加纳多发射了弩！",
+        "ranges": [
+          [
+            3,
+            14,
+            "DEFAULT"
+          ]
+        ]
+      }
+    ],
+    "death_drops": "BL9_Drops_Cult",
+    "flags": [
+      "SEES",
+      "HEARS",
+      "SMELLS",
+      "WARM",
+      "BASHES",
+      "GROUP_BASH",
+      "POISON",
+      "NO_BREATHE",
+      "BONES",
+      "GRABS",
+      "PUSH_MON"
+    ]
+  },
+  {
+    "id": "mon_BL9_patrolcultist_crossbow",
+    "looks_like": "mon_dementia",
+    "type": "MONSTER",
+    "name": "Armed Patrolling BL9-Cultist - Crossbow",
+    "description": "被BL9感染的狂热分子。它似乎是有知觉的，拥有正常人的所有特征，除了奇怪的庄严的凝视，死气沉沉的皮肤和血迹斑斑的眼睛表明了BL9的存在，他们的动机是杀死那些不接受他们“迪奥”祝福的人，这只手上有一把弩，它似乎知道如何使用它。",
+    "default_faction": "BL9_cultists",
+    "species": [
+      "ZOMBIE",
+      "HUMAN"
+    ],
+    "volume": "62500 ml",
+    "weight": "81500 g",
+    "hp": 143,
+    "speed": 75,
+    "material": [
+      "hflesh"
+    ],
+    "symbol": "@",
+    "color": "brown",
+    "aggression": 100,
+    "morale": 100,
+    "melee_skill": 5,
+    "melee_dice": 1,
+    "harvest": "zombie",
+    "melee_dice_sides": 2,
+    "melee_cut": 1,
+    "attack_effs": [
+      {
+        "id": "BL9_bleed_immun",
+        "duration": 15,
+        "bp": "torso"
+      }
+    ],
+    "dodge": 3,
+    "armor_bash": 1,
+    "armor_cut": 1,
+    "death_function": [
+      "NORMAL"
+    ],
+    "special_attacks": [
+      [
+        "PARROT",
+        11
+      ],
+      {
+        "type": "gun",
+        "cooldown": 8,
+        "move_cost": 1100,
+        "gun_type": "mongun_BL9_crossbow",
+        "fake_skills": [
+          [
+            "gun",
+            8
+          ],
+          [
+            "rifle",
+            8
+          ]
+        ],
+        "fake_dex": 8,
+        "fake_per": 8,
+        "require_targeting_player": false,
+        "description": "加纳多发射了弩！",
+        "ranges": [
+          [
+            3,
+            14,
+            "DEFAULT"
+          ]
+        ]
+      }
+    ],
+    "death_drops": "BL9_Drops_Cultistpatrolgrunt",
+    "flags": [
+      "SEES",
+      "HEARS",
+      "SMELLS",
+      "WARM",
+      "BASHES",
+      "GROUP_BASH",
+      "POISON",
+      "NO_BREATHE",
+      "BONES",
+      "GRABS",
+      "PUSH_MON"
+    ]
+  },
+  {
+    "id": "mon_BL9_mutant_3",
+    "looks_like": "mon_mi_go_scout",
+    "type": "MONSTER",
+    "name": "BL9 Mutant - type iii",
+    "description": "一个由BL9诱发的头部破裂的寄生虫，它的头部突出，是一种寄生虫，有几个细长的尖刺状四肢和一个酸液流口水的孔。",
+    "default_faction": "BL9_cultists",
+    "species": [
+      "ZOMBIE",
+      "HUMAN"
+    ],
+    "volume": "62500 ml",
+    "weight": "81500 g",
+    "hp": 196,
+    "speed": 75,
+    "material": [
+      "hflesh"
+    ],
+    "symbol": "@",
+    "color": "brown",
+    "aggression": 100,
+    "morale": 100,
+    "melee_skill": 6,
+    "melee_dice": 1,
+    "harvest": "zombie",
+    "melee_dice_sides": 2,
+    "melee_cut": 1,
+    "attack_effs": [
+      {
+        "id": "BL9_bleed_immun",
+        "duration": 15,
+        "bp": "torso"
+      }
+    ],
+    "melee_damage": [
+      {
+        "damage_type": "stab",
+        "amount": 4,
+        "armor_penetration": 10
+      }
+    ],
+    "dodge": 3,
+    "armor_bash": 8,
+    "armor_cut": 8,
+    "death_function": [
+      "NORMAL"
+    ],
+    "special_attacks": [
+      {
+        "type": "bite",
+        "cooldown": 9,
+        "damage_max_instance": [
+          {
+            "damage_type": "stab",
+            "armor_penetration": 15
+          }
+        ]
+      },
+      {
+        "type": "monster_attack",
+        "attack_type": "melee",
+        "cooldown": 8,
+        "move_cost": 235,
+        "accuracy": 12,
+        "damage_max_instance": [
+          {
+            "damage_type": "cut",
+            "amount": 7,
+            "armor_penetration": 13
+          }
+        ],
+        "hit_dmg_u": "The %1$s swirls it's spiky body you!",
+        "hit_dmg_npc": "The %1$s swrils it's spiky body at <npcname>!",
+        "no_dmg_msg_u": "The %1$s tries to swirl it's spiky body at you, but fails to penetrate your armor!",
+        "no_dmg_msg_npc": "The %1$s tries to swirl it's spiky body at <npcname>, but fails to penetrate their armor!",
+        "miss_msg_u": "The %s swirls it's spiky body at you, but you step aside!",
+        "miss_msg_npc": "The %s swirls it's spiky body at <npcname>, but they dodge!"
+      },
+      {
+        "type": "spell",
+        "spell_data": {
+          "id": "BL9_3_acidbarf"
+        },
+        "cooldown": 10,
+        "monster_message": "<color_light_red>%1$s在%3$s吐出一股酸！</color>"
+      }
+    ],
+    "death_drops": "BL9_Drops_Cult",
+    "flags": [
+      "SEES",
+      "HEARS",
+      "SMELLS",
+      "WARM",
+      "BASHES",
+      "GROUP_BASH",
+      "POISON",
+      "NO_BREATHE",
+      "BONES",
+      "GRABS",
+      "PUSH_MON"
+    ]
+  },
+  {
+    "id": "mon_BL9_cultist_patrolleader",
+    "looks_like": "mon_zombie_necro",
+    "type": "MONSTER",
+    "name": "Armed BL9-Cultist - Patrol Leader",
+    "description": "一个身穿红色长袍的狂热者，戴着一个奇怪的头骨面具，被BL9感染。它似乎有知觉，拥有正常人的所有特征，除了异常庄严的凝视，死气沉沉的皮肤和血迹斑斑的眼睛表明了BL9的存在，他们的动机是杀死那些不接受他们“迪奥”祝福的人，这个人手持一把剑，似乎知道如何使用它。",
+    "default_faction": "BL9_cultists",
+    "species": [
+      "ZOMBIE",
+      "HUMAN"
+    ],
+    "volume": "62500 ml",
+    "weight": "81500 g",
+    "hp": 190,
+    "speed": 75,
+    "material": [
+      "hflesh"
+    ],
+    "symbol": "@",
+    "color": "brown",
+    "aggression": 100,
+    "morale": 100,
+    "melee_skill": 6,
+    "melee_dice": 1,
+    "harvest": "zombie",
+    "melee_dice_sides": 2,
+    "melee_cut": 1,
+    "attack_effs": [
+      {
+        "id": "BL9_bleed_immun",
+        "duration": 15,
+        "bp": "torso"
+      }
+    ],
+    "melee_damage": [
+      {
+        "damage_type": "cut",
+        "amount": 3,
+        "armor_penetration": 9
+      }
+    ],
+    "dodge": 4,
+    "armor_bash": 5,
+    "armor_cut": 5,
+    "special_attacks": [
+      [
+        "PARROT",
+        11
+      ]
+    ],
+    "death_function": [
+      "NORMAL"
+    ],
+    "death_drops": "BL9_Drops_Cultistpatrollead",
+    "flags": [
+      "SEES",
+      "HEARS",
+      "SMELLS",
+      "WARM",
+      "BASHES",
+      "GROUP_BASH",
+      "POISON",
+      "NO_BREATHE",
+      "BONES",
+      "GRABS",
+      "PUSH_MON"
+    ]
+  },
+  {
+    "id": "mon_BL9_military_bash",
+    "looks_like": "mon_zombie_soldier",
+    "type": "MONSTER",
+    "name": "Armed BL9-Mercenary - Hammer",
+    "description": "被BL9感染的装甲雇佣兵。它似乎是有知觉的，除了脸上奇怪的攻击性和烦躁的表情，似乎更快的反应和血淋淋的眼睛表明了BL9的存在，他们会尽最大努力阻止任何闯入他们的化合物的入侵者，这只手拿着一把锤子，它似乎知道如何使用它。",
+    "default_faction": "BL9_military",
+    "species": [
+      "ZOMBIE",
+      "HUMAN"
+    ],
+    "volume": "62500 ml",
+    "weight": "81500 g",
+    "hp": 236,
+    "speed": 100,
+    "material": [
+      "hflesh"
+    ],
+    "symbol": "@",
+    "color": "brown",
+    "aggression": 100,
+    "morale": 100,
+    "melee_skill": 5,
+    "melee_dice": 1,
+    "harvest": "zombie",
+    "melee_dice_sides": 2,
+    "melee_cut": 1,
+    "attack_effs": [
+      {
+        "id": "BL9_bleed_immun",
+        "duration": 15,
+        "bp": "torso"
+      }
+    ],
+    "melee_damage": [
+      {
+        "damage_type": "bash",
+        "amount": 6,
+        "armor_penetration": 18
+      }
+    ],
+    "dodge": 3,
+    "armor_bash": 12,
+    "armor_cut": 12,
+    "special_attacks": [
+      [
+        "PARROT",
+        11
+      ]
+    ],
+    "death_function": [
+      "NORMAL"
+    ],
+    "death_drops": "BL9_Drops_Military",
+    "flags": [
+      "SEES",
+      "HEARS",
+      "SMELLS",
+      "WARM",
+      "BASHES",
+      "GROUP_BASH",
+      "POISON",
+      "NO_BREATHE",
+      "BONES",
+      "GRABS",
+      "PUSH_MON"
+    ]
+  },
+  {
+    "id": "mon_BL9_military_stab",
+    "looks_like": "mon_zombie_soldier",
+    "type": "MONSTER",
+    "name": "Armed BL9-Mercenary - Bayonet",
+    "description": "被BL9感染的装甲雇佣兵。它看起来是有知觉的，除了脸上奇怪的攻击性和烦躁的表情，似乎更快的反应和血淋淋的眼睛表明了BL9的存在，他们会尽最大努力阻止任何入侵者，这是一个有刺刀的武装，显然知道如何用好它",
+    "default_faction": "BL9_military",
+    "species": [
+      "ZOMBIE",
+      "HUMAN"
+    ],
+    "volume": "62500 ml",
+    "weight": "81500 g",
+    "hp": 236,
+    "speed": 100,
+    "material": [
+      "hflesh"
+    ],
+    "symbol": "@",
+    "color": "brown",
+    "aggression": 100,
+    "morale": 100,
+    "melee_skill": 5,
+    "melee_dice": 1,
+    "harvest": "zombie",
+    "melee_dice_sides": 2,
+    "melee_cut": 1,
+    "attack_effs": [
+      {
+        "id": "BL9_bleed_immun",
+        "duration": 15,
+        "bp": "torso"
+      }
+    ],
+    "melee_damage": [
+      {
+        "damage_type": "stab",
+        "amount": 6,
+        "armor_penetration": 18
+      }
+    ],
+    "dodge": 3,
+    "armor_bash": 12,
+    "armor_cut": 12,
+    "special_attacks": [
+      [
+        "PARROT",
+        11
+      ]
+    ],
+    "death_function": [
+      "NORMAL"
+    ],
+    "death_drops": "BL9_Drops_Military",
+    "flags": [
+      "SEES",
+      "HEARS",
+      "SMELLS",
+      "WARM",
+      "BASHES",
+      "GROUP_BASH",
+      "POISON",
+      "NO_BREATHE",
+      "BONES",
+      "GRABS",
+      "PUSH_MON"
+    ]
+  },
+  {
+    "id": "mon_BL9_patrolmilitary_stab",
+    "looks_like": "mon_zombie_soldier",
+    "type": "MONSTER",
+    "name": "Armed BL9-Patrolling Mercenary - Bayonet",
+    "description": "被BL9感染的装甲雇佣兵。它看起来是有知觉的，除了脸上奇怪的攻击性和烦躁的表情，似乎更快的反应和血淋淋的眼睛表明了BL9的存在，他们会尽最大努力阻止任何入侵者，这是一个有刺刀的武装，显然知道如何用好它",
+    "default_faction": "BL9_military",
+    "species": [
+      "ZOMBIE",
+      "HUMAN"
+    ],
+    "volume": "62500 ml",
+    "weight": "81500 g",
+    "hp": 236,
+    "speed": 75,
+    "material": [
+      "hflesh"
+    ],
+    "symbol": "@",
+    "color": "brown",
+    "aggression": 100,
+    "morale": 100,
+    "melee_skill": 5,
+    "melee_dice": 1,
+    "harvest": "zombie",
+    "melee_dice_sides": 2,
+    "melee_cut": 1,
+    "attack_effs": [
+      {
+        "id": "BL9_bleed_immun",
+        "duration": 15,
+        "bp": "torso"
+      }
+    ],
+    "melee_damage": [
+      {
+        "damage_type": "stab",
+        "amount": 6,
+        "armor_penetration": 18
+      }
+    ],
+    "dodge": 3,
+    "armor_bash": 2,
+    "armor_cut": 2,
+    "special_attacks": [
+      [
+        "PARROT",
+        11
+      ]
+    ],
+    "death_function": [
+      "NORMAL"
+    ],
+    "death_drops": "BL9_Drops_Militarypatrolgrunt",
+    "flags": [
+      "SEES",
+      "HEARS",
+      "SMELLS",
+      "WARM",
+      "BASHES",
+      "GROUP_BASH",
+      "POISON",
+      "NO_BREATHE",
+      "BONES",
+      "GRABS",
+      "PUSH_MON"
+    ]
+  },
+  {
+    "id": "mon_BL9_military_cut",
+    "looks_like": "mon_zombie_soldier_blackops_2",
+    "type": "MONSTER",
+    "name": "Armed BL9-Mercenary - Military Knife",
+    "description": "被BL9感染的装甲雇佣兵。它似乎是有知觉的，除了脸上奇怪的攻击性和烦躁的表情，似乎更快的反应和血淋淋的眼睛表明了BL9的存在，他们会尽最大努力阻止任何入侵者设法渗透到他们的化合物，这是一个武装了锋利的军刀和它显然知道如何用好它",
+    "default_faction": "BL9_military",
+    "species": [
+      "ZOMBIE",
+      "HUMAN"
+    ],
+    "volume": "62500 ml",
+    "weight": "81500 g",
+    "hp": 236,
+    "speed": 100,
+    "material": [
+      "hflesh"
+    ],
+    "symbol": "@",
+    "color": "brown",
+    "aggression": 100,
+    "morale": 100,
+    "melee_skill": 5,
+    "melee_dice": 1,
+    "harvest": "zombie",
+    "melee_dice_sides": 2,
+    "melee_cut": 1,
+    "attack_effs": [
+      {
+        "id": "BL9_bleed_immun",
+        "duration": 15,
+        "bp": "torso"
+      }
+    ],
+    "melee_damage": [
+      {
+        "damage_type": "stab",
+        "amount": 2,
+        "armor_penetration": 7
+      },
+      {
+        "damage_type": "cut",
+        "amount": 4,
+        "armor_penetration": 9
+      }
+    ],
+    "dodge": 3,
+    "armor_bash": 12,
+    "armor_cut": 12,
+    "special_attacks": [
+      [
+        "PARROT",
+        11
+      ]
+    ],
+    "death_function": [
+      "NORMAL"
+    ],
+    "death_drops": "BL9_Drops_Military",
+    "flags": [
+      "SEES",
+      "HEARS",
+      "SMELLS",
+      "WARM",
+      "BASHES",
+      "GROUP_BASH",
+      "POISON",
+      "NO_BREATHE",
+      "BONES",
+      "GRABS",
+      "PUSH_MON"
+    ]
+  },
+  {
+    "id": "mon_BL9_patrolmilitary_cut",
+    "looks_like": "mon_zombie_soldier_blackops_2",
+    "type": "MONSTER",
+    "name": "Armed Patrolling BL9-Mercenary - Military Knife",
+    "description": "被BL9感染的装甲雇佣兵。它似乎是有知觉的，除了脸上奇怪的攻击性和烦躁的表情，似乎更快的反应和血淋淋的眼睛表明了BL9的存在，他们会尽最大努力阻止任何入侵者设法渗透到他们的化合物，这是一个武装了锋利的军刀和它显然知道如何用好它",
+    "default_faction": "BL9_military",
+    "species": [
+      "ZOMBIE",
+      "HUMAN"
+    ],
+    "volume": "62500 ml",
+    "weight": "81500 g",
+    "hp": 236,
+    "speed": 75,
+    "material": [
+      "hflesh"
+    ],
+    "symbol": "@",
+    "color": "brown",
+    "aggression": 100,
+    "morale": 100,
+    "melee_skill": 5,
+    "melee_dice": 1,
+    "harvest": "zombie",
+    "melee_dice_sides": 2,
+    "melee_cut": 1,
+    "attack_effs": [
+      {
+        "id": "BL9_bleed_immun",
+        "duration": 15,
+        "bp": "torso"
+      }
+    ],
+    "melee_damage": [
+      {
+        "damage_type": "stab",
+        "amount": 2,
+        "armor_penetration": 7
+      },
+      {
+        "damage_type": "cut",
+        "amount": 4,
+        "armor_penetration": 9
+      }
+    ],
+    "dodge": 3,
+    "armor_bash": 2,
+    "armor_cut": 2,
+    "special_attacks": [
+      [
+        "PARROT",
+        11
+      ]
+    ],
+    "death_function": [
+      "NORMAL"
+    ],
+    "death_drops": "BL9_Drops_Militarypatrolgrunt",
+    "flags": [
+      "SEES",
+      "HEARS",
+      "SMELLS",
+      "WARM",
+      "BASHES",
+      "GROUP_BASH",
+      "POISON",
+      "NO_BREATHE",
+      "BONES",
+      "GRABS",
+      "PUSH_MON"
+    ]
+  },
+  {
+    "id": "mon_BL9_military_shockrod",
+    "looks_like": "mon_zombie_flamer",
+    "type": "MONSTER",
+    "name": "Armed BL9-Mercenary - Shock-Rod",
+    "description": "被BL9感染的装甲雇佣兵。它似乎是有知觉的，除了脸上奇怪的攻击性和烦躁的表情，似乎更快的反应和血淋淋的眼睛表明了BL9的存在，他们会尽最大努力阻止任何闯入他们的化合物的入侵者，这是一个配备了冲击杆，它显然知道如何使用它",
+    "default_faction": "BL9_military",
+    "species": [
+      "ZOMBIE",
+      "HUMAN"
+    ],
+    "volume": "62500 ml",
+    "weight": "81500 g",
+    "hp": 236,
+    "speed": 100,
+    "material": [
+      "hflesh"
+    ],
+    "symbol": "@",
+    "color": "brown",
+    "aggression": 100,
+    "morale": 100,
+    "melee_skill": 5,
+    "melee_dice": 1,
+    "harvest": "zombie",
+    "melee_dice_sides": 2,
+    "melee_cut": 1,
+    "attack_effs": [
+      {
+        "id": "BL9_bleed_immun",
+        "duration": 15,
+        "bp": "torso"
+      }
+    ],
+    "melee_damage": [
+      {
+        "damage_type": "bash",
+        "amount": 1
+      },
+      {
+        "damage_type": "electric",
+        "amount": 5,
+        "armor_penetration": 18
+      }
+    ],
+    "dodge": 3,
+    "armor_bash": 12,
+    "armor_cut": 12,
+    "special_attacks": [
+      [
+        "PARROT",
+        11
+      ]
+    ],
+    "death_function": [
+      "NORMAL"
+    ],
+    "death_drops": "BL9_Drops_Military",
+    "flags": [
+      "SEES",
+      "HEARS",
+      "SMELLS",
+      "WARM",
+      "BASHES",
+      "GROUP_BASH",
+      "POISON",
+      "NO_BREATHE",
+      "BONES",
+      "GRABS",
+      "PUSH_MON"
+    ]
+  },
+  {
+    "id": "mon_BL9_patrolmilitary_shockrod",
+    "looks_like": "mon_zombie_flamer",
+    "type": "MONSTER",
+    "name": "Armed Patrolling BL9-Mercenary - Shock-Rod",
+    "description": "被BL9感染的装甲雇佣兵。它似乎是有知觉的，除了脸上奇怪的攻击性和烦躁的表情，似乎更快的反应和血淋淋的眼睛表明了BL9的存在，他们会尽最大努力阻止任何闯入他们的化合物的入侵者，这是一个配备了冲击杆，它显然知道如何使用它",
+    "default_faction": "BL9_military",
+    "species": [
+      "ZOMBIE",
+      "HUMAN"
+    ],
+    "volume": "62500 ml",
+    "weight": "81500 g",
+    "hp": 236,
+    "speed": 75,
+    "material": [
+      "hflesh"
+    ],
+    "symbol": "@",
+    "color": "brown",
+    "aggression": 100,
+    "morale": 100,
+    "melee_skill": 5,
+    "melee_dice": 1,
+    "harvest": "zombie",
+    "melee_dice_sides": 2,
+    "melee_cut": 1,
+    "attack_effs": [
+      {
+        "id": "BL9_bleed_immun",
+        "duration": 15,
+        "bp": "torso"
+      }
+    ],
+    "melee_damage": [
+      {
+        "damage_type": "bash",
+        "amount": 1
+      },
+      {
+        "damage_type": "electric",
+        "amount": 5,
+        "armor_penetration": 18
+      }
+    ],
+    "dodge": 3,
+    "armor_bash": 2,
+    "armor_cut": 2,
+    "special_attacks": [
+      [
+        "PARROT",
+        11
+      ]
+    ],
+    "death_function": [
+      "NORMAL"
+    ],
+    "death_drops": "BL9_Drops_Militarypatrolgrunt",
+    "flags": [
+      "SEES",
+      "HEARS",
+      "SMELLS",
+      "WARM",
+      "BASHES",
+      "GROUP_BASH",
+      "POISON",
+      "NO_BREATHE",
+      "BONES",
+      "GRABS",
+      "PUSH_MON"
+    ]
+  },
+  {
+    "id": "mon_BL9_military_crossbow",
+    "looks_like": "mon_zombie_soldier_acid_1",
+    "type": "MONSTER",
+    "name": "Armed BL9-Mercenary - Crossbow",
+    "description": "被BL9感染的装甲雇佣兵。它似乎是有知觉的，除了脸上奇怪的攻击性和烦躁的表情，似乎更快的反应和血淋淋的眼睛表明了BL9的存在，他们会尽最大努力阻止任何闯入他们的化合物的入侵者，这只手拿着一把弩，它显然知道如何使用它。",
+    "default_faction": "BL9_military",
+    "species": [
+      "ZOMBIE",
+      "HUMAN"
+    ],
+    "volume": "62500 ml",
+    "weight": "81500 g",
+    "hp": 236,
+    "speed": 100,
+    "material": [
+      "hflesh"
+    ],
+    "symbol": "@",
+    "color": "brown",
+    "aggression": 100,
+    "morale": 100,
+    "melee_skill": 5,
+    "melee_dice": 1,
+    "harvest": "zombie",
+    "melee_dice_sides": 2,
+    "melee_cut": 1,
+    "attack_effs": [
+      {
+        "id": "BL9_bleed_immun",
+        "duration": 15,
+        "bp": "torso"
+      }
+    ],
+    "dodge": 3,
+    "armor_bash": 12,
+    "armor_cut": 12,
+    "death_function": [
+      "NORMAL"
+    ],
+    "special_attacks": [
+      [
+        "PARROT",
+        11
+      ],
+      {
+        "type": "gun",
+        "cooldown": 8,
+        "move_cost": 1000,
+        "gun_type": "mongun_BL9_crossbow",
+        "fake_skills": [
+          [
+            "gun",
+            8
+          ],
+          [
+            "rifle",
+            8
+          ]
+        ],
+        "fake_dex": 8,
+        "fake_per": 8,
+        "require_targeting_player": false,
+        "description": "加纳多发射了弩！",
+        "ranges": [
+          [
+            3,
+            14,
+            "DEFAULT"
+          ]
+        ]
+      }
+    ],
+    "death_drops": "BL9_Drops_Military",
+    "flags": [
+      "SEES",
+      "HEARS",
+      "SMELLS",
+      "WARM",
+      "BASHES",
+      "GROUP_BASH",
+      "POISON",
+      "NO_BREATHE",
+      "BONES",
+      "GRABS",
+      "PUSH_MON"
+    ]
+  },
+  {
+    "id": "mon_BL9_patrolmilitary_crossbow",
+    "looks_like": "mon_zombie_soldier_acid_1",
+    "type": "MONSTER",
+    "name": "Armed Patrolling BL9-Mercenary - Crossbow",
+    "description": "被BL9感染的装甲雇佣兵。它似乎是有知觉的，除了脸上奇怪的攻击性和烦躁的表情，似乎更快的反应和血淋淋的眼睛表明了BL9的存在，他们会尽最大努力阻止任何闯入他们的化合物的入侵者，这只手拿着一把弩，它显然知道如何使用它。",
+    "default_faction": "BL9_military",
+    "species": [
+      "ZOMBIE",
+      "HUMAN"
+    ],
+    "volume": "62500 ml",
+    "weight": "81500 g",
+    "hp": 236,
+    "speed": 75,
+    "material": [
+      "hflesh"
+    ],
+    "symbol": "@",
+    "color": "brown",
+    "aggression": 100,
+    "morale": 100,
+    "melee_skill": 5,
+    "melee_dice": 1,
+    "harvest": "zombie",
+    "melee_dice_sides": 2,
+    "melee_cut": 1,
+    "attack_effs": [
+      {
+        "id": "BL9_bleed_immun",
+        "duration": 15,
+        "bp": "torso"
+      }
+    ],
+    "dodge": 3,
+    "armor_bash": 2,
+    "armor_cut": 2,
+    "death_function": [
+      "NORMAL"
+    ],
+    "special_attacks": [
+      [
+        "PARROT",
+        11
+      ],
+      {
+        "type": "gun",
+        "cooldown": 8,
+        "move_cost": 1000,
+        "gun_type": "mongun_BL9_crossbow",
+        "fake_skills": [
+          [
+            "gun",
+            8
+          ],
+          [
+            "rifle",
+            8
+          ]
+        ],
+        "fake_dex": 8,
+        "fake_per": 8,
+        "require_targeting_player": false,
+        "description": "加纳多发射了弩！",
+        "ranges": [
+          [
+            3,
+            14,
+            "DEFAULT"
+          ]
+        ]
+      }
+    ],
+    "death_drops": "BL9_Drops_Militarypatrolgrunt",
+    "flags": [
+      "SEES",
+      "HEARS",
+      "SMELLS",
+      "WARM",
+      "BASHES",
+      "GROUP_BASH",
+      "POISON",
+      "NO_BREATHE",
+      "BONES",
+      "GRABS",
+      "PUSH_MON"
+    ]
+  },
+  {
+    "id": "mon_BL9_military_patrolleader",
+    "looks_like": "mon_zombie_soldier_blackops_1",
+    "type": "MONSTER",
+    "name": "Armed BL9-Mercenary - Patrol Leader",
+    "description": "一个精打细算的装甲雇佣兵，穿着被BL9感染的光滑战斗装甲。它看起来是有知觉的，除了脸上奇怪的攻击性和烦躁的表情，似乎更快的反应和血淋淋的眼睛表明了BL9的存在，他们会尽最大努力阻止任何入侵者，这是一个有刺刀的武装，显然知道如何用好它",
+    "default_faction": "BL9_military",
+    "species": [
+      "ZOMBIE",
+      "HUMAN"
+    ],
+    "volume": "62500 ml",
+    "weight": "81500 g",
+    "hp": 275,
+    "speed": 75,
+    "material": [
+      "hflesh"
+    ],
+    "symbol": "@",
+    "color": "brown",
+    "aggression": 100,
+    "morale": 100,
+    "melee_skill": 6,
+    "melee_dice": 1,
+    "harvest": "zombie",
+    "melee_dice_sides": 2,
+    "melee_cut": 1,
+    "attack_effs": [
+      {
+        "id": "BL9_bleed_immun",
+        "duration": 15,
+        "bp": "torso"
+      }
+    ],
+    "melee_damage": [
+      {
+        "damage_type": "stab",
+        "amount": 6,
+        "armor_penetration": 18
+      }
+    ],
+    "dodge": 4,
+    "armor_bash": 5,
+    "armor_cut": 5,
+    "special_attacks": [
+      [
+        "PARROT",
+        11
+      ]
+    ],
+    "death_function": [
+      "NORMAL"
+    ],
+    "death_drops": "BL9_Drops_Militarypatrollead",
+    "flags": [
+      "SEES",
+      "HEARS",
+      "SMELLS",
+      "WARM",
+      "BASHES",
+      "GROUP_BASH",
+      "POISON",
+      "NO_BREATHE",
+      "BONES",
+      "GRABS",
+      "PUSH_MON"
+    ]
+  },
+  {
+    "id": "mon_BL9_mutant_evo_1",
+    "looks_like": "mon_zombie_crushed_giant",
+    "type": "MONSTER",
+    "name": "BL9 Mutant Evolved - Type i ",
+    "description": "一个注射了BL9的人的头部破裂，露出一条细长的卷须状鞭子。这条鞭子的尖上有一根锋利而灵活的鞭子刀锋。多重触须从它身体两侧长出来，向各个方向疯狂摆动。",
+    "default_faction": "BL9_military",
+    "species": [
+      "ZOMBIE",
+      "HUMAN"
+    ],
+    "volume": "62500 ml",
+    "weight": "81500 g",
+    "hp": 286,
+    "speed": 70,
+    "material": [
+      "hflesh"
+    ],
+    "symbol": "@",
+    "color": "brown",
+    "aggression": 100,
+    "morale": 100,
+    "melee_skill": 6,
+    "melee_dice": 1,
+    "harvest": "zombie",
+    "melee_dice_sides": 2,
+    "melee_cut": 1,
+    "attack_effs": [
+      {
+        "id": "BL9_bleed_immun",
+        "duration": 15,
+        "bp": "torso"
+      }
+    ],
+    "melee_damage": [
+      {
+        "damage_type": "cut",
+        "amount": 7,
+        "armor_penetration": 19
+      }
+    ],
+    "dodge": 3,
+    "armor_bash": 14,
+    "armor_cut": 14,
+    "death_function": [
+      "NORMAL"
+    ],
+    "death_drops": "BL9_Drops_Tendrilevo",
+    "special_attacks": [
+      {
+        "type": "monster_attack",
+        "attack_type": "melee",
+        "cooldown": 9,
+        "move_cost": 140,
+        "damage_max_instance": [
+          {
+            "damage_type": "cut",
+            "amount": 14,
+            "armor_penetration": 22
+          }
+        ],
+        "hit_dmg_u": "The %1$s swings it's blade-like whip at you!",
+        "hit_dmg_npc": "The %1$s swings it's blade-like whip at <npcname>!",
+        "no_dmg_msg_u": "The %1$s tries to swing it's blade-like whip at you, but fails to penetrate your armor!",
+        "no_dmg_msg_npc": "The %1$s tries to swings it's blade-like whip at <npcname>, but fails to penetrate their armor!",
+        "miss_msg_u": "The %s swings it's blade-like whip at you, but you dodge!",
+        "miss_msg_npc": "The %s swings it's blade-like whip at <npcname>, but they dodge!"
+      },
+      {
+        "type": "spell",
+        "spell_data": {
+          "id": "BL9_1evo_horizontalslash"
+        },
+        "cooldown": 10,
+        "monster_message": "<color_light_red>%1$s在%3$s处扫过它的叶片卷须！\n卷须疯狂地扭动！</color>"
+      }
+    ],
+    "flags": [
+      "SEES",
+      "HEARS",
+      "SMELLS",
+      "WARM",
+      "BASHES",
+      "GROUP_BASH",
+      "POISON",
+      "NO_BREATHE",
+      "BONES",
+      "GRABS",
+      "PUSH_MON"
+    ]
+  },
+  {
+    "id": "mon_BL9_mutant_evo_2",
+    "looks_like": "mon_yugg",
+    "type": "MONSTER",
+    "name": "BL9 Mutant Evolved - type ii",
+    "description": "一个由BL9诱发的人类头部破裂，显示出一个巨大而细长的蠕虫状寄生虫。由于它的大嘴巴，它可能是致命的，当它来咬人。多重触须从它身体两侧长出来，向各个方向疯狂摆动。",
+    "default_faction": "BL9_military",
+    "species": [
+      "ZOMBIE",
+      "HUMAN"
+    ],
+    "volume": "62500 ml",
+    "weight": "81500 g",
+    "hp": 286,
+    "speed": 65,
+    "material": [
+      "hflesh"
+    ],
+    "symbol": "@",
+    "color": "brown",
+    "aggression": 100,
+    "morale": 100,
+    "melee_skill": 6,
+    "melee_dice": 1,
+    "harvest": "zombie",
+    "melee_dice_sides": 2,
+    "melee_cut": 1,
+    "attack_effs": [
+      {
+        "id": "BL9_bleed_immun",
+        "duration": 15,
+        "bp": "torso"
+      }
+    ],
+    "melee_damage": [
+      {
+        "damage_type": "bash",
+        "amount": 7,
+        "armor_penetration": 19
+      }
+    ],
+    "dodge": 3,
+    "armor_bash": 14,
+    "armor_cut": 14,
+    "death_function": [
+      "NORMAL"
+    ],
+    "death_drops": "BL9_Drops_Wormevo",
+    "special_attacks": [
+      {
+        "type": "monster_attack",
+        "attack_type": "melee",
+        "cooldown": 9,
+        "move_cost": 140,
+        "damage_max_instance": [
+          {
+            "damage_type": "bash",
+            "amount": 14,
+            "armor_penetration": 22
+          }
+        ],
+        "hit_dmg_u": "The %1$s stretches out it's worm-like body swinging at you with it wildly!",
+        "hit_dmg_npc": "The %1$s stretches out it's worm-like body swinging at <npcname> with it wildly!",
+        "no_dmg_msg_u": "The %1$s stretches out it's worm-like body trying to swing at you with it wildly, but fails to damage your armor!",
+        "no_dmg_msg_npc": "The %1$s stretches out it's worm-like body trying to swing at <npcname> with it wildly, but fails to damage their armor!",
+        "miss_msg_u": "The %s streches out it's worm-like body trying to swing at you with it wildly, but you dodge!",
+        "miss_msg_npc": "The %s stretches out it's worm-like body trying to swing at <npcname> with it wildly, but they dodge!"
+      },
+      {
+        "type": "monster_attack",
+        "attack_type": "melee",
+        "cooldown": 12,
+        "move_cost": 245,
+        "accuracy": 12,
+        "damage_max_instance": [
+          {
+            "damage_type": "stab",
+            "amount": 17,
+            "armor_penetration": 25
+          }
+        ],
+        "hit_dmg_u": "The %1$s devours you!",
+        "hit_dmg_npc": "The %1$s devours <npcname>!",
+        "no_dmg_msg_u": "The %1$s tries to devour you, but fails to penetrate your armor!",
+        "no_dmg_msg_npc": "The %1$s tries to devour <npcname>, but fails to penetrate their armor!",
+        "miss_msg_u": "The %s devours you, but you step aside!",
+        "miss_msg_npc": "The %s devours <npcname>, but they dodge!"
+      }
+    ],
+    "flags": [
+      "SEES",
+      "HEARS",
+      "SMELLS",
+      "WARM",
+      "BASHES",
+      "GROUP_BASH",
+      "POISON",
+      "NO_BREATHE",
+      "BONES",
+      "GRABS",
+      "PUSH_MON"
+    ]
+  },
+  {
+    "id": "mon_BL9_mutant_evo_3",
+    "looks_like": "mon_mi_go",
+    "type": "MONSTER",
+    "name": "BL9 Mutant Evolved - type iii",
+    "description": "一个由BL9诱发的头部破裂的寄生虫，头部突出，是一种寄生虫，四肢细长，流着酸液孔板。多个触须从它身体两侧长出来，向各个方向疯狂摆动。",
+    "default_faction": "BL9_military",
+    "species": [
+      "ZOMBIE",
+      "HUMAN"
+    ],
+    "volume": "62500 ml",
+    "weight": "81500 g",
+    "hp": 286,
+    "speed": 75,
+    "material": [
+      "hflesh"
+    ],
+    "symbol": "@",
+    "color": "brown",
+    "aggression": 100,
+    "morale": 100,
+    "melee_skill": 6,
+    "melee_dice": 1,
+    "harvest": "zombie",
+    "melee_dice_sides": 2,
+    "melee_cut": 1,
+    "attack_effs": [
+      {
+        "id": "BL9_bleed_immun",
+        "duration": 15,
+        "bp": "torso"
+      }
+    ],
+    "melee_damage": [
+      {
+        "damage_type": "stab",
+        "amount": 7,
+        "armor_penetration": 19
+      }
+    ],
+    "dodge": 3,
+    "armor_bash": 14,
+    "armor_cut": 14,
+    "death_function": [
+      "NORMAL"
+    ],
+    "death_drops": "BL9_Drops_Tendrilevo",
+    "special_attacks": [
+      {
+        "type": "bite",
+        "cooldown": 9,
+        "damage_max_instance": [
+          {
+            "damage_type": "stab",
+            "armor_penetration": 23
+          }
+        ]
+      },
+      {
+        "type": "monster_attack",
+        "attack_type": "melee",
+        "cooldown": 9,
+        "move_cost": 500,
+        "accuracy": 12,
+        "damage_max_instance": [
+          {
+            "damage_type": "cut",
+            "amount": 14,
+            "armor_penetration": 22
+          }
+        ],
+        "hit_dmg_u": "The %1$s swirls it's spiky body you!",
+        "hit_dmg_npc": "The %1$s swrils it's spiky body at <npcname>!",
+        "no_dmg_msg_u": "The %1$s tries to swirl it's spiky body at you, but fails to penetrate your armor!",
+        "no_dmg_msg_npc": "The %1$s tries to swirl it's spiky body at <npcname>, but fails to penetrate their armor!",
+        "miss_msg_u": "The %s swirls it's spiky body at you, but you step aside!",
+        "miss_msg_npc": "The %s swirls it's spiky body at <npcname>, but they dodge!"
+      },
+      {
+        "type": "spell",
+        "spell_data": {
+          "id": "BL9_3evo_acidbarf"
+        },
+        "cooldown": 10,
+        "monster_message": "<color_light_red>%1$s在%3$s吐出一股酸！</color>"
+      }
+    ],
+    "flags": [
+      "SEES",
+      "HEARS",
+      "SMELLS",
+      "WARM",
+      "BASHES",
+      "GROUP_BASH",
+      "POISON",
+      "NO_BREATHE",
+      "BONES",
+      "GRABS",
+      "PUSH_MON"
+    ]
+  },
+  {
+    "id": "mon_BL9_military_behemoth",
+    "looks_like": "mon_zombie_kevlar_1",
+    "type": "MONSTER",
+    "name": "Armed BL9-Behemoth - Sledgehammer",
+    "description": "一个被BL9感染的重装甲雇佣兵。它的尺寸似乎已经超过7英尺了很高。它看起来很有知觉，除了脸上奇怪的非常有攻击性的表情，更大的力量和耐力，血丝般的眼睛显示出BL9的存在，他们会尽最大努力阻止任何闯入他们住所的入侵者，这只手拿着一把巨大的大锤，它显然知道如何使用它。",
+    "default_faction": "BL9_military",
+    "species": [
+      "ZOMBIE",
+      "HUMAN"
+    ],
+    "volume": "62500 ml",
+    "weight": "81500 g",
+    "hp": 296,
+    "speed": 100,
+    "material": [
+      "hflesh"
+    ],
+    "symbol": "@",
+    "color": "brown",
+    "aggression": 100,
+    "morale": 100,
+    "melee_skill": 6,
+    "melee_dice": 1,
+    "harvest": "zombie",
+    "melee_dice_sides": 2,
+    "melee_cut": 1,
+    "attack_effs": [
+      {
+        "id": "BL9_bleed_immun",
+        "duration": 15,
+        "bp": "torso"
+      }
+    ],
+    "melee_damage": [
+      {
+        "damage_type": "bash",
+        "amount": 8,
+        "armor_penetration": 19
+      }
+    ],
+    "dodge": 3,
+    "armor_bash": 14,
+    "armor_cut": 14,
+    "special_attacks": [
+      [
+        "PARROT",
+        11
+      ]
+    ],
+    "death_function": [
+      "NORMAL"
+    ],
+    "death_drops": "BL9_Drops_Milbehemoth",
+    "flags": [
+      "SEES",
+      "HEARS",
+      "SMELLS",
+      "WARM",
+      "BASHES",
+      "GROUP_BASH",
+      "POISON",
+      "NO_BREATHE",
+      "BONES",
+      "GRABS",
+      "PUSH_MON"
+    ]
+  },
+  {
+    "id": "mon_BL9_patrolmilitary_behemoth",
+    "looks_like": "mon_zombie_kevlar_1",
+    "type": "MONSTER",
+    "name": "Armed Patrolling BL9-Behemoth - Sledgehammer",
+    "description": "一个被BL9感染的重装甲雇佣兵。它的尺寸似乎已经超过7英尺了很高。它看起来很有知觉，除了脸上奇怪的非常有攻击性的表情，更大的力量和耐力，血丝般的眼睛显示出BL9的存在，他们会尽最大努力阻止任何闯入他们住所的入侵者，这只手拿着一把巨大的大锤，它显然知道如何使用它。",
+    "default_faction": "BL9_military",
+    "species": [
+      "ZOMBIE",
+      "HUMAN"
+    ],
+    "volume": "62500 ml",
+    "weight": "81500 g",
+    "hp": 296,
+    "speed": 75,
+    "material": [
+      "hflesh"
+    ],
+    "symbol": "@",
+    "color": "brown",
+    "aggression": 100,
+    "morale": 100,
+    "melee_skill": 6,
+    "melee_dice": 1,
+    "harvest": "zombie",
+    "melee_dice_sides": 2,
+    "melee_cut": 1,
+    "attack_effs": [
+      {
+        "id": "BL9_bleed_immun",
+        "duration": 15,
+        "bp": "torso"
+      }
+    ],
+    "melee_damage": [
+      {
+        "damage_type": "bash",
+        "amount": 8,
+        "armor_penetration": 19
+      }
+    ],
+    "dodge": 3,
+    "armor_bash": 4,
+    "armor_cut": 4,
+    "special_attacks": [
+      [
+        "PARROT",
+        11
+      ]
+    ],
+    "death_function": [
+      "NORMAL"
+    ],
+    "death_drops": "BL9_Drops_Militarypatrolgrunt",
+    "flags": [
+      "SEES",
+      "HEARS",
+      "SMELLS",
+      "WARM",
+      "BASHES",
+      "GROUP_BASH",
+      "POISON",
+      "NO_BREATHE",
+      "BONES",
+      "GRABS",
+      "PUSH_MON"
+    ]
+  },
+  {
+    "id": "mon_BL9_military_behemoth_minigun",
+    "looks_like": "mon_zombie_kevlar_1",
+    "type": "MONSTER",
+    "name": "Armed BL9-Behemoth - Minigun",
+    "description": "一个装备精良的雇佣兵被BL9感染。它的尺寸似乎已经超过7英尺了很高。它看起来很有知觉，除了脸上奇怪的非常有攻击性的表情，更大的力量和耐力，血丝般的眼睛显示出BL9的存在，他们会尽最大努力阻止任何闯入他们住所的入侵者，这一个配备了一个巨大的机关枪，它显然知道如何使用它。",
+    "default_faction": "BL9_military",
+    "species": [
+      "ZOMBIE",
+      "HUMAN"
+    ],
+    "volume": "62500 ml",
+    "weight": "81500 g",
+    "hp": 307,
+    "speed": 100,
+    "material": [
+      "hflesh"
+    ],
+    "symbol": "@",
+    "color": "brown",
+    "aggression": 100,
+    "morale": 100,
+    "melee_skill": 5,
+    "melee_dice": 1,
+    "harvest": "zombie",
+    "melee_dice_sides": 2,
+    "melee_cut": 1,
+    "attack_effs": [
+      {
+        "id": "BL9_bleed_immun",
+        "duration": 15,
+        "bp": "torso"
+      }
+    ],
+    "dodge": 3,
+    "armor_bash": 14,
+    "armor_cut": 14,
+    "death_function": [
+      "NORMAL"
+    ],
+    "special_attacks": [
+      [
+        "PARROT",
+        11
+      ],
+      {
+        "type": "gun",
+        "cooldown": 12,
+        "move_cost": 300,
+        "gun_type": "mongun_BL9_minigun",
+        "fake_skills": [
+          [
+            "gun",
+            8
+          ],
+          [
+            "rifle",
+            8
+          ]
+        ],
+        "fake_dex": 8,
+        "fake_per": 8,
+        "require_targeting_player": false,
+        "description": "加纳多斯开火了，是机关枪！",
+        "ranges": [
+          [
+            3,
+            11,
+            "DEFAULT"
+          ]
+        ]
+      }
+    ],
+    "death_drops": "BL9_Drops_Milbehemoth",
+    "flags": [
+      "SEES",
+      "HEARS",
+      "SMELLS",
+      "WARM",
+      "BASHES",
+      "GROUP_BASH",
+      "POISON",
+      "NO_BREATHE",
+      "BONES",
+      "GRABS",
+      "PUSH_MON"
+    ]
+  },
+  {
+    "id": "mon_BL9_patrolmilitary_behemoth_minigun",
+    "looks_like": "mon_zombie_kevlar_1",
+    "type": "MONSTER",
+    "name": "Armed Patrolling BL9-Behemoth - Minigun",
+    "description": "一个装备精良的雇佣兵被BL9感染。它的尺寸似乎已经超过7英尺了很高。它看起来很有知觉，除了脸上奇怪的非常有攻击性的表情，更大的力量和耐力，血丝般的眼睛显示出BL9的存在，他们会尽最大努力阻止任何闯入他们住所的入侵者，这一个配备了一个巨大的机关枪，它显然知道如何使用它。",
+    "default_faction": "BL9_military",
+    "species": [
+      "ZOMBIE",
+      "HUMAN"
+    ],
+    "volume": "62500 ml",
+    "weight": "81500 g",
+    "hp": 307,
+    "speed": 75,
+    "material": [
+      "hflesh"
+    ],
+    "symbol": "@",
+    "color": "brown",
+    "aggression": 100,
+    "morale": 100,
+    "melee_skill": 5,
+    "melee_dice": 1,
+    "harvest": "zombie",
+    "melee_dice_sides": 2,
+    "melee_cut": 1,
+    "attack_effs": [
+      {
+        "id": "BL9_bleed_immun",
+        "duration": 15,
+        "bp": "torso"
+      }
+    ],
+    "dodge": 3,
+    "armor_bash": 4,
+    "armor_cut": 4,
+    "death_function": [
+      "NORMAL"
+    ],
+    "special_attacks": [
+      [
+        "PARROT",
+        11
+      ],
+      {
+        "type": "gun",
+        "cooldown": 12,
+        "move_cost": 300,
+        "gun_type": "mongun_BL9_minigun",
+        "fake_skills": [
+          [
+            "gun",
+            8
+          ],
+          [
+            "rifle",
+            8
+          ]
+        ],
+        "fake_dex": 8,
+        "fake_per": 8,
+        "require_targeting_player": false,
+        "description": "加纳多斯开火了，是机关枪！",
+        "ranges": [
+          [
+            3,
+            11,
+            "DEFAULT"
+          ]
+        ]
+      }
+    ],
+    "death_drops": "BL9_Drops_Militarypatrolgrunt",
+    "flags": [
+      "SEES",
+      "HEARS",
+      "SMELLS",
+      "WARM",
+      "BASHES",
+      "GROUP_BASH",
+      "POISON",
+      "NO_BREATHE",
+      "BONES",
+      "GRABS",
+      "PUSH_MON"
+    ]
+  }
+]

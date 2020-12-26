@@ -1,0 +1,29 @@
+[
+  {
+    "type": "npc",
+    "id": "BL9_trader",
+    "//": "Mysterious trader with bootlegged stats.",
+    "name_unique": "Strange Trader",
+    "gender": "male",
+    "class": "NC_BONE_SEER",
+    "attitude": 7,
+    "mission": 3,
+    "chat": "TALK_BL9_TRADER",
+    "faction": "free_merchants"
+  },
+  {
+    "type": "mutation",
+    "id": "BL9_TRADER",
+    "name": {
+      "str": "BL9"
+    },
+    "points": 10,
+    "description": "“噢，陌生人，我的眼睛确实意味着我和步行者是一伙的。”",
+    "valid": false,
+    "purifiable": false,
+    "ignored_by": [
+      "ZOMBIE",
+      "MUTANT"
+    ]
+  }
+]

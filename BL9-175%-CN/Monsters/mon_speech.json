@@ -1,0 +1,593 @@
+[
+  {
+    "type": "speech",
+    "speaker": [
+      "mon_dr_gonzalez"
+    ],
+    "sound": "“没有人可以逃脱！”",
+    "volume": 30
+  },
+  {
+    "type": "speech",
+    "speaker": [
+      "mon_dr_gonzalez"
+    ],
+    "sound": "“穿紧身连衣裤！”",
+    "volume": 30
+  },
+  {
+    "type": "speech",
+    "speaker": [
+      "mon_BL9_cultist_bash",
+      "mon_BL9_cultist_stab",
+      "mon_BL9_cultist_cut",
+      "mon_BL9_cultist_crossbow",
+      "mon_BL9_patrolcultist_stab",
+      "mon_BL9_patrolcultist_cut",
+      "mon_BL9_patrolcultist_crossbow",
+      "mon_BL9_cultist_patrolleader"
+    ],
+    "sound": "“入侵者！杀，杀，杀！”",
+    "volume": 30
+  },
+  {
+    "type": "speech",
+    "speaker": [
+      "mon_BL9_cultist_bash",
+      "mon_BL9_cultist_stab",
+      "mon_BL9_cultist_cut",
+      "mon_BL9_cultist_crossbow",
+      "mon_BL9_patrolcultist_stab",
+      "mon_BL9_patrolcultist_cut",
+      "mon_BL9_patrolcultist_crossbow",
+      "mon_BL9_cultist_patrolleader"
+    ],
+    "sound": "“你不可玷污这圣所，污秽的外人！”",
+    "volume": 30
+  },
+  {
+    "type": "speech",
+    "speaker": [
+      "mon_BL9_cultist_bash",
+      "mon_BL9_cultist_stab",
+      "mon_BL9_cultist_cut",
+      "mon_BL9_cultist_crossbow",
+      "mon_BL9_patrolcultist_stab",
+      "mon_BL9_patrolcultist_cut",
+      "mon_BL9_patrolcultist_crossbow",
+      "mon_BL9_cultist_patrolleader"
+    ],
+    "sound": "“一切都在一起！预言，永不停息，将以你的鲜血为食！”",
+    "volume": 30
+  },
+  {
+    "type": "speech",
+    "speaker": [
+      "mon_BL9_cultist_bash",
+      "mon_BL9_cultist_stab",
+      "mon_BL9_cultist_cut",
+      "mon_BL9_cultist_crossbow",
+      "mon_BL9_patrolcultist_stab",
+      "mon_BL9_patrolcultist_cut",
+      "mon_BL9_patrolcultist_crossbow",
+      "mon_BL9_cultist_patrolleader"
+    ],
+    "sound": "“我尝过堕落天使的血！”",
+    "volume": 30
+  },
+  {
+    "type": "speech",
+    "speaker": [
+      "mon_BL9_cultist_bash",
+      "mon_BL9_cultist_stab",
+      "mon_BL9_cultist_cut",
+      "mon_BL9_cultist_crossbow",
+      "mon_BL9_patrolcultist_stab",
+      "mon_BL9_patrolcultist_cut",
+      "mon_BL9_patrolcultist_crossbow",
+      "mon_BL9_cultist_patrolleader"
+    ],
+    "sound": "“我已经超越了皮肤的世界，看到了血液和骨髓的结构！”",
+    "volume": 30
+  },
+  {
+    "type": "speech",
+    "speaker": [
+      "mon_BL9_cultist_bash",
+      "mon_BL9_cultist_stab",
+      "mon_BL9_cultist_cut",
+      "mon_BL9_cultist_crossbow",
+      "mon_BL9_patrolcultist_stab",
+      "mon_BL9_patrolcultist_cut",
+      "mon_BL9_patrolcultist_crossbow",
+      "mon_BL9_cultist_patrolleader"
+    ],
+    "sound": "“马塔洛！”",
+    "volume": 30
+  },
+  {
+    "type": "speech",
+    "speaker": [
+      "mon_BL9_cultist_bash",
+      "mon_BL9_cultist_stab",
+      "mon_BL9_cultist_cut",
+      "mon_BL9_cultist_crossbow",
+      "mon_BL9_patrolcultist_stab",
+      "mon_BL9_patrolcultist_cut",
+      "mon_BL9_patrolcultist_crossbow",
+      "mon_BL9_cultist_patrolleader"
+    ],
+    "sound": "“艾莉埃斯塔！”",
+    "volume": 30
+  },
+  {
+    "type": "speech",
+    "speaker": [
+      "mon_BL9_cultist_bash",
+      "mon_BL9_cultist_stab",
+      "mon_BL9_cultist_cut",
+      "mon_BL9_cultist_crossbow",
+      "mon_BL9_patrolcultist_stab",
+      "mon_BL9_patrolcultist_cut",
+      "mon_BL9_patrolcultist_crossbow",
+      "mon_BL9_cultist_patrolleader"
+    ],
+    "sound": "“科埃洛，科埃洛，科埃洛…”",
+    "volume": 30
+  },
+  {
+    "type": "speech",
+    "speaker": [
+      "mon_BL9_cultist_bash",
+      "mon_BL9_cultist_stab",
+      "mon_BL9_cultist_cut",
+      "mon_BL9_cultist_crossbow",
+      "mon_BL9_patrolcultist_stab",
+      "mon_BL9_patrolcultist_cut",
+      "mon_BL9_patrolcultist_crossbow",
+      "mon_BL9_cultist_patrolleader"
+    ],
+    "sound": "“大脑，大脑，大脑…”",
+    "volume": 30
+  },
+  {
+    "type": "speech",
+    "speaker": [
+      "mon_blind_clawer"
+    ],
+    "sound": "“入侵者！”",
+    "volume": 30
+  },
+  {
+    "type": "speech",
+    "speaker": [
+      "mon_blind_clawer"
+    ],
+    "sound": "“你的每一步都只会让你离死亡更近，入侵者！”",
+    "volume": 30
+  },
+  {
+    "type": "speech",
+    "speaker": [
+      "mon_blind_clawer"
+    ],
+    "sound": "“你来了！”",
+    "volume": 30
+  },
+  {
+    "type": "speech",
+    "speaker": [
+      "mon_blind_clawer"
+    ],
+    "sound": "“没必要躲起来，我迟早会找到你，把你的心撕碎！”",
+    "volume": 30
+  },
+  {
+    "type": "speech",
+    "speaker": [
+      "mon_blind_clawer"
+    ],
+    "sound": "嘿，谁把灯关了",
+    "volume": 30
+  },
+  {
+    "type": "speech",
+    "speaker": [
+      "mon_BL9_assassin"
+    ],
+    "sound": "“一切到此为止！”",
+    "volume": 30
+  },
+  {
+    "type": "speech",
+    "speaker": [
+      "mon_BL9_assassin"
+    ],
+    "sound": "“我要把你剩下的东西撕碎，让我心满意足！”",
+    "volume": 30
+  },
+  {
+    "type": "speech",
+    "speaker": [
+      "mon_BL9_assassin"
+    ],
+    "sound": "“我的主人会很高兴看到你几乎认不出来的断头！”",
+    "volume": 30
+  },
+  {
+    "type": "speech",
+    "speaker": [
+      "mon_BL9_assassin"
+    ],
+    "sound": "“太多的时间了，太多的胰腺，太多了！”",
+    "volume": 30
+  },
+  {
+    "type": "speech",
+    "speaker": [
+      "mon_BL9_assassin"
+    ],
+    "sound": "“你是一个坚强的战士，如果你不是一个倔强的反抗者，你决不会得到祝福的！”",
+    "volume": 30
+  },
+  {
+    "type": "speech",
+    "speaker": [
+      "mon_BL9_twisted_one"
+    ],
+    "sound": "“呵呵，真痒！”",
+    "volume": 30
+  },
+  {
+    "type": "speech",
+    "speaker": [
+      "mon_BL9_twisted_one"
+    ],
+    "sound": "“哈哈哈，真痒！”",
+    "volume": 30
+  },
+  {
+    "type": "speech",
+    "speaker": [
+      "mon_BL9_twisted_one"
+    ],
+    "sound": "“这样的动物力量和无情——你将是永不磨灭的伟大牺牲！”",
+    "volume": 30
+  },
+  {
+    "type": "speech",
+    "speaker": [
+      "mon_BL9_twisted_one"
+    ],
+    "sound": "“预言已经发生了，而你无力阻止它的企图只是推迟了不可避免的事情，永远不会发生的事已经进入了我们的领域！”",
+    "volume": 30
+  },
+  {
+    "type": "speech",
+    "speaker": [
+      "mon_BL9_twisted_one"
+    ],
+    "sound": "“奈弗利恩的血流过我的血管！”",
+    "volume": 30
+  },
+  {
+    "type": "speech",
+    "speaker": [
+      "mon_BL9_twisted_one"
+    ],
+    "sound": "“奈弗利恩的血流过我的血管！”",
+    "volume": 30
+  },
+  {
+    "type": "speech",
+    "speaker": [
+      "mon_BL9_twisted_one"
+    ],
+    "sound": "“最后的仪式将以献血来完成——那就是你！”",
+    "volume": 30
+  },
+  {
+    "type": "speech",
+    "speaker": [
+      "mon_BL9_military_bash",
+      "mon_BL9_military_stab",
+      "mon_BL9_military_cut",
+      "mon_BL9_military_shockrod",
+      "mon_BL9_military_crossbow",
+      "mon_BL9_military_behemoth",
+      "mon_BL9_military_behemoth_minigun",
+      "mon_BL9_patrolmilitary_stab",
+      "mon_BL9_patrolmilitary_cut",
+      "mon_BL9_patrolmilitary_crossbow",
+      "mon_BL9_patrolmilitary_behemoth",
+      "mon_BL9_patrolmilitary_behemoth_minigun",
+      "mon_BL9_military_patrolleader"
+    ],
+    "sound": "“入侵者！我现在需要支援！”",
+    "volume": 30
+  },
+  {
+    "type": "speech",
+    "speaker": [
+      "mon_BL9_military_bash",
+      "mon_BL9_military_stab",
+      "mon_BL9_military_cut",
+      "mon_BL9_military_shockrod",
+      "mon_BL9_military_crossbow",
+      "mon_BL9_military_behemoth",
+      "mon_BL9_military_behemoth_minigun",
+      "mon_BL9_patrolmilitary_stab",
+      "mon_BL9_patrolmilitary_cut",
+      "mon_BL9_patrolmilitary_crossbow",
+      "mon_BL9_patrolmilitary_behemoth",
+      "mon_BL9_patrolmilitary_behemoth_minigun",
+      "mon_BL9_military_patrolleader"
+    ],
+    "sound": "“封锁周边！立刻消灭目标！”",
+    "volume": 30
+  },
+  {
+    "type": "speech",
+    "speaker": [
+      "mon_BL9_military_bash",
+      "mon_BL9_military_stab",
+      "mon_BL9_military_cut",
+      "mon_BL9_military_shockrod",
+      "mon_BL9_military_crossbow",
+      "mon_BL9_military_behemoth",
+      "mon_BL9_military_behemoth_minigun",
+      "mon_BL9_patrolmilitary_stab",
+      "mon_BL9_patrolmilitary_cut",
+      "mon_BL9_patrolmilitary_crossbow",
+      "mon_BL9_patrolmilitary_behemoth",
+      "mon_BL9_patrolmilitary_behemoth_minigun",
+      "mon_BL9_military_patrolleader"
+    ],
+    "sound": "“在这个地区有敌意！”",
+    "volume": 30
+  },
+  {
+    "type": "speech",
+    "speaker": [
+      "mon_BL9_military_bash",
+      "mon_BL9_military_stab",
+      "mon_BL9_military_cut",
+      "mon_BL9_military_shockrod",
+      "mon_BL9_military_crossbow",
+      "mon_BL9_military_behemoth",
+      "mon_BL9_military_behemoth_minigun",
+      "mon_BL9_patrolmilitary_stab",
+      "mon_BL9_patrolmilitary_cut",
+      "mon_BL9_patrolmilitary_crossbow",
+      "mon_BL9_patrolmilitary_behemoth",
+      "mon_BL9_patrolmilitary_behemoth_minigun",
+      "mon_BL9_military_patrolleader"
+    ],
+    "sound": "“安全漏洞，重复，安全漏洞！”",
+    "volume": 30
+  },
+  {
+    "type": "speech",
+    "speaker": [
+      "mon_BL9_military_bash",
+      "mon_BL9_military_stab",
+      "mon_BL9_military_cut",
+      "mon_BL9_military_shockrod",
+      "mon_BL9_military_crossbow",
+      "mon_BL9_military_behemoth",
+      "mon_BL9_military_behemoth_minigun",
+      "mon_BL9_patrolmilitary_stab",
+      "mon_BL9_patrolmilitary_cut",
+      "mon_BL9_patrolmilitary_crossbow",
+      "mon_BL9_patrolmilitary_behemoth",
+      "mon_BL9_patrolmilitary_behemoth_minigun",
+      "mon_BL9_military_patrolleader"
+    ],
+    "sound": "“你不会活着逃走的！”",
+    "volume": 30
+  },
+  {
+    "type": "speech",
+    "speaker": [
+      "mon_BL9_military_bash",
+      "mon_BL9_military_stab",
+      "mon_BL9_military_cut",
+      "mon_BL9_military_shockrod",
+      "mon_BL9_military_crossbow",
+      "mon_BL9_military_behemoth",
+      "mon_BL9_military_behemoth_minigun",
+      "mon_BL9_patrolmilitary_stab",
+      "mon_BL9_patrolmilitary_cut",
+      "mon_BL9_patrolmilitary_crossbow",
+      "mon_BL9_patrolmilitary_behemoth",
+      "mon_BL9_patrolmilitary_behemoth_minigun",
+      "mon_BL9_military_patrolleader"
+    ],
+    "sound": "“你遇到了一股不可战胜的力量，混蛋！”",
+    "volume": 30
+  },
+  {
+    "type": "speech",
+    "speaker": [
+      "mon_BL9_military_bash",
+      "mon_BL9_military_stab",
+      "mon_BL9_military_cut",
+      "mon_BL9_military_shockrod",
+      "mon_BL9_military_crossbow",
+      "mon_BL9_military_behemoth",
+      "mon_BL9_military_behemoth_minigun",
+      "mon_BL9_patrolmilitary_stab",
+      "mon_BL9_patrolmilitary_cut",
+      "mon_BL9_patrolmilitary_crossbow",
+      "mon_BL9_patrolmilitary_behemoth",
+      "mon_BL9_patrolmilitary_behemoth_minigun",
+      "mon_BL9_military_patrolleader"
+    ],
+    "sound": "“‘势不可挡’？我们训练有素，装备精良，在各方面都比这个人渣优越！立刻消灭目标！”",
+    "volume": 30
+  },
+  {
+    "type": "speech",
+    "speaker": [
+      "mon_BL9_military_bash",
+      "mon_BL9_military_stab",
+      "mon_BL9_military_cut",
+      "mon_BL9_military_shockrod",
+      "mon_BL9_military_crossbow",
+      "mon_BL9_military_behemoth",
+      "mon_BL9_military_behemoth_minigun",
+      "mon_BL9_patrolmilitary_stab",
+      "mon_BL9_patrolmilitary_cut",
+      "mon_BL9_patrolmilitary_crossbow",
+      "mon_BL9_patrolmilitary_behemoth",
+      "mon_BL9_patrolmilitary_behemoth_minigun",
+      "mon_BL9_military_patrolleader"
+    ],
+    "sound": "“即使你杀了我，只要你遇到一个‘他们’的创造物，你也会死的！”",
+    "volume": 30
+  },
+  {
+    "type": "speech",
+    "speaker": [
+      "mon_BL9_military_bash",
+      "mon_BL9_military_stab",
+      "mon_BL9_military_cut",
+      "mon_BL9_military_shockrod",
+      "mon_BL9_military_crossbow",
+      "mon_BL9_military_behemoth",
+      "mon_BL9_military_behemoth_minigun",
+      "mon_BL9_patrolmilitary_stab",
+      "mon_BL9_patrolmilitary_cut",
+      "mon_BL9_patrolmilitary_crossbow",
+      "mon_BL9_patrolmilitary_behemoth",
+      "mon_BL9_patrolmilitary_behemoth_minigun",
+      "mon_BL9_military_patrolleader"
+    ],
+    "sound": "“即使你杀了我，只要你遇到一个‘他们’的创造物，你也会死的！”",
+    "volume": 30
+  },
+  {
+    "type": "speech",
+    "speaker": [
+      "mon_BL9_military_bash",
+      "mon_BL9_military_stab",
+      "mon_BL9_military_cut",
+      "mon_BL9_military_shockrod",
+      "mon_BL9_military_crossbow",
+      "mon_BL9_military_behemoth",
+      "mon_BL9_military_behemoth_minigun",
+      "mon_BL9_patrolmilitary_stab",
+      "mon_BL9_patrolmilitary_cut",
+      "mon_BL9_patrolmilitary_crossbow",
+      "mon_BL9_patrolmilitary_behemoth",
+      "mon_BL9_patrolmilitary_behemoth_minigun",
+      "mon_BL9_military_patrolleader"
+    ],
+    "sound": "“你真的敢挑战为建立‘我们的’世界新秩序而建立的不断壮大的牢不可破的军队吗？”",
+    "volume": 30
+  },
+  {
+    "type": "speech",
+    "speaker": [
+      "mon_BL9_mercenary_mutated"
+    ],
+    "sound": "“你做了一个愚蠢的选择站在这些懦夫一边。有了我们的联合力量——你和‘我们’——‘我们’就可以称霸整个世界！”",
+    "volume": 30
+  },
+  {
+    "type": "speech",
+    "speaker": [
+      "mon_BL9_mercenary_mutated"
+    ],
+    "sound": "“你能想象‘我们’获得了什么样的力量吗？有了他们，我们就可以把这个世界的残存物放在它的膝盖上，完全征服它！”",
+    "volume": 30
+  },
+  {
+    "type": "speech",
+    "speaker": [
+      "mon_BL9_mercenary_mutated"
+    ],
+    "sound": "“你经历了地狱，你还没有意识到‘我们’真正能做什么？”",
+    "volume": 30
+  },
+  {
+    "type": "speech",
+    "speaker": [
+      "mon_BL9_mercenary_mutated"
+    ],
+    "sound": "“你本来可以成为某个人的。你的技能和知识——因为你愚蠢的原则，一切都白费了！”",
+    "volume": 30
+  },
+  {
+    "type": "speech",
+    "speaker": [
+      "mon_BL9_mercenary_mutated"
+    ],
+    "sound": "“见证力量！”",
+    "volume": 30
+  },
+  {
+    "type": "speech",
+    "speaker": [
+      "mon_BL9_mercenary_mutated"
+    ],
+    "sound": "“准备好毁灭你！”",
+    "volume": 30
+  },
+  {
+    "type": "speech",
+    "speaker": [
+      "mon_BL9_mercenary_mutated"
+    ],
+    "sound": "“疯子”？我只渴望把这个世界变得更好，但是剩下的人类必须与这种力量结合在一起，有价值的人将生活并为我们服务。不配的人会死，像无用的糠秕一样被除掉！”",
+    "volume": 30
+  },
+  {
+    "type": "speech",
+    "speaker": [
+      "mon_BL9_vile_one"
+    ],
+    "sound": "“我们终于见面了。我辛勤工作的一切，建造的，创造的，你摧毁的，杀死的，根除的。。。你应该为一切付出昂贵的代价！新时代就要开始了！”",
+    "volume": 30
+  },
+  {
+    "type": "speech",
+    "speaker": [
+      "mon_BL9_vile_one"
+    ],
+    "sound": "“你已经失去了救赎自己的唯一机会——你可以和‘我们’，和我联合起来，建立一个新的地球，建立在不值得和肮脏的人的骨肉之上！”",
+    "volume": 30
+  },
+  {
+    "type": "speech",
+    "speaker": [
+      "mon_BL9_vile_one"
+    ],
+    "sound": "“你努力摧毁这个无价的神圣有机体和任何与之相关的东西，就好像它是某种瘟疫或腐败。哦，但我还远没有堕落，我已经从最深的沉睡中醒来了，那是无知的沉睡！”",
+    "volume": 30
+  },
+  {
+    "type": "speech",
+    "speaker": [
+      "mon_BL9_vile_one"
+    ],
+    "sound": "“‘永不放弃’？预言？哈，神秘的胡言乱语。然而，他们对每件事都是正确的——我是永恒的，我是预言，我将成为你的厄运，软弱的人类！”",
+    "volume": 30
+  },
+  {
+    "type": "speech",
+    "speaker": [
+      "mon_BL9_vile_one"
+    ],
+    "sound": "“你怎么还活着？快死了，你这个弱小的家伙！”",
+    "volume": 30
+  },
+  {
+    "type": "speech",
+    "speaker": [
+      "mon_BL9_vile_one"
+    ],
+    "sound": "“你杀了我所有最亲近最信任的人。尽管他们给了你很多机会重新考虑你的决定，获得权力并加入我们！可是，你却像一个卑鄙的、不人道的客人一样，把他们宰了，还狠狠地咬了那些想喂你的手！”",
+    "volume": 30
+  }
+]

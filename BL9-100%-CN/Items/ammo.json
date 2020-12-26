@@ -1,0 +1,892 @@
+[
+  {
+    "id": "BL9_sample",
+    "type": "AMMO",
+    "category": "other",
+    "name": {
+      "str": "BL9样品",
+      "str_pl": "BL9样品"
+    },
+    "description": "一个来源非常奇怪和未知的有机体样本，当你触摸它时，你能清楚地感觉到它是如何振动、移动的，好像它的粒子在不断地相互交流",
+    "weight": "1 g",
+    "volume": "10 ml",
+    "price": 0,
+    "price_postapoc": 0,
+    "material": [
+      "alien_resin"
+    ],
+    "symbol": "&",
+    "color": "dark_gray",
+    "count": 1,
+    "stack_size": 200,
+    "ammo_type": "BL9_sample_type",
+    "effects": [
+      "NEVER_MISFIRES",
+      "NON-FOULING"
+    ]
+  },
+  {
+    "id": "goldcoin",
+    "type": "AMMO",
+    "category": "other",
+    "name": {
+      "str": "金币",
+      "str_pl": "金币"
+    },
+    "description": "一枚做工精良、看似手工制作的金币。它的一面装饰着令人惊叹的蚀刻装饰，另一面则是一个看起来像是罗马皇帝的半身像，下面用拉丁语写着一些你无法解读的文字。",
+    "weight": "0 g",
+    "volume": "0 ml",
+    "price": 50,
+    "price_postapoc": 10,
+    "material": [
+      "gold"
+    ],
+    "symbol": "$",
+    "color": "yellow",
+    "count": 1,
+    "stack_size": 200,
+    "ammo_type": "goldcoin_type",
+    "effects": [
+      "NEVER_MISFIRES",
+      "NON-FOULING"
+    ],
+    "flags": [
+      "ZERO_WEIGHT"
+    ]
+  },
+  {
+    "id": "goldcoincomb",
+    "type": "AMMO",
+    "category": "other",
+    "name": {
+      "str": "金币组合",
+      "str_pl": "金币组合"
+    },
+    "description": "一组制作精良，看似手工制作的金币。它的一面装饰着令人惊叹的蚀刻装饰，另一面则是一个看起来像是罗马皇帝的半身像，下面用拉丁语写着一些你无法解读的文字。",
+    "weight": "0 g",
+    "volume": "0 ml",
+    "price": 5000,
+    "price_postapoc": 1000,
+    "material": [
+      "gold"
+    ],
+    "symbol": "$",
+    "color": "yellow",
+    "count": 1,
+    "stack_size": 200,
+    "ammo_type": "goldcoincomb_type",
+    "effects": [
+      "NEVER_MISFIRES",
+      "NON-FOULING"
+    ],
+    "flags": [
+      "ZERO_WEIGHT"
+    ]
+  },
+  {
+    "id": "platcoin",
+    "type": "AMMO",
+    "category": "other",
+    "name": {
+      "str": "白金硬币",
+      "str_pl": "铂币"
+    },
+    "description": "一种制作精良，看似手工制作的白金硬币。它的一面装饰着令人惊异的蚀刻装饰，另一面则是一个扭曲的形象，上面有一些混乱的战争或死亡神，下面还有三个字母——“B L 9”",
+    "weight": "0 g",
+    "volume": "0 ml",
+    "price": 100,
+    "price_postapoc": 18,
+    "material": [
+      "platinum"
+    ],
+    "symbol": "$",
+    "color": "dark_gray",
+    "count": 1,
+    "stack_size": 200,
+    "ammo_type": "platinumcoin_type",
+    "effects": [
+      "NEVER_MISFIRES",
+      "NON-FOULING"
+    ],
+    "flags": [
+      "ZERO_WEIGHT"
+    ]
+  },
+  {
+    "id": "platcoincomb",
+    "type": "AMMO",
+    "category": "other",
+    "name": {
+      "str": "白金硬币组合",
+      "str_pl": "白金硬币组合"
+    },
+    "description": "一组制作精良、看似手工制作的白金硬币。它的一面装饰着令人惊异的蚀刻装饰，另一面则是一个扭曲的形象，上面有一些混乱的战争或死亡神，下面还有三个字母——“B L 9”",
+    "weight": "0 g",
+    "volume": "0 ml",
+    "price": 10000,
+    "price_postapoc": 1800,
+    "material": [
+      "platinum"
+    ],
+    "symbol": "$",
+    "color": "dark_gray",
+    "count": 1,
+    "stack_size": 200,
+    "ammo_type": "platinumcoincomb_type",
+    "effects": [
+      "NEVER_MISFIRES",
+      "NON-FOULING"
+    ],
+    "flags": [
+      "ZERO_WEIGHT"
+    ]
+  },
+  {
+    "id": "9mmBL9",
+    "type": "AMMO",
+    "name": {
+      "str": "9×19毫米BL9"
+    },
+    "description": "手工和笨拙焊接的钢片与BL9样品，不知何故，BL9知道采取什么形式，以便以这样一个完美的方式封装钢片，形成一个9毫米口径的手工子弹",
+    "weight": "7 g",
+    "volume": "250 ml",
+    "price": 150,
+    "price_postapoc": 1000,
+    "flags": [
+      "IRREPLACEABLE_CONSUMABLE"
+    ],
+    "material": [
+      "BL9",
+      "steel"
+    ],
+    "symbol": "=",
+    "color": "yellow",
+    "count": 10,
+    "stack_size": 200,
+    "ammo_type": "9mmBL9_type",
+    "casing": "9mm_casing",
+    "range": 14,
+    "damage": {
+      "damage_type": "bullet",
+      "amount": 67,
+      "armor_penetration": 18
+    },
+    "dispersion": 85,
+    "recoil": 340,
+    "effects": [
+      "COOKOFF"
+    ]
+  },
+  {
+    "id": "9mmBL9mk2",
+    "type": "AMMO",
+    "name": {
+      "str": "9x19mm黑色9 MK ii"
+    },
+    "description": "手工笨拙地将钢片与BL9样品焊接在一起，不知何故，BL9知道采用何种形式，以便以如此完美的方式将钢片包裹起来，形成一颗更坚固的9毫米口径手工子弹",
+    "weight": "7 g",
+    "volume": "250 ml",
+    "price": 150,
+    "price_postapoc": 1000,
+    "flags": [
+      "IRREPLACEABLE_CONSUMABLE"
+    ],
+    "material": [
+      "BL9",
+      "steel"
+    ],
+    "symbol": "=",
+    "color": "yellow",
+    "count": 10,
+    "stack_size": 200,
+    "ammo_type": "9mmBL9mk2_type",
+    "casing": "9mm_casing",
+    "range": 14,
+    "damage": {
+      "damage_type": "bullet",
+      "amount": 110,
+      "armor_penetration": 27
+    },
+    "dispersion": 80,
+    "recoil": 325,
+    "effects": [
+      "COOKOFF"
+    ]
+  },
+  {
+    "id": "9mmBL9smg",
+    "type": "AMMO",
+    "name": {
+      "str": "9x19mm贴片BL9"
+    },
+    "description": "手工和笨拙焊接的钢片与BL9样品，不知何故，BL9知道采取什么形式，以这种完美的方式封装钢片，形成一个9毫米的smg口径手工子弹",
+    "weight": "7 g",
+    "volume": "250 ml",
+    "price": 150,
+    "price_postapoc": 1000,
+    "flags": [
+      "IRREPLACEABLE_CONSUMABLE"
+    ],
+    "material": [
+      "BL9",
+      "steel"
+    ],
+    "symbol": "=",
+    "color": "yellow",
+    "count": 10,
+    "stack_size": 200,
+    "ammo_type": "9mmBL9smg_type",
+    "casing": "9mm_casing",
+    "range": 14,
+    "damage": {
+      "damage_type": "bullet",
+      "amount": 41,
+      "armor_penetration": 14
+    },
+    "dispersion": 65,
+    "recoil": 260,
+    "effects": [
+      "COOKOFF"
+    ]
+  },
+  {
+    "id": "9mmBL9smgmk2",
+    "type": "AMMO",
+    "name": {
+      "str": "9x19mm MK ii smg黑色9"
+    },
+    "description": "手工笨拙地用BL9样品焊接钢片，不知何故，BL9知道采取什么形式，以便以这样一种完美的方式包裹钢片，形成一个更强大的9毫米口径smg手工子弹",
+    "weight": "7 g",
+    "volume": "250 ml",
+    "price": 150,
+    "price_postapoc": 1000,
+    "flags": [
+      "IRREPLACEABLE_CONSUMABLE"
+    ],
+    "material": [
+      "BL9",
+      "steel"
+    ],
+    "symbol": "=",
+    "color": "yellow",
+    "count": 10,
+    "stack_size": 200,
+    "ammo_type": "9mmBL9smgmk2_type",
+    "casing": "9mm_casing",
+    "range": 14,
+    "damage": {
+      "damage_type": "bullet",
+      "amount": 67,
+      "armor_penetration": 20
+    },
+    "dispersion": 55,
+    "recoil": 240,
+    "effects": [
+      "COOKOFF"
+    ]
+  },
+  {
+    "id": "308BL9",
+    "type": "AMMO",
+    "name": {
+      "str": "308栋9楼"
+    },
+    "description": "手工笨拙地用BL9样品焊接钢片，不知何故，BL9知道该采取什么形式，以便以如此完美的方式将钢片包裹起来，形成308口径的手工子弹",
+    "weight": "18 g",
+    "volume": "250 ml",
+    "price": 180,
+    "price_postapoc": 800,
+    "flags": [
+      "IRREPLACEABLE_CONSUMABLE"
+    ],
+    "material": [
+      "BL9",
+      "steel"
+    ],
+    "symbol": "=",
+    "color": "yellow",
+    "count": 10,
+    "stack_size": 200,
+    "ammo_type": "308BL9_type",
+    "casing": "308_casing",
+    "range": 65,
+    "damage": {
+      "damage_type": "bullet",
+      "amount": 150,
+      "armor_penetration": 45
+    },
+    "dispersion": 30,
+    "recoil": 1760,
+    "effects": [
+      "COOKOFF"
+    ]
+  },
+  {
+    "id": "308BL9mk2",
+    "type": "AMMO",
+    "name": {
+      "str": ".308 MK ii黑色"
+    },
+    "description": "手工笨拙地将钢片与BL9样品焊接在一起，不知何故，BL9知道采用何种形式，以便以如此完美的方式将钢片包裹起来，形成一颗更坚固的308口径手工子弹",
+    "weight": "18 g",
+    "volume": "250 ml",
+    "price": 180,
+    "price_postapoc": 800,
+    "flags": [
+      "IRREPLACEABLE_CONSUMABLE"
+    ],
+    "material": [
+      "BL9",
+      "steel"
+    ],
+    "symbol": "=",
+    "color": "yellow",
+    "count": 10,
+    "stack_size": 200,
+    "ammo_type": "308BL9mk2_type",
+    "casing": "308_casing",
+    "range": 65,
+    "damage": {
+      "damage_type": "bullet",
+      "amount": 250,
+      "armor_penetration": 65
+    },
+    "dispersion": 25,
+    "recoil": 1610,
+    "effects": [
+      "COOKOFF"
+    ]
+  },
+  {
+    "id": "BL9shot",
+    "type": "AMMO",
+    "name": {
+      "str": "BL9射击"
+    },
+    "description": "手工和笨拙地焊接带有BL9样品的钢片，不知何故，BL9知道采取什么形式，以便以如此完美的方式将钢片包裹起来，形成一个手工制作的外壳",
+    "weight": "32 g",
+    "volume": "250 ml",
+    "price": 500,
+    "price_postapoc": 800,
+    "flags": [
+      "IRREPLACEABLE_CONSUMABLE"
+    ],
+    "material": [
+      "BL9",
+      "steel"
+    ],
+    "symbol": "=",
+    "color": "red",
+    "count": 10,
+    "stack_size": 200,
+    "ammo_type": "BL9shot_type",
+    "casing": "shot_hull",
+    "range": 12,
+    "damage": {
+      "damage_type": "bullet",
+      "amount": 120,
+      "armor_penetration": 37
+    },
+    "recoil": 1835,
+    "loudness": 160,
+    "effects": [
+      "COOKOFF",
+      "SHOT"
+    ]
+  },
+  {
+    "id": "BL9shotmk2",
+    "type": "AMMO",
+    "name": {
+      "str": "MK ii射击9"
+    },
+    "description": "手工和笨拙地焊接带有BL9样品的钢片，不知何故，BL9知道采取什么形式，以便以如此完美的方式将钢片包裹起来，形成一个更坚固的手工制作外壳",
+    "weight": "32 g",
+    "volume": "250 ml",
+    "price": 500,
+    "price_postapoc": 800,
+    "flags": [
+      "IRREPLACEABLE_CONSUMABLE"
+    ],
+    "material": [
+      "BL9",
+      "steel"
+    ],
+    "symbol": "=",
+    "color": "red",
+    "count": 10,
+    "stack_size": 200,
+    "ammo_type": "BL9shotmk2_type",
+    "casing": "shot_hull",
+    "range": 12,
+    "damage": {
+      "damage_type": "bullet",
+      "amount": 198,
+      "armor_penetration": 47
+    },
+    "recoil": 1645,
+    "loudness": 160,
+    "effects": [
+      "COOKOFF",
+      "SHOT"
+    ]
+  },
+  {
+    "id": "357magBL9",
+    "type": "AMMO",
+    "name": {
+      "str": "0.357万能BL9"
+    },
+    "description": "手工和笨拙地焊接钢片与BL9样品，不知何故，BL9知道采取什么形式，以便以这样完美的方式将钢片包裹起来，形成357毫米口径的手工子弹",
+    "weight": "8 g",
+    "volume": "250 ml",
+    "price": 140,
+    "price_postapoc": 1000,
+    "flags": [
+      "IRREPLACEABLE_CONSUMABLE"
+    ],
+    "material": [
+      "BL9",
+      "steel"
+    ],
+    "symbol": "=",
+    "color": "light_gray",
+    "count": 10,
+    "stack_size": 200,
+    "ammo_type": "357magBL9_type",
+    "casing": "357mag_casing",
+    "range": 16,
+    "damage": {
+      "damage_type": "bullet",
+      "amount": 140,
+      "armor_penetration": 40
+    },
+    "dispersion": 45,
+    "recoil": 395,
+    "effects": [
+      "COOKOFF"
+    ]
+  },
+  {
+    "id": "357magBL9mk2",
+    "type": "AMMO",
+    "name": {
+      "str": "0.357万能BL9 MK ii"
+    },
+    "description": "手工和笨拙焊接的钢片与BL9样品，不知何故，BL9知道采取什么形式，以便以这样一个完美的方式封装钢片，形成一个更强大的357毫米口径手工子弹",
+    "weight": "8 g",
+    "volume": "250 ml",
+    "price": 140,
+    "price_postapoc": 1000,
+    "flags": [
+      "IRREPLACEABLE_CONSUMABLE"
+    ],
+    "material": [
+      "BL9",
+      "steel"
+    ],
+    "symbol": "=",
+    "color": "light_gray",
+    "count": 10,
+    "stack_size": 200,
+    "ammo_type": "357magBL9mk2_type",
+    "casing": "357mag_casing",
+    "range": 16,
+    "damage": {
+      "damage_type": "bullet",
+      "amount": 228,
+      "armor_penetration": 48
+    },
+    "dispersion": 35,
+    "recoil": 365,
+    "effects": [
+      "COOKOFF"
+    ]
+  },
+  {
+    "id": "556BL9",
+    "type": "AMMO",
+    "name": {
+      "str": "5.56黑色9"
+    },
+    "description": "手工和笨拙焊接的钢片与BL9样品，不知何故，BL9知道采取什么形式，以便以这样完美的方式包裹钢片，形成一个5.56口径的手工子弹",
+    "weight": "12 g",
+    "volume": "250 ml",
+    "price": 280,
+    "price_postapoc": 900,
+    "flags": [
+      "IRREPLACEABLE_CONSUMABLE"
+    ],
+    "material": [
+      "BL9",
+      "steel"
+    ],
+    "symbol": "=",
+    "color": "yellow",
+    "count": 10,
+    "stack_size": 200,
+    "ammo_type": "556BL9_type",
+    "casing": "223_casing",
+    "range": 36,
+    "damage": {
+      "damage_type": "bullet",
+      "amount": 71,
+      "armor_penetration": 25
+    },
+    "dispersion": 45,
+    "recoil": 875,
+    "effects": [
+      "COOKOFF"
+    ]
+  },
+  {
+    "id": "556BL9mk2",
+    "type": "AMMO",
+    "name": {
+      "str": "5.56黑色9 MK ii"
+    },
+    "description": "手工和笨拙焊接的钢片与BL9样品，不知何故，BL9知道采取什么形式，以便以这样一个完美的方式包裹钢片，形成一个更强大的5.56口径手工子弹",
+    "weight": "12 g",
+    "volume": "250 ml",
+    "price": 280,
+    "price_postapoc": 900,
+    "flags": [
+      "IRREPLACEABLE_CONSUMABLE"
+    ],
+    "material": [
+      "BL9",
+      "steel"
+    ],
+    "symbol": "=",
+    "color": "yellow",
+    "count": 10,
+    "stack_size": 200,
+    "ammo_type": "556BL9mk2_type",
+    "casing": "223_casing",
+    "range": 36,
+    "damage": {
+      "damage_type": "bullet",
+      "amount": 117,
+      "armor_penetration": 33
+    },
+    "dispersion": 35,
+    "recoil": 775,
+    "effects": [
+      "COOKOFF"
+    ]
+  },
+  {
+    "id": "BL9_spray",
+    "type": "AMMO",
+    "name": {
+      "str_sp": "BL9 spray"
+    },
+    "description": "它看起来是一种非常奇怪的灰色酸性液体，在放入的任何容器中都会自己起泡和飞溅，具有腐蚀性和危险性",
+    "weight": "1 g",
+    "volume": "200 ml",
+    "price": 8000,
+    "price_postapoc": 1000,
+    "count": 140,
+    "stack_size": 200,
+    "phase": "liquid",
+    "container": "jerrycan",
+    "material": [
+      "BL9"
+    ],
+    "symbol": "=",
+    "color": "light_red",
+    "ammo_type": "BL9spray_type",
+    "damage": {
+      "damage_type": "acid",
+      "amount": 90,
+      "armor_penetration": 25
+    },
+    "range": 6,
+    "effects": [
+      "BLINDS_EYES",
+      "STREAM_BIG",
+      "NEVER_MISFIRES"
+    ]
+  },
+  {
+    "id": "BL9_spraymk2",
+    "type": "AMMO",
+    "name": {
+      "str_sp": "BL9 spray MK ii"
+    },
+    "description": "它看起来像是一种看起来很奇怪的白色酸性液体，在任何容器内都会自行起泡和飞溅，具有极强的腐蚀性和危险性",
+    "weight": "1 g",
+    "volume": "200 ml",
+    "price": 8000,
+    "price_postapoc": 1000,
+    "count": 140,
+    "stack_size": 200,
+    "phase": "liquid",
+    "container": "jerrycan",
+    "material": [
+      "BL9"
+    ],
+    "symbol": "=",
+    "color": "light_red",
+    "ammo_type": "BL9spraymk2_type",
+    "damage": {
+      "damage_type": "acid",
+      "amount": 148,
+      "armor_penetration": 33
+    },
+    "range": 6,
+    "effects": [
+      "BLINDS_EYES",
+      "STREAM_BIG",
+      "NEVER_MISFIRES"
+    ]
+  },
+  {
+    "type": "AMMO",
+    "id": "BL9_arrow",
+    "price": 1200,
+    "name": {
+      "str": "BL9灌注箭"
+    },
+    "symbol": "=",
+    "color": "green",
+    "description": "一个有斑点的铝制箭杆，有一个叶片状的尖端，不知何故被注入了几乎有知觉的BL9，覆盖了它的一部分，并用它的组织加强了它",
+    "material": [
+      "BL9",
+      "steel"
+    ],
+    "volume": "300 ml",
+    "price_postapoc": 500,
+    "weight": "45 g",
+    "bashing": 3,
+    "cutting": 2,
+    "ammo_type": "BL9arrow_type",
+    "damage": {
+      "damage_type": "stab",
+      "armor_penetration": 28,
+      "constant_damage_multiplier": 2.5
+    },
+    "range": 2,
+    "dispersion": 60,
+    "loudness": 0,
+    "count": 10,
+    "critical_multiplier": 2,
+    "effects": [
+      "RECOVER_35"
+    ]
+  },
+  {
+    "type": "AMMO",
+    "id": "BL9_bolt",
+    "price": 500,
+    "name": {
+      "str": "BL9灌注螺栓"
+    },
+    "symbol": "=",
+    "color": "green",
+    "description": "一个简单的有斑点的钢弩螺栓，尖端扁平锐利，不知何故注入了几乎有知觉的BL9，部分覆盖并用组织加固",
+    "material": [
+      "BL9",
+      "steel"
+    ],
+    "volume": "300 ml",
+    "price_postapoc": 500,
+    "weight": "65 g",
+    "bashing": 1,
+    "ammo_type": "BL9bolt_type",
+    "damage": {
+      "damage_type": "stab",
+      "constant_damage_multiplier": 2.5,
+      "armor_penetration": 33
+    },
+    "dispersion": 100,
+    "loudness": 0,
+    "count": 10,
+    "show_stats": true,
+    "critical_multiplier": 2,
+    "effects": [
+      "RECOVER_35"
+    ]
+  },
+  {
+    "type": "AMMO",
+    "id": "BL9_arrowmk2",
+    "price": 1200,
+    "name": {
+      "str": "BL9注入箭MK ii"
+    },
+    "symbol": "=",
+    "color": "green",
+    "description": "一个有叶尖的带叶尖的铝制箭杆，不知何故被注入了几乎有知觉的BL9，将其完全覆盖，并用它的组织加强它",
+    "material": [
+      "BL9",
+      "steel"
+    ],
+    "volume": "300 ml",
+    "price_postapoc": 500,
+    "weight": "45 g",
+    "bashing": 3,
+    "cutting": 2,
+    "ammo_type": "BL9arrowmk2_type",
+    "damage": {
+      "damage_type": "stab",
+      "armor_penetration": 33,
+      "constant_damage_multiplier": 4.11
+    },
+    "range": 2,
+    "dispersion": 50,
+    "loudness": 0,
+    "count": 10,
+    "critical_multiplier": 2,
+    "effects": [
+      "RECOVER_35"
+    ]
+  },
+  {
+    "type": "AMMO",
+    "id": "BL9_boltmk2",
+    "price": 500,
+    "name": {
+      "str": "BL9灌注螺栓MK ii"
+    },
+    "symbol": "=",
+    "color": "green",
+    "description": "一个简单的有羽毛的钢十字弓螺栓有一个扁平和锐利的尖端，不知何故注入了几乎有知觉的BL9完全覆盖它，并用它的组织加强它",
+    "material": [
+      "BL9",
+      "steel"
+    ],
+    "volume": "300 ml",
+    "price_postapoc": 500,
+    "weight": "65 g",
+    "bashing": 1,
+    "ammo_type": "BL9boltmk2_type",
+    "damage": {
+      "damage_type": "stab",
+      "constant_damage_multiplier": 4.11,
+      "armor_penetration": 38
+    },
+    "dispersion": 80,
+    "loudness": 0,
+    "count": 10,
+    "show_stats": true,
+    "critical_multiplier": 2,
+    "effects": [
+      "RECOVER_35"
+    ]
+  },
+  {
+    "id": "40mmBL9",
+    "type": "AMMO",
+    "name": {
+      "str": "40毫米黑色9"
+    },
+    "description": "用不稳定的BL9样品手工笨拙地焊接钢片，不知何故，BL9知道采取什么形式，以便以如此完美的方式将钢片包裹起来，形成危险的爆炸性手工炸弹",
+    "weight": "80 g",
+    "volume": "45 ml",
+    "price": 40000,
+    "material": [
+      "plastic",
+      "powder"
+    ],
+    "symbol": "*",
+    "color": "brown",
+    "count": 5,
+    "ammo_type": "40mmBL9_type",
+    "range": 25,
+    "damage": {
+      "damage_type": "stab",
+      "amount": 1,
+      "armor_penetration": 10
+    },
+    "effects": [
+      "NEVER_MISFIRES",
+      "COOKOFF",
+      "RECOVER_9",
+      "ACT_ON_RANGED_HIT",
+      "CUSTOM_EXPLOSION"
+    ],
+    "explode_in_fire": true,
+    "explosion": {
+      "power": 100,
+      "distance_factor": 0.1,
+      "shrapnel": 1
+    }
+  },
+  {
+    "id": "40mmBL9mk2",
+    "type": "AMMO",
+    "name": {
+      "str": "40毫米BL9 MK ii"
+    },
+    "description": "手工和笨拙的焊接钢片与非常不稳定的BL9样品，不知何故，BL9知道采取什么形式，以便以这样一个完美的方式包裹钢片，形成一个非常危险的爆炸手工小炸弹",
+    "weight": "145 g",
+    "volume": "90 ml",
+    "price": 40000,
+    "material": [
+      "plastic",
+      "powder"
+    ],
+    "symbol": "*",
+    "color": "brown",
+    "count": 5,
+    "ammo_type": "40mmBL9mk2_type",
+    "range": 25,
+    "damage": {
+      "damage_type": "stab",
+      "amount": 5,
+      "armor_penetration": 19
+    },
+    "effects": [
+      "NEVER_MISFIRES",
+      "COOKOFF",
+      "RECOVER_9",
+      "ACT_ON_RANGED_HIT",
+      "CUSTOM_EXPLOSION"
+    ],
+    "explode_in_fire": true,
+    "explosion": {
+      "power": 175,
+      "distance_factor": 0.1,
+      "shrapnel": 1
+    }
+  },
+  {
+    "id": "40mmBL9mk3",
+    "type": "AMMO",
+    "name": {
+      "str": "40毫米BL9 MK iii"
+    },
+    "description": "手工和笨拙焊接的钢片与非常不稳定的BL9样品，不知何故，BL9知道采取什么样的形式，以便以如此完美的方式将钢片包裹起来，形成一个精心制作的，甚至是制造了一个巨大的40毫米巨型炸弹",
+    "weight": "275 g",
+    "volume": "145 ml",
+    "price": 40000,
+    "material": [
+      "plastic",
+      "powder"
+    ],
+    "symbol": "*",
+    "color": "brown",
+    "count": 5,
+    "ammo_type": "40mmBL9mk3_type",
+    "range": 25,
+    "damage": {
+      "damage_type": "stab",
+      "amount": 5,
+      "armor_penetration": 19
+    },
+    "effects": [
+      "NEVER_MISFIRES",
+      "COOKOFF",
+      "RECOVER_9",
+      "ACT_ON_RANGED_HIT",
+      "CUSTOM_EXPLOSION"
+    ],
+    "explode_in_fire": true,
+    "explosion": {
+      "power": 285,
+      "distance_factor": 0.1,
+      "shrapnel": 1
+    }
+  }
+]

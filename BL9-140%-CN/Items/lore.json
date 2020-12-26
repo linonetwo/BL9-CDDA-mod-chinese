@@ -1,0 +1,1042 @@
+[
+  {
+    "id": "BL9_agent_journal1",
+    "category": "books",
+    "type": "GENERIC",
+    "symbol": "&",
+    "looks_like": "newest_newspaper",
+    "color": "blue",
+    "name": {
+      "str": "印刷代理人日记-第一部分-我是谁"
+    },
+    "description": "你可能想知道我是谁-我是一名特工，在大灾变前存在的许多秘密组织的残余中工作。我出生在那里的一个主要的秘密设施里，我父亲是一名退休军官，他被雇佣为雇佣兵，为这个组织工作了很长时间，他们早在灾难发生之前就预测到了。\n",
+    "material": "paper",
+    "weight": "1 g",
+    "volume": "1 ml",
+    "to_hit": -1
+  },
+  {
+    "id": "BL9_agent_journal2",
+    "category": "books",
+    "type": "GENERIC",
+    "symbol": "&",
+    "looks_like": "newest_newspaper",
+    "color": "blue",
+    "name": {
+      "str": "印刷特工日记第2部分秘密社团"
+    },
+    "description": "如果我告诉你，我们组织的残余不是唯一的，有无数的残余…巨大的派系，机构，社会——其成员和代理人来自各种国家，拥有各种有价值的资产和资源——不仅包括物质财富，而且拥有聪明的头脑——专业的科学家、工程师，医生——所有能够做出巨大贡献，不需要公开地与来自世俗社会和政府部门的普通人一起工作的人。\n",
+    "material": "paper",
+    "weight": "1 g",
+    "volume": "1 ml",
+    "to_hit": -1
+  },
+  {
+    "id": "BL9_agent_journal3",
+    "category": "books",
+    "type": "GENERIC",
+    "symbol": "&",
+    "looks_like": "newest_newspaper",
+    "color": "blue",
+    "name": {
+      "str": "印刷体杂志-第3部分-对权力的渴望"
+    },
+    "description": "这些组织是如何建立权力的？这是一个不同的问题——暴力和抢劫行为，威胁和半宣传，以及生存的承诺和人类基本生存所需的资源，其中一些最终是真的，而有些则是背信弃义地杀害幸存者，认为他们只是一个糠秕，一个污点的不完美，必须根除新的基因清洁的一代，某种新的精英。\n",
+    "material": "paper",
+    "weight": "1 g",
+    "volume": "1 ml",
+    "to_hit": -1
+  },
+  {
+    "id": "BL9_agent_journal4",
+    "category": "books",
+    "type": "GENERIC",
+    "symbol": "&",
+    "looks_like": "newest_newspaper",
+    "color": "blue",
+    "name": {
+      "str": "印刷代理人日记第4部分：组织与未知威胁"
+    },
+    "description": "其中一类组织存在，它拥有强大的军事力量和许多聪明的头脑和科学家，在他们的帮助下，他们一直在试图研究这个星球的样本，冥界生物的技术——这两个都已经被证明，而且仍然被证明是不成功的，但他们是坚持不懈的-他们没有放弃，继续寻找更多的样本或技术，这样也许，只是也许他们可以以某种方式“破译”它们。\n",
+    "material": "paper",
+    "weight": "1 g",
+    "volume": "1 ml",
+    "to_hit": -1
+  },
+  {
+    "id": "BL9_agent_journal5",
+    "category": "books",
+    "type": "GENERIC",
+    "symbol": "&",
+    "looks_like": "newest_newspaper",
+    "color": "blue",
+    "name": {
+      "str": "印刷特工日记-第5部分-城堡和邪教"
+    },
+    "description": "这座城堡是中世纪工程师的宏伟艺术杰作，许多代卡斯特伦人都生活在这里，几乎完全与外界隔绝，他们主要利用自己的农村土地和村庄来持续供应食物和水，几乎没有与现代文明交流。\n",
+    "material": "paper",
+    "weight": "1 g",
+    "volume": "1 ml",
+    "to_hit": -1
+  },
+  {
+    "id": "BL9_agent_journal6",
+    "category": "books",
+    "type": "GENERIC",
+    "symbol": "&",
+    "looks_like": "newest_newspaper",
+    "color": "blue",
+    "name": {
+      "str": "印刷体杂志-第6部分-BL9"
+    },
+    "description": "她成功地完成了这些实验，从他们身上提取了一些奇怪的样本，以便我们的研究人员能够正确地分析这些样本，并弄清楚这是不是我们很多人身上典型的滴状液还是其他东西。\n",
+    "material": "paper",
+    "weight": "1 g",
+    "volume": "1 ml",
+    "to_hit": -1
+  },
+  {
+    "id": "BL9_agent_journal7",
+    "category": "books",
+    "type": "GENERIC",
+    "symbol": "&",
+    "looks_like": "newest_newspaper",
+    "color": "blue",
+    "name": {
+      "str": "印刷体杂志.第7部分-BL9的修改"
+    },
+    "description": "一直试图控制这个小家伙的组织和冥界科技公司接触到了卡斯特兰，这让我们大吃一惊，卡斯特兰把一些样品给了他们，因为这给他带来了很多麻烦，把他的仆人和卫兵变成了僵尸一样的生物，很明显以换取组织的保护，持续的资源供应和更可怕的事情。。。\n",
+    "material": "paper",
+    "weight": "1 g",
+    "volume": "1 ml",
+    "to_hit": -1
+  },
+  {
+    "id": "BL9_agent_journal8",
+    "category": "books",
+    "type": "GENERIC",
+    "symbol": "&",
+    "looks_like": "newest_newspaper",
+    "color": "blue",
+    "name": {
+      "str": "印刷版特工日记-第8部分-怪物变种"
+    },
+    "description": "他们创造了一些特殊的“指挥官”样本，可能会注入他们的将军或关键人物，当然也包括卡斯特兰本人，因为他对这些样本表现出了极大的兴趣，因为他的神秘信仰，还有更多的细节。\n",
+    "material": "paper",
+    "weight": "1 g",
+    "volume": "1 ml",
+    "to_hit": -1
+  },
+  {
+    "id": "BL9_agent_journal9",
+    "category": "books",
+    "type": "GENERIC",
+    "symbol": "&",
+    "looks_like": "newest_newspaper",
+    "color": "blue",
+    "name": {
+      "str": "印刷代理人日记-第9部分-我们的计划"
+    },
+    "description": "既然你们非常了解情况，我相信你们会同意，我们必须尽最大努力摧毁这个有机体，不惜一切代价阻止这个组织，否则我们现在目睹的灾难将演变成一场与狂人完全控制的、由基因改造的可怕变种人组成的军队的战斗，其中一些保留了人类的智慧。\n",
+    "material": "paper",
+    "weight": "1 g",
+    "volume": "1 ml",
+    "to_hit": -1
+  },
+  {
+    "id": "BL9_agent_note1",
+    "category": "books",
+    "type": "GENERIC",
+    "symbol": "^",
+    "looks_like": "survnote",
+    "color": "red",
+    "name": {
+      "str": "特工笔记-第一部分-奇怪的商人"
+    },
+    "description": "首先，为了帮助你的努力，城堡周围有一个奇怪的商人或收藏家，狂热者并没有出于某种原因对他怀有敌意，他声称正在出售“BL9注入武器和盔甲”来换取狂热者的金币，我不确定，但这些东西的质量似乎很好乍一看，我在这里的工作是做间谍，除非被发现，否则我不会把所有的枪都烧起来。。。",
+    "material": "paper",
+    "weight": "1 g",
+    "volume": "1 ml",
+    "to_hit": -1
+  },
+  {
+    "id": "BL9_guide_note1",
+    "category": "books",
+    "type": "GENERIC",
+    "symbol": "^",
+    "looks_like": "survnote",
+    "color": "yellow",
+    "name": {
+      "str": "BL9指南-第1部分-传送机"
+    },
+    "description": "很高兴看到你仍然完好无损，冒险家-激活传送机就在这里，这样当你到达城堡的尽头（如果你活下来了，呵呵）时，你就可以立刻带着一个特殊的传送机物品回到这里",
+    "material": "paper",
+    "weight": "1 g",
+    "volume": "1 ml",
+    "to_hit": -1
+  },
+  {
+    "id": "BL9_guide_note2",
+    "category": "books",
+    "type": "GENERIC",
+    "symbol": "^",
+    "looks_like": "survnote",
+    "color": "red",
+    "name": {
+      "str": "BL9指南-第2部分-商户"
+    },
+    "description": "商人是这个国防部的关键NPC（你可以在城堡、岛屿、各种BL9生物群落和建筑中找到他）-他向你出售两层武器，分别为金币和白金硬币组合（你自动获得制作这些的配方）GComb和PComb，与商人交谈，获得你的第一把基本手枪和修复BL9物品的特殊烙铁-硬币-你从敌人那里收集它们，以及通过在整个国防部随机找到分散的宝物",
+    "material": "paper",
+    "weight": "1 g",
+    "volume": "1 ml",
+    "to_hit": -1
+  },
+  {
+    "id": "BL9_agent_note2",
+    "category": "books",
+    "type": "GENERIC",
+    "symbol": "^",
+    "looks_like": "survnote",
+    "color": "red",
+    "name": {
+      "str": "探员的笔记-第二部分-穿过警卫室"
+    },
+    "description": "为了潜入城堡，你必须经过许多外部建筑和警卫室，里面都是武装的狂热分子，这不应该让你感到惊讶，因为他们已经意识到我们造成了某种破坏。。。",
+    "material": "paper",
+    "weight": "1 g",
+    "volume": "1 ml",
+    "to_hit": -1
+  },
+  {
+    "id": "BL9_guide_note3",
+    "category": "books",
+    "type": "GENERIC",
+    "symbol": "^",
+    "looks_like": "survnote",
+    "color": "red",
+    "name": {
+      "str": "BL9指南-第3部分-制造弹药和近战武器"
+    },
+    "description": "制造是BL9的一个重要部分-你可以制造许多独特的弹药类型和非常方便的近战武器（甚至是远程和近战武器的秘密层，但这对你来说还有很长的路要走-每种武器的配方在达到一定的制造和机械水平后会自动获得（从制造和机械的第5级开始）-每种武器都需要通用和稀有的材料，你在玩mod时会遇到这些材料",
+    "material": "paper",
+    "weight": "1 g",
+    "volume": "1 ml",
+    "to_hit": -1
+  },
+  {
+    "id": "BL9_agent_note3",
+    "category": "books",
+    "type": "GENERIC",
+    "looks_like": "survnote",
+    "symbol": "^",
+    "color": "red",
+    "name": {
+      "str": "探员的笔记-第三部分-进入大厅"
+    },
+    "description": "现在你正在接近大殿，为了到达王座室，首先我们必须进入通往王座室的大殿，但是通往它的门紧锁着，钥匙藏在某处……我还不知道在哪里，但我知道你必须穿过这里，探索这里唯一一个无障碍的房间没有锁的门",
+    "material": "paper",
+    "weight": "1 g",
+    "volume": "1 ml",
+    "to_hit": -1
+  },
+  {
+    "id": "BL9_guide_note4",
+    "category": "books",
+    "type": "GENERIC",
+    "symbol": "^",
+    "looks_like": "survnote",
+    "color": "red",
+    "name": {
+      "str": "BL9指南-第4部分-远程武器弹药"
+    },
+    "description": "这个模型中的远程武器使用多种普通弹药类型（手枪-9毫米，.45毫米等，猎枪-射击，20x66毫米等等-你知道的），以及特殊的BL9弹药（BL9射击/BL9射击MK ii，BL9 308/BL9 308 MK ii，等等）只有使用通用的BL9材料才能制造，这些通用垫子从BL9敌人身上掉落，可以用blob-glob样品制作",
+    "material": "paper",
+    "weight": "1 g",
+    "volume": "1 ml",
+    "to_hit": -1
+  },
+  {
+    "id": "BL9_guide_note5",
+    "category": "books",
+    "type": "GENERIC",
+    "symbol": "^",
+    "looks_like": "survnote",
+    "color": "red",
+    "name": {
+      "str": "BL9指南-第5部分-治疗药草"
+    },
+    "description": "为了平衡怪物的强伤害和重伤害，我已经创造了三层药草，将立即治愈你的使用和减轻大量的疼痛，而不给你止痛药减益-从温和到最强的治疗药草-尽管小心-在战斗中谨慎使用他们-他们给你一个堆叠的减益几分钟，以保持一切平衡。。。",
+    "material": "paper",
+    "weight": "1 g",
+    "volume": "1 ml",
+    "to_hit": -1
+  },
+  {
+    "id": "BL9_castlelan_note1",
+    "category": "books",
+    "type": "GENERIC",
+    "looks_like": "survnote",
+    "symbol": "^",
+    "color": "red",
+    "name": {
+      "str": "卡斯特兰的笔记-第一部分-我欢迎你，小飞蛾"
+    },
+    "description": "欢迎来到这座宏伟而复杂的建筑，小飞蛾，你来到这里真是太好了，我们还处在我们的仪式当中，但到目前为止，似乎伟大而凶猛的涅弗利听到了我们并给予了我们巨大的`祝福'，但是你，你不会得到它，我的人会净化这个地方你的污秽，你不会能弄脏它！",
+    "material": "paper",
+    "weight": "1 g",
+    "volume": "1 ml",
+    "to_hit": -1
+  },
+  {
+    "id": "BL9_agent_note4",
+    "category": "books",
+    "type": "GENERIC",
+    "looks_like": "survnote",
+    "symbol": "^",
+    "color": "red",
+    "name": {
+      "str": "特工笔记.第4部分.盲爪"
+    },
+    "description": "下一个房间的钥匙藏在一个监狱牢房里，一个叫盲爪的奇怪生物似乎被关在那里，请注意——这是一个凶猛的高个子盲人BL9增强型生物，装备有机械锋利的爪子，它相当强壮，但你一定能打败它，我相信！",
+    "material": "paper",
+    "weight": "1 g",
+    "volume": "1 ml",
+    "to_hit": -1
+  },
+  {
+    "id": "BL9_agent_note5",
+    "category": "books",
+    "type": "GENERIC",
+    "looks_like": "survnote",
+    "symbol": "^",
+    "color": "red",
+    "name": {
+      "str": "探员笔记-第5部分-地下牢房"
+    },
+    "description": "很高兴你成功地穿过了礼堂，你现在看到这些狂热者是一股不可忽视的力量，为了走得更远，你需要从地下监狱的牢房里获得一把钥匙，但是在下面我听到了一些奇怪的嗡嗡声和下水道的水飞溅，小心！",
+    "material": "paper",
+    "weight": "1 g",
+    "volume": "1 ml",
+    "to_hit": -1
+  },
+  {
+    "id": "BL9_castlelan_note2",
+    "category": "books",
+    "type": "GENERIC",
+    "looks_like": "survnote",
+    "symbol": "^",
+    "color": "red",
+    "name": {
+      "str": "卡斯特兰的笔记-第二部分-一群苍蝇"
+    },
+    "description": "所以，你打断了我们伟大的仪式，开始屠杀我的人民，你是多么粗鲁和敌对，小飞蛾，你似乎缺乏礼貌，我猜我谦逊和热情的仆人并不真正符合你的标准，一个臭蝇公司为你，小飞蛾-这是你一定会欣赏！",
+    "material": "paper",
+    "weight": "1 g",
+    "volume": "1 ml",
+    "to_hit": -1
+  },
+  {
+    "id": "BL9_agent_note6",
+    "category": "books",
+    "type": "GENERIC",
+    "looks_like": "survnote",
+    "symbol": "^",
+    "color": "red",
+    "name": {
+      "str": "探员笔记-第6部分-穿过花园迷宫"
+    },
+    "description": "我希望你能走得更远，为了走得更远，你必须探索复杂的分支花园迷宫，在那里你会找到一把通向下一个房间的钥匙，注意这里有两个钥匙-你需要两个钥匙-一个你会在花园里找到一个，里面有进一步前进的钥匙。。。",
+    "material": "paper",
+    "weight": "1 g",
+    "volume": "1 ml",
+    "to_hit": -1
+  },
+  {
+    "id": "BL9_castlelan_note3",
+    "category": "books",
+    "type": "GENERIC",
+    "looks_like": "survnote",
+    "symbol": "^",
+    "color": "red",
+    "name": {
+      "str": "卡斯特兰的笔记-第三部分-我珍贵的花园"
+    },
+    "description": "你已经走得很远了，我不得不承认这一点，但一切都在这里结束了，你不会从我那令人难以置信的充满惊喜的花园里活着逃走，况且，在我的城堡里，你会看到的不仅仅是那些烦人的臭虫。。。",
+    "material": "paper",
+    "weight": "1 g",
+    "volume": "1 ml",
+    "to_hit": -1
+  },
+  {
+    "id": "BL9_agent_note7",
+    "category": "books",
+    "type": "GENERIC",
+    "looks_like": "survnote",
+    "symbol": "^",
+    "color": "red",
+    "name": {
+      "str": "特工笔记-第7部分-无间道"
+    },
+    "description": "好吧，你就要下地狱了，通往王座室的钥匙就在那里，要小心！",
+    "material": "paper",
+    "weight": "1 g",
+    "volume": "1 ml",
+    "to_hit": -1
+  },
+  {
+    "id": "BL9_castlelan_note4",
+    "category": "books",
+    "type": "GENERIC",
+    "looks_like": "survnote",
+    "symbol": "^",
+    "color": "red",
+    "name": {
+      "str": "卡斯特兰的笔记-第4部分-友好的提醒"
+    },
+    "description": "这是我的领域，这是我的领域，你似乎忘记了这一点，造成了很多恶作剧像一个忘恩负义的杂种你，我的小蛾子，你的翅膀仍然完好无损后，地狱的房间，嗯？我们很快就会知道的。。。",
+    "material": "paper",
+    "weight": "1 g",
+    "volume": "1 ml",
+    "to_hit": -1
+  },
+  {
+    "id": "BL9_agent_note8",
+    "category": "books",
+    "type": "GENERIC",
+    "looks_like": "survnote",
+    "symbol": "^",
+    "color": "red",
+    "name": {
+      "str": "探员笔记第8部分桥"
+    },
+    "description": "我有个坏消息-卡斯特兰号的位置我们不知道，但我们百分之百肯定他是通过王座室的地下通道逃走的，你必须把他追下去，你会在一系列房间里找到桥门的钥匙……小心！",
+    "material": "paper",
+    "weight": "1 g",
+    "volume": "1 ml",
+    "to_hit": -1
+  },
+  {
+    "id": "BL9_agent_note9",
+    "category": "books",
+    "type": "GENERIC",
+    "looks_like": "survnote",
+    "symbol": "^",
+    "color": "red",
+    "name": {
+      "str": "特工笔记-第9部分-满是虫子的地牢"
+    },
+    "description": "到目前为止，我已经设法得到足够的情报，以确定我们疯狂的卡斯特兰还有什么秘密藏匿在他的袖子里——在你下面有一个古老的地牢，似乎到处都是这些爬虫，天知道还有什么，当你到达它的尽头时，你会掉进城堡的下水道系统。。。",
+    "material": "paper",
+    "weight": "1 g",
+    "volume": "1 ml",
+    "to_hit": -1
+  },
+  {
+    "id": "BL9_castlelan_note5",
+    "category": "books",
+    "type": "GENERIC",
+    "looks_like": "survnote",
+    "symbol": "^",
+    "color": "red",
+    "name": {
+      "str": "卡斯特兰的笔记-第五部分-我肮脏的地牢"
+    },
+    "description": "哦，当你这么做的时候，我会非常感激的，小飞蛾，如果你把下面的旧地牢清除掉我那些可怜虫的脏东西，它们有点失控了……我的右手会为此给你很大的回报。。。",
+    "material": "paper",
+    "weight": "1 g",
+    "volume": "1 ml",
+    "to_hit": -1
+  },
+  {
+    "id": "BL9_agent_note10",
+    "category": "books",
+    "type": "GENERIC",
+    "looks_like": "survnote",
+    "symbol": "^",
+    "color": "red",
+    "name": {
+      "str": "探员笔记-第10部分-刺客"
+    },
+    "description": "你在下水道里-很好，但是要小心，卡斯特兰不是在开他的右手玩笑，它不是一个疯狂的邪教分子，它是一个高大的蜥蜴皮肤，非常敏捷和致命的生物，能够隐藏在阴影中，似乎是他们的一种生物武器，它守卫着通往下面地雷的道路，用你的智慧和技能摧毁它！",
+    "material": "paper",
+    "weight": "1 g",
+    "volume": "1 ml",
+    "to_hit": -1
+  },
+  {
+    "id": "BL9_castlelan_note6",
+    "category": "books",
+    "type": "GENERIC",
+    "looks_like": "survnote",
+    "symbol": "^",
+    "color": "red",
+    "name": {
+      "str": "卡斯特兰的笔记-第6部分-我的右手"
+    },
+    "description": "我的仆人，哦，我忠诚的仆人，你甚至无法想象他们是多么地爱我，崇拜我给他们带来无尽的祝福！他们现在甚至爱你，小飞蛾，以至于我的右手想亲自评估你的力量和技能。。。",
+    "material": "paper",
+    "weight": "1 g",
+    "volume": "1 ml",
+    "to_hit": -1
+  },
+  {
+    "id": "BL9_agent_note11",
+    "category": "books",
+    "type": "GENERIC",
+    "looks_like": "survnote",
+    "symbol": "^",
+    "color": "red",
+    "name": {
+      "str": "探员笔记-第11部分-熔炉"
+    },
+    "description": "隔壁房间通向火炉，据我所知，里面有两个巨大的笼子……我猜是另一个可怕的生物武器“他们”，尽你所能杀死你在那里发现的任何东西！",
+    "material": "paper",
+    "weight": "1 g",
+    "volume": "1 ml",
+    "to_hit": -1
+  },
+  {
+    "id": "BL9_castlelan_note7",
+    "category": "books",
+    "type": "GENERIC",
+    "looks_like": "survnote",
+    "symbol": "^",
+    "color": "red",
+    "name": {
+      "str": "卡斯特兰的笔记-第七部分-我的宝贝熔炉"
+    },
+    "description": "我开始想知道你怎么才能像任何一只小飞蛾一样结束——飞到最近的火把时完全变成了尘土……隔壁房间是我的个人熔炉，在那里我可以闻到在矿井和废墟中发现的矿石，以免有人偷走我的矿石我有两个很好的野蛮保镖……他们会相应地对待你的，小飞蛾。。。",
+    "material": "paper",
+    "weight": "1 g",
+    "volume": "1 ml",
+    "to_hit": -1
+  },
+  {
+    "id": "BL9_agent_note12",
+    "category": "books",
+    "type": "GENERIC",
+    "looks_like": "survnote",
+    "symbol": "^",
+    "color": "red",
+    "name": {
+      "str": "探员笔记-第12部分-沙废墟"
+    },
+    "description": "楼上有一系列地下的沙砾在等着你，我们相信这里是邪教者寻找矿石和宝石的地方之一，他们都知道你的存在。。。",
+    "material": "paper",
+    "weight": "1 g",
+    "volume": "1 ml",
+    "to_hit": -1
+  },
+  {
+    "id": "BL9_castlelan_note8",
+    "category": "books",
+    "type": "GENERIC",
+    "looks_like": "survnote",
+    "symbol": "^",
+    "color": "red",
+    "name": {
+      "str": "卡斯特兰的笔记-第八部分-你有那么固执吗？"
+    },
+    "description": "够了，住手！不如你停下来，放弃自己，直到你被我的仆人残忍地残废？我以前警告过你，小飞蛾，但现在我是认真的，你不会活着离开这个地牢的，我的全副武装的仆人在那里等着你，相信我-他们会尽可能的激烈地战斗，尽他们所能的抓住并吃掉你那小小的翅膀，小飞蛾！",
+    "material": "paper",
+    "weight": "1 g",
+    "volume": "1 ml",
+    "to_hit": -1
+  },
+  {
+    "id": "BL9_agent_note13",
+    "category": "books",
+    "type": "GENERIC",
+    "looks_like": "survnote",
+    "symbol": "^",
+    "color": "red",
+    "name": {
+      "str": "探员笔记-第13部分-卡斯特兰"
+    },
+    "description": "你到了那里，为了到达城堡，并把最后的感叹号，一切导致这一点，你将不得不通过桥梁，导致城堡的最后塔，阻止疯子不惜一切代价！",
+    "material": "paper",
+    "weight": "1 g",
+    "volume": "1 ml",
+    "to_hit": -1
+  },
+  {
+    "id": "BL9_castlelan_note9",
+    "category": "books",
+    "type": "GENERIC",
+    "looks_like": "survnote",
+    "symbol": "^",
+    "color": "red",
+    "name": {
+      "str": "卡斯特兰的笔记-第9部分-奈弗利昂是我的一个！"
+    },
+    "description": "我已经升入他的王国，我能感受到他的力量和力量——不仅仅是他的祝福，而是一种神奇的力量，一种真正的幸福感！我熄灭了对权力的渴望，小飞蛾，但现在我饿了！渴望鲜血，尤其是你的鲜血——我希望你在塔里把你送到涅弗利昂的王国，这样他就能无休止地折磨你卑鄙的灵魂！",
+    "material": "paper",
+    "weight": "1 g",
+    "volume": "1 ml",
+    "to_hit": -1
+  },
+  {
+    "id": "BL9_agent_note14",
+    "category": "books",
+    "type": "GENERIC",
+    "looks_like": "survnote",
+    "symbol": "^",
+    "color": "red",
+    "name": {
+      "str": "探员笔记-第14部分-岛屿"
+    },
+    "description": "嗯，这就是他们主要行动基地的位置？一个偏僻的遥远的岛屿…你在这里做了大量的工作，当你准备好迎接更危险的遭遇时，冒险进入岛上…我会等待。。。",
+    "material": "paper",
+    "weight": "1 g",
+    "volume": "1 ml",
+    "to_hit": -1
+  },
+  {
+    "id": "BL9_agent_journal10",
+    "category": "books",
+    "type": "GENERIC",
+    "symbol": "&",
+    "looks_like": "newest_newspaper",
+    "color": "blue",
+    "name": {
+      "str": "印刷代理人日记-第10部分-“他们”"
+    },
+    "description": "所以现在我相信你可以猜到他们的计划-建立一支完全听话的生物兵军队来消灭任何一个站在他们路上的人，征服这些土地，并试图征服其他地区，甚至是全世界\n",
+    "material": "paper",
+    "weight": "1 g",
+    "volume": "1 ml",
+    "to_hit": -1
+  },
+  {
+    "id": "BL9_agent_note15",
+    "category": "books",
+    "type": "GENERIC",
+    "looks_like": "survnote",
+    "symbol": "^",
+    "color": "red",
+    "name": {
+      "str": "探员笔记-第15部分-通过岛的方式"
+    },
+    "description": "你已经到达目的地了，我很高兴看到你活着！渗透到岛上，你会看到营地，一些小型军事建筑——但这只是冰山一角——进入岛上碉堡和更复杂建筑的唯一途径是通过水洞",
+    "material": "paper",
+    "weight": "1 g",
+    "volume": "1 ml",
+    "to_hit": -1
+  },
+  {
+    "id": "BL9_master_note1",
+    "category": "books",
+    "type": "GENERIC",
+    "looks_like": "survnote",
+    "symbol": "^",
+    "color": "red",
+    "name": {
+      "str": "大师笔记-第一部分-所以你现在在这里。。。"
+    },
+    "description": "你成功地进入了“我们的”作战基地——这座军事化的岛屿，由训练有素的生物强化士兵守卫着，他们武装到牙齿，其中许多人都有着非人的力量和敏捷，大量变异，这座城堡——那只是一个由古老的疯子控制的邪教——我在开始我们的战斗时会自己除掉他们征服，但你帮了我一个大忙，第一次-最后一次，幸存者。。。",
+    "material": "paper",
+    "weight": "1 g",
+    "volume": "1 ml",
+    "to_hit": -1
+  },
+  {
+    "id": "BL9_agent_note16",
+    "category": "books",
+    "type": "GENERIC",
+    "looks_like": "survnote",
+    "symbol": "^",
+    "color": "red",
+    "name": {
+      "str": "探员笔记-第16部分-水洞"
+    },
+    "description": "为了到达岛的核心，你必须穿过水洞，据我所知，这里有一个混合了“他们的”士兵和一些生物武器，小心点！",
+    "material": "paper",
+    "weight": "1 g",
+    "volume": "1 ml",
+    "to_hit": -1
+  },
+  {
+    "id": "BL9_master_note2",
+    "category": "books",
+    "type": "GENERIC",
+    "looks_like": "survnote",
+    "symbol": "^",
+    "color": "red",
+    "name": {
+      "str": "大师笔记-第2部分-三思而后行"
+    },
+    "description": "BL9是一种复杂的有机体，我们成功地利用了它，发现了它的主要优势并扩展了它们，消除了它的弱点，组建了一支由BL9注入的士兵组成的军队，你正在承担我的工作，我全身心投入的工作，如果你认为你能在任何地方接近结束我的组织，你犯了一生中最大的错误！",
+    "material": "paper",
+    "weight": "1 g",
+    "volume": "1 ml",
+    "to_hit": -1
+  },
+  {
+    "id": "BL9_agent_note17",
+    "category": "books",
+    "type": "GENERIC",
+    "looks_like": "survnote",
+    "symbol": "^",
+    "color": "red",
+    "name": {
+      "str": "探员笔记-第17部分-实验室"
+    },
+    "description": "接下来的房间是隐藏的实验室，在那里“他们”进行卑鄙和不人道的实验……我见过保存在那里的生物武器，我吓坏了——这些是你见过的最危险的人渣——难以置信的高高的肉食不断再生出可憎的东西，要想把这些人渣射下来需要很多剪辑，小心！",
+    "material": "paper",
+    "weight": "1 g",
+    "volume": "1 ml",
+    "to_hit": -1
+  },
+  {
+    "id": "BL9_master_note3",
+    "category": "books",
+    "type": "GENERIC",
+    "looks_like": "survnote",
+    "symbol": "^",
+    "color": "red",
+    "name": {
+      "str": "硕士笔记-第3部分-科学实验"
+    },
+    "description": "在BL9上进行实验被证明是一项艰巨而又利润丰厚的任务，我们已经了解了很多关于它的起源，它是如何在宿主之外生存的，最重要的是人类、动物和植物是如何与它融合的，它是如何“交流”的，甚至与斑点和Mycus甚至我，我的……这些仅仅是玩具，只能够提供7%的能力BL9能做什么，它能做什么。。。",
+    "material": "paper",
+    "weight": "1 g",
+    "volume": "1 ml",
+    "to_hit": -1
+  },
+  {
+    "id": "BL9_agent_note18",
+    "category": "books",
+    "type": "GENERIC",
+    "looks_like": "survnote",
+    "symbol": "^",
+    "color": "red",
+    "name": {
+      "str": "代理人须知-第18部分-废物处理"
+    },
+    "description": "不幸的是，为了到达岛的另一边，唯一的办法就是通过下面的废物处理室——虽然门是锁着的，但你必须在这附近找到身份证才能打开它，再往前走，我肯定它就在这附近。。。",
+    "material": "paper",
+    "weight": "1 g",
+    "volume": "1 ml",
+    "to_hit": -1
+  },
+  {
+    "id": "BL9_master_note4",
+    "category": "books",
+    "type": "GENERIC",
+    "looks_like": "survnote",
+    "symbol": "^",
+    "color": "red",
+    "name": {
+      "str": "大师笔记-第四部分-仍然不着迷？"
+    },
+    "description": "你已经见证了我们的艺术作品——难以置信的快速再生的类人机器人——只要有足够的时间，我们就能创造出真正不朽的人类，扩展人类的极限，你甚至无法想象你能获得什么样的力量！想一想-趁你还可以的时候停下来，把这帮想成为英雄的傻瓜抛在脑后，成为我个人军队的一部分-这样我们就可以一起建立新秩序了，嗯？",
+    "material": "paper",
+    "weight": "1 g",
+    "volume": "1 ml",
+    "to_hit": -1
+  },
+  {
+    "id": "BL9_agent_note19",
+    "category": "books",
+    "type": "GENERIC",
+    "looks_like": "survnote",
+    "symbol": "^",
+    "color": "red",
+    "name": {
+      "str": "探员笔记-第19部分-地下室通道"
+    },
+    "description": "你成功了！很好，现在为了再次到达岛的表面，你必须穿过一条长长的地下通道，但要注意——据我所知，这里戒备森严。。。",
+    "material": "paper",
+    "weight": "1 g",
+    "volume": "1 ml",
+    "to_hit": -1
+  },
+  {
+    "id": "BL9_agent_note20",
+    "category": "books",
+    "type": "GENERIC",
+    "looks_like": "survnote",
+    "symbol": "^",
+    "color": "red",
+    "name": {
+      "str": "特工笔记-第20部分-军事基地"
+    },
+    "description": "前面的军营后面有一个巨大的建筑——一个光滑的高科技军事基地——反应堆的动力来自它下面的一个奇怪的地下熔岩源，现在我们面对的士兵比以往任何时候都多。。。",
+    "material": "paper",
+    "weight": "1 g",
+    "volume": "1 ml",
+    "to_hit": -1
+  },
+  {
+    "id": "BL9_master_note5",
+    "category": "books",
+    "type": "GENERIC",
+    "looks_like": "survnote",
+    "symbol": "^",
+    "color": "red",
+    "name": {
+      "str": "大师笔记-第五部分-别踩我"
+    },
+    "description": "你被赋予了一个选择——你的选择很糟糕，愚蠢——而现在这将带来严重的后果，你将无法从军事基地活着逃脱——在它下面等待你的是你想象不到的！",
+    "material": "paper",
+    "weight": "1 g",
+    "volume": "1 ml",
+    "to_hit": -1
+  },
+  {
+    "id": "BL9_agent_note21",
+    "category": "books",
+    "type": "GENERIC",
+    "looks_like": "survnote",
+    "symbol": "^",
+    "color": "red",
+    "name": {
+      "str": "特工笔记第21部分秘密出口"
+    },
+    "description": "我知道了！下面的熔岩洞穴为军事基地的反应堆提供动力，扮演着军事基地秘密出口的角色！在进入未知之前，你必须完全摧毁军事基地-找到钥匙卡打开房间与中央反应堆控制笔记本电脑和摧毁中央笔记本电脑，然后尽快离开那里的熔岩洞！",
+    "material": "paper",
+    "weight": "1 g",
+    "volume": "1 ml",
+    "to_hit": -1
+  },
+  {
+    "id": "BL9_master_note6",
+    "category": "books",
+    "type": "GENERIC",
+    "looks_like": "survnote",
+    "symbol": "^",
+    "color": "red",
+    "name": {
+      "str": "大师笔记-第6部分-`IT`"
+    },
+    "description": "我必须说，你的技能和智慧给我留下了深刻的印象，是什么把你从即将到来的结局中拯救出来的，悬浮的货柜——啊，金属的气味，我忠诚的士兵的武器，啊，真的很迷人！`它会让你忙的…`它会让你忙的！",
+    "material": "paper",
+    "weight": "1 g",
+    "volume": "1 ml",
+    "to_hit": -1
+  },
+  {
+    "id": "BL9_agent_note22",
+    "category": "books",
+    "type": "GENERIC",
+    "looks_like": "survnote",
+    "symbol": "^",
+    "color": "red",
+    "name": {
+      "str": "特工笔记第22部分怪诞的合并"
+    },
+    "description": "所以你已经听说过‘它’，‘它’——这是不同生物的怪异融合，包括一个人拼接在一起，形成了一个非常危险和致命的变种，我相信‘它’会在你的路上某处等着你，要意识到这一点，运用这些知识不要措手不及！",
+    "material": "paper",
+    "weight": "1 g",
+    "volume": "1 ml",
+    "to_hit": -1
+  },
+  {
+    "id": "BL9_agent_note23",
+    "category": "books",
+    "type": "GENERIC",
+    "looks_like": "survnote",
+    "symbol": "^",
+    "color": "red",
+    "name": {
+      "str": "探员笔记-第23部分-酸性洞穴"
+    },
+    "description": "哦，天哪…我怎么会这么无知，我完全忘记了“它”和其他严重变异的生物在岛的深处有自己的特殊领域-一个对任何正常生物都非常刻薄和敌意的领域，在那里“主人”和他的科学家们把需要“特殊”条件的生物放在那里，小心点！",
+    "material": "paper",
+    "weight": "1 g",
+    "volume": "1 ml",
+    "to_hit": -1
+  },
+  {
+    "id": "BL9_master_note7",
+    "category": "books",
+    "type": "GENERIC",
+    "looks_like": "survnote",
+    "symbol": "^",
+    "color": "red",
+    "name": {
+      "str": "大师笔记第7部分雄伟的植物"
+    },
+    "description": "啊，那你见过腐蚀性植物洞穴？正如你所看到的，BL9实验导致了这种怪诞但美丽的生物的诞生，但是仅仅给人类和动物注入这种特殊的有机体，对于那些一直在尝试植物的人来说是一种真正的耻辱——这就是腐蚀性植物洞穴的形成——一个真正危险的环境，就像植物一样BL9生物依靠自己的生活，利用他们最好的“蜂巢思维”来繁殖和进化。。。",
+    "material": "paper",
+    "weight": "1 g",
+    "volume": "1 ml",
+    "to_hit": -1
+  },
+  {
+    "id": "BL9_master_note8",
+    "category": "books",
+    "type": "GENERIC",
+    "looks_like": "survnote",
+    "symbol": "^",
+    "color": "red",
+    "name": {
+      "str": "硕士笔记-第8部分-概述"
+    },
+    "description": "我想我真的低估了你——为什么我会认为我那怪异的实验性合并会最终阻止你呢？你需要像你这样的人-我的将军会很乐意照顾你。。。",
+    "material": "paper",
+    "weight": "1 g",
+    "volume": "1 ml",
+    "to_hit": -1
+  },
+  {
+    "id": "BL9_agent_note24",
+    "category": "books",
+    "type": "GENERIC",
+    "looks_like": "survnote",
+    "symbol": "^",
+    "color": "red",
+    "name": {
+      "str": "探员笔记-第24部分-废墟和将军"
+    },
+    "description": "一旦你清除了还押营地，你会看到岛上古老的地表废墟，很明显“主人”的士兵在将军的控制下在那里建立了一个小营地，完全期待着你，将军是一个真正可怕的敌人，是一个不可忽视的力量，不要让他们伏击你！",
+    "material": "paper",
+    "weight": "1 g",
+    "volume": "1 ml",
+    "to_hit": -1
+  },
+  {
+    "id": "BL9_general_note1",
+    "category": "books",
+    "type": "GENERIC",
+    "looks_like": "survnote",
+    "symbol": "^",
+    "color": "red",
+    "name": {
+      "str": "将军笔记-第一部分-这个节目是为了什么？"
+    },
+    "description": "你的愚蠢和固执是没有尽头的，没有办法阻止它！现在连我都被牵扯进来了！你知道你在用你的行动延长灾难吗？BL9是阻止这一切的唯一途径，结束了这一切，恢复了文明，但只有建立了一个有价值的社会——所有不符合我们期望的人都将被铲除！",
+    "material": "paper",
+    "weight": "1 g",
+    "volume": "1 ml",
+    "to_hit": -1
+  },
+  {
+    "id": "BL9_general_note2",
+    "category": "books",
+    "type": "GENERIC",
+    "looks_like": "survnote",
+    "symbol": "^",
+    "color": "red",
+    "name": {
+      "str": "将军笔记-第2部分-我们的计划"
+    },
+    "description": "一旦我和你们打交道，我们将继续进行实验，使注入过程尽可能可控——你可能想到的任何生物——用人类合成BL9将允许我们形成任何生物武器！\n",
+    "material": "paper",
+    "weight": "1 g",
+    "volume": "1 ml",
+    "to_hit": -1
+  },
+  {
+    "id": "BL9_general_note3",
+    "category": "books",
+    "type": "GENERIC",
+    "looks_like": "survnote",
+    "symbol": "^",
+    "color": "red",
+    "name": {
+      "str": "将军笔记-第3部分-权力"
+    },
+    "description": "这个有机体，它给人一种真正伟大的力量和力量，我现在比以往任何时候都强大，而我以前的人类极限呢？我再也见不到他们了，我真的什么都能干！你会后悔错过了什么，傻瓜！",
+    "material": "paper",
+    "weight": "1 g",
+    "volume": "1 ml",
+    "to_hit": -1
+  },
+  {
+    "id": "BL9_agent_note25",
+    "category": "books",
+    "type": "GENERIC",
+    "looks_like": "survnote",
+    "symbol": "^",
+    "color": "red",
+    "name": {
+      "str": "特工笔记-第25部分-军事要塞"
+    },
+    "description": "你快到了，“主人”再也逃不掉了！在最后一次交锋之前，尽管你必须穿过岛上剩余的军事要塞，但它戒备森严，正如你可能已经猜到的，你是这里的一个不受欢迎的客人，像往常一样。。。",
+    "material": "paper",
+    "weight": "1 g",
+    "volume": "1 ml",
+    "to_hit": -1
+  },
+  {
+    "id": "BL9_master_note9",
+    "category": "books",
+    "type": "GENERIC",
+    "looks_like": "survnote",
+    "symbol": "^",
+    "color": "red",
+    "name": {
+      "str": "大师笔记-第9部分-要塞"
+    },
+    "description": "你现在真让我吃惊，你甚至连我最忠诚的将军都被淘汰了——反正损失不大，如果需要的话，我还会有几十个，最后一座岛的要塞矗立着——它会让你放慢速度，让我完全注入BL9",
+    "material": "paper",
+    "weight": "1 g",
+    "volume": "1 ml",
+    "to_hit": -1
+  },
+  {
+    "id": "BL9_master_note10",
+    "category": "books",
+    "type": "GENERIC",
+    "looks_like": "survnote",
+    "symbol": "^",
+    "color": "red",
+    "name": {
+      "str": "大师笔记-第10部分-现在不能逃跑！"
+    },
+    "description": "输液的过程已经成功地完成了，现在我拥有了我全身心投入的力量，让它尽可能地接近外星，现在我能感觉到它——我意识到我是多么地低估了它！你也会感受到它-你将被强有力地注入它，无论你是否被毁灭，现在没有逃脱的可能！",
+    "material": "paper",
+    "weight": "1 g",
+    "volume": "1 ml",
+    "to_hit": -1
+  },
+  {
+    "id": "BL9_agent_note26",
+    "category": "books",
+    "type": "GENERIC",
+    "looks_like": "survnote",
+    "symbol": "^",
+    "color": "red",
+    "name": {
+      "str": "探员笔记-第25部分-大师"
+    },
+    "description": "在你等待的“主人”上方，他已经给自己注入了最强的实验性BL9样本，可能会发生可怕的变异，变成一个几乎看不到人的生物，为了人类，在这场战斗中成为胜利者—“主人”决不能逃脱",
+    "material": "paper",
+    "weight": "1 g",
+    "volume": "1 ml",
+    "to_hit": -1
+  },
+  {
+    "id": "BL9_agent_note27",
+    "category": "books",
+    "type": "GENERIC",
+    "looks_like": "survnote",
+    "symbol": "^",
+    "color": "red",
+    "name": {
+      "str": "探员笔记-第26部分-谢谢"
+    },
+    "description": "你做到了！我不敢相信是你干的！恐怖的城堡和岛屿已经不复存在，但是仍然有“主人”留下来摧毁和探索武器和宝贵资源的建筑，我个人感谢你所做的一切，也许有一天你会亲自见到我和我的人民……谢谢你所做的一切。。。",
+    "material": "paper",
+    "weight": "1 g",
+    "volume": "1 ml",
+    "to_hit": -1
+  },
+  {
+    "id": "BL9_guide_note6",
+    "category": "books",
+    "type": "GENERIC",
+    "symbol": "^",
+    "looks_like": "survnote",
+    "color": "red",
+    "name": {
+      "str": "BL9指南-第6部分-游戏结束武器配方"
+    },
+    "description": "现在你已经清除了国防部-你被允许通过BL9指挥官样本来制造3级远程武器和进化的近战武器-你将在随机散布的BL9生物群落和结构中找到更多，你有一张特殊的地图",
+    "material": "paper",
+    "weight": "1 g",
+    "volume": "1 ml",
+    "to_hit": -1
+  }
+]

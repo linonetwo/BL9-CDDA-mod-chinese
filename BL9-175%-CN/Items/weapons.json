@@ -1,0 +1,3108 @@
+[
+  {
+    "id": "BL9_pistol",
+    "looks_like": "m1911",
+    "type": "GUN",
+    "symbol": "(",
+    "color": "green",
+    "name": {
+      "str": "BL9灌注手枪"
+    },
+    "description": "一种半自动手枪，非常符合人体工程学的设计，以某种方式注入了几乎有知觉的BL9，它似乎把这种武器做成了某种家，用它的组织部分覆盖它并加强它",
+    "price": 580000,
+    "ammo": [
+      "9mmBL9_type",
+      "9mm",
+      "45",
+      "22",
+      "380"
+    ],
+    "material": [
+      "BL9",
+      "steel"
+    ],
+    "ammo_effects": [
+      "NEVER_MISFIRES"
+    ],
+    "flags": [
+      "NEVER_JAMS",
+      "NON-FOULING",
+      "NEEDS_NO_LUBE",
+      "WATERPROOF_GUN"
+    ],
+    "skill": "pistol",
+    "weight": "850 g",
+    "volume": "500 ml",
+    "bashing": 8,
+    "to_hit": -1,
+    "ranged_damage": {
+      "damage_type": "bullet",
+      "amount": 1,
+      "armor_penetration": 1
+    },
+    "range": 14,
+    "dispersion": 185,
+    "durability": 8,
+    "modes": [
+      [
+        "DEFAULT",
+        "semi",
+        1
+      ],
+      [
+        "BURST",
+        "burst",
+        2
+      ]
+    ],
+    "valid_mod_locations": [
+      [
+        "accessories",
+        2
+      ],
+      [
+        "barrel",
+        1
+      ],
+      [
+        "bore",
+        1
+      ],
+      [
+        "brass catcher",
+        1
+      ],
+      [
+        "grip",
+        1
+      ],
+      [
+        "mechanism",
+        4
+      ],
+      [
+        "muzzle",
+        1
+      ],
+      [
+        "rail",
+        1
+      ],
+      [
+        "sights",
+        1
+      ],
+      [
+        "stock",
+        1
+      ],
+      [
+        "underbarrel",
+        1
+      ]
+    ],
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "magazine_well": "250 ml",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [
+          "9mmBL9mag"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "BL9_smg",
+    "looks_like": "tommygun",
+    "type": "GUN",
+    "symbol": "(",
+    "color": "green",
+    "name": {
+      "str": "BL9灌注冲锋枪"
+    },
+    "description": "一种全自动手枪口径武器，射速非常高，不知何故注入了几乎有知觉的BL9，它似乎用这种武器制造了一个家，用它的组织部分地覆盖它并加强它",
+    "price": 580000,
+    "ammo": [
+      "9mmBL9smg_type",
+      "9mm",
+      "45",
+      "22",
+      "40"
+    ],
+    "material": [
+      "BL9",
+      "steel"
+    ],
+    "ammo_effects": [
+      "NEVER_MISFIRES"
+    ],
+    "flags": [
+      "NEVER_JAMS",
+      "NON-FOULING",
+      "NEEDS_NO_LUBE",
+      "WATERPROOF_GUN"
+    ],
+    "skill": "smg",
+    "weight": "2850 g",
+    "volume": "1 L",
+    "bashing": 8,
+    "to_hit": -1,
+    "ranged_damage": {
+      "damage_type": "bullet",
+      "amount": 1,
+      "armor_penetration": 1
+    },
+    "range": 14,
+    "dispersion": 205,
+    "durability": 8,
+    "modes": [
+      [
+        "DEFAULT",
+        "semi auto",
+        1
+      ],
+      [
+        "BURST",
+        "burst",
+        5
+      ],
+      [
+        "AUTO",
+        "auto",
+        10
+      ]
+    ],
+    "valid_mod_locations": [
+      [
+        "accessories",
+        3
+      ],
+      [
+        "barrel",
+        1
+      ],
+      [
+        "bore",
+        1
+      ],
+      [
+        "brass catcher",
+        1
+      ],
+      [
+        "grip",
+        1
+      ],
+      [
+        "mechanism",
+        4
+      ],
+      [
+        "muzzle",
+        1
+      ],
+      [
+        "rail",
+        1
+      ],
+      [
+        "sights",
+        1
+      ],
+      [
+        "sling",
+        1
+      ],
+      [
+        "stock",
+        1
+      ],
+      [
+        "underbarrel",
+        1
+      ]
+    ],
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "magazine_well": "250 ml",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [
+          "9mmBL9smgmag"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "BL9_sniper",
+    "looks_like": "M24",
+    "type": "GUN",
+    "symbol": "(",
+    "color": "green",
+    "name": {
+      "str": "BL9灌注狙击步枪"
+    },
+    "description": "一支半自动高质量狙击步枪，以某种方式注入了几乎有知觉的BL9，它似乎把这种武器做成了某种家，覆盖了它的一部分，并用它的组织加强了它",
+    "price": 580000,
+    "ammo": [
+      "308BL9_type",
+      "308",
+      "3006"
+    ],
+    "material": [
+      "BL9",
+      "steel"
+    ],
+    "ammo_effects": [
+      "NEVER_MISFIRES",
+      "TANGLE"
+    ],
+    "flags": [
+      "NEVER_JAMS",
+      "NON-FOULING",
+      "NEEDS_NO_LUBE",
+      "WATERPROOF_GUN"
+    ],
+    "skill": "rifle",
+    "weight": "4100 g",
+    "volume": "3 L",
+    "bashing": 8,
+    "to_hit": -1,
+    "ranged_damage": {
+      "damage_type": "bullet",
+      "amount": 1,
+      "armor_penetration": 1
+    },
+    "range": 27,
+    "barrel_volume": "500 ml",
+    "dispersion": 105,
+    "durability": 8,
+    "modes": [
+      [
+        "DEFAULT",
+        "semi auto",
+        1
+      ],
+      [
+        "BURST",
+        "burst",
+        2
+      ]
+    ],
+    "valid_mod_locations": [
+      [
+        "accessories",
+        2
+      ],
+      [
+        "barrel",
+        1
+      ],
+      [
+        "grip",
+        1
+      ],
+      [
+        "mechanism",
+        4
+      ],
+      [
+        "muzzle",
+        1
+      ],
+      [
+        "sights",
+        1
+      ],
+      [
+        "sling",
+        1
+      ],
+      [
+        "rail mount",
+        1
+      ],
+      [
+        "stock mount",
+        1
+      ],
+      [
+        "underbarrel mount",
+        1
+      ]
+    ],
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "magazine_well": "250 ml",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [
+          "308BL9mag"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "BL9_auto",
+    "looks_like": "acr",
+    "type": "GUN",
+    "symbol": "(",
+    "color": "red",
+    "name": {
+      "str": "BL9自动步枪"
+    },
+    "description": "一种全自动、光滑的军用自动步枪，以某种方式注入了几乎有知觉的BL9，它似乎把这种武器做成了一个家，用它的组织覆盖了它的一部分并加强了它",
+    "price": 580000,
+    "ammo": [
+      "556BL9_type",
+      "223"
+    ],
+    "material": [
+      "BL9",
+      "steel"
+    ],
+    "ammo_effects": [
+      "NEVER_MISFIRES"
+    ],
+    "flags": [
+      "NEVER_JAMS",
+      "NON-FOULING",
+      "NEEDS_NO_LUBE",
+      "WATERPROOF_GUN"
+    ],
+    "skill": "rifle",
+    "weight": "3600 g",
+    "volume": "2 L",
+    "bashing": 8,
+    "to_hit": -1,
+    "ranged_damage": {
+      "damage_type": "bullet",
+      "amount": 1,
+      "armor_penetration": 1
+    },
+    "range": 18,
+    "dispersion": 165,
+    "durability": 8,
+    "modes": [
+      [
+        "DEFAULT",
+        "semi auto",
+        1
+      ],
+      [
+        "BURST",
+        "burst",
+        5
+      ],
+      [
+        "AUTO",
+        "auto",
+        10
+      ]
+    ],
+    "valid_mod_locations": [
+      [
+        "accessories",
+        4
+      ],
+      [
+        "barrel",
+        1
+      ],
+      [
+        "bore",
+        1
+      ],
+      [
+        "brass catcher",
+        1
+      ],
+      [
+        "grip mount",
+        1
+      ],
+      [
+        "mechanism",
+        4
+      ],
+      [
+        "magazine",
+        1
+      ],
+      [
+        "muzzle",
+        1
+      ],
+      [
+        "sights mount",
+        1
+      ],
+      [
+        "sling",
+        1
+      ],
+      [
+        "underbarrel mount",
+        1
+      ],
+      [
+        "underbarrel",
+        1
+      ]
+    ],
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "magazine_well": "250 ml",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [
+          "556223BL9mag"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "BL9_shotgun",
+    "looks_like": "remington_1100",
+    "type": "GUN",
+    "symbol": "(",
+    "color": "red",
+    "name": {
+      "str": "BL9灌注猎枪"
+    },
+    "description": "12口径泵动猎枪，不知何故注入了几乎有知觉的BL9，它似乎把这种武器做成了某种家，覆盖了它的一部分，并用它的组织加强了它",
+    "price": 580000,
+    "ammo": [
+      "BL9shot_type",
+      "shot"
+    ],
+    "material": [
+      "BL9",
+      "steel"
+    ],
+    "ammo_effects": [
+      "NEVER_MISFIRES",
+      "SHOT",
+      "TANGLE",
+      "BEANBAG"
+    ],
+    "flags": [
+      "NEVER_JAMS",
+      "NON-FOULING",
+      "NEEDS_NO_LUBE",
+      "RELOAD_ONE",
+      "WATERPROOF_GUN"
+    ],
+    "skill": "shotgun",
+    "weight": "4900 g",
+    "volume": "2500 ml",
+    "bashing": 8,
+    "to_hit": -1,
+    "ranged_damage": {
+      "damage_type": "bullet",
+      "amount": 1,
+      "armor_penetration": 1
+    },
+    "range": 12,
+    "barrel_volume": "500 ml",
+    "dispersion": 300,
+    "durability": 8,
+    "modes": [
+      [
+        "DEFAULT",
+        "one shot",
+        1
+      ],
+      [
+        "BURST",
+        "double barrel",
+        2
+      ]
+    ],
+    "valid_mod_locations": [
+      [
+        "accessories",
+        2
+      ],
+      [
+        "stock mount",
+        1
+      ],
+      [
+        "mechanism",
+        2
+      ],
+      [
+        "barrel",
+        1
+      ],
+      [
+        "grip mount",
+        1
+      ],
+      [
+        "brass catcher",
+        1
+      ],
+      [
+        "rail mount",
+        1
+      ],
+      [
+        "sights mount",
+        1
+      ],
+      [
+        "underbarrel mount",
+        1
+      ]
+    ],
+    "clip_size": 8,
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE",
+        "rigid": true,
+        "ammo_restriction": {
+          "BL9shot_type": 8,
+          "shot": 8
+        }
+      }
+    ]
+  },
+  {
+    "id": "BL9_magnum",
+    "looks_like": "ruger_redhawk",
+    "type": "GUN",
+    "symbol": "(",
+    "color": "green",
+    "name": {
+      "str": "BL9注入万能"
+    },
+    "description": "一个非常高的后坐力，不精确甚至相当致命的左轮手枪，以某种方式注入了几乎有知觉的BL9，它似乎已经把这种武器做成了某种家，覆盖了它的一部分，并用它的组织加强它",
+    "price": 580000,
+    "ammo": [
+      "357magBL9_type",
+      "357mag",
+      "38",
+      "44"
+    ],
+    "material": [
+      "BL9",
+      "steel"
+    ],
+    "ammo_effects": [
+      "NEVER_MISFIRES",
+      "TANGLE"
+    ],
+    "flags": [
+      "NEVER_JAMS",
+      "NON-FOULING",
+      "NEEDS_NO_LUBE",
+      "WATERPROOF_GUN"
+    ],
+    "skill": "pistol",
+    "weight": "4200 g",
+    "volume": "1900 ml",
+    "bashing": 8,
+    "to_hit": -1,
+    "ranged_damage": {
+      "damage_type": "bullet",
+      "amount": 1,
+      "armor_penetration": 1
+    },
+    "range": 14,
+    "dispersion": 225,
+    "durability": 8,
+    "modes": [
+      [
+        "DEFAULT",
+        "semi",
+        1
+      ],
+      [
+        "BURST",
+        "burst",
+        2
+      ]
+    ],
+    "valid_mod_locations": [
+      [
+        "accessories",
+        2
+      ],
+      [
+        "barrel",
+        1
+      ],
+      [
+        "bore",
+        1
+      ],
+      [
+        "brass catcher",
+        1
+      ],
+      [
+        "grip",
+        1
+      ],
+      [
+        "mechanism",
+        4
+      ],
+      [
+        "muzzle",
+        1
+      ],
+      [
+        "rail",
+        1
+      ],
+      [
+        "sights",
+        1
+      ],
+      [
+        "stock",
+        1
+      ],
+      [
+        "underbarrel",
+        1
+      ]
+    ],
+    "clip_size": 5,
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE",
+        "rigid": true,
+        "ammo_restriction": {
+          "44": 5,
+          "357magBL9_type": 5,
+          "357mag": 5
+        }
+      }
+    ]
+  },
+  {
+    "id": "BL9_sprayer",
+    "looks_like": "chemical_thrower",
+    "copy-from": "gun_base",
+    "type": "GUN",
+    "reload_noise": "slosh.",
+    "name": {
+      "str": "BL9灌注式喷雾器"
+    },
+    "description": "一个笨重的，BL9喷雾器，不知何故注入了几乎有知觉的BL9，它似乎用这个武器制造了一个家，用它的组织覆盖它的一部分并加强它",
+    "weight": "4588 g",
+    "volume": "4250 ml",
+    "price": 10000,
+    "price_postapoc": 1000,
+    "to_hit": -1,
+    "bashing": 9,
+    "material": [
+      "BL9",
+      "steel"
+    ],
+    "flags": [
+      "FIRE_20",
+      "NEVER_JAMS",
+      "NON-FOULING",
+      "NEEDS_NO_LUBE",
+      "WATERPROOF_GUN"
+    ],
+    "skill": "launcher",
+    "ammo": [
+      "BL9spray_type"
+    ],
+    "dispersion": 235,
+    "durability": 8,
+    "valid_mod_locations": [
+      [
+        "accessories",
+        4
+      ],
+      [
+        "grip",
+        1
+      ],
+      [
+        "rail",
+        1
+      ],
+      [
+        "sights",
+        1
+      ],
+      [
+        "sling",
+        1
+      ],
+      [
+        "stock",
+        1
+      ],
+      [
+        "underbarrel",
+        1
+      ]
+    ],
+    "pocket_data": [
+      {
+        "magazine_well": "2 L",
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [
+          "tank_BL9"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "BL9_launcher",
+    "looks_like": "mgl",
+    "type": "GUN",
+    "symbol": "(",
+    "name": {
+      "str": "BL9灌注发射器"
+    },
+    "description": "一个高质量的现代榴弹发射器和一个精心建造的炸弹弹匣，它以某种方式注入了几乎有知觉的BL9，它似乎用这种武器制造了一个家，用它的组织覆盖它的一部分并加强它",
+    "ammo": [
+      "40mmBL9_type",
+      "40x46mm"
+    ],
+    "material": [
+      "BL9",
+      "steel"
+    ],
+    "ammo_effects": [
+      "NEVER_MISFIRES",
+      "TANGLE"
+    ],
+    "flags": [
+      "NEVER_JAMS",
+      "NON-FOULING",
+      "NEEDS_NO_LUBE",
+      "WATERPROOF_GUN"
+    ],
+    "skill": "launcher",
+    "weight": "4300 g",
+    "volume": "1500 ml",
+    "price": 2920000,
+    "price_postapoc": 8000,
+    "to_hit": -1,
+    "bashing": 8,
+    "ranged_damage": {
+      "damage_type": "bullet",
+      "amount": 0,
+      "armor_penetration": 0
+    },
+    "range": 18,
+    "dispersion": 165,
+    "durability": 8,
+    "modes": [
+      [
+        "DEFAULT",
+        "single",
+        1,
+        "NPC_AVOID"
+      ]
+    ],
+    "valid_mod_locations": [
+      [
+        "accessories",
+        4
+      ],
+      [
+        "brass catcher",
+        1
+      ],
+      [
+        "grip",
+        1
+      ],
+      [
+        "mechanism",
+        4
+      ],
+      [
+        "rail",
+        1
+      ],
+      [
+        "sights",
+        1
+      ],
+      [
+        "sling",
+        1
+      ],
+      [
+        "stock",
+        1
+      ],
+      [
+        "underbarrel",
+        1
+      ]
+    ],
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "magazine_well": "250 ml",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [
+          "40BL9mag"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "BL9_bow",
+    "looks_like": "compositebow",
+    "type": "GUN",
+    "symbol": "(",
+    "color": "yellow",
+    "name": {
+      "str": "BL9注入弓"
+    },
+    "description": "一个现代设计的高功率弓，以某种方式注入了几乎有知觉的BL9覆盖它的一部分，并用它的组织加强它",
+    "price": 55000,
+    "material": [
+      "BL9",
+      "steel"
+    ],
+    "flags": [
+      "FIRE_TWOHAND",
+      "STR_DRAW",
+      "RELOAD_AND_SHOOT",
+      "PRIMITIVE_RANGED_WEAPON"
+    ],
+    "skill": "archery",
+    "min_strength": 9,
+    "ammo": [
+      "BL9arrow_type",
+      "arrow"
+    ],
+    "weight": "907 g",
+    "volume": "1500 ml",
+    "price_postapoc": 3500,
+    "bashing": 8,
+    "to_hit": 1,
+    "reload_noise_volume": 3,
+    "loudness": 10,
+    "ranged_damage": {
+      "damage_type": "stab",
+      "amount": 34
+    },
+    "range": 16,
+    "dispersion": 625,
+    "durability": 8,
+    "clip_size": 1,
+    "valid_mod_locations": [
+      [
+        "underbarrel",
+        1
+      ],
+      [
+        "sights",
+        1
+      ],
+      [
+        "accessories",
+        2
+      ],
+      [
+        "stabilizer",
+        1
+      ],
+      [
+        "dampening",
+        1
+      ]
+    ],
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE",
+        "ammo_restriction": {
+          "BL9arrow_type": 1,
+          "arrow": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "BL9_crossbow",
+    "looks_like": "compositecrossbow",
+    "type": "GUN",
+    "symbol": "(",
+    "color": "green",
+    "name": {
+      "str": "BL9灌注弩"
+    },
+    "reload_noise_volume": 4,
+    "description": "一个现代设计的大功率弩，不知何故注入了几乎有知觉的BL9部分覆盖并用组织加固",
+    "price": 200000,
+    "material": [
+      "BL9",
+      "steel"
+    ],
+    "flags": [
+      "FIRE_TWOHAND",
+      "PRIMITIVE_RANGED_WEAPON"
+    ],
+    "skill": "rifle",
+    "min_strength": 7,
+    "ammo": [
+      "BL9bolt_type",
+      "bolt"
+    ],
+    "weight": "3000 g",
+    "volume": "1750 ml",
+    "price_postapoc": 6000,
+    "bashing": 11,
+    "to_hit": 1,
+    "ranged_damage": {
+      "damage_type": "stab",
+      "amount": 42
+    },
+    "range": 14,
+    "loudness": 12,
+    "dispersion": 275,
+    "durability": 8,
+    "clip_size": 1,
+    "reload": 1000,
+    "valid_mod_locations": [
+      [
+        "accessories",
+        4
+      ],
+      [
+        "grip",
+        1
+      ],
+      [
+        "mechanism",
+        4
+      ],
+      [
+        "rail",
+        1
+      ],
+      [
+        "sights",
+        1
+      ],
+      [
+        "sling",
+        1
+      ],
+      [
+        "stock",
+        1
+      ],
+      [
+        "underbarrel",
+        1
+      ],
+      [
+        "dampening",
+        1
+      ]
+    ],
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE",
+        "ammo_restriction": {
+          "BL9bolt_type": 1,
+          "bolt": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "BL9_pistol_mk2",
+    "looks_like": "walther_p38",
+    "type": "GUN",
+    "symbol": "(",
+    "color": "green",
+    "name": {
+      "str": "BL9灌注手枪MK ii"
+    },
+    "description": "一个半自动手枪非常符合人体工程学的设计，以某种方式注入了完全有知觉的BL9，以某种方式在精神上与你沟通，它被覆盖和完全加强它的厚组织与多个尖刺几乎不引人注意的振动突出物，给它一个更吓人的，充满活力的外观",
+    "price": 580000,
+    "ammo": [
+      "9mmBL9mk2_type",
+      "9mm",
+      "45",
+      "22",
+      "380"
+    ],
+    "material": [
+      "BL9",
+      "steel"
+    ],
+    "ammo_effects": [
+      "NEVER_MISFIRES"
+    ],
+    "flags": [
+      "NEVER_JAMS",
+      "NON-FOULING",
+      "NEEDS_NO_LUBE",
+      "WATERPROOF_GUN"
+    ],
+    "skill": "pistol",
+    "weight": "850 g",
+    "volume": "500 ml",
+    "bashing": 8,
+    "to_hit": -1,
+    "ranged_damage": {
+      "damage_type": "bullet",
+      "amount": 1,
+      "armor_penetration": 1
+    },
+    "range": 18,
+    "dispersion": 160,
+    "durability": 9,
+    "modes": [
+      [
+        "DEFAULT",
+        "semi",
+        1
+      ],
+      [
+        "BURST",
+        "burst",
+        2
+      ]
+    ],
+    "valid_mod_locations": [
+      [
+        "accessories",
+        2
+      ],
+      [
+        "barrel",
+        1
+      ],
+      [
+        "bore",
+        1
+      ],
+      [
+        "brass catcher",
+        1
+      ],
+      [
+        "grip",
+        1
+      ],
+      [
+        "mechanism",
+        4
+      ],
+      [
+        "muzzle",
+        1
+      ],
+      [
+        "rail",
+        1
+      ],
+      [
+        "sights",
+        1
+      ],
+      [
+        "stock",
+        1
+      ],
+      [
+        "underbarrel",
+        1
+      ]
+    ],
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "magazine_well": "250 ml",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [
+          "9mmBL9mk2mag"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "BL9_smg_mk2",
+    "looks_like": "TDI",
+    "type": "GUN",
+    "symbol": "(",
+    "color": "green",
+    "name": {
+      "str": "BL9灌注冲锋枪MK ii"
+    },
+    "description": "一种全自动手枪口径武器，射速非常高，注入了完全有知觉的BL9，以某种方式与你进行精神交流，它被厚厚的组织覆盖并完全加固，多个尖刺的几乎不引人注意的振动突起，给它一个更具威慑力的、充满活力的外观",
+    "price": 580000,
+    "ammo": [
+      "9mmBL9smgmk2_type",
+      "9mm",
+      "45",
+      "22",
+      "40"
+    ],
+    "material": [
+      "BL9",
+      "steel"
+    ],
+    "ammo_effects": [
+      "NEVER_MISFIRES"
+    ],
+    "flags": [
+      "NEVER_JAMS",
+      "NON-FOULING",
+      "NEEDS_NO_LUBE",
+      "WATERPROOF_GUN"
+    ],
+    "skill": "smg",
+    "weight": "2850 g",
+    "volume": "1 L",
+    "bashing": 8,
+    "to_hit": -1,
+    "ranged_damage": {
+      "damage_type": "bullet",
+      "amount": 1,
+      "armor_penetration": 1
+    },
+    "range": 18,
+    "dispersion": 165,
+    "durability": 9,
+    "modes": [
+      [
+        "DEFAULT",
+        "semi auto",
+        1
+      ],
+      [
+        "BURST",
+        "burst",
+        5
+      ],
+      [
+        "AUTO",
+        "auto",
+        10
+      ]
+    ],
+    "valid_mod_locations": [
+      [
+        "accessories",
+        3
+      ],
+      [
+        "barrel",
+        1
+      ],
+      [
+        "bore",
+        1
+      ],
+      [
+        "brass catcher",
+        1
+      ],
+      [
+        "grip",
+        1
+      ],
+      [
+        "mechanism",
+        4
+      ],
+      [
+        "muzzle",
+        1
+      ],
+      [
+        "rail",
+        1
+      ],
+      [
+        "sights",
+        1
+      ],
+      [
+        "sling",
+        1
+      ],
+      [
+        "stock",
+        1
+      ],
+      [
+        "underbarrel",
+        1
+      ]
+    ],
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "magazine_well": "250 ml",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [
+          "9mmBL9smgmk2mag"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "BL9_sniper_mk2",
+    "looks_like": "as50",
+    "type": "GUN",
+    "symbol": "(",
+    "color": "green",
+    "name": {
+      "str": "BL9注入狙击步枪MK ii"
+    },
+    "description": "一种半自动的高品质狙击步枪，以某种方式注入了完全有知觉的BL9，以某种方式与你进行精神交流，它是覆盖和完全加强了它的厚组织与多个尖刺几乎不明显的振动突出物，给它一个更可怕的，充满活力的外观",
+    "price": 580000,
+    "ammo": [
+      "308BL9mk2_type",
+      "308",
+      "3006"
+    ],
+    "material": [
+      "BL9",
+      "steel"
+    ],
+    "ammo_effects": [
+      "NEVER_MISFIRES",
+      "TANGLE"
+    ],
+    "flags": [
+      "NEVER_JAMS",
+      "NON-FOULING",
+      "NEEDS_NO_LUBE",
+      "WATERPROOF_GUN"
+    ],
+    "skill": "rifle",
+    "weight": "4100 g",
+    "volume": "3 L",
+    "bashing": 8,
+    "to_hit": -1,
+    "ranged_damage": {
+      "damage_type": "bullet",
+      "amount": 1,
+      "armor_penetration": 1
+    },
+    "range": 35,
+    "barrel_volume": "500 ml",
+    "dispersion": 88,
+    "durability": 9,
+    "modes": [
+      [
+        "DEFAULT",
+        "semi auto",
+        1
+      ],
+      [
+        "BURST",
+        "burst",
+        2
+      ]
+    ],
+    "valid_mod_locations": [
+      [
+        "accessories",
+        2
+      ],
+      [
+        "barrel",
+        1
+      ],
+      [
+        "grip",
+        1
+      ],
+      [
+        "mechanism",
+        4
+      ],
+      [
+        "muzzle",
+        1
+      ],
+      [
+        "sights",
+        1
+      ],
+      [
+        "sling",
+        1
+      ],
+      [
+        "rail mount",
+        1
+      ],
+      [
+        "stock mount",
+        1
+      ],
+      [
+        "underbarrel mount",
+        1
+      ]
+    ],
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "magazine_well": "250 ml",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [
+          "308BL9mk2mag"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "BL9_auto_mk2",
+    "looks_like": "scar_l",
+    "type": "GUN",
+    "symbol": "(",
+    "color": "red",
+    "name": {
+      "str": "BL9自动步枪MK ii"
+    },
+    "description": "一个全自动光滑的军用自动步枪，以某种方式注入了完全有知觉的BL9，以某种方式与你进行心理沟通，它是覆盖和完全加强了它的厚组织与多个尖刺几乎不明显的振动突出物，给它一个更可怕的，充满活力的外观",
+    "price": 580000,
+    "ammo": [
+      "556BL9mk2_type",
+      "223"
+    ],
+    "material": [
+      "BL9",
+      "steel"
+    ],
+    "ammo_effects": [
+      "NEVER_MISFIRES"
+    ],
+    "flags": [
+      "NEVER_JAMS",
+      "NON-FOULING",
+      "NEEDS_NO_LUBE",
+      "WATERPROOF_GUN"
+    ],
+    "skill": "rifle",
+    "weight": "3600 g",
+    "volume": "2 L",
+    "bashing": 8,
+    "to_hit": -1,
+    "ranged_damage": {
+      "damage_type": "bullet",
+      "amount": 1,
+      "armor_penetration": 1
+    },
+    "range": 25,
+    "dispersion": 125,
+    "durability": 9,
+    "modes": [
+      [
+        "DEFAULT",
+        "semi auto",
+        1
+      ],
+      [
+        "BURST",
+        "burst",
+        5
+      ],
+      [
+        "AUTO",
+        "auto",
+        10
+      ]
+    ],
+    "valid_mod_locations": [
+      [
+        "accessories",
+        4
+      ],
+      [
+        "barrel",
+        1
+      ],
+      [
+        "bore",
+        1
+      ],
+      [
+        "brass catcher",
+        1
+      ],
+      [
+        "grip mount",
+        1
+      ],
+      [
+        "mechanism",
+        4
+      ],
+      [
+        "magazine",
+        1
+      ],
+      [
+        "muzzle",
+        1
+      ],
+      [
+        "sights mount",
+        1
+      ],
+      [
+        "sling",
+        1
+      ],
+      [
+        "underbarrel mount",
+        1
+      ],
+      [
+        "underbarrel",
+        1
+      ]
+    ],
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "magazine_well": "250 ml",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [
+          "556223BL9mk2mag"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "BL9_shotgun_mk2",
+    "looks_like": "SPAS_12",
+    "type": "GUN",
+    "symbol": "(",
+    "color": "red",
+    "name": {
+      "str": "BL9灌注猎枪MK ii"
+    },
+    "description": "12口径泵动猎枪，以某种方式注入了完全有知觉的BL9，以某种方式在精神上与你沟通，它被覆盖和完全加强它的厚组织与多个几乎不明显的振动突出，给它一个更吓人的，有活力的外观",
+    "price": 580000,
+    "ammo": [
+      "BL9shotmk2_type",
+      "shot",
+      "20x66mm"
+    ],
+    "material": [
+      "BL9",
+      "steel"
+    ],
+    "ammo_effects": [
+      "NEVER_MISFIRES",
+      "SHOT",
+      "TANGLE",
+      "BEANBAG"
+    ],
+    "flags": [
+      "NEVER_JAMS",
+      "NON-FOULING",
+      "NEEDS_NO_LUBE",
+      "RELOAD_ONE",
+      "WATERPROOF_GUN"
+    ],
+    "skill": "shotgun",
+    "weight": "4900 g",
+    "volume": "2500 ml",
+    "bashing": 8,
+    "to_hit": -1,
+    "ranged_damage": {
+      "damage_type": "bullet",
+      "amount": 1,
+      "armor_penetration": 1
+    },
+    "range": 16,
+    "barrel_volume": "500 ml",
+    "dispersion": 245,
+    "durability": 9,
+    "modes": [
+      [
+        "DEFAULT",
+        "one shot",
+        1
+      ],
+      [
+        "BURST",
+        "double barrel",
+        2
+      ]
+    ],
+    "valid_mod_locations": [
+      [
+        "accessories",
+        2
+      ],
+      [
+        "stock mount",
+        1
+      ],
+      [
+        "mechanism",
+        2
+      ],
+      [
+        "barrel",
+        1
+      ],
+      [
+        "grip mount",
+        1
+      ],
+      [
+        "brass catcher",
+        1
+      ],
+      [
+        "rail mount",
+        1
+      ],
+      [
+        "sights mount",
+        1
+      ],
+      [
+        "underbarrel mount",
+        1
+      ]
+    ],
+    "clip_size": 10,
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE",
+        "rigid": true,
+        "ammo_restriction": {
+          "BL9shotmk2_type": 10,
+          "shot": 10,
+          "20x66mm": 10
+        }
+      }
+    ]
+  },
+  {
+    "id": "BL9_magnum_mk2",
+    "looks_like": "sw629",
+    "type": "GUN",
+    "symbol": "(",
+    "color": "green",
+    "name": {
+      "str": "BL9注入万能药MK ii"
+    },
+    "description": "一个非常高的后坐力，不准确甚至相当致命的左轮手枪，以某种方式注入了完全有知觉的BL9，以某种方式在精神上与你交流，它是覆盖和完全加强它的厚组织与多个尖刺几乎不引人注意的振动突出物，给它一个更吓人的，充满活力的外观",
+    "price": 580000,
+    "ammo": [
+      "357magBL9mk2_type",
+      "357mag",
+      "38",
+      "44"
+    ],
+    "material": [
+      "BL9",
+      "steel"
+    ],
+    "ammo_effects": [
+      "NEVER_MISFIRES",
+      "TANGLE"
+    ],
+    "flags": [
+      "NEVER_JAMS",
+      "NON-FOULING",
+      "NEEDS_NO_LUBE",
+      "WATERPROOF_GUN"
+    ],
+    "skill": "pistol",
+    "weight": "4200 g",
+    "volume": "1900 ml",
+    "bashing": 8,
+    "to_hit": -1,
+    "ranged_damage": {
+      "damage_type": "bullet",
+      "amount": 1,
+      "armor_penetration": 1
+    },
+    "range": 18,
+    "dispersion": 175,
+    "durability": 9,
+    "modes": [
+      [
+        "DEFAULT",
+        "semi",
+        1
+      ],
+      [
+        "BURST",
+        "burst",
+        2
+      ]
+    ],
+    "valid_mod_locations": [
+      [
+        "accessories",
+        2
+      ],
+      [
+        "barrel",
+        1
+      ],
+      [
+        "bore",
+        1
+      ],
+      [
+        "brass catcher",
+        1
+      ],
+      [
+        "grip",
+        1
+      ],
+      [
+        "mechanism",
+        4
+      ],
+      [
+        "muzzle",
+        1
+      ],
+      [
+        "rail",
+        1
+      ],
+      [
+        "sights",
+        1
+      ],
+      [
+        "stock",
+        1
+      ],
+      [
+        "underbarrel",
+        1
+      ]
+    ],
+    "clip_size": 7,
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE",
+        "rigid": true,
+        "ammo_restriction": {
+          "44": 7,
+          "357magBL9mk2_type": 7,
+          "357mag": 7
+        }
+      }
+    ]
+  },
+  {
+    "id": "BL9_sprayer_mk2",
+    "looks_like": "chemical_thrower",
+    "copy-from": "gun_base",
+    "type": "GUN",
+    "reload_noise": "slosh.",
+    "name": {
+      "str": "BL9灌注喷雾器MK ii"
+    },
+    "description": "一个笨重的，BL9喷雾器，以某种方式注入了完全有知觉的BL9，以某种方式在精神上与你交流，它被覆盖和完全加强它的厚组织与多个几乎不明显的振动突出，给它一个更吓人的，有活力的外观",
+    "weight": "4588 g",
+    "volume": "4250 ml",
+    "price": 10000,
+    "price_postapoc": 1000,
+    "to_hit": -1,
+    "bashing": 9,
+    "material": [
+      "BL9",
+      "steel"
+    ],
+    "flags": [
+      "FIRE_20",
+      "NEVER_JAMS",
+      "NON-FOULING",
+      "NEEDS_NO_LUBE",
+      "WATERPROOF_GUN"
+    ],
+    "skill": "launcher",
+    "ammo": [
+      "BL9spraymk2_type"
+    ],
+    "dispersion": 180,
+    "durability": 9,
+    "valid_mod_locations": [
+      [
+        "accessories",
+        4
+      ],
+      [
+        "grip",
+        1
+      ],
+      [
+        "rail",
+        1
+      ],
+      [
+        "sights",
+        1
+      ],
+      [
+        "sling",
+        1
+      ],
+      [
+        "stock",
+        1
+      ],
+      [
+        "underbarrel",
+        1
+      ]
+    ],
+    "pocket_data": [
+      {
+        "magazine_well": "2 L",
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [
+          "tank_BL9_mk2"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "BL9_launcher_mk2",
+    "looks_like": "rm802",
+    "type": "GUN",
+    "symbol": "(",
+    "name": {
+      "str": "BL9灌注发射器MK ii"
+    },
+    "description": "一个高质量的现代化榴弹发射器和一个结构良好的炸弹杂志，它已经注入了完全有知觉的BL9，以某种方式在精神上与你沟通，它被厚厚的组织覆盖并完全加强，多个尖尖的几乎不引人注意的振动突出物使它看起来更具威胁性，充满活力",
+    "ammo": [
+      "40mmBL9mk2_type",
+      "40x46mm"
+    ],
+    "material": [
+      "BL9",
+      "steel"
+    ],
+    "ammo_effects": [
+      "NEVER_MISFIRES",
+      "TANGLE"
+    ],
+    "flags": [
+      "NEVER_JAMS",
+      "NON-FOULING",
+      "NEEDS_NO_LUBE",
+      "WATERPROOF_GUN"
+    ],
+    "skill": "launcher",
+    "weight": "4300 g",
+    "volume": "1500 ml",
+    "price": 2920000,
+    "price_postapoc": 8000,
+    "to_hit": -1,
+    "bashing": 8,
+    "ranged_damage": {
+      "damage_type": "bullet",
+      "amount": 0,
+      "armor_penetration": 0
+    },
+    "range": 23,
+    "dispersion": 115,
+    "durability": 9,
+    "modes": [
+      [
+        "DEFAULT",
+        "single",
+        1,
+        "NPC_AVOID"
+      ]
+    ],
+    "valid_mod_locations": [
+      [
+        "accessories",
+        4
+      ],
+      [
+        "brass catcher",
+        1
+      ],
+      [
+        "grip",
+        1
+      ],
+      [
+        "mechanism",
+        4
+      ],
+      [
+        "rail",
+        1
+      ],
+      [
+        "sights",
+        1
+      ],
+      [
+        "sling",
+        1
+      ],
+      [
+        "stock",
+        1
+      ],
+      [
+        "underbarrel",
+        1
+      ]
+    ],
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "magazine_well": "250 ml",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [
+          "40_BL9mk2mag"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "BL9_bow_mk2",
+    "looks_like": "compgreatbow",
+    "type": "GUN",
+    "symbol": "(",
+    "color": "yellow",
+    "name": {
+      "str": "BL9注入弓MK ii"
+    },
+    "description": "一个现代设计的高功率弓，以某种方式注入了完全有知觉的BL9，以某种方式在精神上与你交流，它被覆盖和完全加强它的厚组织与多个几乎不明显的振动突出，给它一个更吓人的，充满活力的外观",
+    "price": 55000,
+    "material": [
+      "BL9",
+      "steel"
+    ],
+    "flags": [
+      "FIRE_TWOHAND",
+      "STR_DRAW",
+      "RELOAD_AND_SHOOT",
+      "PRIMITIVE_RANGED_WEAPON"
+    ],
+    "skill": "archery",
+    "min_strength": 9,
+    "ammo": [
+      "BL9arrowmk2_type",
+      "arrow"
+    ],
+    "weight": "907 g",
+    "volume": "1500 ml",
+    "price_postapoc": 3500,
+    "bashing": 8,
+    "to_hit": 1,
+    "reload_noise_volume": 3,
+    "loudness": 10,
+    "ranged_damage": {
+      "damage_type": "stab",
+      "amount": 34
+    },
+    "range": 24,
+    "dispersion": 440,
+    "durability": 9,
+    "clip_size": 1,
+    "valid_mod_locations": [
+      [
+        "underbarrel",
+        1
+      ],
+      [
+        "sights",
+        1
+      ],
+      [
+        "accessories",
+        2
+      ],
+      [
+        "stabilizer",
+        1
+      ],
+      [
+        "dampening",
+        1
+      ]
+    ],
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE",
+        "ammo_restriction": {
+          "BL9arrowmk2_type": 1,
+          "arrow": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "BL9_crossbow_mk2",
+    "looks_like": "compcrossbow",
+    "type": "GUN",
+    "symbol": "(",
+    "color": "green",
+    "name": {
+      "str": "BL9灌注弩MK ii"
+    },
+    "reload_noise_volume": 4,
+    "description": "一个现代设计的高功率弩，以某种方式注入了完全有知觉的BL9，以某种方式与你进行精神交流，它是覆盖和完全加强了它的厚组织与多个尖刺几乎不明显的振动突出物，给它一个更可怕的，充满活力的外观",
+    "price": 200000,
+    "material": [
+      "BL9",
+      "steel"
+    ],
+    "flags": [
+      "FIRE_TWOHAND",
+      "PRIMITIVE_RANGED_WEAPON"
+    ],
+    "skill": "rifle",
+    "min_strength": 7,
+    "ammo": [
+      "BL9boltmk2_type",
+      "bolt"
+    ],
+    "weight": "3000 g",
+    "volume": "1750 ml",
+    "price_postapoc": 6000,
+    "bashing": 11,
+    "to_hit": 1,
+    "ranged_damage": {
+      "damage_type": "stab",
+      "amount": 42
+    },
+    "range": 21,
+    "loudness": 12,
+    "dispersion": 175,
+    "durability": 9,
+    "clip_size": 1,
+    "reload": 1000,
+    "valid_mod_locations": [
+      [
+        "accessories",
+        4
+      ],
+      [
+        "grip",
+        1
+      ],
+      [
+        "mechanism",
+        4
+      ],
+      [
+        "rail",
+        1
+      ],
+      [
+        "sights",
+        1
+      ],
+      [
+        "sling",
+        1
+      ],
+      [
+        "stock",
+        1
+      ],
+      [
+        "underbarrel",
+        1
+      ],
+      [
+        "dampening",
+        1
+      ]
+    ],
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE",
+        "ammo_restriction": {
+          "BL9boltmk2_type": 1,
+          "bolt": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "BL9_pistol_mk3",
+    "looks_like": "walther_p38",
+    "type": "GUN",
+    "symbol": "(",
+    "color": "green",
+    "name": {
+      "str": "BL9灌注手枪MK iii"
+    },
+    "description": "一个半自动手枪，非常符合人体工程学的设计，以某种方式注入了完全有知觉的BL9，以某种方式在精神上与你交流，它完全由BL9制成，看起来比以往任何时候都更加恐怖和恐惧——一个活的有机体，以它的“子弹”吞噬一切，以某种方式满足它永不满足的邪恶饥饿",
+    "price": 580000,
+    "ammo": [
+      "9mmBL9mk2_type",
+      "9mm",
+      "45",
+      "22",
+      "380"
+    ],
+    "material": [
+      "BL9",
+      "steel"
+    ],
+    "ammo_effects": [
+      "NEVER_MISFIRES"
+    ],
+    "flags": [
+      "NEVER_JAMS",
+      "NON-FOULING",
+      "NEEDS_NO_LUBE",
+      "WATERPROOF_GUN"
+    ],
+    "skill": "pistol",
+    "weight": "850 g",
+    "volume": "500 ml",
+    "bashing": 8,
+    "to_hit": -1,
+    "ranged_damage": {
+      "damage_type": "bullet",
+      "amount": 1,
+      "armor_penetration": 1
+    },
+    "range": 24,
+    "dispersion": 125,
+    "durability": 10,
+    "modes": [
+      [
+        "DEFAULT",
+        "semi",
+        1
+      ],
+      [
+        "BURST",
+        "burst",
+        2
+      ]
+    ],
+    "valid_mod_locations": [
+      [
+        "accessories",
+        2
+      ],
+      [
+        "barrel",
+        1
+      ],
+      [
+        "bore",
+        1
+      ],
+      [
+        "brass catcher",
+        1
+      ],
+      [
+        "grip",
+        1
+      ],
+      [
+        "mechanism",
+        4
+      ],
+      [
+        "muzzle",
+        1
+      ],
+      [
+        "rail",
+        1
+      ],
+      [
+        "sights",
+        1
+      ],
+      [
+        "stock",
+        1
+      ],
+      [
+        "underbarrel",
+        1
+      ]
+    ],
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "magazine_well": "250 ml",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [
+          "9mmBL9mk3mag"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "BL9_smg_mk3",
+    "looks_like": "TDI",
+    "type": "GUN",
+    "symbol": "(",
+    "color": "green",
+    "name": {
+      "str": "BL9灌注冲锋枪MK iii"
+    },
+    "description": "一种全自动手枪口径武器，具有极高的射速，不知何故注入了完全有知觉的BL9，它以某种方式与你进行精神交流，它完全由BL9制成，看起来比以往任何时候都更加恐怖和恐惧-一个活的有机体，以某种方式通过吞食来满足它永不满足的邪恶饥饿所有的东西都是子弹",
+    "price": 580000,
+    "ammo": [
+      "9mmBL9smgmk2_type",
+      "9mm",
+      "45",
+      "22",
+      "40"
+    ],
+    "material": [
+      "BL9",
+      "steel"
+    ],
+    "ammo_effects": [
+      "NEVER_MISFIRES"
+    ],
+    "flags": [
+      "NEVER_JAMS",
+      "NON-FOULING",
+      "NEEDS_NO_LUBE",
+      "WATERPROOF_GUN"
+    ],
+    "skill": "smg",
+    "weight": "2850 g",
+    "volume": "1 L",
+    "bashing": 8,
+    "to_hit": -1,
+    "ranged_damage": {
+      "damage_type": "bullet",
+      "amount": 1,
+      "armor_penetration": 1
+    },
+    "range": 24,
+    "dispersion": 135,
+    "durability": 10,
+    "modes": [
+      [
+        "DEFAULT",
+        "semi auto",
+        1
+      ],
+      [
+        "BURST",
+        "burst",
+        5
+      ],
+      [
+        "AUTO",
+        "auto",
+        10
+      ]
+    ],
+    "valid_mod_locations": [
+      [
+        "accessories",
+        3
+      ],
+      [
+        "barrel",
+        1
+      ],
+      [
+        "bore",
+        1
+      ],
+      [
+        "brass catcher",
+        1
+      ],
+      [
+        "grip",
+        1
+      ],
+      [
+        "mechanism",
+        4
+      ],
+      [
+        "muzzle",
+        1
+      ],
+      [
+        "rail",
+        1
+      ],
+      [
+        "sights",
+        1
+      ],
+      [
+        "sling",
+        1
+      ],
+      [
+        "stock",
+        1
+      ],
+      [
+        "underbarrel",
+        1
+      ]
+    ],
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "magazine_well": "250 ml",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [
+          "9mmBL9smgmk3mag"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "BL9_sniper_mk3",
+    "looks_like": "as50",
+    "type": "GUN",
+    "symbol": "(",
+    "color": "green",
+    "name": {
+      "str": "BL9注入狙击步枪MK iii"
+    },
+    "description": "一支半自动的高质量狙击步枪，以某种方式注入了完全有知觉的BL9，以某种方式在精神上与你交流，它完全由BL9制成，看起来比以往任何时候都更加恐怖和恐惧——一个活的有机体，以它的“子弹”吞噬一切，以某种方式满足它永不满足的邪恶饥饿",
+    "price": 580000,
+    "ammo": [
+      "308BL9mk2_type",
+      "308",
+      "3006"
+    ],
+    "material": [
+      "BL9",
+      "steel"
+    ],
+    "ammo_effects": [
+      "NEVER_MISFIRES",
+      "TANGLE"
+    ],
+    "flags": [
+      "NEVER_JAMS",
+      "NON-FOULING",
+      "NEEDS_NO_LUBE",
+      "WATERPROOF_GUN"
+    ],
+    "skill": "rifle",
+    "weight": "4100 g",
+    "volume": "3 L",
+    "bashing": 8,
+    "to_hit": -1,
+    "ranged_damage": {
+      "damage_type": "bullet",
+      "amount": 1,
+      "armor_penetration": 1
+    },
+    "range": 45,
+    "barrel_volume": "500 ml",
+    "dispersion": 72,
+    "durability": 10,
+    "modes": [
+      [
+        "DEFAULT",
+        "semi auto",
+        1
+      ],
+      [
+        "BURST",
+        "burst",
+        2
+      ]
+    ],
+    "valid_mod_locations": [
+      [
+        "accessories",
+        2
+      ],
+      [
+        "barrel",
+        1
+      ],
+      [
+        "grip",
+        1
+      ],
+      [
+        "mechanism",
+        4
+      ],
+      [
+        "muzzle",
+        1
+      ],
+      [
+        "sights",
+        1
+      ],
+      [
+        "sling",
+        1
+      ],
+      [
+        "rail mount",
+        1
+      ],
+      [
+        "stock mount",
+        1
+      ],
+      [
+        "underbarrel mount",
+        1
+      ]
+    ],
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "magazine_well": "250 ml",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [
+          "308BL9mk3mag"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "BL9_auto_mk3",
+    "looks_like": "scar_l",
+    "type": "GUN",
+    "symbol": "(",
+    "color": "red",
+    "name": {
+      "str": "BL9自动步枪MK iii"
+    },
+    "description": "一个全自动的光滑的军用自动步枪，不知何故注入了完全有知觉的BL9，不知何故与你心灵沟通，它是完全由BL9，看起来更可怕和恐惧灌输比以往任何时候-一个活的有机体，不知何故满足它的贪得无厌的邪恶饥饿吞噬一切与它的生命“子弹”",
+    "price": 580000,
+    "ammo": [
+      "556BL9mk2_type",
+      "223"
+    ],
+    "material": [
+      "BL9",
+      "steel"
+    ],
+    "ammo_effects": [
+      "NEVER_MISFIRES"
+    ],
+    "flags": [
+      "NEVER_JAMS",
+      "NON-FOULING",
+      "NEEDS_NO_LUBE",
+      "WATERPROOF_GUN"
+    ],
+    "skill": "rifle",
+    "weight": "3600 g",
+    "volume": "2 L",
+    "bashing": 8,
+    "to_hit": -1,
+    "ranged_damage": {
+      "damage_type": "bullet",
+      "amount": 1,
+      "armor_penetration": 1
+    },
+    "range": 35,
+    "dispersion": 88,
+    "durability": 10,
+    "modes": [
+      [
+        "DEFAULT",
+        "semi auto",
+        1
+      ],
+      [
+        "BURST",
+        "burst",
+        5
+      ],
+      [
+        "AUTO",
+        "auto",
+        10
+      ]
+    ],
+    "valid_mod_locations": [
+      [
+        "accessories",
+        4
+      ],
+      [
+        "barrel",
+        1
+      ],
+      [
+        "bore",
+        1
+      ],
+      [
+        "brass catcher",
+        1
+      ],
+      [
+        "grip mount",
+        1
+      ],
+      [
+        "mechanism",
+        4
+      ],
+      [
+        "magazine",
+        1
+      ],
+      [
+        "muzzle",
+        1
+      ],
+      [
+        "sights mount",
+        1
+      ],
+      [
+        "sling",
+        1
+      ],
+      [
+        "underbarrel mount",
+        1
+      ],
+      [
+        "underbarrel",
+        1
+      ]
+    ],
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "magazine_well": "250 ml",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [
+          "556223BL9mk3mag"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "BL9_shotgun_mk3",
+    "looks_like": "SPAS_12",
+    "type": "GUN",
+    "symbol": "(",
+    "color": "red",
+    "name": {
+      "str": "BL9灌注猎枪MK iii"
+    },
+    "description": "12口径泵动猎枪，不知何故注入了完全有知觉的BL9，它以某种方式在精神上与你交流，它完全由BL9制成，看起来比以往任何时候都更加恐怖和恐惧-一个活的有机体，以某种方式满足了它无法满足的邪恶饥饿，它吞噬一切与它的'子弹'",
+    "price": 580000,
+    "ammo": [
+      "BL9shotmk2_type",
+      "shot",
+      "20x66mm"
+    ],
+    "material": [
+      "BL9",
+      "steel"
+    ],
+    "ammo_effects": [
+      "NEVER_MISFIRES",
+      "SHOT",
+      "TANGLE",
+      "BEANBAG"
+    ],
+    "flags": [
+      "NEVER_JAMS",
+      "NON-FOULING",
+      "NEEDS_NO_LUBE",
+      "RELOAD_ONE",
+      "WATERPROOF_GUN"
+    ],
+    "skill": "shotgun",
+    "weight": "4900 g",
+    "volume": "2500 ml",
+    "bashing": 8,
+    "to_hit": -1,
+    "ranged_damage": {
+      "damage_type": "bullet",
+      "amount": 1,
+      "armor_penetration": 1
+    },
+    "range": 24,
+    "barrel_volume": "500 ml",
+    "dispersion": 210,
+    "durability": 10,
+    "modes": [
+      [
+        "DEFAULT",
+        "one shot",
+        1
+      ],
+      [
+        "BURST",
+        "double barrel",
+        2
+      ]
+    ],
+    "valid_mod_locations": [
+      [
+        "accessories",
+        2
+      ],
+      [
+        "stock mount",
+        1
+      ],
+      [
+        "mechanism",
+        2
+      ],
+      [
+        "barrel",
+        1
+      ],
+      [
+        "grip mount",
+        1
+      ],
+      [
+        "brass catcher",
+        1
+      ],
+      [
+        "rail mount",
+        1
+      ],
+      [
+        "sights mount",
+        1
+      ],
+      [
+        "underbarrel mount",
+        1
+      ]
+    ],
+    "clip_size": 12,
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE",
+        "rigid": true,
+        "ammo_restriction": {
+          "BL9shotmk2_type": 12,
+          "shot": 12,
+          "20x66mm": 12
+        }
+      }
+    ]
+  },
+  {
+    "id": "BL9_magnum_mk3",
+    "looks_like": "sw629",
+    "type": "GUN",
+    "symbol": "(",
+    "color": "green",
+    "name": {
+      "str": "BL9注入万能MK iii"
+    },
+    "description": "一把非常高的后坐力，不准确，甚至是致命的左轮手枪，它被注入了完全有知觉的BL9，以某种方式与你进行精神交流，它完全由BL9制成，看起来比以往任何时候都更加恐怖和恐惧——一个活的有机体，以它的“子弹”吞噬一切，以某种方式满足它永不满足的邪恶饥饿",
+    "price": 580000,
+    "ammo": [
+      "357magBL9mk2_type",
+      "357mag",
+      "38",
+      "44"
+    ],
+    "material": [
+      "BL9",
+      "steel"
+    ],
+    "ammo_effects": [
+      "NEVER_MISFIRES",
+      "TANGLE"
+    ],
+    "flags": [
+      "NEVER_JAMS",
+      "NON-FOULING",
+      "NEEDS_NO_LUBE",
+      "WATERPROOF_GUN"
+    ],
+    "skill": "pistol",
+    "weight": "4200 g",
+    "volume": "1900 ml",
+    "bashing": 8,
+    "to_hit": -1,
+    "ranged_damage": {
+      "damage_type": "bullet",
+      "amount": 1,
+      "armor_penetration": 1
+    },
+    "range": 24,
+    "dispersion": 145,
+    "durability": 10,
+    "modes": [
+      [
+        "DEFAULT",
+        "semi",
+        1
+      ],
+      [
+        "BURST",
+        "burst",
+        2
+      ]
+    ],
+    "valid_mod_locations": [
+      [
+        "accessories",
+        2
+      ],
+      [
+        "barrel",
+        1
+      ],
+      [
+        "bore",
+        1
+      ],
+      [
+        "brass catcher",
+        1
+      ],
+      [
+        "grip",
+        1
+      ],
+      [
+        "mechanism",
+        4
+      ],
+      [
+        "muzzle",
+        1
+      ],
+      [
+        "rail",
+        1
+      ],
+      [
+        "sights",
+        1
+      ],
+      [
+        "stock",
+        1
+      ],
+      [
+        "underbarrel",
+        1
+      ]
+    ],
+    "clip_size": 9,
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE",
+        "rigid": true,
+        "ammo_restriction": {
+          "44": 9,
+          "357magBL9mk2_type": 9,
+          "357mag": 9
+        }
+      }
+    ]
+  },
+  {
+    "id": "BL9_sprayer_mk3",
+    "looks_like": "chemical_thrower",
+    "copy-from": "gun_base",
+    "type": "GUN",
+    "reload_noise": "slosh.",
+    "name": {
+      "str": "BL9灌注喷雾器MK iii"
+    },
+    "description": "一个笨重的，BL9喷雾器，不知怎么地注入了完全有知觉的BL9，它在某种程度上与你交流，它完全由BL9制成，看起来比以往任何时候都更加恐怖和恐惧-一个活的有机体，以某种方式满足了它无法满足的邪恶饥饿，它吞噬了一切与它的'喷雾'",
+    "weight": "4588 g",
+    "volume": "4250 ml",
+    "price": 10000,
+    "price_postapoc": 1000,
+    "to_hit": -1,
+    "bashing": 9,
+    "material": [
+      "BL9",
+      "steel"
+    ],
+    "flags": [
+      "FIRE_20",
+      "NEVER_JAMS",
+      "NON-FOULING",
+      "NEEDS_NO_LUBE",
+      "WATERPROOF_GUN"
+    ],
+    "skill": "launcher",
+    "ammo": [
+      "BL9spraymk2_type"
+    ],
+    "dispersion": 145,
+    "durability": 10,
+    "valid_mod_locations": [
+      [
+        "accessories",
+        4
+      ],
+      [
+        "grip",
+        1
+      ],
+      [
+        "rail",
+        1
+      ],
+      [
+        "sights",
+        1
+      ],
+      [
+        "sling",
+        1
+      ],
+      [
+        "stock",
+        1
+      ],
+      [
+        "underbarrel",
+        1
+      ]
+    ],
+    "pocket_data": [
+      {
+        "magazine_well": "2 L",
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [
+          "tank_BL9_mk3"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "BL9_launcher_mk3",
+    "looks_like": "rm802",
+    "type": "GUN",
+    "symbol": "(",
+    "name": {
+      "str": "BL9灌注发射器MK iii"
+    },
+    "description": "一个高质量的现代化榴弹发射器和一个结构良好的炸弹杂志，它已经注入了完全有知觉的BL9，以某种方式在精神上与你沟通，它完全由BL9构成，看起来比以往任何时候都更加恐怖和恐惧——一个活的有机体，通过吞噬所有的“碎片”来满足它永不满足的邪恶饥饿",
+    "ammo": [
+      "40mmBL9mk2_type",
+      "40x46mm"
+    ],
+    "material": [
+      "BL9",
+      "steel"
+    ],
+    "ammo_effects": [
+      "NEVER_MISFIRES",
+      "TANGLE"
+    ],
+    "flags": [
+      "NEVER_JAMS",
+      "NON-FOULING",
+      "NEEDS_NO_LUBE",
+      "WATERPROOF_GUN"
+    ],
+    "skill": "launcher",
+    "weight": "4300 g",
+    "volume": "1500 ml",
+    "price": 2920000,
+    "price_postapoc": 8000,
+    "to_hit": -1,
+    "bashing": 8,
+    "ranged_damage": {
+      "damage_type": "bullet",
+      "amount": 0,
+      "armor_penetration": 0
+    },
+    "range": 30,
+    "dispersion": 88,
+    "durability": 10,
+    "modes": [
+      [
+        "DEFAULT",
+        "single",
+        1,
+        "NPC_AVOID"
+      ]
+    ],
+    "valid_mod_locations": [
+      [
+        "accessories",
+        4
+      ],
+      [
+        "brass catcher",
+        1
+      ],
+      [
+        "grip",
+        1
+      ],
+      [
+        "mechanism",
+        4
+      ],
+      [
+        "rail",
+        1
+      ],
+      [
+        "sights",
+        1
+      ],
+      [
+        "sling",
+        1
+      ],
+      [
+        "stock",
+        1
+      ],
+      [
+        "underbarrel",
+        1
+      ]
+    ],
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "magazine_well": "250 ml",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [
+          "40_BL9mk3mag"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "BL9_bow_mk3",
+    "looks_like": "compgreatbow",
+    "type": "GUN",
+    "symbol": "(",
+    "color": "yellow",
+    "name": {
+      "str": "BL9灌注弓MK iii"
+    },
+    "description": "一个现代设计的高功率弓，以某种方式注入了完全有知觉的BL9，以某种方式在精神上与你交流，它完全由BL9制成，看起来比以往任何时候都更加恐怖和恐惧-一个活的有机体，以某种方式满足了它永不满足的邪恶饥饿与它的'箭'",
+    "price": 55000,
+    "material": [
+      "BL9",
+      "steel"
+    ],
+    "flags": [
+      "FIRE_TWOHAND",
+      "STR_DRAW",
+      "RELOAD_AND_SHOOT",
+      "PRIMITIVE_RANGED_WEAPON"
+    ],
+    "skill": "archery",
+    "min_strength": 9,
+    "ammo": [
+      "BL9arrowmk2_type",
+      "arrow"
+    ],
+    "weight": "907 g",
+    "volume": "1500 ml",
+    "price_postapoc": 3500,
+    "bashing": 8,
+    "to_hit": 1,
+    "reload_noise_volume": 3,
+    "loudness": 10,
+    "ranged_damage": {
+      "damage_type": "stab",
+      "amount": 34
+    },
+    "range": 32,
+    "dispersion": 365,
+    "durability": 10,
+    "clip_size": 1,
+    "valid_mod_locations": [
+      [
+        "underbarrel",
+        1
+      ],
+      [
+        "sights",
+        1
+      ],
+      [
+        "accessories",
+        2
+      ],
+      [
+        "stabilizer",
+        1
+      ],
+      [
+        "dampening",
+        1
+      ]
+    ],
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE",
+        "ammo_restriction": {
+          "BL9arrowmk2_type": 1,
+          "arrow": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "BL9_crossbow_mk3",
+    "looks_like": "compcrossbow",
+    "type": "GUN",
+    "symbol": "(",
+    "color": "green",
+    "name": {
+      "str": "BL9注入弩MK iii"
+    },
+    "reload_noise_volume": 4,
+    "description": "一个现代设计的高功率弩，以某种方式注入了完全有知觉的BL9，以某种方式在精神上与你交流，它完全由BL9制成，看起来比以往任何时候都更加恐怖和恐惧——一个活的有机体，以它的“螺栓”吞噬一切，以某种方式满足它永不满足的邪恶饥饿",
+    "price": 200000,
+    "material": [
+      "BL9",
+      "steel"
+    ],
+    "flags": [
+      "FIRE_TWOHAND",
+      "PRIMITIVE_RANGED_WEAPON"
+    ],
+    "skill": "rifle",
+    "min_strength": 7,
+    "ammo": [
+      "BL9boltmk2_type",
+      "bolt"
+    ],
+    "weight": "3000 g",
+    "volume": "1750 ml",
+    "price_postapoc": 6000,
+    "bashing": 11,
+    "to_hit": 1,
+    "ranged_damage": {
+      "damage_type": "stab",
+      "amount": 42
+    },
+    "range": 27,
+    "loudness": 12,
+    "dispersion": 145,
+    "durability": 10,
+    "clip_size": 1,
+    "reload": 1000,
+    "valid_mod_locations": [
+      [
+        "accessories",
+        4
+      ],
+      [
+        "grip",
+        1
+      ],
+      [
+        "mechanism",
+        4
+      ],
+      [
+        "rail",
+        1
+      ],
+      [
+        "sights",
+        1
+      ],
+      [
+        "sling",
+        1
+      ],
+      [
+        "stock",
+        1
+      ],
+      [
+        "underbarrel",
+        1
+      ],
+      [
+        "dampening",
+        1
+      ]
+    ],
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE",
+        "ammo_restriction": {
+          "BL9boltmk2_type": 1,
+          "bolt": 1
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,126 @@
+[
+  {
+    "id": "mild_curing_herb",
+    "type": "COMESTIBLE",
+    "comestible_type": "MED",
+    "name": {
+      "str": "温和的草药"
+    },
+    "description": "一种来源不明的绿色草本植物，有温和的治疗作用",
+    "weight": "25 g",
+    "volume": "5 ml",
+    "price": 1000000,
+    "price_postapoc": 8000,
+    "stack_size": 10,
+    "material": [
+      "dry_plant"
+    ],
+    "symbol": "+",
+    "color": "green",
+    "charges": 1,
+    "healthy": 1,
+    "use_action": {
+      "type": "cast_spell",
+      "spell_id": "BL9_item_mild_curing_herb",
+      "no_fail": true,
+      "level": 0
+    },
+    "flags": [
+      "NPC_SAFE",
+      "INEDIBLE"
+    ]
+  },
+  {
+    "id": "medium_curing_herb",
+    "type": "COMESTIBLE",
+    "comestible_type": "MED",
+    "name": {
+      "str": "中等恢复草药"
+    },
+    "description": "一种来源不明的绿色草本植物，具有中等的治疗特性",
+    "weight": "65 g",
+    "volume": "10 ml",
+    "price": 1000000,
+    "price_postapoc": 8000,
+    "stack_size": 10,
+    "material": [
+      "dry_plant"
+    ],
+    "symbol": "+",
+    "charges": 1,
+    "color": "green",
+    "healthy": 2,
+    "use_action": {
+      "type": "cast_spell",
+      "spell_id": "BL9_item_medium_curing_herb",
+      "no_fail": true,
+      "level": 0
+    },
+    "flags": [
+      "NPC_SAFE",
+      "INEDIBLE"
+    ]
+  },
+  {
+    "id": "strong_curing_herb",
+    "type": "COMESTIBLE",
+    "comestible_type": "MED",
+    "name": {
+      "str": "强效药"
+    },
+    "description": "一种来源不明的绿色草本植物，有很强的治疗作用",
+    "weight": "85 g",
+    "volume": "15 ml",
+    "price": 1000000,
+    "price_postapoc": 8000,
+    "stack_size": 10,
+    "material": [
+      "dry_plant"
+    ],
+    "symbol": "+",
+    "color": "green",
+    "charges": 1,
+    "healthy": 3,
+    "use_action": {
+      "type": "cast_spell",
+      "spell_id": "BL9_item_strong_curing_herb",
+      "no_fail": true,
+      "level": 0
+    },
+    "flags": [
+      "NPC_SAFE",
+      "INEDIBLE"
+    ]
+  },
+  {
+    "id": "BL9_teleport_item",
+    "type": "COMESTIBLE",
+    "comestible_type": "MED",
+    "name": {
+      "str": "`他们的传送装置"
+    },
+    "description": "一种奇怪的传送装置，只有他们的精英和最信任的单位才能使用它快速地从设施的一部分转移到另一部分",
+    "weight": "100 g",
+    "volume": "45 ml",
+    "price": 1000000,
+    "price_postapoc": 8000,
+    "stack_size": 10,
+    "material": [
+      "plastic"
+    ],
+    "symbol": "+",
+    "color": "green",
+    "charges": 1,
+    "healthy": 1,
+    "use_action": {
+      "type": "cast_spell",
+      "spell_id": "BL9_teleport_spell",
+      "no_fail": true,
+      "level": 0
+    },
+    "flags": [
+      "NPC_SAFE",
+      "INEDIBLE"
+    ]
+  }
+]

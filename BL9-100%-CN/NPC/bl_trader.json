@@ -1,0 +1,1498 @@
+[
+  {
+    "id": "TALK_BL9_TRADER",
+    "type": "talk_topic",
+    "dynamic_line": "欢迎，陌生人。",
+    "responses": [
+      {
+        "text": "[购买武器]",
+        "topic": "TALK_BL9_TRADER_BUY1"
+      },
+      {
+        "text": "【商户指南】",
+        "topic": "TALK_BL9_TRADER_GUIDE1"
+      },
+      {
+        "text": "[再见]",
+        "topic": "TALK_TRADER_GOODBYE"
+      }
+    ]
+  },
+  {
+    "id": "TALK_BL9_TRADER_BUY1",
+    "type": "talk_topic",
+    "dynamic_line": "你买什么？",
+    "responses": [
+      {
+        "text": "[免费]*BL9灌注手枪*",
+        "condition": {
+          "not": {
+            "u_has_item": "BL9_pistol"
+          }
+        },
+        "topic": "BL9_trader_ty",
+        "effect": [
+          {
+            "u_buy_item": "BL9_pistol",
+            "count": 1
+          },
+          {
+            "u_buy_item": "9mmBL9mag",
+            "count": 1
+          },
+          {
+            "u_buy_item": "BL9_repair_soldering",
+            "count": 1
+          },
+          {
+            "u_add_var": "BL9_pistol",
+            "type": "bought",
+            "context": "cash",
+            "value": "yes"
+          }
+        ]
+      },
+      {
+        "text": "[36Pcomb]*BL9灌注手枪MKii*",
+        "condition": {
+          "and": [
+            {
+              "u_has_item": "BL9_pistol"
+            },
+            {
+              "not": {
+                "u_has_item": "BL9_pistol_mk2"
+              }
+            }
+          ]
+        },
+        "trial": {
+          "type": "CONDITION",
+          "condition": {
+            "u_has_items": {
+              "item": "platcoincomb",
+              "count": 36
+            }
+          }
+        },
+        "success": {
+          "topic": "BL9_trader_ty",
+          "effect": [
+            {
+              "u_sell_item": "platcoincomb",
+              "count": 36
+            },
+            {
+              "npc_consume_item": "platcoincomb",
+              "count": 36
+            },
+            {
+              "u_buy_item": "BL9_pistol_mk2",
+              "count": 1
+            }
+          ]
+        },
+        "failure": {
+          "topic": "BL9_trader_nocash"
+        }
+      },
+      {
+        "text": "[22Gcomb]*BL9灌注冲锋枪*",
+        "condition": {
+          "not": {
+            "u_has_item": "BL9_smg"
+          }
+        },
+        "trial": {
+          "type": "CONDITION",
+          "condition": {
+            "u_has_items": {
+              "item": "goldcoincomb",
+              "count": 22
+            }
+          }
+        },
+        "success": {
+          "topic": "BL9_trader_ty",
+          "effect": [
+            {
+              "u_buy_item": "9mmBL9smgmag",
+              "count": 1
+            },
+            {
+              "u_sell_item": "goldcoincomb",
+              "count": 22
+            },
+            {
+              "npc_consume_item": "goldcoincomb",
+              "count": 22
+            },
+            {
+              "u_buy_item": "BL9_smg",
+              "count": 1
+            }
+          ]
+        },
+        "failure": {
+          "topic": "BL9_trader_nocash"
+        }
+      },
+      {
+        "text": "[54Pcomb]*BL9灌注冲锋枪MK ii*",
+        "condition": {
+          "and": [
+            {
+              "u_has_item": "BL9_smg"
+            },
+            {
+              "not": {
+                "u_has_item": "BL9_smg_mk2"
+              }
+            }
+          ]
+        },
+        "trial": {
+          "type": "CONDITION",
+          "condition": {
+            "u_has_items": {
+              "item": "platcoincomb",
+              "count": 54
+            }
+          }
+        },
+        "success": {
+          "topic": "BL9_trader_ty",
+          "effect": [
+            {
+              "u_buy_item": "BL9_smg_mk2",
+              "count": 1
+            },
+            {
+              "u_buy_item": "9mmBL9smgmk2mag",
+              "count": 1
+            },
+            {
+              "u_sell_item": "platcoincomb",
+              "count": 54
+            },
+            {
+              "npc_consume_item": "platcoincomb",
+              "count": 54
+            }
+          ]
+        },
+        "failure": {
+          "topic": "BL9_trader_nocash"
+        }
+      },
+      {
+        "text": "[38Gcomb]*BL9灌注狙击步枪*",
+        "condition": {
+          "not": {
+            "u_has_item": "BL9_sniper"
+          }
+        },
+        "trial": {
+          "type": "CONDITION",
+          "condition": {
+            "u_has_items": {
+              "item": "goldcoincomb",
+              "count": 38
+            }
+          }
+        },
+        "success": {
+          "topic": "BL9_trader_ty",
+          "effect": [
+            {
+              "u_buy_item": "308BL9mag",
+              "count": 1
+            },
+            {
+              "u_sell_item": "goldcoincomb",
+              "count": 38
+            },
+            {
+              "npc_consume_item": "goldcoincomb",
+              "count": 38
+            },
+            {
+              "u_buy_item": "BL9_sniper",
+              "count": 1
+            }
+          ]
+        },
+        "failure": {
+          "topic": "BL9_trader_nocash"
+        }
+      },
+      {
+        "text": "[100Pcomb]*BL9注入狙击步枪MK ii*",
+        "condition": {
+          "and": [
+            {
+              "u_has_item": "BL9_sniper"
+            },
+            {
+              "not": {
+                "u_has_item": "BL9_sniper_mk2"
+              }
+            }
+          ]
+        },
+        "trial": {
+          "type": "CONDITION",
+          "condition": {
+            "u_has_items": {
+              "item": "platcoincomb",
+              "count": 100
+            }
+          }
+        },
+        "success": {
+          "topic": "BL9_trader_ty",
+          "effect": [
+            {
+              "u_buy_item": "BL9_sniper_mk2",
+              "count": 1
+            },
+            {
+              "u_buy_item": "308BL9mk2mag",
+              "count": 1
+            },
+            {
+              "u_sell_item": "platcoincomb",
+              "count": 100
+            },
+            {
+              "npc_consume_item": "platcoincomb",
+              "count": 100
+            }
+          ]
+        },
+        "failure": {
+          "topic": "BL9_trader_nocash"
+        }
+      },
+      {
+        "text": "[34Gcomb]*BL9灌注自动步枪*",
+        "condition": {
+          "not": {
+            "u_has_item": "BL9_auto"
+          }
+        },
+        "trial": {
+          "type": "CONDITION",
+          "condition": {
+            "u_has_items": {
+              "item": "goldcoincomb",
+              "count": 34
+            }
+          }
+        },
+        "success": {
+          "topic": "BL9_trader_ty",
+          "effect": [
+            {
+              "u_buy_item": "556223BL9mag",
+              "count": 1
+            },
+            {
+              "u_sell_item": "goldcoincomb",
+              "count": 34
+            },
+            {
+              "npc_consume_item": "goldcoincomb",
+              "count": 34
+            },
+            {
+              "u_buy_item": "BL9_auto",
+              "count": 1
+            }
+          ]
+        },
+        "failure": {
+          "topic": "BL9_trader_nocash"
+        }
+      },
+      {
+        "text": "[90Pcomb]*BL9自动步枪MK ii*",
+        "condition": {
+          "and": [
+            {
+              "u_has_item": "BL9_auto"
+            },
+            {
+              "not": {
+                "u_has_item": "BL9_auto_mk2"
+              }
+            }
+          ]
+        },
+        "trial": {
+          "type": "CONDITION",
+          "condition": {
+            "u_has_items": {
+              "item": "platcoincomb",
+              "count": 90
+            }
+          }
+        },
+        "success": {
+          "topic": "BL9_trader_ty",
+          "effect": [
+            {
+              "u_buy_item": "BL9_auto_mk2",
+              "count": 1
+            },
+            {
+              "u_buy_item": "556223BL9mk2mag",
+              "count": 1
+            },
+            {
+              "u_sell_item": "platcoincomb",
+              "count": 90
+            },
+            {
+              "npc_consume_item": "platcoincomb",
+              "count": 90
+            }
+          ]
+        },
+        "failure": {
+          "topic": "BL9_trader_nocash"
+        }
+      },
+      {
+        "text": "[28Gcomb]*BL9灌注猎枪*",
+        "condition": {
+          "not": {
+            "u_has_item": "BL9_shotgun"
+          }
+        },
+        "trial": {
+          "type": "CONDITION",
+          "condition": {
+            "u_has_items": {
+              "item": "goldcoincomb",
+              "count": 28
+            }
+          }
+        },
+        "success": {
+          "topic": "BL9_trader_ty",
+          "effect": [
+            {
+              "u_sell_item": "goldcoincomb",
+              "count": 28
+            },
+            {
+              "npc_consume_item": "goldcoincomb",
+              "count": 28
+            },
+            {
+              "u_buy_item": "BL9_shotgun",
+              "count": 1
+            }
+          ]
+        },
+        "failure": {
+          "topic": "BL9_trader_nocash"
+        }
+      },
+      {
+        "text": "[72Pcomb]*BL9灌注猎枪MK ii*",
+        "condition": {
+          "and": [
+            {
+              "u_has_item": "BL9_shotgun"
+            },
+            {
+              "not": {
+                "u_has_item": "BL9_shotgun_mk2"
+              }
+            }
+          ]
+        },
+        "trial": {
+          "type": "CONDITION",
+          "condition": {
+            "u_has_items": {
+              "item": "platcoincomb",
+              "count": 72
+            }
+          }
+        },
+        "success": {
+          "topic": "BL9_trader_ty",
+          "effect": [
+            {
+              "u_buy_item": "BL9_shotgun_mk2",
+              "count": 1
+            },
+            {
+              "u_sell_item": "platcoincomb",
+              "count": 72
+            },
+            {
+              "npc_consume_item": "platcoincomb",
+              "count": 72
+            }
+          ]
+        },
+        "failure": {
+          "topic": "BL9_trader_nocash"
+        }
+      },
+      {
+        "text": "[35Gcomb]*BL9注入万能酒*",
+        "condition": {
+          "not": {
+            "u_has_item": "BL9_magnum"
+          }
+        },
+        "trial": {
+          "type": "CONDITION",
+          "condition": {
+            "u_has_items": {
+              "item": "goldcoincomb",
+              "count": 35
+            }
+          }
+        },
+        "success": {
+          "topic": "BL9_trader_ty",
+          "effect": [
+            {
+              "u_sell_item": "goldcoincomb",
+              "count": 35
+            },
+            {
+              "npc_consume_item": "goldcoincomb",
+              "count": 35
+            },
+            {
+              "u_buy_item": "BL9_magnum",
+              "count": 1
+            }
+          ]
+        },
+        "failure": {
+          "topic": "BL9_trader_nocash"
+        }
+      },
+      {
+        "text": "[94Pcomb]*BL9注入万能MK ii*",
+        "condition": {
+          "and": [
+            {
+              "u_has_item": "BL9_magnum"
+            },
+            {
+              "not": {
+                "u_has_item": "BL9_magnum_mk2"
+              }
+            }
+          ]
+        },
+        "trial": {
+          "type": "CONDITION",
+          "condition": {
+            "u_has_items": {
+              "item": "platcoincomb",
+              "count": 94
+            }
+          }
+        },
+        "success": {
+          "topic": "BL9_trader_ty",
+          "effect": [
+            {
+              "u_buy_item": "BL9_magnum_mk2",
+              "count": 1
+            },
+            {
+              "u_sell_item": "platcoincomb",
+              "count": 94
+            },
+            {
+              "npc_consume_item": "platcoincomb",
+              "count": 94
+            }
+          ]
+        },
+        "failure": {
+          "topic": "BL9_trader_nocash"
+        }
+      },
+      {
+        "text": "[52Gcomb]*BL9灌注式喷雾器*",
+        "condition": {
+          "not": {
+            "u_has_item": "BL9_magnum"
+          }
+        },
+        "trial": {
+          "type": "CONDITION",
+          "condition": {
+            "u_has_items": {
+              "item": "goldcoincomb",
+              "count": 52
+            }
+          }
+        },
+        "success": {
+          "topic": "BL9_trader_ty",
+          "effect": [
+            {
+              "u_sell_item": "goldcoincomb",
+              "count": 52
+            },
+            {
+              "npc_consume_item": "goldcoincomb",
+              "count": 52
+            },
+            {
+              "u_buy_item": "tank_BL9",
+              "count": 1
+            },
+            {
+              "u_buy_item": "BL9_sprayer",
+              "count": 1
+            }
+          ]
+        },
+        "failure": {
+          "topic": "BL9_trader_nocash"
+        }
+      },
+      {
+        "text": "[133Pcomb]*BL9灌注喷雾器MK ii*",
+        "condition": {
+          "and": [
+            {
+              "u_has_item": "BL9_sprayer"
+            },
+            {
+              "not": {
+                "u_has_item": "BL9_sprayer_mk2"
+              }
+            }
+          ]
+        },
+        "trial": {
+          "type": "CONDITION",
+          "condition": {
+            "u_has_items": {
+              "item": "platcoincomb",
+              "count": 133
+            }
+          }
+        },
+        "success": {
+          "topic": "BL9_trader_ty",
+          "effect": [
+            {
+              "u_buy_item": "BL9_sprayer_mk2",
+              "count": 1
+            },
+            {
+              "u_sell_item": "platcoincomb",
+              "count": 133
+            },
+            {
+              "npc_consume_item": "platcoincomb",
+              "count": 133
+            }
+          ]
+        },
+        "failure": {
+          "topic": "BL9_trader_nocash"
+        }
+      },
+      {
+        "text": "[38Gcomb]*BL9注入发射器*",
+        "condition": {
+          "not": {
+            "u_has_item": "BL9_launcher"
+          }
+        },
+        "trial": {
+          "type": "CONDITION",
+          "condition": {
+            "u_has_items": {
+              "item": "goldcoincomb",
+              "count": 38
+            }
+          }
+        },
+        "success": {
+          "topic": "BL9_trader_ty",
+          "effect": [
+            {
+              "u_sell_item": "goldcoincomb",
+              "count": 38
+            },
+            {
+              "npc_consume_item": "goldcoincomb",
+              "count": 38
+            },
+            {
+              "u_buy_item": "40BL9mag",
+              "count": 1
+            },
+            {
+              "u_buy_item": "BL9_launcher",
+              "count": 1
+            }
+          ]
+        },
+        "failure": {
+          "topic": "BL9_trader_nocash"
+        }
+      },
+      {
+        "text": "[108Pcomb]*BL9灌注发射器MK ii*",
+        "condition": {
+          "and": [
+            {
+              "u_has_item": "BL9_launcher"
+            },
+            {
+              "not": {
+                "u_has_item": "BL9_launcher_mk2"
+              }
+            }
+          ]
+        },
+        "trial": {
+          "type": "CONDITION",
+          "condition": {
+            "u_has_items": {
+              "item": "platcoincomb",
+              "count": 108
+            }
+          }
+        },
+        "success": {
+          "topic": "BL9_trader_ty",
+          "effect": [
+            {
+              "u_buy_item": "BL9_launcher_mk2",
+              "count": 1
+            },
+            {
+              "u_buy_item": "40_BL9mk2mag",
+              "count": 1
+            },
+            {
+              "u_sell_item": "platcoincomb",
+              "count": 108
+            },
+            {
+              "npc_consume_item": "platcoincomb",
+              "count": 108
+            }
+          ]
+        },
+        "failure": {
+          "topic": "BL9_trader_nocash"
+        }
+      },
+      {
+        "text": "[25Gcomb]*BL9注入弓*",
+        "condition": {
+          "not": {
+            "u_has_item": "BL9_bow"
+          }
+        },
+        "trial": {
+          "type": "CONDITION",
+          "condition": {
+            "u_has_items": {
+              "item": "goldcoincomb",
+              "count": 25
+            }
+          }
+        },
+        "success": {
+          "topic": "BL9_trader_ty",
+          "effect": [
+            {
+              "u_sell_item": "goldcoincomb",
+              "count": 25
+            },
+            {
+              "npc_consume_item": "goldcoincomb",
+              "count": 25
+            },
+            {
+              "u_buy_item": "BL9_bow",
+              "count": 1
+            }
+          ]
+        },
+        "failure": {
+          "topic": "BL9_trader_nocash"
+        }
+      },
+      {
+        "text": "[64Pcomb]*BL9注入弓MK ii*",
+        "condition": {
+          "and": [
+            {
+              "u_has_item": "BL9_bow"
+            },
+            {
+              "not": {
+                "u_has_item": "BL9_bow_mk2"
+              }
+            }
+          ]
+        },
+        "trial": {
+          "type": "CONDITION",
+          "condition": {
+            "u_has_items": {
+              "item": "platcoincomb",
+              "count": 64
+            }
+          }
+        },
+        "success": {
+          "topic": "BL9_trader_ty",
+          "effect": [
+            {
+              "u_buy_item": "BL9_bow_mk2",
+              "count": 1
+            },
+            {
+              "u_sell_item": "platcoincomb",
+              "count": 64
+            },
+            {
+              "npc_consume_item": "platcoincomb",
+              "count": 64
+            }
+          ]
+        },
+        "failure": {
+          "topic": "BL9_trader_nocash"
+        }
+      },
+      {
+        "text": "[31Gcomb]*BL9注入弩*",
+        "condition": {
+          "not": {
+            "u_has_item": "BL9_crossbow"
+          }
+        },
+        "trial": {
+          "type": "CONDITION",
+          "condition": {
+            "u_has_items": {
+              "item": "goldcoincomb",
+              "count": 31
+            }
+          }
+        },
+        "success": {
+          "topic": "BL9_trader_ty",
+          "effect": [
+            {
+              "u_sell_item": "goldcoincomb",
+              "count": 31
+            },
+            {
+              "npc_consume_item": "goldcoincomb",
+              "count": 31
+            },
+            {
+              "u_buy_item": "BL9_crossbow",
+              "count": 1
+            }
+          ]
+        },
+        "failure": {
+          "topic": "BL9_trader_nocash"
+        }
+      },
+      {
+        "text": "[79Pcomb]*BL9灌注弩MK ii*",
+        "condition": {
+          "and": [
+            {
+              "u_has_item": "BL9_crossbow"
+            },
+            {
+              "not": {
+                "u_has_item": "BL9_crossbow_mk2"
+              }
+            }
+          ]
+        },
+        "trial": {
+          "type": "CONDITION",
+          "condition": {
+            "u_has_items": {
+              "item": "platcoincomb",
+              "count": 79
+            }
+          }
+        },
+        "success": {
+          "topic": "BL9_trader_ty",
+          "effect": [
+            {
+              "u_buy_item": "BL9_crossbow_mk2",
+              "count": 1
+            },
+            {
+              "u_sell_item": "platcoincomb",
+              "count": 79
+            },
+            {
+              "npc_consume_item": "platcoincomb",
+              "count": 79
+            }
+          ]
+        },
+        "failure": {
+          "topic": "BL9_trader_nocash"
+        }
+      },
+      {
+        "text": "[买盔甲]",
+        "topic": "TALK_BL9_TRADER_BUY2"
+      },
+      {
+        "text": "[再见]",
+        "topic": "TALK_DONE"
+      }
+    ]
+  },
+  {
+    "id": "TALK_BL9_TRADER_BUY2",
+    "type": "talk_topic",
+    "dynamic_line": "有很多好东西在打折，陌生人。。。",
+    "responses": [
+      {
+        "text": "[25Gcomb]*BL9注入幸存者头盔*",
+        "condition": {
+          "not": {
+            "u_has_item": "BL9_survivorhelmet"
+          }
+        },
+        "trial": {
+          "type": "CONDITION",
+          "condition": {
+            "u_has_items": {
+              "item": "goldcoincomb",
+              "count": 25
+            }
+          }
+        },
+        "success": {
+          "topic": "BL9_trader_ty",
+          "effect": [
+            {
+              "u_sell_item": "goldcoincomb",
+              "count": 25
+            },
+            {
+              "npc_consume_item": "goldcoincomb",
+              "count": 25
+            },
+            {
+              "u_buy_item": "BL9_survivorhelmet",
+              "count": 1
+            }
+          ]
+        },
+        "failure": {
+          "topic": "BL9_trader_nocash"
+        }
+      },
+      {
+        "text": "[56Pcomb]*BL9注入幸存者头盔MK ii*",
+        "condition": {
+          "and": [
+            {
+              "u_has_item": "BL9_survivorhelmet"
+            },
+            {
+              "not": {
+                "u_has_item": "BL9_survivorhelmet_mk2"
+              }
+            }
+          ]
+        },
+        "trial": {
+          "type": "CONDITION",
+          "condition": {
+            "u_has_items": {
+              "item": "platcoincomb",
+              "count": 56
+            }
+          }
+        },
+        "success": {
+          "topic": "BL9_trader_ty",
+          "effect": [
+            {
+              "u_sell_item": "platcoincomb",
+              "count": 56
+            },
+            {
+              "npc_consume_item": "platcoincomb",
+              "count": 56
+            },
+            {
+              "u_buy_item": "BL9_survivorhelmet_mk2",
+              "count": 1
+            }
+          ]
+        },
+        "failure": {
+          "topic": "BL9_trader_nocash"
+        }
+      },
+      {
+        "text": "[21Gcomb]*BL9注入幸存者货物长裤*",
+        "condition": {
+          "not": {
+            "u_has_item": "BL9_survivorpants"
+          }
+        },
+        "trial": {
+          "type": "CONDITION",
+          "condition": {
+            "u_has_items": {
+              "item": "goldcoincomb",
+              "count": 21
+            }
+          }
+        },
+        "success": {
+          "topic": "BL9_trader_ty",
+          "effect": [
+            {
+              "u_sell_item": "goldcoincomb",
+              "count": 21
+            },
+            {
+              "npc_consume_item": "goldcoincomb",
+              "count": 21
+            },
+            {
+              "u_buy_item": "BL9_survivorpants",
+              "count": 1
+            }
+          ]
+        },
+        "failure": {
+          "topic": "BL9_trader_nocash"
+        }
+      },
+      {
+        "text": "[49Pcomb]*BL9注入幸存者工装裤MK ii*",
+        "condition": {
+          "and": [
+            {
+              "u_has_item": "BL9_survivorpants"
+            },
+            {
+              "not": {
+                "u_has_item": "BL9_survivorpants_mk2"
+              }
+            }
+          ]
+        },
+        "trial": {
+          "type": "CONDITION",
+          "condition": {
+            "u_has_items": {
+              "item": "platcoincomb",
+              "count": 49
+            }
+          }
+        },
+        "success": {
+          "topic": "BL9_trader_ty",
+          "effect": [
+            {
+              "u_buy_item": "BL9_survivorpants_mk2",
+              "count": 1
+            },
+            {
+              "u_sell_item": "platcoincomb",
+              "count": 49
+            },
+            {
+              "npc_consume_item": "platcoincomb",
+              "count": 49
+            }
+          ]
+        },
+        "failure": {
+          "topic": "BL9_trader_nocash"
+        }
+      },
+      {
+        "text": "[25Gcomb]*BL9注入幸存者套装*",
+        "condition": {
+          "not": {
+            "u_has_item": "BL9_survivorsuit"
+          }
+        },
+        "trial": {
+          "type": "CONDITION",
+          "condition": {
+            "u_has_items": {
+              "item": "goldcoincomb",
+              "count": 25
+            }
+          }
+        },
+        "success": {
+          "topic": "BL9_trader_ty",
+          "effect": [
+            {
+              "u_sell_item": "goldcoincomb",
+              "count": 25
+            },
+            {
+              "npc_consume_item": "goldcoincomb",
+              "count": 25
+            },
+            {
+              "u_buy_item": "BL9_survivorsuit",
+              "count": 1
+            }
+          ]
+        },
+        "failure": {
+          "topic": "BL9_trader_nocash"
+        }
+      },
+      {
+        "text": "[59Pcomb]*BL9注入幸存者套装MK ii*",
+        "condition": {
+          "and": [
+            {
+              "u_has_item": "BL9_survivorsuit"
+            },
+            {
+              "not": {
+                "u_has_item": "BL9_survivorsuit_mk2"
+              }
+            }
+          ]
+        },
+        "trial": {
+          "type": "CONDITION",
+          "condition": {
+            "u_has_items": {
+              "item": "platcoincomb",
+              "count": 59
+            }
+          }
+        },
+        "success": {
+          "topic": "BL9_trader_ty",
+          "effect": [
+            {
+              "u_buy_item": "BL9_survivorsuit_mk2",
+              "count": 1
+            },
+            {
+              "u_sell_item": "platcoincomb",
+              "count": 59
+            },
+            {
+              "npc_consume_item": "platcoincomb",
+              "count": 59
+            }
+          ]
+        },
+        "failure": {
+          "topic": "BL9_trader_nocash"
+        }
+      },
+      {
+        "text": "[11Gcomb]*一副BL9注入幸存者手套*",
+        "condition": {
+          "not": {
+            "u_has_item": "BL9_survivorgloves"
+          }
+        },
+        "trial": {
+          "type": "CONDITION",
+          "condition": {
+            "u_has_items": {
+              "item": "goldcoincomb",
+              "count": 11
+            }
+          }
+        },
+        "success": {
+          "topic": "BL9_trader_ty",
+          "effect": [
+            {
+              "u_sell_item": "goldcoincomb",
+              "count": 11
+            },
+            {
+              "npc_consume_item": "goldcoincomb",
+              "count": 11
+            },
+            {
+              "u_buy_item": "BL9_survivorgloves",
+              "count": 1
+            }
+          ]
+        },
+        "failure": {
+          "topic": "BL9_trader_nocash"
+        }
+      },
+      {
+        "text": "[26Pcomb]*一副BL9注入幸存者手套MK ii*",
+        "condition": {
+          "and": [
+            {
+              "u_has_item": "BL9_survivorgloves"
+            },
+            {
+              "not": {
+                "u_has_item": "BL9_survivorgloves_mk2"
+              }
+            }
+          ]
+        },
+        "trial": {
+          "type": "CONDITION",
+          "condition": {
+            "u_has_items": {
+              "item": "platcoincomb",
+              "count": 26
+            }
+          }
+        },
+        "success": {
+          "topic": "BL9_trader_ty",
+          "effect": [
+            {
+              "u_buy_item": "BL9_survivorgloves_mk2",
+              "count": 1
+            },
+            {
+              "u_sell_item": "platcoincomb",
+              "count": 26
+            },
+            {
+              "npc_consume_item": "platcoincomb",
+              "count": 26
+            }
+          ]
+        },
+        "failure": {
+          "topic": "BL9_trader_nocash"
+        }
+      },
+      {
+        "text": "[16Gcomb]*一双注入BL9的幸存者靴子*",
+        "condition": {
+          "not": {
+            "u_has_item": "BL9_survivorboots"
+          }
+        },
+        "trial": {
+          "type": "CONDITION",
+          "condition": {
+            "u_has_items": {
+              "item": "goldcoincomb",
+              "count": 16
+            }
+          }
+        },
+        "success": {
+          "topic": "BL9_trader_ty",
+          "effect": [
+            {
+              "u_sell_item": "goldcoincomb",
+              "count": 16
+            },
+            {
+              "npc_consume_item": "goldcoincomb",
+              "count": 16
+            },
+            {
+              "u_buy_item": "BL9_survivorboots",
+              "count": 1
+            }
+          ]
+        },
+        "failure": {
+          "topic": "BL9_trader_nocash"
+        }
+      },
+      {
+        "text": "[39Pcomb]*一双BL9注入幸存者靴MK ii*",
+        "condition": {
+          "and": [
+            {
+              "u_has_item": "BL9_survivorboots"
+            },
+            {
+              "not": {
+                "u_has_item": "BL9_survivorboots_mk2"
+              }
+            }
+          ]
+        },
+        "trial": {
+          "type": "CONDITION",
+          "condition": {
+            "u_has_items": {
+              "item": "platcoincomb",
+              "count": 39
+            }
+          }
+        },
+        "success": {
+          "topic": "BL9_trader_ty",
+          "effect": [
+            {
+              "u_buy_item": "BL9_survivorboots_mk2",
+              "count": 1
+            },
+            {
+              "u_sell_item": "platcoincomb",
+              "count": 39
+            },
+            {
+              "npc_consume_item": "platcoincomb",
+              "count": 39
+            }
+          ]
+        },
+        "failure": {
+          "topic": "BL9_trader_nocash"
+        }
+      },
+      {
+        "text": "[28Gcomb]*BL9灌注防弹衣*",
+        "condition": {
+          "not": {
+            "u_has_item": "BL9_bodyarmor"
+          }
+        },
+        "trial": {
+          "type": "CONDITION",
+          "condition": {
+            "u_has_items": {
+              "item": "goldcoincomb",
+              "count": 28
+            }
+          }
+        },
+        "success": {
+          "topic": "BL9_trader_ty",
+          "effect": [
+            {
+              "u_sell_item": "goldcoincomb",
+              "count": 28
+            },
+            {
+              "npc_consume_item": "goldcoincomb",
+              "count": 28
+            },
+            {
+              "u_buy_item": "BL9_bodyarmor",
+              "count": 1
+            }
+          ]
+        },
+        "failure": {
+          "topic": "BL9_trader_nocash"
+        }
+      },
+      {
+        "text": "[67Pcomb]*BL9灌注防弹衣MK ii*",
+        "condition": {
+          "and": [
+            {
+              "u_has_item": "BL9_bodyarmor"
+            },
+            {
+              "not": {
+                "u_has_item": "BL9_bodyarmor_mk2"
+              }
+            }
+          ]
+        },
+        "trial": {
+          "type": "CONDITION",
+          "condition": {
+            "u_has_items": {
+              "item": "platcoincomb",
+              "count": 67
+            }
+          }
+        },
+        "success": {
+          "topic": "BL9_trader_ty",
+          "effect": [
+            {
+              "u_buy_item": "BL9_bodyarmor_mk2",
+              "count": 1
+            },
+            {
+              "u_sell_item": "platcoincomb",
+              "count": 67
+            },
+            {
+              "npc_consume_item": "platcoincomb",
+              "count": 67
+            }
+          ]
+        },
+        "failure": {
+          "topic": "BL9_trader_nocash"
+        }
+      },
+      {
+        "text": "[购买武器]",
+        "topic": "TALK_BL9_TRADER_BUY1"
+      },
+      {
+        "text": "[再见]",
+        "topic": "TALK_DONE"
+      }
+    ]
+  },
+  {
+    "type": "talk_topic",
+    "id": "BL9_trader_ty",
+    "dynamic_line": "谢谢您！也许还有更多？",
+    "responses": [
+      {
+        "text": "当然。",
+        "topic": "TALK_BL9_TRADER_BUY1"
+      },
+      {
+        "text": "对不起的。",
+        "topic": "TALK_DONE"
+      }
+    ]
+  },
+  {
+    "type": "talk_topic",
+    "id": "BL9_trader_nocash",
+    "dynamic_line": "现金不够，陌生人！",
+    "responses": [
+      {
+        "text": "对不起的。",
+        "topic": "TALK_BL9_TRADER_BUY1"
+      }
+    ]
+  },
+  {
+    "id": "TALK_TRADER_GOODBYE",
+    "type": "talk_topic",
+    "dynamic_line": "随时回来。。。",
+    "responses": [
+      {
+        "text": "谢谢",
+        "topic": "TALK_DONE"
+      }
+    ]
+  },
+  {
+    "id": "TALK_BL9_TRADER_GUIDE1",
+    "type": "talk_topic",
+    "dynamic_line": "我有一些好东西在出售，陌生人，BL9注入手工武器和相当珍贵的耐用盔甲-但作为回报，我向你寻求的是黄金和铂金。。。",
+    "responses": [
+      {
+        "text": "我怎么装枪？",
+        "topic": "TALK_BL9_TRADER_GUIDE2"
+      },
+      {
+        "text": "我怎么从你这里买东西？",
+        "topic": "TALK_BL9_TRADER_GUIDE3"
+      },
+      {
+        "text": "我在哪能找到黄金和铂金？",
+        "topic": "TALK_BL9_TRADER_GUIDE4"
+      },
+      {
+        "text": "你在这一切中扮演什么角色？",
+        "topic": "TALK_BL9_TRADER_GUIDE5"
+      },
+      {
+        "text": "如何修复BL9注入的物品？",
+        "topic": "TALK_BL9_TRADER_GUIDE6"
+      },
+      {
+        "text": "实际上，我去看看今天有什么特价。。。",
+        "topic": "TALK_BL9_TRADER"
+      }
+    ]
+  },
+  {
+    "id": "TALK_BL9_TRADER_GUIDE2",
+    "type": "talk_topic",
+    "dynamic_line": "如果你不能用BL9弹夹重新装填BL9枪-只要把武器和弹夹都扔在地上，要么把它们装在地上，要么把它们扔到地上，捡起来再装，这样就能解决你的小问题了，陌生人！",
+    "responses": [
+      {
+        "text": "谢谢您！我还有更多的问题。。。",
+        "topic": "TALK_BL9_TRADER_GUIDE1"
+      }
+    ]
+  },
+  {
+    "id": "TALK_BL9_TRADER_GUIDE3",
+    "type": "talk_topic",
+    "dynamic_line": "当然有金币和白金的组合！在你的掌上电脑或笔记本里查看你的“其他”食谱，或者随便你需要收集金币和铂金币，然后制作这些组合——每一个黄金或铂金的组合都需要100块相应类型的金币——需要100金币来制作1个金币组合，需要100个铂金来制作1个白金硬币组合，陌生人！",
+    "responses": [
+      {
+        "text": "谢谢您！我还有更多的问题。。。",
+        "topic": "TALK_BL9_TRADER_GUIDE1"
+      }
+    ]
+  },
+  {
+    "id": "TALK_BL9_TRADER_GUIDE4",
+    "type": "talk_topic",
+    "dynamic_line": "看看你自己，陌生人，它分散在世界各地-你可以在与BL9相关的所有地方找到它-生物群落，异常，秘密军事地点，士兵和邪教分子携带它-巡逻，名单不断，陌生人。。。",
+    "responses": [
+      {
+        "text": "谢谢您！我还有更多的问题。。。",
+        "topic": "TALK_BL9_TRADER_GUIDE1"
+      }
+    ]
+  },
+  {
+    "id": "TALK_BL9_TRADER_GUIDE5",
+    "type": "talk_topic",
+    "dynamic_line": "我的角色？哦，陌生人，我只是一个幸存者，一个狂热的珍品收藏家，知道……关于BL9和它的载体，怎么办？哦，说来话长，我不想让你厌烦，陌生人。。。",
+    "responses": [
+      {
+        "text": "有趣！我还有更多的问题。。。",
+        "topic": "TALK_BL9_TRADER_GUIDE1"
+      }
+    ]
+  },
+  {
+    "id": "TALK_BL9_TRADER_GUIDE6",
+    "type": "talk_topic",
+    "dynamic_line": "好问题-为此，你需要使用BL9注入烙铁-作为修复工具，BL9样品-作为用于修复的材料，你需要有足够高的制造技能，当然当然。在万一你弄断或松开武器，盔甲或烙铁-别担心-你可以很容易地从我这里再次购买上述物品或免费获得烙铁",
+    "responses": [
+      {
+        "text": "谢谢您！我还有更多的问题。。。",
+        "topic": "TALK_BL9_TRADER_GUIDE1"
+      }
+    ]
+  }
+]

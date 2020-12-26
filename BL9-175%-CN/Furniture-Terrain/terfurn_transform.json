@@ -1,0 +1,65 @@
+[
+  {
+    "type": "ter_furn_transform",
+    "id": "boomthebuilding",
+    "fail_message": "没有建筑可以摧毁。",
+    "terrain": [
+      {
+        "result": "t_dirt",
+        "valid_flags": [
+          "TRANSPARENT",
+          "WALL",
+          "CONNECT_TO_WALL",
+          "MOUNTABLE",
+          "THIN_OBSTACLE",
+          "BURROWABLE"
+        ],
+        "message": "这里的墙塌了。"
+      }
+    ],
+    "furniture": [
+      {
+        "result": [
+          "f_rubble",
+          [
+            "f_null",
+            2
+          ]
+        ],
+        "valid_flags": [
+          "MINEABLE",
+          "MOUNTABLE",
+          "FLAT_SURF"
+        ],
+        "message": "Rubbles have formed."
+      },
+      {
+        "result": [
+          "f_rubble",
+          [
+            "f_null",
+            2
+          ]
+        ],
+        "valid_furniture": [
+          "f_null"
+        ],
+        "message": "Rubbles have formed."
+      }
+    ]
+  },
+  {
+    "type": "ter_furn_transform",
+    "id": "stairstransform",
+    "fail_message": "没有增值税要改造",
+    "terrain": [
+      {
+        "result": "t_stairs_down",
+        "valid_flags": [
+          "BL9"
+        ],
+        "message": "大桶变成了通往上帝知道的楼梯。。。"
+      }
+    ]
+  }
+]

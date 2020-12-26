@@ -1,0 +1,16 @@
+[
+  {
+    "type": "MOD_INFO",
+    "id": "BL9_140monres",
+    "name": "<color_light_blue>BL9-140%-怪物恢复能力版</color>",
+    "description": "\n<color_yellow>你有足够的勇气去探索BL9的奥秘吗？探索有关秘密大灾变组织的风俗传说，他们的黑暗计划和他们试图使用一个新的危险和不可预测的斑点状有机体类型，以夺取权力在这个疯狂的世界！</color>\n\n<color_light_cyan>巨大的异国情调的地点-被污染的中世纪城堡，秘密组织的军事化岛屿，巨大的郁郁葱葱和危险的地下生物群落（超过150多张自定义地图！）邪恶的可怕的怪物，新的武器（弹道！）和盔甲</color>",
+    "category": "content",
+    "authors": [
+      "Mrsecretguy1/Kenan, Axema Vales, Goat-God"
+    ],
+    "dependencies": [
+      "dda"
+    ],
+    "path": ""
+  }
+]

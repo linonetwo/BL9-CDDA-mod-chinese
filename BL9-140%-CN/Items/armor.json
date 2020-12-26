@@ -1,0 +1,679 @@
+[
+  {
+    "//": "Readding obsoleted survivor helmets ONLY for the proper use of `looks_like`",
+    "id": "helmet_survivor",
+    "type": "ARMOR",
+    "category": "armor",
+    "name": {
+      "str": "幸存者头盔"
+    },
+    "description": "一个定制的，重装甲凯夫拉头盔，皮革加固修改，以提供最大的舒适性和保护免受伤害。",
+    "weight": "1420 g",
+    "volume": "2500 ml",
+    "price": 58000,
+    "to_hit": -1,
+    "bashing": 10,
+    "material": [
+      "kevlar",
+      "leather"
+    ],
+    "symbol": "[",
+    "color": "dark_gray",
+    "covers": [
+      "head"
+    ],
+    "coverage": 100,
+    "encumbrance": 25,
+    "warmth": 15,
+    "material_thickness": 5,
+    "environmental_protection": 3,
+    "techniques": [
+      "WBLOCK_1"
+    ],
+    "flags": [
+      "VARSIZE",
+      "WATERPROOF",
+      "STURDY"
+    ]
+  },
+  {
+    "id": "helmet_xlsurvivor",
+    "type": "ARMOR",
+    "category": "armor",
+    "name": {
+      "str": "XL幸存者头盔"
+    },
+    "description": "一个巨大的定制，重装甲凯夫拉头盔，修改皮革加固，提供最大的舒适性和保护免受伤害。",
+    "weight": "3060 g",
+    "volume": "6 L",
+    "price": 58000,
+    "to_hit": -1,
+    "bashing": 10,
+    "material": [
+      "kevlar",
+      "leather"
+    ],
+    "symbol": "[",
+    "color": "dark_gray",
+    "covers": [
+      "head"
+    ],
+    "coverage": 100,
+    "encumbrance": 50,
+    "warmth": 15,
+    "material_thickness": 4,
+    "environmental_protection": 3,
+    "techniques": [
+      "WBLOCK_1"
+    ],
+    "flags": [
+      "OVERSIZE",
+      "VARSIZE",
+      "WATERPROOF",
+      "STURDY"
+    ]
+  },
+  {
+    "id": "helmet_hsurvivor",
+    "type": "ARMOR",
+    "category": "armor",
+    "name": {
+      "str": "重型幸存者头盔"
+    },
+    "description": "一个定制的，重装甲钢和凯夫拉头盔，修改后提供最大的舒适性和保护免受伤害。所有添加的材料使它变得相当沉重。",
+    "weight": "3312 g",
+    "volume": "2500 ml",
+    "price": 58000,
+    "to_hit": -1,
+    "bashing": 10,
+    "material": [
+      "kevlar",
+      "steel"
+    ],
+    "symbol": "[",
+    "color": "dark_gray",
+    "covers": [
+      "head"
+    ],
+    "coverage": 100,
+    "encumbrance": 40,
+    "warmth": 25,
+    "material_thickness": 6,
+    "environmental_protection": 5,
+    "techniques": [
+      "WBLOCK_1"
+    ],
+    "flags": [
+      "VARSIZE",
+      "WATERPROOF",
+      "STURDY"
+    ]
+  },
+  {
+    "id": "BL9_survivorhelmet",
+    "looks_like": "helmet_survivor",
+    "type": "ARMOR",
+    "category": "armor",
+    "name": "BL9-infused survivor helmet",
+    "description": "一个幸存者头盔，现代化和注入BL9，它是部分覆盖几乎有知觉的BL9加强和硬化头盔作为kevlar或陶瓷替代品",
+    "weight": "1075 g",
+    "volume": "2100 ml",
+    "price": 0,
+    "to_hit": -1,
+    "bashing": 9,
+    "material": [
+      "BL9",
+      "plastic"
+    ],
+    "symbol": "[",
+    "color": "red",
+    "covers": [
+      "head",
+      "eyes",
+      "mouth"
+    ],
+    "coverage": 100,
+    "encumbrance": 20,
+    "warmth": 10,
+    "material_thickness": 2,
+    "environmental_protection": 2,
+    "techniques": [
+      "WBLOCK_1"
+    ],
+    "flags": [
+      "VARSIZE",
+      "SUN_GLASSES",
+      "WATERPROOF",
+      "STURDY",
+      "OUTER"
+    ]
+  },
+  {
+    "id": "BL9_survivorpants",
+    "looks_like": "pants_survivor",
+    "type": "ARMOR",
+    "category": "armor",
+    "name": "BL9-infused survivor cargo pants",
+    "description": "一双幸存者的货物裤，现代化和注入了BL9，它的一部分覆盖几乎有知觉的BL9加强和硬化裤子作为凯夫拉尔或陶瓷替代品",
+    "weight": "1800 g",
+    "volume": "2275 ml",
+    "price": 0,
+    "material": [
+      "BL9",
+      "BL9_mid1"
+    ],
+    "symbol": "[",
+    "color": "red",
+    "covers": [
+      "leg_l",
+      "leg_r"
+    ],
+    "coverage": 100,
+    "encumbrance": 10,
+    "max_encumbrance": 17,
+    "pocket_data": [
+      {
+        "pocket_type": "CONTAINER",
+        "max_contains_volume": "1250 ml",
+        "max_contains_weight": "3500 g",
+        "moves": 65
+      },
+      {
+        "pocket_type": "CONTAINER",
+        "max_contains_volume": "1250 ml",
+        "max_contains_weight": "3500 g",
+        "moves": 65
+      },
+      {
+        "pocket_type": "CONTAINER",
+        "max_contains_volume": "750 ml",
+        "max_contains_weight": "2500 g",
+        "moves": 65
+      },
+      {
+        "pocket_type": "CONTAINER",
+        "max_contains_volume": "750 ml",
+        "max_contains_weight": "2500 g",
+        "moves": 65
+      },
+      {
+        "pocket_type": "CONTAINER",
+        "max_contains_volume": "750 ml",
+        "max_contains_weight": "2500 g",
+        "moves": 65
+      },
+      {
+        "pocket_type": "CONTAINER",
+        "max_contains_volume": "750 ml",
+        "max_contains_weight": "2500 g",
+        "moves": 65
+      },
+      {
+        "pocket_type": "CONTAINER",
+        "max_contains_volume": "400 ml",
+        "max_contains_weight": "1250 g",
+        "moves": 80
+      },
+      {
+        "pocket_type": "CONTAINER",
+        "max_contains_volume": "400 ml",
+        "max_contains_weight": "1250 g",
+        "moves": 80
+      }
+    ],
+    "warmth": 10,
+    "material_thickness": 1,
+    "environmental_protection": 2,
+    "flags": [
+      "VARSIZE",
+      "POCKETS",
+      "STURDY",
+      "WATERPROOF"
+    ]
+  },
+  {
+    "id": "BL9_survivorsuit",
+    "looks_like": "survivor_suit",
+    "type": "ARMOR",
+    "category": "armor",
+    "name": "BL9-infused survivor suit",
+    "description": "一个幸存者装甲服，现代化和注入了BL9，它的一部分覆盖了几乎有知觉的BL9加强和硬化的西装充当凯夫拉或陶瓷替代品",
+    "weight": "1775 g",
+    "volume": "6500 ml",
+    "price": 0,
+    "to_hit": -1,
+    "material": [
+      "BL9",
+      "BL9_mid2"
+    ],
+    "symbol": "[",
+    "color": "red",
+    "covers": [
+      "torso",
+      "arm_l",
+      "arm_r",
+      "leg_l",
+      "leg_r"
+    ],
+    "coverage": 85,
+    "encumbrance": 12,
+    "max_encumbrance": 20,
+    "pocket_data": [
+      {
+        "pocket_type": "CONTAINER",
+        "max_contains_volume": "3 L",
+        "max_contains_weight": "8 kg",
+        "moves": 60
+      },
+      {
+        "pocket_type": "CONTAINER",
+        "max_contains_volume": "3 L",
+        "max_contains_weight": "8 kg",
+        "moves": 60
+      },
+      {
+        "pocket_type": "CONTAINER",
+        "max_contains_volume": "2 L",
+        "max_contains_weight": "4 kg",
+        "moves": 90
+      },
+      {
+        "pocket_type": "CONTAINER",
+        "max_contains_volume": "2 L",
+        "max_contains_weight": "4 kg",
+        "moves": 90
+      }
+    ],
+    "warmth": 15,
+    "material_thickness": 1,
+    "environmental_protection": 2,
+    "flags": [
+      "VARSIZE",
+      "POCKETS",
+      "HOOD",
+      "STURDY",
+      "WATERPROOF",
+      "RAINPROOF"
+    ]
+  },
+  {
+    "id": "BL9_survivorgloves",
+    "looks_like": "gloves_survivor",
+    "type": "ARMOR",
+    "category": "armor",
+    "name": "pair of BL9-infused survivor gloves",
+    "description": "一对幸存者手套，现代化和注入BL9，它的一部分覆盖着几乎有知觉的BL9加强和硬化作为凯夫拉或陶瓷替代手套",
+    "weight": "185 g",
+    "volume": "575 ml",
+    "price": 0,
+    "to_hit": 2,
+    "material": [
+      "BL9",
+      "BL9_mid1"
+    ],
+    "symbol": "[",
+    "color": "red",
+    "covers": [
+      "hand_l",
+      "hand_r"
+    ],
+    "coverage": 100,
+    "encumbrance": 15,
+    "warmth": 20,
+    "material_thickness": 1,
+    "environmental_protection": 2,
+    "flags": [
+      "VARSIZE",
+      "WATERPROOF",
+      "STURDY"
+    ]
+  },
+  {
+    "id": "BL9_survivorboots",
+    "looks_like": "boots_survivor",
+    "type": "ARMOR",
+    "category": "armor",
+    "name": "pair of BL9-infused survivor boots",
+    "description": "一双幸存者靴子，现代化和注入了BL9，它的一部分覆盖着几乎有知觉的BL9加强和硬化的靴子作为凯夫拉或陶瓷替代品",
+    "weight": "1045 g",
+    "volume": "2175 ml",
+    "price": 0,
+    "to_hit": -1,
+    "bashing": 1,
+    "material": [
+      "BL9",
+      "leather"
+    ],
+    "symbol": "[",
+    "color": "red",
+    "covers": [
+      "foot_l",
+      "foot_r"
+    ],
+    "coverage": 100,
+    "encumbrance": 20,
+    "warmth": 20,
+    "material_thickness": 2,
+    "environmental_protection": 2,
+    "flags": [
+      "VARSIZE",
+      "WATERPROOF",
+      "STURDY"
+    ]
+  },
+  {
+    "id": "BL9_bodyarmor",
+    "looks_like": "lsurvivor_armor",
+    "type": "ARMOR",
+    "category": "armor",
+    "name": "BL9-infused body armor",
+    "description": "这是一种现代化的、注入了BL9的防弹衣，它的一部分被几乎有知觉的BL9覆盖，用来加强和硬化装甲，充当kevlar或陶瓷的替代品",
+    "weight": "2535 g",
+    "volume": "4440 ml",
+    "price": 0,
+    "to_hit": -1,
+    "material": [
+      "BL9",
+      "plastic"
+    ],
+    "symbol": "[",
+    "color": "red",
+    "covers": [
+      "torso"
+    ],
+    "coverage": 90,
+    "encumbrance": 15,
+    "warmth": 0,
+    "material_thickness": 2,
+    "environmental_protection": 2,
+    "flags": [
+      "VARSIZE",
+      "STURDY",
+      "WATERPROOF",
+      "RAINPROOF",
+      "OUTER"
+    ]
+  },
+  {
+    "id": "BL9_survivorhelmet_mk2",
+    "looks_like": "helmet_hsurvivor",
+    "type": "ARMOR",
+    "category": "armor",
+    "name": "BL9-infused survivor helmet MK ii",
+    "description": "一个幸存者头盔，现代化和充分注入BL9，它是完全覆盖和加强了一个非常强大的，进化，完美的感知和持久版本的BL9，多个尖刺振动突出物出现在外层的厚组织",
+    "weight": "1875 g",
+    "volume": "2745 ml",
+    "price": 0,
+    "to_hit": -1,
+    "bashing": 9,
+    "material": [
+      "BL9_mk2",
+      "plastic"
+    ],
+    "symbol": "[",
+    "color": "red",
+    "covers": [
+      "head",
+      "eyes",
+      "mouth"
+    ],
+    "coverage": 100,
+    "encumbrance": 30,
+    "warmth": 15,
+    "material_thickness": 2,
+    "environmental_protection": 3,
+    "techniques": [
+      "WBLOCK_1"
+    ],
+    "flags": [
+      "VARSIZE",
+      "SUN_GLASSES",
+      "WATERPROOF",
+      "STURDY",
+      "OUTER"
+    ]
+  },
+  {
+    "id": "BL9_survivorpants_mk2",
+    "looks_like": "bunker_pants",
+    "type": "ARMOR",
+    "category": "armor",
+    "name": "BL9-infused survivor cargo pants MK ii",
+    "description": "这是一条充满了BL9的现代化的幸存者货裤，它被一个非常坚固、进化、完美感知和耐用的BL9完全覆盖和加固，多个尖尖的振动突起从它的厚组织的外层出现",
+    "weight": "2145 g",
+    "volume": "2885 ml",
+    "price": 0,
+    "material": [
+      "BL9_mk2_mid1"
+    ],
+    "symbol": "[",
+    "color": "red",
+    "covers": [
+      "leg_l",
+      "leg_r"
+    ],
+    "coverage": 100,
+    "encumbrance": 12,
+    "max_encumbrance": 23,
+    "pocket_data": [
+      {
+        "pocket_type": "CONTAINER",
+        "max_contains_volume": "1800 ml",
+        "max_contains_weight": "4 kg",
+        "moves": 60
+      },
+      {
+        "pocket_type": "CONTAINER",
+        "max_contains_volume": "1800 ml",
+        "max_contains_weight": "4 kg",
+        "moves": 60
+      },
+      {
+        "pocket_type": "CONTAINER",
+        "max_contains_volume": "1200 ml",
+        "max_contains_weight": "3 kg",
+        "moves": 60
+      },
+      {
+        "pocket_type": "CONTAINER",
+        "max_contains_volume": "1200 ml",
+        "max_contains_weight": "3 kg",
+        "moves": 60
+      },
+      {
+        "pocket_type": "CONTAINER",
+        "max_contains_volume": "1200 ml",
+        "max_contains_weight": "3 kg",
+        "moves": 60
+      },
+      {
+        "pocket_type": "CONTAINER",
+        "max_contains_volume": "1200 ml",
+        "max_contains_weight": "3 kg",
+        "moves": 60
+      },
+      {
+        "pocket_type": "CONTAINER",
+        "max_contains_volume": "800 ml",
+        "max_contains_weight": "1500 g",
+        "moves": 75
+      },
+      {
+        "pocket_type": "CONTAINER",
+        "max_contains_volume": "800 ml",
+        "max_contains_weight": "1500 g",
+        "moves": 75
+      }
+    ],
+    "warmth": 15,
+    "material_thickness": 2,
+    "environmental_protection": 3,
+    "flags": [
+      "VARSIZE",
+      "POCKETS",
+      "STURDY",
+      "WATERPROOF"
+    ]
+  },
+  {
+    "id": "BL9_survivorsuit_mk2",
+    "looks_like": "hsurvivor_suit",
+    "type": "ARMOR",
+    "category": "armor",
+    "name": "BL9-infused survivor suit MK ii",
+    "description": "幸存者装甲服，现代化和充分注入了BL9，它是完全覆盖和加强了一个非常强大的，进化，完美的感知和耐用版本的BL9，多个尖刺振动突出物出现在外层的厚组织",
+    "weight": "1910 g",
+    "volume": "5445 ml",
+    "price": 0,
+    "to_hit": -1,
+    "material": [
+      "BL9_mk2_mid2"
+    ],
+    "symbol": "[",
+    "color": "red",
+    "covers": [
+      "torso",
+      "arm_l",
+      "arm_r",
+      "leg_l",
+      "leg_r"
+    ],
+    "coverage": 90,
+    "encumbrance": 18,
+    "max_encumbrance": 35,
+    "pocket_data": [
+      {
+        "pocket_type": "CONTAINER",
+        "max_contains_volume": "4500 ml",
+        "max_contains_weight": "8 kg",
+        "moves": 45
+      },
+      {
+        "pocket_type": "CONTAINER",
+        "max_contains_volume": "4500 ml",
+        "max_contains_weight": "8 kg",
+        "moves": 45
+      },
+      {
+        "pocket_type": "CONTAINER",
+        "max_contains_volume": "3500 ml",
+        "max_contains_weight": "5 kg",
+        "moves": 80
+      },
+      {
+        "pocket_type": "CONTAINER",
+        "max_contains_volume": "3500 ml",
+        "max_contains_weight": "5 kg",
+        "moves": 80
+      }
+    ],
+    "warmth": 20,
+    "material_thickness": 2,
+    "environmental_protection": 3,
+    "flags": [
+      "VARSIZE",
+      "POCKETS",
+      "HOOD",
+      "STURDY",
+      "WATERPROOF",
+      "RAINPROOF"
+    ]
+  },
+  {
+    "id": "BL9_survivorgloves_mk2",
+    "looks_like": "gloves_hsurvivor",
+    "type": "ARMOR",
+    "category": "armor",
+    "name": "Pair of BL9-infused survivor gloves MK ii",
+    "description": "一副幸存者手套，现代化和充分注入了BL9，它完全覆盖和加强了一个非常强大，进化，完美的感知和耐用版本的BL9，多个尖刺振动突出物从外层的厚组织",
+    "weight": "475 g",
+    "volume": "745 ml",
+    "price": 0,
+    "to_hit": 2,
+    "material": [
+      "BL9_mk2_mid1"
+    ],
+    "symbol": "[",
+    "color": "red",
+    "covers": [
+      "hand_l",
+      "hand_r"
+    ],
+    "coverage": 100,
+    "encumbrance": 25,
+    "warmth": 20,
+    "material_thickness": 2,
+    "environmental_protection": 3,
+    "flags": [
+      "VARSIZE",
+      "WATERPROOF",
+      "STURDY"
+    ]
+  },
+  {
+    "id": "BL9_survivorboots_mk2",
+    "looks_like": "boots_combat",
+    "type": "ARMOR",
+    "category": "armor",
+    "name": "Pair of BL9-infused survivor boots MK ii",
+    "description": "一双幸存者靴，现代化和充分注入了BL9，它完全覆盖和加强了一个非常强大，进化，完美的感知和耐用版本的BL9，多个尖刺振动突出物从外层的厚组织",
+    "weight": "1715 g",
+    "volume": "2375 ml",
+    "price": 0,
+    "to_hit": -1,
+    "bashing": 1,
+    "material": [
+      "BL9_mk2",
+      "plastic"
+    ],
+    "symbol": "[",
+    "color": "red",
+    "covers": [
+      "foot_l",
+      "foot_r"
+    ],
+    "coverage": 100,
+    "encumbrance": 25,
+    "warmth": 20,
+    "material_thickness": 2,
+    "environmental_protection": 3,
+    "flags": [
+      "VARSIZE",
+      "WATERPROOF",
+      "STURDY"
+    ]
+  },
+  {
+    "id": "BL9_bodyarmor_mk2",
+    "looks_like": "dragonskin",
+    "type": "ARMOR",
+    "category": "armor",
+    "name": "BL9-infused body armor MK ii",
+    "description": "这是一种现代化的防弹衣，完全注入了BL9，它完全覆盖和加强了一个非常强大，进化，完美的感知和耐用版本的BL9，多个尖尖的振动突出物从它的厚组织的外层出现",
+    "weight": "3 kg",
+    "volume": "5 L",
+    "price": 0,
+    "to_hit": -1,
+    "material": [
+      "BL9_mk2",
+      "plastic"
+    ],
+    "symbol": "[",
+    "color": "red",
+    "covers": [
+      "torso"
+    ],
+    "coverage": 90,
+    "encumbrance": 30,
+    "warmth": 0,
+    "material_thickness": 2,
+    "environmental_protection": 3,
+    "flags": [
+      "VARSIZE",
+      "STURDY",
+      "WATERPROOF",
+      "RAINPROOF",
+      "OUTER"
+    ]
+  }
+]

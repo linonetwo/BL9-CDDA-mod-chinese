@@ -1,0 +1,785 @@
+[
+  {
+    "id": "blazingtest",
+    "type": "SPELL",
+    "name": "ABLAZE!!!",
+    "description": "放火烧世界！！",
+    "message": "",
+    "flags": [
+      "SILENT",
+      "IGNORE_WALLS",
+      "NO_PROJECTILE"
+    ],
+    "valid_targets": [
+      "self",
+      "ally",
+      "hostile",
+      "ground"
+    ],
+    "effect": "attack",
+    "shape": "blast",
+    "min_aoe": 29,
+    "max_aoe": 29,
+    "field_id": "fd_fire",
+    "field_chance": 3,
+    "min_field_intensity": 2,
+    "max_field_intensity": 3
+  },
+  {
+    "id": "stairs_creation",
+    "type": "SPELL",
+    "name": "Stairs appears",
+    "description": "楼梯出现了，哈哈！！！",
+    "message": "<color_light_green>H A H A\n 楼梯 go<color_red>出现</color></color>",
+    "flags": [
+      "SILENT",
+      "IGNORE_WALLS",
+      "NO_PROJECTILE"
+    ],
+    "valid_targets": [
+      "ally",
+      "hostile",
+      "ground"
+    ],
+    "effect": "ter_transform",
+    "shape": "blast",
+    "effect_str": "stairstransform",
+    "min_aoe": 30,
+    "max_aoe": 30,
+    "base_casting_time": -1
+  },
+  {
+    "id": "buildinggoesboomhahafunny_boom",
+    "type": "SPELL",
+    "name": "House go boom!",
+    "description": "哈哈！！！",
+    "message": "<color_light_green>H A H A\n楼 去吧！去吧！</color></color>",
+    "flags": [
+      "SILENT",
+      "IGNORE_WALLS",
+      "NO_PROJECTILE"
+    ],
+    "valid_targets": [
+      "ally",
+      "hostile",
+      "ground"
+    ],
+    "effect": "ter_transform",
+    "shape": "blast",
+    "extra_effects": [
+      {
+        "id": "blazingtest",
+        "hit_self": false
+      },
+      {
+        "id": "stairs_creation",
+        "hit_self": false
+      }
+    ],
+    "effect_str": "boomthebuilding",
+    "min_aoe": 29,
+    "max_aoe": 29,
+    "base_casting_time": -1
+  },
+  {
+    "id": "BL9_item_herb_stun",
+    "type": "SPELL",
+    "name": "Herb Stun",
+    "description": "赫伯把你打晕了",
+    "flags": [
+      "SILENT"
+    ],
+    "valid_targets": [
+      "self"
+    ],
+    "effect": "attack",
+    "shape": "blast",
+    "effect_str": "herb_stun",
+    "min_duration": 25000,
+    "max_duration": 25000
+  },
+  {
+    "id": "BL9_pain_relieve",
+    "type": "SPELL",
+    "name": "Pain Relief",
+    "description": "药草解除你的痛苦！",
+    "flags": [
+      "SILENT"
+    ],
+    "valid_targets": [
+      "self"
+    ],
+    "min_damage": 65,
+    "max_damage": 65,
+    "effect": "recover_energy",
+    "shape": "blast",
+    "effect_str": "PAIN",
+    "min_duration": 1,
+    "max_duration": 1
+  },
+  {
+    "id": "BL9_item_mild_curing_herb",
+    "type": "SPELL",
+    "name": "Mild Curing Herb healing",
+    "description": "温和的治愈感谢温和的草药",
+    "message": "你吃了药草，伤口就稍微愈合了！",
+    "valid_targets": [
+      "self"
+    ],
+    "flags": [
+      "SILENT",
+      "NO_PROJECTILE"
+    ],
+    "effect_str": "herb_cleanse",
+    "min_damage": -20,
+    "max_damage": -20,
+    "effect": "attack",
+    "shape": "blast",
+    "extra_effects": [
+      {
+        "id": "BL9_item_herb_stun",
+        "hit_self": true
+      },
+      {
+        "id": "BL9_pain_relieve",
+        "hit_self": true
+      }
+    ],
+    "min_duration": 1,
+    "max_duration": 1
+  },
+  {
+    "id": "BL9_item_medium_curing_herb",
+    "type": "SPELL",
+    "name": "Medium Curing Herb healing",
+    "description": "中度愈合感谢中度治疗草药",
+    "message": "你吃了这个药草，一定程度上你感觉好了！",
+    "valid_targets": [
+      "self"
+    ],
+    "flags": [
+      "SILENT",
+      "NO_PROJECTILE"
+    ],
+    "effect_str": "herb_cleanse",
+    "min_damage": -35,
+    "max_damage": -35,
+    "effect": "attack",
+    "shape": "blast",
+    "extra_effects": [
+      {
+        "id": "BL9_item_herb_stun",
+        "hit_self": true
+      },
+      {
+        "id": "BL9_pain_relieve",
+        "hit_self": true
+      }
+    ],
+    "min_duration": 1,
+    "max_duration": 1
+  },
+  {
+    "id": "BL9_item_strong_curing_herb",
+    "type": "SPELL",
+    "name": "Strong Curing Herb healing",
+    "description": "强大的治愈感谢强大的治愈药草",
+    "message": "你吃了这个药草，你感觉很好的治愈了！",
+    "valid_targets": [
+      "self"
+    ],
+    "flags": [
+      "SILENT",
+      "NO_PROJECTILE"
+    ],
+    "effect_str": "herb_cleanse",
+    "min_damage": -45,
+    "max_damage": -45,
+    "effect": "attack",
+    "shape": "blast",
+    "extra_effects": [
+      {
+        "id": "BL9_item_herb_stun",
+        "hit_self": true
+      },
+      {
+        "id": "BL9_pain_relieve",
+        "hit_self": true
+      }
+    ],
+    "min_duration": 1,
+    "max_duration": 1
+  },
+  {
+    "id": "BL9_teleport_spell",
+    "type": "SPELL",
+    "name": "Secret teleport",
+    "description": "传送用户到一个调谐门。",
+    "message": "你传送到调谐门！",
+    "valid_targets": [
+      "self"
+    ],
+    "flags": [
+      "SILENT",
+      "NO_PROJECTILE"
+    ],
+    "effect": "translocate",
+    "shape": "blast"
+  },
+  {
+    "//": "Let's push the charger back from the player. This does work SOMETIMES, and this'll prevent the glitch to occur.",
+    "id": "mon_charge_push",
+    "type": "SPELL",
+    "name": "Stop",
+    "description": "怪物施法的。如果你看到的是这个，那么读这个吧：\n'施法者停在目标旁边",
+    "effect": "area_push",
+    "shape": "blast",
+    "flags": [
+      "SILENT",
+      "NO_PROJECTILE"
+    ],
+    "valid_targets": [
+      "self"
+    ],
+    "min_aoe": 1,
+    "max_aoe": 1
+  },
+  {
+    "id": "boulder_throw",
+    "type": "SPELL",
+    "name": "Boulder Throw",
+    "description": "怪物施法的。如果你看到了这个，那么读这个吧：\n'施法者击中弱点，施法3回合眩晕效果",
+    "flags": [
+      "SILENT",
+      "RANDOM_DAMAGE"
+    ],
+    "affected_body_parts": [
+      "head",
+      "arm_l",
+      "torso",
+      "leg_r"
+    ],
+    "valid_targets": [
+      "hostile",
+      "ground"
+    ],
+    "effect_str": "stunned",
+    "effect": "attack",
+    "shape": "blast",
+    "min_damage": 16,
+    "max_damage": 18,
+    "min_range": 7,
+    "max_range": 20,
+    "min_duration": 325,
+    "max_duration": 325,
+    "damage_type": "bash"
+  },
+  {
+    "id": "mon_giant_charge",
+    "type": "SPELL",
+    "name": "Charge!",
+    "description": "怪物施法的。如果你看到了这个，那就读这个吧：\n'施法者获得动量，增加移动速度，命中几率和冲击伤害",
+    "flags": [
+      "SILENT"
+    ],
+    "valid_targets": [
+      "self"
+    ],
+    "effect": "attack",
+    "shape": "blast",
+    "effect_str": "charge_giant_momentum",
+    "min_aoe": 20,
+    "max_aoe": 20,
+    "min_duration": 100,
+    "max_duration": 100,
+    "field_id": "fd_charger_stun",
+    "min_field_intensity": 1,
+    "max_field_intensity": 1
+  },
+  {
+    "id": "mon_giant_charge_pull",
+    "type": "SPELL",
+    "name": "Charge",
+    "description": "怪物施法的。如果你看到了这个，那么读这个吧：\n'施法者冲向目标。这是随机铸造15到25次",
+    "effect": "area_pull",
+    "shape": "blast",
+    "flags": [
+      "SILENT",
+      "NO_PROJECTILE"
+    ],
+    "valid_targets": [
+      "self"
+    ],
+    "extra_effects": [
+      {
+        "id": "mon_giant_charge"
+      },
+      {
+        "id": "mon_charge_push"
+      }
+    ],
+    "min_aoe": 13,
+    "max_aoe": 13
+  },
+  {
+    "type": "SPELL",
+    "id": "mon_giant_charge_target_random",
+    "name": "a spell",
+    "description": "怪物施法的目标。如果你看到这个，那么读这个吧：\n'施法者锁定目标的视线，然后施法一个咒语",
+    "extra_effects": [
+      {
+        "id": "mon_giant_charge_pull"
+      }
+    ],
+    "flags": [
+      "SILENT",
+      "WONDER",
+      "RANDOM_DAMAGE"
+    ],
+    "valid_targets": [
+      "self"
+    ],
+    "effect": "attack",
+    "shape": "blast",
+    "effect_str": "secro_magic_target",
+    "min_damage": 25,
+    "max_damage": 35,
+    "min_range": 13,
+    "max_range": 13,
+    "min_duration": 1,
+    "max_duration": 1
+  },
+  {
+    "type": "SPELL",
+    "id": "mon_giant_random",
+    "name": "a spell",
+    "description": "怪物施法的目标。如果你看到这个，那么读这个吧：\n'施法者锁定目标的视线，然后施法",
+    "extra_effects": [
+      {
+        "id": "mon_giant_charge_target_random"
+      },
+      {
+        "id": "boulder_throw"
+      }
+    ],
+    "flags": [
+      "SILENT",
+      "WONDER",
+      "NO_PROJECTILE"
+    ],
+    "valid_targets": [
+      "ground"
+    ],
+    "min_damage": 1,
+    "max_damage": 1,
+    "effect": "attack",
+    "shape": "blast",
+    "min_range": 6,
+    "max_range": 6
+  },
+  {
+    "id": "mon_clawer_charge",
+    "type": "SPELL",
+    "name": "Charge!",
+    "description": "怪物施法的。如果你看到了这个，那就读这个吧：\n'施法者获得动量，增加移动速度，命中几率和冲击伤害",
+    "flags": [
+      "SILENT"
+    ],
+    "valid_targets": [
+      "self"
+    ],
+    "effect": "attack",
+    "shape": "blast",
+    "effect_str": "charge_clawer_momentum",
+    "min_aoe": 8,
+    "max_aoe": 8,
+    "min_duration": 100,
+    "max_duration": 100,
+    "field_id": "fd_charger_stun",
+    "min_field_intensity": 1,
+    "max_field_intensity": 1
+  },
+  {
+    "id": "mon_clawer_charge_pull",
+    "type": "SPELL",
+    "name": "Charge",
+    "description": "怪物施法的。如果你看到了这个，那么读这个吧：\n'施法者冲向目标。这是随机铸造20至30次",
+    "effect": "area_pull",
+    "shape": "blast",
+    "flags": [
+      "SILENT",
+      "NO_PROJECTILE"
+    ],
+    "valid_targets": [
+      "self"
+    ],
+    "extra_effects": [
+      {
+        "id": "mon_clawer_charge"
+      },
+      {
+        "id": "mon_charge_push"
+      }
+    ],
+    "min_aoe": 15,
+    "max_aoe": 15
+  },
+  {
+    "type": "SPELL",
+    "id": "mon_clawer_charge_target_random",
+    "name": "a spell",
+    "description": "怪物施法的目标。如果你看到这个，那么读这个吧：\n'施法者锁定目标的视线，然后施法一个咒语",
+    "extra_effects": [
+      {
+        "id": "mon_clawer_charge_pull"
+      }
+    ],
+    "flags": [
+      "SILENT",
+      "WONDER",
+      "RANDOM_DAMAGE"
+    ],
+    "valid_targets": [
+      "self"
+    ],
+    "effect": "attack",
+    "shape": "blast",
+    "effect_str": "secro_magic_target",
+    "min_damage": 20,
+    "max_damage": 25,
+    "min_range": 8,
+    "max_range": 8,
+    "min_duration": 1,
+    "max_duration": 1
+  },
+  {
+    "id": "scrawler_acidbarf",
+    "type": "SPELL",
+    "name": "Acid Barf",
+    "description": "怪物施法的。如果你看到了这个，那就改读这个：\n“施法者向目标吐出，造成酸伤害。”",
+    "affected_body_parts": [
+      "head",
+      "arm_l",
+      "arm_r",
+      "torso"
+    ],
+    "flags": [
+      "SILENT",
+      "RANDOM_DAMAGE"
+    ],
+    "valid_targets": [
+      "hostile"
+    ],
+    "effect": "attack",
+    "shape": "blast",
+    "min_damage": 9,
+    "max_damage": 10,
+    "min_range": 3,
+    "max_range": 3,
+    "damage_type": "acid"
+  },
+  {
+    "id": "BL9_1_violentwrithe",
+    "type": "SPELL",
+    "name": "Violent Writhe",
+    "description": "怪物施法的。如果你看到的是这个，那么读这个吧：\n'在一次准确的斜切之后，施法者的刃状卷须在运动中变得更加狂野，随机划过空中，对所有受影响的目标造成切割伤害",
+    "affected_body_parts": [
+      "head",
+      "torso"
+    ],
+    "flags": [
+      "SILENT",
+      "RANDOM_TARGET",
+      "RANDOM_DAMAGE"
+    ],
+    "valid_targets": [
+      "hostile",
+      "ground"
+    ],
+    "effect": "attack",
+    "shape": "cone",
+    "min_damage": 8,
+    "max_damage": 10,
+    "min_range": 2,
+    "max_range": 2,
+    "min_aoe": 90,
+    "max_aoe": 90,
+    "damage_type": "cut"
+  },
+  {
+    "id": "BL9_1_horizontalslash",
+    "type": "SPELL",
+    "name": "Horizontal Slash",
+    "description": "怪物施法的。如果你看到了这一点，那就改读这一条：\n'施法者将它的叶片卷须刷向圆锥体中的目标，造成切割伤害。'",
+    "affected_body_parts": [
+      "head",
+      "arm_l",
+      "arm_r",
+      "torso"
+    ],
+    "flags": [
+      "SILENT",
+      "RANDOM_DAMAGE"
+    ],
+    "extra_effects": [
+      {
+        "id": "BL9_1_violentwrithe"
+      }
+    ],
+    "valid_targets": [
+      "hostile"
+    ],
+    "effect": "attack",
+    "shape": "cone",
+    "min_damage": 8,
+    "max_damage": 10,
+    "min_range": 2,
+    "max_range": 2,
+    "min_aoe": 50,
+    "max_aoe": 50,
+    "damage_type": "cut"
+  },
+  {
+    "id": "BL9_3_acidbarf",
+    "type": "SPELL",
+    "name": "Acid Barf",
+    "description": "怪物施法的。如果你看到了这个，那就改读这个：\n“施法者向目标吐出，造成酸伤害。”",
+    "affected_body_parts": [
+      "head",
+      "arm_l",
+      "arm_r",
+      "torso"
+    ],
+    "flags": [
+      "SILENT",
+      "RANDOM_DAMAGE"
+    ],
+    "valid_targets": [
+      "hostile"
+    ],
+    "effect": "attack",
+    "shape": "blast",
+    "min_damage": 8,
+    "max_damage": 10,
+    "min_range": 2,
+    "max_range": 2,
+    "damage_type": "acid"
+  },
+  {
+    "id": "twisted_one_tentwhip",
+    "type": "SPELL",
+    "name": "Tentacle Whip",
+    "description": "怪物施法的。如果你看到了这个，那就改为读这个：\n“施法者的触须拍打目标，造成重击伤害。”",
+    "affected_body_parts": [
+      "head",
+      "arm_l",
+      "arm_r",
+      "torso"
+    ],
+    "flags": [
+      "SILENT",
+      "RANDOM_DAMAGE"
+    ],
+    "valid_targets": [
+      "hostile"
+    ],
+    "effect": "attack",
+    "shape": "blast",
+    "min_damage": 22,
+    "max_damage": 27,
+    "min_range": 4,
+    "max_range": 4,
+    "damage_type": "bash"
+  },
+  {
+    "id": "BL9_1evo_violentwrithe",
+    "type": "SPELL",
+    "name": "Violent Writhe",
+    "description": "怪物施法的。如果你看到的是这个，那么读这个吧：\n'在一次准确的斜切之后，施法者的刃状卷须在运动中变得更加狂野，随机划过空中，对所有受影响的目标造成切割伤害",
+    "affected_body_parts": [
+      "head",
+      "torso"
+    ],
+    "flags": [
+      "SILENT",
+      "RANDOM_TARGET",
+      "RANDOM_DAMAGE"
+    ],
+    "valid_targets": [
+      "hostile",
+      "ground"
+    ],
+    "effect": "attack",
+    "shape": "cone",
+    "min_damage": 8,
+    "max_damage": 10,
+    "min_range": 2,
+    "max_range": 2,
+    "min_aoe": 90,
+    "max_aoe": 90,
+    "damage_type": "cut"
+  },
+  {
+    "id": "BL9_1evo_horizontalslash",
+    "type": "SPELL",
+    "name": "Horizontal Slash",
+    "description": "怪物施法的。如果你看到了这一点，那就改读这一条：\n'施法者将它的叶片卷须刷向圆锥体中的目标，造成切割伤害。'",
+    "affected_body_parts": [
+      "head",
+      "arm_l",
+      "arm_r",
+      "torso"
+    ],
+    "flags": [
+      "SILENT",
+      "RANDOM_DAMAGE"
+    ],
+    "extra_effects": [
+      {
+        "id": "BL9_1_violentwrithe"
+      }
+    ],
+    "valid_targets": [
+      "hostile"
+    ],
+    "effect": "attack",
+    "shape": "cone",
+    "min_damage": 8,
+    "max_damage": 10,
+    "min_range": 2,
+    "max_range": 2,
+    "min_aoe": 50,
+    "max_aoe": 50,
+    "damage_type": "cut"
+  },
+  {
+    "id": "BL9_3evo_acidbarf",
+    "type": "SPELL",
+    "name": "Acid Barf",
+    "description": "怪物施法的。如果你看到了这个，那就改读这个：\n“施法者向目标吐出，造成酸伤害。”",
+    "affected_body_parts": [
+      "head",
+      "arm_l",
+      "arm_r",
+      "torso"
+    ],
+    "flags": [
+      "SILENT",
+      "RANDOM_DAMAGE"
+    ],
+    "valid_targets": [
+      "hostile"
+    ],
+    "effect": "attack",
+    "shape": "blast",
+    "min_damage": 14,
+    "max_damage": 16,
+    "min_range": 2,
+    "max_range": 2,
+    "damage_type": "acid"
+  },
+  {
+    "id": "scrawlerevo_acidbarf",
+    "type": "SPELL",
+    "name": "Acid Barf",
+    "description": "怪物施法的。如果你看到了这个，那就改读这个：\n“施法者向目标吐出，造成酸伤害。”",
+    "affected_body_parts": [
+      "head",
+      "arm_l",
+      "arm_r",
+      "torso"
+    ],
+    "flags": [
+      "SILENT",
+      "RANDOM_DAMAGE"
+    ],
+    "valid_targets": [
+      "hostile"
+    ],
+    "effect": "attack",
+    "shape": "blast",
+    "min_damage": 9,
+    "max_damage": 10,
+    "min_range": 3,
+    "max_range": 3,
+    "damage_type": "acid"
+  },
+  {
+    "id": "chimera_mutated_pincerpinch",
+    "type": "SPELL",
+    "name": "Pincer Pinch",
+    "description": "怪物施法的。如果你看到的是这个，那么读一读这个：\n“施法者的触角用钳子末端击中目标，造成割伤伤害。”",
+    "flags": [
+      "SILENT",
+      "RANDOM_DAMAGE"
+    ],
+    "affected_body_parts": [
+      "head",
+      "torso"
+    ],
+    "valid_targets": [
+      "hostile"
+    ],
+    "effect": "attack",
+    "shape": "blast",
+    "min_damage": 45,
+    "max_damage": 48,
+    "min_range": 5,
+    "max_range": 5,
+    "damage_type": "cut"
+  },
+  {
+    "id": "merc_leaping_slash",
+    "type": "SPELL",
+    "name": "Leaping Slash",
+    "description": "怪物施法的。如果你看到的是这个，那么读这个吧：\n'施法者向目标跳跃，用手臂上的刀刃砍伤目标，造成很高的切割伤害，然后施法者跳回原来的位置'",
+    "flags": [
+      "SILENT",
+      "RANDOM_DAMAGE"
+    ],
+    "affected_body_parts": [
+      "head",
+      "arm_l",
+      "arm_r",
+      "torso"
+    ],
+    "valid_targets": [
+      "hostile"
+    ],
+    "effect": "attack",
+    "shape": "blast",
+    "min_damage": 38,
+    "max_damage": 42,
+    "min_range": 7,
+    "max_range": 7,
+    "damage_type": "cut"
+  },
+  {
+    "id": "vile_one_mandiblecrunch",
+    "type": "SPELL",
+    "name": "Mandible Crunch",
+    "description": "怪物施法的。如果你看到了这个，那就改为读这个：\n'施法者的头伸向目标，咬他们造成很高的切割伤害'",
+    "flags": [
+      "SILENT",
+      "RANDOM_DAMAGE"
+    ],
+    "affected_body_parts": [
+      "head",
+      "arm_l",
+      "arm_r",
+      "torso",
+      "leg_l",
+      "leg_r"
+    ],
+    "valid_targets": [
+      "hostile"
+    ],
+    "effect": "attack",
+    "shape": "blast",
+    "min_damage": 65,
+    "max_damage": 68,
+    "min_range": 4,
+    "max_range": 4,
+    "damage_type": "cut"
+  }
+]

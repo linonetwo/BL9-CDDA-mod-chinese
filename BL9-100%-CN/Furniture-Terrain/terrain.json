@@ -1,0 +1,1714 @@
+[
+  {
+    "type": "terrain",
+    "id": "t_BL9uniqmazing_fl_red",
+    "name": "红色奇怪的地板",
+    "description": "来历不明的红地板，看起来很奇怪",
+    "symbol": "~",
+    "color": "red",
+    "move_cost": 2,
+    "flags": [
+      "TRANSPARENT",
+      "FLAT"
+    ]
+  },
+  {
+    "type": "terrain",
+    "id": "t_BL9uniqmazing_fl_azureblue",
+    "name": "天蓝色奇怪的地板",
+    "description": "天蓝色的地板来历不明，看起来很奇怪",
+    "symbol": "~",
+    "color": "blue",
+    "move_cost": 2,
+    "flags": [
+      "TRANSPARENT",
+      "FLAT"
+    ]
+  },
+  {
+    "type": "terrain",
+    "id": "t_BL9uniqmazing_fl_limegreen",
+    "name": "灰绿色奇怪地板",
+    "description": "来历不明的灰绿色地板，看上去很奇怪",
+    "symbol": "~",
+    "color": "green",
+    "move_cost": 2,
+    "flags": [
+      "TRANSPARENT",
+      "FLAT"
+    ]
+  },
+  {
+    "type": "terrain",
+    "id": "t_BL9uniqmazing_fl_purple",
+    "name": "紫色奇怪的地板",
+    "description": "来历不明的紫色地板，看上去很奇怪",
+    "symbol": "~",
+    "color": "red",
+    "move_cost": 2,
+    "flags": [
+      "TRANSPARENT",
+      "FLAT"
+    ]
+  },
+  {
+    "type": "terrain",
+    "id": "t_BL9uniqmazing_fl_cyan",
+    "name": "青色奇怪的地板",
+    "description": "青色地板来历不明，看起来很奇怪",
+    "symbol": "~",
+    "color": "blue",
+    "move_cost": 2,
+    "flags": [
+      "TRANSPARENT",
+      "FLAT"
+    ]
+  },
+  {
+    "type": "terrain",
+    "id": "t_BL9uniqmazing_fl_orange",
+    "name": "橙色奇怪的地板",
+    "description": "来历不明的橙色地板，看起来很奇怪",
+    "symbol": "~",
+    "color": "red",
+    "move_cost": 2,
+    "flags": [
+      "TRANSPARENT",
+      "FLAT"
+    ]
+  },
+  {
+    "type": "terrain",
+    "id": "t_BL9uniqmazing_fl_black",
+    "name": "黑色奇怪的地板",
+    "description": "来历不明的黑色地板，看上去很奇怪",
+    "symbol": "~",
+    "color": "blue",
+    "move_cost": 2,
+    "flags": [
+      "TRANSPARENT",
+      "FLAT"
+    ]
+  },
+  {
+    "type": "terrain",
+    "id": "t_BL9uniqmazing_fl_yellow",
+    "name": "黄怪地板",
+    "description": "来历不明的黄色地板，看上去很奇怪",
+    "symbol": "~",
+    "color": "green",
+    "move_cost": 2,
+    "flags": [
+      "TRANSPARENT",
+      "FLAT"
+    ]
+  },
+  {
+    "type": "terrain",
+    "id": "t_BL9uniqmazing_fl_corral",
+    "name": "畜栏奇怪的地板",
+    "description": "来源不明的畜栏地板，看起来很奇怪",
+    "symbol": "~",
+    "color": "red",
+    "move_cost": 2,
+    "flags": [
+      "TRANSPARENT",
+      "FLAT"
+    ]
+  },
+  {
+    "type": "terrain",
+    "id": "t_BL9uniqmazing_fl_sandbrown",
+    "name": "沙褐色奇怪的地板",
+    "description": "来历不明的棕色沙地板，看起来很奇怪",
+    "symbol": "~",
+    "color": "blue",
+    "move_cost": 2,
+    "flags": [
+      "TRANSPARENT",
+      "FLAT"
+    ]
+  },
+  {
+    "type": "terrain",
+    "id": "t_BL9uniqmazing_liq_red",
+    "name": "红色奇异液体",
+    "description": "来历不明的红色液体，看起来很奇怪",
+    "symbol": "~",
+    "color": "light_blue",
+    "move_cost": 5,
+    "flags": [
+      "TRANSPARENT",
+      "LIQUID",
+      "NO_SCENT",
+      "SWIMMABLE",
+      "FISHABLE",
+      "SHALLOW_WATER"
+    ],
+    "connects_to": "WATER",
+    "examine_action": "water_source"
+  },
+  {
+    "type": "terrain",
+    "id": "t_BL9uniqmazing_liq_azureblue",
+    "name": "天蓝色奇异液体",
+    "description": "来源不明的蓝蓝色液体，看起来很奇怪",
+    "symbol": "~",
+    "color": "light_blue",
+    "move_cost": 5,
+    "flags": [
+      "TRANSPARENT",
+      "LIQUID",
+      "NO_SCENT",
+      "SWIMMABLE",
+      "FISHABLE",
+      "SHALLOW_WATER"
+    ],
+    "connects_to": "WATER",
+    "examine_action": "water_source"
+  },
+  {
+    "type": "terrain",
+    "id": "t_BL9uniqmazing_liq_limegreen",
+    "name": "青柠奇异液",
+    "description": "不明来源的灰绿色液体，看起来很奇怪",
+    "symbol": "~",
+    "color": "light_blue",
+    "move_cost": 5,
+    "flags": [
+      "TRANSPARENT",
+      "LIQUID",
+      "NO_SCENT",
+      "SWIMMABLE",
+      "FISHABLE",
+      "SHALLOW_WATER"
+    ],
+    "connects_to": "WATER",
+    "examine_action": "water_source"
+  },
+  {
+    "type": "terrain",
+    "id": "t_BL9uniqmazing_liq_purple",
+    "name": "紫色奇异液体",
+    "description": "来历不明的紫色液体，看起来很奇怪",
+    "symbol": "~",
+    "color": "light_blue",
+    "move_cost": 5,
+    "flags": [
+      "TRANSPARENT",
+      "LIQUID",
+      "NO_SCENT",
+      "SWIMMABLE",
+      "FISHABLE",
+      "SHALLOW_WATER"
+    ],
+    "connects_to": "WATER",
+    "examine_action": "water_source"
+  },
+  {
+    "type": "terrain",
+    "id": "t_BL9uniqmazing_liq_cyan",
+    "name": "青色奇异液体",
+    "description": "来源不明的青色液体，看起来很奇怪",
+    "symbol": "~",
+    "color": "light_blue",
+    "move_cost": 5,
+    "flags": [
+      "TRANSPARENT",
+      "LIQUID",
+      "NO_SCENT",
+      "SWIMMABLE",
+      "FISHABLE",
+      "SHALLOW_WATER"
+    ],
+    "connects_to": "WATER",
+    "examine_action": "water_source"
+  },
+  {
+    "type": "terrain",
+    "id": "t_BL9uniqmazing_liq_orange",
+    "name": "橙色奇异液体",
+    "description": "来源不明的橙色液体，看起来很奇怪",
+    "symbol": "~",
+    "color": "light_blue",
+    "move_cost": 5,
+    "flags": [
+      "TRANSPARENT",
+      "LIQUID",
+      "NO_SCENT",
+      "SWIMMABLE",
+      "FISHABLE",
+      "SHALLOW_WATER"
+    ],
+    "connects_to": "WATER",
+    "examine_action": "water_source"
+  },
+  {
+    "type": "terrain",
+    "id": "t_BL9uniqmazing_liq_black",
+    "name": "黑色奇异液体",
+    "description": "来源不明的黑色液体，看起来很奇怪",
+    "symbol": "~",
+    "color": "light_blue",
+    "move_cost": 5,
+    "flags": [
+      "TRANSPARENT",
+      "LIQUID",
+      "NO_SCENT",
+      "SWIMMABLE",
+      "FISHABLE",
+      "SHALLOW_WATER"
+    ],
+    "connects_to": "WATER",
+    "examine_action": "water_source"
+  },
+  {
+    "type": "terrain",
+    "id": "t_BL9uniqmazing_liq_sandruins",
+    "name": "沙子破坏了奇怪的液体",
+    "description": "沙子是来历不明的液体，看起来很奇怪",
+    "symbol": "~",
+    "color": "light_blue",
+    "move_cost": 5,
+    "flags": [
+      "TRANSPARENT",
+      "LIQUID",
+      "NO_SCENT",
+      "SWIMMABLE",
+      "FISHABLE",
+      "SHALLOW_WATER"
+    ],
+    "connects_to": "WATER",
+    "examine_action": "water_source"
+  },
+  {
+    "type": "terrain",
+    "id": "t_BL9uniqmazing_liq_yellow",
+    "name": "黄色奇怪的液体",
+    "description": "来源不明的黄色液体，看起来很奇怪",
+    "symbol": "~",
+    "color": "light_blue",
+    "move_cost": 5,
+    "flags": [
+      "TRANSPARENT",
+      "LIQUID",
+      "NO_SCENT",
+      "SWIMMABLE",
+      "FISHABLE",
+      "SHALLOW_WATER"
+    ],
+    "connects_to": "WATER",
+    "examine_action": "water_source"
+  },
+  {
+    "type": "terrain",
+    "id": "t_BL9uniqmazing_liq_corral",
+    "name": "畜栏奇异液体",
+    "description": "不明来源的畜栏液体，看起来很奇怪",
+    "symbol": "~",
+    "color": "light_blue",
+    "move_cost": 5,
+    "flags": [
+      "TRANSPARENT",
+      "LIQUID",
+      "NO_SCENT",
+      "SWIMMABLE",
+      "FISHABLE",
+      "SHALLOW_WATER"
+    ],
+    "connects_to": "WATER",
+    "examine_action": "water_source"
+  },
+  {
+    "type": "terrain",
+    "id": "t_BL9uniqmazing_liq_sandbrown",
+    "name": "沙褐色奇怪液体",
+    "description": "来源不明的棕黄色液体，看起来很奇怪",
+    "symbol": "~",
+    "color": "light_blue",
+    "move_cost": 5,
+    "flags": [
+      "TRANSPARENT",
+      "LIQUID",
+      "NO_SCENT",
+      "SWIMMABLE",
+      "FISHABLE",
+      "SHALLOW_WATER"
+    ],
+    "connects_to": "WATER",
+    "examine_action": "water_source"
+  },
+  {
+    "type": "terrain",
+    "id": "t_BL9uniqmazing_wl_red",
+    "name": "红色怪墙",
+    "description": "来历不明的红墙，看上去很奇怪",
+    "symbol": "#",
+    "color": "white",
+    "move_cost": 0,
+    "coverage": 100,
+    "flags": [
+      "NOITEM",
+      "SUPPORTS_ROOF",
+      "WALL",
+      "NO_SCENT",
+      "MINEABLE",
+      "BLOCK_WIND"
+    ],
+    "roof": "t_rock_floor",
+    "bash": {
+      "str_min": 100,
+      "str_max": 285,
+      "sound": "crash!",
+      "sound_fail": "whump!",
+      "ter_set": "t_rock_floor",
+      "ter_set_bashed_from_above": "t_rock_floor_no_roof",
+      "items": [
+        {
+          "item": "rock",
+          "count": [
+            3,
+            7
+          ]
+        },
+        {
+          "item": "coal_lump",
+          "charges": [
+            250,
+            500
+          ],
+          "prob": 10
+        },
+        {
+          "item": "material_limestone",
+          "charges": [
+            10,
+            25
+          ],
+          "prob": 80
+        },
+        {
+          "item": "material_rocksalt",
+          "count": [
+            0,
+            1
+          ],
+          "prob": 20
+        },
+        {
+          "item": "material_rhodonite",
+          "count": [
+            0,
+            1
+          ],
+          "prob": 3
+        },
+        {
+          "item": "material_zincite",
+          "count": [
+            0,
+            5
+          ],
+          "prob": 5
+        }
+      ]
+    }
+  },
+  {
+    "type": "terrain",
+    "id": "t_BL9uniqmazing_wl_azureblue",
+    "name": "蔚蓝的墙",
+    "description": "天蓝色的墙，来历不明，看起来很奇怪",
+    "symbol": "#",
+    "color": "white",
+    "move_cost": 0,
+    "coverage": 100,
+    "flags": [
+      "NOITEM",
+      "SUPPORTS_ROOF",
+      "WALL",
+      "NO_SCENT",
+      "MINEABLE",
+      "BLOCK_WIND"
+    ],
+    "roof": "t_rock_floor",
+    "bash": {
+      "str_min": 100,
+      "str_max": 285,
+      "sound": "crash!",
+      "sound_fail": "whump!",
+      "ter_set": "t_rock_floor",
+      "ter_set_bashed_from_above": "t_rock_floor_no_roof",
+      "items": [
+        {
+          "item": "rock",
+          "count": [
+            3,
+            7
+          ]
+        },
+        {
+          "item": "coal_lump",
+          "charges": [
+            250,
+            500
+          ],
+          "prob": 10
+        },
+        {
+          "item": "material_limestone",
+          "charges": [
+            10,
+            25
+          ],
+          "prob": 80
+        },
+        {
+          "item": "material_rocksalt",
+          "count": [
+            0,
+            1
+          ],
+          "prob": 20
+        },
+        {
+          "item": "material_rhodonite",
+          "count": [
+            0,
+            1
+          ],
+          "prob": 3
+        },
+        {
+          "item": "material_zincite",
+          "count": [
+            0,
+            5
+          ],
+          "prob": 5
+        }
+      ]
+    }
+  },
+  {
+    "type": "terrain",
+    "id": "t_BL9uniqmazing_wl_limegreen",
+    "name": "灰绿色怪墙",
+    "description": "来历不明的灰绿色墙壁，看上去很奇怪",
+    "symbol": "#",
+    "color": "white",
+    "move_cost": 0,
+    "coverage": 100,
+    "flags": [
+      "NOITEM",
+      "SUPPORTS_ROOF",
+      "WALL",
+      "NO_SCENT",
+      "MINEABLE",
+      "BLOCK_WIND"
+    ],
+    "roof": "t_rock_floor",
+    "bash": {
+      "str_min": 100,
+      "str_max": 285,
+      "sound": "crash!",
+      "sound_fail": "whump!",
+      "ter_set": "t_rock_floor",
+      "ter_set_bashed_from_above": "t_rock_floor_no_roof",
+      "items": [
+        {
+          "item": "rock",
+          "count": [
+            3,
+            7
+          ]
+        },
+        {
+          "item": "coal_lump",
+          "charges": [
+            250,
+            500
+          ],
+          "prob": 10
+        },
+        {
+          "item": "material_limestone",
+          "charges": [
+            10,
+            25
+          ],
+          "prob": 80
+        },
+        {
+          "item": "material_rocksalt",
+          "count": [
+            0,
+            1
+          ],
+          "prob": 20
+        },
+        {
+          "item": "material_rhodonite",
+          "count": [
+            0,
+            1
+          ],
+          "prob": 3
+        },
+        {
+          "item": "material_zincite",
+          "count": [
+            0,
+            5
+          ],
+          "prob": 5
+        }
+      ]
+    }
+  },
+  {
+    "type": "terrain",
+    "id": "t_BL9uniqmazing_wl_purple",
+    "name": "紫怪墙",
+    "description": "来历不明的紫墙，看上去很奇怪",
+    "symbol": "#",
+    "color": "white",
+    "move_cost": 0,
+    "coverage": 100,
+    "flags": [
+      "NOITEM",
+      "SUPPORTS_ROOF",
+      "WALL",
+      "NO_SCENT",
+      "MINEABLE",
+      "BLOCK_WIND"
+    ],
+    "roof": "t_rock_floor",
+    "bash": {
+      "str_min": 100,
+      "str_max": 285,
+      "sound": "crash!",
+      "sound_fail": "whump!",
+      "ter_set": "t_rock_floor",
+      "ter_set_bashed_from_above": "t_rock_floor_no_roof",
+      "items": [
+        {
+          "item": "rock",
+          "count": [
+            3,
+            7
+          ]
+        },
+        {
+          "item": "coal_lump",
+          "charges": [
+            250,
+            500
+          ],
+          "prob": 10
+        },
+        {
+          "item": "material_limestone",
+          "charges": [
+            10,
+            25
+          ],
+          "prob": 80
+        },
+        {
+          "item": "material_rocksalt",
+          "count": [
+            0,
+            1
+          ],
+          "prob": 20
+        },
+        {
+          "item": "material_rhodonite",
+          "count": [
+            0,
+            1
+          ],
+          "prob": 3
+        },
+        {
+          "item": "material_zincite",
+          "count": [
+            0,
+            5
+          ],
+          "prob": 5
+        }
+      ]
+    }
+  },
+  {
+    "type": "terrain",
+    "id": "t_BL9uniqmazing_wl_cyan",
+    "name": "青色怪墙",
+    "description": "青色的墙来历不明，看起来很奇怪",
+    "symbol": "#",
+    "color": "white",
+    "move_cost": 0,
+    "coverage": 100,
+    "flags": [
+      "NOITEM",
+      "SUPPORTS_ROOF",
+      "WALL",
+      "NO_SCENT",
+      "MINEABLE",
+      "BLOCK_WIND"
+    ],
+    "roof": "t_rock_floor",
+    "bash": {
+      "str_min": 100,
+      "str_max": 285,
+      "sound": "crash!",
+      "sound_fail": "whump!",
+      "ter_set": "t_rock_floor",
+      "ter_set_bashed_from_above": "t_rock_floor_no_roof",
+      "items": [
+        {
+          "item": "rock",
+          "count": [
+            3,
+            7
+          ]
+        },
+        {
+          "item": "coal_lump",
+          "charges": [
+            250,
+            500
+          ],
+          "prob": 10
+        },
+        {
+          "item": "material_limestone",
+          "charges": [
+            10,
+            25
+          ],
+          "prob": 80
+        },
+        {
+          "item": "material_rocksalt",
+          "count": [
+            0,
+            1
+          ],
+          "prob": 20
+        },
+        {
+          "item": "material_rhodonite",
+          "count": [
+            0,
+            1
+          ],
+          "prob": 3
+        },
+        {
+          "item": "material_zincite",
+          "count": [
+            0,
+            5
+          ],
+          "prob": 5
+        }
+      ]
+    }
+  },
+  {
+    "type": "terrain",
+    "id": "t_BL9uniqmazing_wl_orange",
+    "name": "橙色怪墙",
+    "description": "来历不明的橙色墙，看起来很奇怪",
+    "symbol": "#",
+    "color": "white",
+    "move_cost": 0,
+    "coverage": 100,
+    "flags": [
+      "NOITEM",
+      "SUPPORTS_ROOF",
+      "WALL",
+      "NO_SCENT",
+      "MINEABLE",
+      "BLOCK_WIND"
+    ],
+    "roof": "t_rock_floor",
+    "bash": {
+      "str_min": 100,
+      "str_max": 285,
+      "sound": "crash!",
+      "sound_fail": "whump!",
+      "ter_set": "t_rock_floor",
+      "ter_set_bashed_from_above": "t_rock_floor_no_roof",
+      "items": [
+        {
+          "item": "rock",
+          "count": [
+            3,
+            7
+          ]
+        },
+        {
+          "item": "coal_lump",
+          "charges": [
+            250,
+            500
+          ],
+          "prob": 10
+        },
+        {
+          "item": "material_limestone",
+          "charges": [
+            10,
+            25
+          ],
+          "prob": 80
+        },
+        {
+          "item": "material_rocksalt",
+          "count": [
+            0,
+            1
+          ],
+          "prob": 20
+        },
+        {
+          "item": "material_rhodonite",
+          "count": [
+            0,
+            1
+          ],
+          "prob": 3
+        },
+        {
+          "item": "material_zincite",
+          "count": [
+            0,
+            5
+          ],
+          "prob": 5
+        }
+      ]
+    }
+  },
+  {
+    "type": "terrain",
+    "id": "t_BL9uniqmazing_wl_black",
+    "name": "黑色怪墙",
+    "description": "来历不明的黑墙，看上去很奇怪",
+    "symbol": "#",
+    "color": "white",
+    "move_cost": 0,
+    "coverage": 100,
+    "flags": [
+      "NOITEM",
+      "SUPPORTS_ROOF",
+      "WALL",
+      "NO_SCENT",
+      "MINEABLE",
+      "BLOCK_WIND"
+    ],
+    "roof": "t_rock_floor",
+    "bash": {
+      "str_min": 100,
+      "str_max": 285,
+      "sound": "crash!",
+      "sound_fail": "whump!",
+      "ter_set": "t_rock_floor",
+      "ter_set_bashed_from_above": "t_rock_floor_no_roof",
+      "items": [
+        {
+          "item": "rock",
+          "count": [
+            3,
+            7
+          ]
+        },
+        {
+          "item": "coal_lump",
+          "charges": [
+            250,
+            500
+          ],
+          "prob": 10
+        },
+        {
+          "item": "material_limestone",
+          "charges": [
+            10,
+            25
+          ],
+          "prob": 80
+        },
+        {
+          "item": "material_rocksalt",
+          "count": [
+            0,
+            1
+          ],
+          "prob": 20
+        },
+        {
+          "item": "material_rhodonite",
+          "count": [
+            0,
+            1
+          ],
+          "prob": 3
+        },
+        {
+          "item": "material_zincite",
+          "count": [
+            0,
+            5
+          ],
+          "prob": 5
+        }
+      ]
+    }
+  },
+  {
+    "type": "terrain",
+    "id": "t_BL9uniqmazing_wl_yellow",
+    "name": "黄色怪墙",
+    "description": "黄墙来历不明，形同陌路",
+    "symbol": "#",
+    "color": "white",
+    "move_cost": 0,
+    "coverage": 100,
+    "flags": [
+      "NOITEM",
+      "SUPPORTS_ROOF",
+      "WALL",
+      "NO_SCENT",
+      "MINEABLE",
+      "BLOCK_WIND"
+    ],
+    "roof": "t_rock_floor",
+    "bash": {
+      "str_min": 100,
+      "str_max": 285,
+      "sound": "crash!",
+      "sound_fail": "whump!",
+      "ter_set": "t_rock_floor",
+      "ter_set_bashed_from_above": "t_rock_floor_no_roof",
+      "items": [
+        {
+          "item": "rock",
+          "count": [
+            3,
+            7
+          ]
+        },
+        {
+          "item": "coal_lump",
+          "charges": [
+            250,
+            500
+          ],
+          "prob": 10
+        },
+        {
+          "item": "material_limestone",
+          "charges": [
+            10,
+            25
+          ],
+          "prob": 80
+        },
+        {
+          "item": "material_rocksalt",
+          "count": [
+            0,
+            1
+          ],
+          "prob": 20
+        },
+        {
+          "item": "material_rhodonite",
+          "count": [
+            0,
+            1
+          ],
+          "prob": 3
+        },
+        {
+          "item": "material_zincite",
+          "count": [
+            0,
+            5
+          ],
+          "prob": 5
+        }
+      ]
+    }
+  },
+  {
+    "type": "terrain",
+    "id": "t_BL9uniqmazing_wl_corral",
+    "name": "畜栏怪墙",
+    "description": "来源不明的畜栏墙，看起来很奇怪",
+    "symbol": "#",
+    "color": "white",
+    "move_cost": 0,
+    "coverage": 100,
+    "flags": [
+      "NOITEM",
+      "SUPPORTS_ROOF",
+      "WALL",
+      "NO_SCENT",
+      "MINEABLE",
+      "BLOCK_WIND"
+    ],
+    "roof": "t_rock_floor",
+    "bash": {
+      "str_min": 100,
+      "str_max": 285,
+      "sound": "crash!",
+      "sound_fail": "whump!",
+      "ter_set": "t_rock_floor",
+      "ter_set_bashed_from_above": "t_rock_floor_no_roof",
+      "items": [
+        {
+          "item": "rock",
+          "count": [
+            3,
+            7
+          ]
+        },
+        {
+          "item": "coal_lump",
+          "charges": [
+            250,
+            500
+          ],
+          "prob": 10
+        },
+        {
+          "item": "material_limestone",
+          "charges": [
+            10,
+            25
+          ],
+          "prob": 80
+        },
+        {
+          "item": "material_rocksalt",
+          "count": [
+            0,
+            1
+          ],
+          "prob": 20
+        },
+        {
+          "item": "material_rhodonite",
+          "count": [
+            0,
+            1
+          ],
+          "prob": 3
+        },
+        {
+          "item": "material_zincite",
+          "count": [
+            0,
+            5
+          ],
+          "prob": 5
+        }
+      ]
+    }
+  },
+  {
+    "type": "terrain",
+    "id": "t_BL9uniqmazing_wl_sandbrown",
+    "name": "沙褐色怪墙",
+    "description": "沙褐色的墙来历不明，看上去很奇怪",
+    "symbol": "#",
+    "color": "white",
+    "move_cost": 0,
+    "coverage": 100,
+    "flags": [
+      "NOITEM",
+      "SUPPORTS_ROOF",
+      "WALL",
+      "NO_SCENT",
+      "MINEABLE",
+      "BLOCK_WIND"
+    ],
+    "roof": "t_rock_floor",
+    "bash": {
+      "str_min": 100,
+      "str_max": 285,
+      "sound": "crash!",
+      "sound_fail": "whump!",
+      "ter_set": "t_rock_floor",
+      "ter_set_bashed_from_above": "t_rock_floor_no_roof",
+      "items": [
+        {
+          "item": "rock",
+          "count": [
+            3,
+            7
+          ]
+        },
+        {
+          "item": "coal_lump",
+          "charges": [
+            250,
+            500
+          ],
+          "prob": 10
+        },
+        {
+          "item": "material_limestone",
+          "charges": [
+            10,
+            25
+          ],
+          "prob": 80
+        },
+        {
+          "item": "material_rocksalt",
+          "count": [
+            0,
+            1
+          ],
+          "prob": 20
+        },
+        {
+          "item": "material_rhodonite",
+          "count": [
+            0,
+            1
+          ],
+          "prob": 3
+        },
+        {
+          "item": "material_zincite",
+          "count": [
+            0,
+            5
+          ],
+          "prob": 5
+        }
+      ]
+    }
+  },
+  {
+    "type": "terrain",
+    "id": "t_BL9uniqmazing_wl_lava",
+    "name": "熔岩怪墙",
+    "description": "来历不明的熔岩墙，看起来很奇怪",
+    "symbol": "#",
+    "color": "white",
+    "move_cost": 0,
+    "coverage": 100,
+    "flags": [
+      "NOITEM",
+      "SUPPORTS_ROOF",
+      "WALL",
+      "NO_SCENT",
+      "MINEABLE",
+      "BLOCK_WIND"
+    ],
+    "roof": "t_rock_floor",
+    "bash": {
+      "str_min": 100,
+      "str_max": 285,
+      "sound": "crash!",
+      "sound_fail": "whump!",
+      "ter_set": "t_rock_floor",
+      "ter_set_bashed_from_above": "t_rock_floor_no_roof",
+      "items": [
+        {
+          "item": "rock",
+          "count": [
+            3,
+            7
+          ]
+        },
+        {
+          "item": "coal_lump",
+          "charges": [
+            250,
+            500
+          ],
+          "prob": 10
+        },
+        {
+          "item": "material_limestone",
+          "charges": [
+            10,
+            25
+          ],
+          "prob": 80
+        },
+        {
+          "item": "material_rocksalt",
+          "count": [
+            0,
+            1
+          ],
+          "prob": 20
+        },
+        {
+          "item": "material_rhodonite",
+          "count": [
+            0,
+            1
+          ],
+          "prob": 3
+        },
+        {
+          "item": "material_zincite",
+          "count": [
+            0,
+            5
+          ],
+          "prob": 5
+        }
+      ]
+    }
+  },
+  {
+    "type": "terrain",
+    "id": "t_BL9_hole",
+    "name": "空位",
+    "looks_like": "t_resin_hole",
+    "description": "这是空位。",
+    "symbol": "LINE_OXOX",
+    "color": "light_cyan",
+    "move_cost": 0,
+    "coverage": 90,
+    "roof": "t_flat_roof",
+    "flags": [
+      "TRANSPARENT",
+      "NOITEM",
+      "WALL",
+      "NO_SCENT",
+      "AUTO_WALL_SYMBOL"
+    ],
+    "bash": {
+      "str_min": 100,
+      "str_max": 275,
+      "sound": "glass breaking!",
+      "sound_fail": "whack!",
+      "sound_vol": 16,
+      "sound_fail_vol": 10,
+      "ter_set": "t_floor",
+      "items": [
+        {
+          "item": "glass_shard",
+          "count": [
+            42,
+            84
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "type": "terrain",
+    "id": "t_BL9_secret_console",
+    "looks_like": "f_console",
+    "name": "反应堆超控控制台",
+    "description": "这是一台独立的计算机终端。销毁它会覆盖反应堆，这是唯一能打开秘密通道的方法。。。",
+    "symbol": "6",
+    "color": "blue",
+    "move_cost": 3,
+    "coverage": 50,
+    "light_emitted": 10,
+    "roof": "t_flat_roof",
+    "flags": [
+      "TRANSPARENT",
+      "CONSOLE",
+      "NOITEM",
+      "INDOORS",
+      "SHORT",
+      "PERMEABLE"
+    ],
+    "bash": {
+      "str_min": 8,
+      "str_max": 150,
+      "sound": "crunch!",
+      "sound_fail": "whack!",
+      "ter_set": "t_null",
+      "items": [
+        {
+          "item": "buildinggoesboomhahafunny",
+          "count": 1
+        }
+      ]
+    }
+  },
+  {
+    "type": "terrain",
+    "id": "t_BL9_svat",
+    "name": "安全增值税",
+    "description": "安全增值税",
+    "symbol": "0",
+    "color": "light_cyan",
+    "looks_like": "f_standing_tank",
+    "move_cost": 0,
+    "coverage": 40,
+    "roof": "t_flat_roof",
+    "flags": [
+      "BL9"
+    ],
+    "bash": {
+      "str_min": 2,
+      "str_max": 80,
+      "sound": "ker-rash!",
+      "sound_fail": "plunk.",
+      "sound_vol": 16,
+      "sound_fail_vol": 12,
+      "ter_set": "t_floor",
+      "items": [
+        {
+          "item": "glass_shard",
+          "count": [
+            42,
+            84
+          ]
+        },
+        {
+          "item": "scrap",
+          "count": [
+            0,
+            2
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "type": "terrain",
+    "id": "t_BL9_rockblue",
+    "name": "岩蓝墙",
+    "description": "一种非常坚硬而坚固的蓝色墙壁，由一种来源不明的奇怪岩石制成",
+    "symbol": "#",
+    "color": "white",
+    "move_cost": 0,
+    "coverage": 100,
+    "flags": [
+      "NOITEM",
+      "SUPPORTS_ROOF",
+      "WALL",
+      "NO_SCENT",
+      "MINEABLE",
+      "BLOCK_WIND"
+    ],
+    "roof": "t_rock_floor",
+    "bash": {
+      "str_min": 100,
+      "str_max": 285,
+      "sound": "crash!",
+      "sound_fail": "whump!",
+      "ter_set": "t_rock_floor",
+      "ter_set_bashed_from_above": "t_rock_floor_no_roof",
+      "items": [
+        {
+          "item": "rock",
+          "count": [
+            3,
+            7
+          ]
+        },
+        {
+          "item": "coal_lump",
+          "charges": [
+            250,
+            500
+          ],
+          "prob": 10
+        },
+        {
+          "item": "material_limestone",
+          "charges": [
+            10,
+            25
+          ],
+          "prob": 80
+        },
+        {
+          "item": "material_rocksalt",
+          "count": [
+            0,
+            1
+          ],
+          "prob": 20
+        },
+        {
+          "item": "material_rhodonite",
+          "count": [
+            0,
+            1
+          ],
+          "prob": 3
+        },
+        {
+          "item": "material_zincite",
+          "count": [
+            0,
+            5
+          ],
+          "prob": 5
+        }
+      ]
+    }
+  },
+  {
+    "type": "terrain",
+    "id": "t_BL9_rockblue",
+    "looks_like": "t_rock_blue",
+    "name": "蓝岩墙",
+    "description": "一堵非常坚硬而坚固的蓝色墙，由一块来历不明的奇怪岩石构成",
+    "symbol": "#",
+    "color": "blue",
+    "move_cost": 0,
+    "coverage": 100,
+    "flags": [
+      "NOITEM",
+      "SUPPORTS_ROOF",
+      "WALL",
+      "NO_SCENT",
+      "MINEABLE",
+      "BLOCK_WIND"
+    ],
+    "roof": "t_rock_floor",
+    "bash": {
+      "str_min": 100,
+      "str_max": 285,
+      "sound": "crash!",
+      "sound_fail": "whump!",
+      "ter_set": "t_rock_floor",
+      "ter_set_bashed_from_above": "t_rock_floor_no_roof",
+      "items": [
+        {
+          "item": "rock",
+          "count": [
+            3,
+            7
+          ]
+        },
+        {
+          "item": "coal_lump",
+          "charges": [
+            250,
+            500
+          ],
+          "prob": 10
+        },
+        {
+          "item": "material_limestone",
+          "charges": [
+            10,
+            25
+          ],
+          "prob": 80
+        },
+        {
+          "item": "material_rocksalt",
+          "count": [
+            0,
+            1
+          ],
+          "prob": 20
+        },
+        {
+          "item": "material_rhodonite",
+          "count": [
+            0,
+            1
+          ],
+          "prob": 3
+        },
+        {
+          "item": "material_zincite",
+          "count": [
+            0,
+            5
+          ],
+          "prob": 5
+        }
+      ]
+    }
+  },
+  {
+    "type": "terrain",
+    "id": "t_BL9_rockred",
+    "looks_like": "t_rock_red",
+    "name": "红岩墙",
+    "description": "一种非常坚硬而坚固的红墙，由一种来源不明的奇怪岩石构成",
+    "symbol": "#",
+    "color": "red",
+    "move_cost": 0,
+    "coverage": 100,
+    "flags": [
+      "NOITEM",
+      "SUPPORTS_ROOF",
+      "WALL",
+      "NO_SCENT",
+      "MINEABLE",
+      "BLOCK_WIND"
+    ],
+    "roof": "t_rock_floor",
+    "bash": {
+      "str_min": 100,
+      "str_max": 285,
+      "sound": "crash!",
+      "sound_fail": "whump!",
+      "ter_set": "t_rock_floor",
+      "ter_set_bashed_from_above": "t_rock_floor_no_roof",
+      "items": [
+        {
+          "item": "rock",
+          "count": [
+            3,
+            7
+          ]
+        },
+        {
+          "item": "coal_lump",
+          "charges": [
+            250,
+            500
+          ],
+          "prob": 10
+        },
+        {
+          "item": "material_limestone",
+          "charges": [
+            10,
+            25
+          ],
+          "prob": 80
+        },
+        {
+          "item": "material_rocksalt",
+          "count": [
+            0,
+            1
+          ],
+          "prob": 20
+        },
+        {
+          "item": "material_rhodonite",
+          "count": [
+            0,
+            1
+          ],
+          "prob": 3
+        },
+        {
+          "item": "material_zincite",
+          "count": [
+            0,
+            5
+          ],
+          "prob": 5
+        }
+      ]
+    }
+  },
+  {
+    "type": "terrain",
+    "id": "t_BL9_rockgreen",
+    "looks_like": "t_rock_green",
+    "name": "红岩墙",
+    "description": "一种非常坚硬而坚固的红墙，由一种来源不明的奇怪岩石构成",
+    "symbol": "#",
+    "color": "red",
+    "move_cost": 0,
+    "coverage": 100,
+    "flags": [
+      "NOITEM",
+      "SUPPORTS_ROOF",
+      "WALL",
+      "NO_SCENT",
+      "MINEABLE",
+      "BLOCK_WIND"
+    ],
+    "roof": "t_rock_floor",
+    "bash": {
+      "str_min": 100,
+      "str_max": 285,
+      "sound": "crash!",
+      "sound_fail": "whump!",
+      "ter_set": "t_rock_floor",
+      "ter_set_bashed_from_above": "t_rock_floor_no_roof",
+      "items": [
+        {
+          "item": "rock",
+          "count": [
+            3,
+            7
+          ]
+        },
+        {
+          "item": "coal_lump",
+          "charges": [
+            250,
+            500
+          ],
+          "prob": 10
+        },
+        {
+          "item": "material_limestone",
+          "charges": [
+            10,
+            25
+          ],
+          "prob": 80
+        },
+        {
+          "item": "material_rocksalt",
+          "count": [
+            0,
+            1
+          ],
+          "prob": 20
+        },
+        {
+          "item": "material_rhodonite",
+          "count": [
+            0,
+            1
+          ],
+          "prob": 3
+        },
+        {
+          "item": "material_zincite",
+          "count": [
+            0,
+            5
+          ],
+          "prob": 5
+        }
+      ]
+    }
+  },
+  {
+    "type": "terrain",
+    "id": "t_card_science",
+    "name": "读卡器",
+    "description": "这是一个智能卡读卡器。它带有一个原子在烧瓶内的程式化符号，这是众所周知的科学指示。赤色的LED在你的极客信条上斜着闪烁。你可以在科学发现号附近打开它。",
+    "//": "Science",
+    "symbol": "6",
+    "color": "pink",
+    "move_cost": 0,
+    "flags": [
+      "NOITEM",
+      "CONNECT_TO_WALL"
+    ],
+    "examine_action": "cardreader",
+    "bash": {
+      "str_min": 740,
+      "str_max": 900,
+      "sound": "crunch!",
+      "sound_fail": "whack!",
+      "ter_set": "t_card_reader_broken",
+      "items": [
+        {
+          "item": "plastic_chunk",
+          "count": [
+            0,
+            2
+          ]
+        },
+        {
+          "item": "scrap",
+          "prob": 50
+        }
+      ]
+    }
+  },
+  {
+    "type": "terrain",
+    "id": "t_card_military",
+    "name": "读卡器",
+    "description": "这是一个智能卡读卡器。老鹰驾驶坦克、咬手榴弹钉的世界性象征横亘在美国国旗前。一个小的，红色的发光二极管保持不变，好像看着你，等待。如果你敢的话，你可以在读者面前刷一张军人身份证。",
+    "//": "Military",
+    "symbol": "6",
+    "color": "pink",
+    "move_cost": 0,
+    "flags": [
+      "NOITEM",
+      "CONNECT_TO_WALL"
+    ],
+    "examine_action": "cardreader",
+    "bash": {
+      "str_min": 740,
+      "str_max": 900,
+      "sound": "crunch!",
+      "sound_fail": "whack!",
+      "ter_set": "t_card_reader_broken",
+      "items": [
+        {
+          "item": "plastic_chunk",
+          "count": [
+            0,
+            2
+          ]
+        },
+        {
+          "item": "scrap",
+          "prob": 50
+        }
+      ]
+    }
+  },
+  {
+    "type": "terrain",
+    "id": "t_card_industrial",
+    "looks_like": "t_card_science",
+    "name": "读卡器",
+    "description": "这是一个智能卡读卡器。鼓鼓的二头肌前面的齿轮符号印在哑光的黑色表面上，上面有一个难以辨认的重工业公司名称。读卡器上的红色LED闪烁。也许一张工业身份证还能打开它。",
+    "//": "Industrial",
+    "symbol": "6",
+    "color": "pink",
+    "move_cost": 0,
+    "flags": [
+      "NOITEM",
+      "CONNECT_TO_WALL"
+    ],
+    "examine_action": "cardreader",
+    "bash": {
+      "str_min": 740,
+      "str_max": 900,
+      "sound": "crunch!",
+      "sound_fail": "whack!",
+      "ter_set": "t_card_reader_broken",
+      "items": [
+        {
+          "item": "plastic_chunk",
+          "count": [
+            0,
+            2
+          ]
+        },
+        {
+          "item": "scrap",
+          "prob": 50
+        }
+      ]
+    }
+  },
+  {
+    "type": "terrain",
+    "id": "t_gud_lava",
+    "looks_like": "t_lava",
+    "name": "熔岩",
+    "description": "一种极热的发光液体，由熔融的岩石和/或金属。不是和香草相比简直是致命的，所以凯文真的会鄙视这个",
+    "symbol": ".",
+    "color": "red",
+    "move_cost": 2,
+    "flags": [
+      "TRANSPARENT"
+    ]
+  }
+]

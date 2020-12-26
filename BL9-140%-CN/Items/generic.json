@@ -1,0 +1,453 @@
+[
+  {
+    "id": "BL9_chunk",
+    "type": "GENERIC",
+    "category": "spare_parts",
+    "name": {
+      "str": "BL9块"
+    },
+    "description": "BL9块",
+    "weight": "1 g",
+    "volume": "10 ml",
+    "price": 0,
+    "price_postapoc": 0,
+    "material": [
+      "alien_resin"
+    ],
+    "symbol": "&",
+    "color": "dark_gray",
+    "flags": [
+      "NO_SALVAGE"
+    ]
+  },
+  {
+    "id": "BL9_chunkmk2",
+    "type": "GENERIC",
+    "category": "spare_parts",
+    "name": {
+      "str": "BL9区块MK ii"
+    },
+    "description": "BL9区块MK ii",
+    "weight": "1 g",
+    "volume": "10 ml",
+    "price": 0,
+    "price_postapoc": 0,
+    "material": [
+      "alien_resin"
+    ],
+    "symbol": "&",
+    "color": "dark_gray",
+    "flags": [
+      "NO_SALVAGE"
+    ]
+  },
+  {
+    "id": "BL9_tendril_blade_sample",
+    "looks_like": "mutagen_alpha",
+    "type": "GENERIC",
+    "category": "spare_parts",
+    "name": {
+      "str": "BL9卷须叶片样品"
+    },
+    "description": "BL9的遗骸呈叶片状卷须状",
+    "weight": "75 g",
+    "volume": "65 ml",
+    "price": 0,
+    "price_postapoc": 0,
+    "material": [
+      "BL9"
+    ],
+    "symbol": "&",
+    "color": "dark_gray",
+    "flags": [
+      "NO_SALVAGE"
+    ]
+  },
+  {
+    "id": "BL9_worm_body_sample",
+    "looks_like": "mutagen_alpha",
+    "type": "GENERIC",
+    "category": "spare_parts",
+    "name": {
+      "str": "BL9虫体样本"
+    },
+    "description": "BL9的遗骸是一种伸展的蠕虫状有机体",
+    "weight": "75 g",
+    "volume": "65 ml",
+    "price": 0,
+    "price_postapoc": 0,
+    "material": [
+      "BL9"
+    ],
+    "symbol": "&",
+    "color": "dark_gray",
+    "flags": [
+      "NO_SALVAGE"
+    ]
+  },
+  {
+    "id": "BL9_clawer_sample",
+    "looks_like": "mutagen_alpha",
+    "type": "GENERIC",
+    "category": "spare_parts",
+    "name": {
+      "str": "BL9盲爪样本"
+    },
+    "description": "BL9样本中注入了断裂机械爪的残留物",
+    "weight": "75 g",
+    "volume": "65 ml",
+    "price": 0,
+    "price_postapoc": 0,
+    "material": [
+      "BL9"
+    ],
+    "symbol": "&",
+    "color": "dark_gray",
+    "flags": [
+      "NO_SALVAGE"
+    ]
+  },
+  {
+    "id": "BL9_repto_sample",
+    "looks_like": "mutagen_alpha",
+    "type": "GENERIC",
+    "category": "spare_parts",
+    "name": {
+      "str": "BL9雷普托爪样品"
+    },
+    "description": "注入雷普托巨爪残骸的BL9样本",
+    "weight": "75 g",
+    "volume": "65 ml",
+    "price": 0,
+    "price_postapoc": 0,
+    "material": [
+      "BL9"
+    ],
+    "symbol": "&",
+    "color": "dark_gray",
+    "flags": [
+      "NO_SALVAGE"
+    ]
+  },
+  {
+    "id": "BL9_spindly_spike_sample",
+    "looks_like": "mutagen_alpha",
+    "type": "GENERIC",
+    "category": "spare_parts",
+    "name": {
+      "str": "BL9细穗样品"
+    },
+    "description": "BL9样本的遗骸是一种刺状的寄生虫",
+    "weight": "75 g",
+    "volume": "65 ml",
+    "price": 0,
+    "price_postapoc": 0,
+    "material": [
+      "BL9"
+    ],
+    "symbol": "&",
+    "color": "dark_gray",
+    "flags": [
+      "NO_SALVAGE"
+    ]
+  },
+  {
+    "id": "BL9_assassin_tail_sample",
+    "looks_like": "mutagen_alpha",
+    "type": "GENERIC",
+    "category": "spare_parts",
+    "name": {
+      "str": "BL9刺客尾巴样本"
+    },
+    "description": "BL9刺客身上的样本和他锋利的尾巴融合在一起",
+    "weight": "75 g",
+    "volume": "65 ml",
+    "price": 0,
+    "price_postapoc": 0,
+    "material": [
+      "BL9"
+    ],
+    "symbol": "&",
+    "color": "dark_gray",
+    "flags": [
+      "NO_SALVAGE"
+    ]
+  },
+  {
+    "id": "BL9_twisted_tentacle_sample",
+    "looks_like": "mutagen_alpha",
+    "type": "GENERIC",
+    "category": "spare_parts",
+    "name": {
+      "str": "BL9扭曲单触手样本"
+    },
+    "description": "BL9的残骸扭曲了一个人的样本，其中充满了他的触角",
+    "weight": "75 g",
+    "volume": "65 ml",
+    "price": 0,
+    "price_postapoc": 0,
+    "material": [
+      "BL9"
+    ],
+    "symbol": "&",
+    "color": "dark_gray",
+    "flags": [
+      "NO_SALVAGE"
+    ]
+  },
+  {
+    "id": "BL9_bladed_tentacle_sample",
+    "looks_like": "mutagen_alpha",
+    "type": "GENERIC",
+    "category": "spare_parts",
+    "name": {
+      "str": "BL9叶片触手样本"
+    },
+    "description": "BL9触角样本的残骸呈锋利的刀片状",
+    "weight": "75 g",
+    "volume": "65 ml",
+    "price": 0,
+    "price_postapoc": 0,
+    "material": [
+      "BL9"
+    ],
+    "symbol": "&",
+    "color": "dark_gray",
+    "flags": [
+      "NO_SALVAGE"
+    ]
+  },
+  {
+    "id": "BL9_worm_spiked_sample",
+    "looks_like": "mutagen_alpha",
+    "type": "GENERIC",
+    "category": "spare_parts",
+    "name": {
+      "str": "BL9带刺蠕虫样本"
+    },
+    "description": "BL9样本的遗骸呈刺状蠕虫样寄生虫",
+    "weight": "75 g",
+    "volume": "65 ml",
+    "price": 0,
+    "price_postapoc": 0,
+    "material": [
+      "BL9"
+    ],
+    "symbol": "&",
+    "color": "dark_gray",
+    "flags": [
+      "NO_SALVAGE"
+    ]
+  },
+  {
+    "id": "BL9_spiked_tentacle_sample",
+    "looks_like": "mutagen_alpha",
+    "type": "GENERIC",
+    "category": "spare_parts",
+    "name": {
+      "str": "BL9尖刺触手样本"
+    },
+    "description": "BL9样本的残骸呈尖刺状触角",
+    "weight": "75 g",
+    "volume": "65 ml",
+    "price": 0,
+    "price_postapoc": 0,
+    "material": [
+      "BL9"
+    ],
+    "symbol": "&",
+    "color": "dark_gray",
+    "flags": [
+      "NO_SALVAGE"
+    ]
+  },
+  {
+    "id": "BL9_repto_evo_sample",
+    "looks_like": "mutagen_alpha",
+    "type": "GENERIC",
+    "category": "spare_parts",
+    "name": {
+      "str": "BL9进化雷普托样品"
+    },
+    "description": "BL9样本中注入了雷普托令人吃惊的巨大爪子的遗骸",
+    "weight": "75 g",
+    "volume": "65 ml",
+    "price": 0,
+    "price_postapoc": 0,
+    "material": [
+      "BL9"
+    ],
+    "symbol": "&",
+    "color": "dark_gray",
+    "flags": [
+      "NO_SALVAGE"
+    ]
+  },
+  {
+    "id": "BL9_chimera_pincer_sample",
+    "looks_like": "mutagen_alpha",
+    "type": "GENERIC",
+    "category": "spare_parts",
+    "name": {
+      "str": "BL9嵌合体钳子样品"
+    },
+    "description": "BL9嵌合体样本的残骸，用一把巨大的钳子做成了致命的嘴巴",
+    "weight": "75 g",
+    "volume": "65 ml",
+    "price": 0,
+    "price_postapoc": 0,
+    "material": [
+      "BL9"
+    ],
+    "symbol": "&",
+    "color": "dark_gray",
+    "flags": [
+      "NO_SALVAGE"
+    ]
+  },
+  {
+    "id": "BL9_evo_claws_sample",
+    "looks_like": "mutagen_alpha",
+    "type": "GENERIC",
+    "category": "spare_parts",
+    "name": {
+      "str": "BL9进化爪样本"
+    },
+    "description": "BL9样本的遗骸呈扇形巨爪状",
+    "weight": "75 g",
+    "volume": "65 ml",
+    "price": 0,
+    "price_postapoc": 0,
+    "material": [
+      "BL9"
+    ],
+    "symbol": "&",
+    "color": "dark_gray",
+    "flags": [
+      "NO_SALVAGE"
+    ]
+  },
+  {
+    "id": "BL9_vile_leg_sample",
+    "looks_like": "mutagen_alpha",
+    "type": "GENERIC",
+    "category": "spare_parts",
+    "name": {
+      "str": "BL9卑鄙的一个样本"
+    },
+    "description": "BL9的遗骸是一个巨大的甲壳类动物的腿",
+    "weight": "75 g",
+    "volume": "65 ml",
+    "price": 0,
+    "price_postapoc": 0,
+    "material": [
+      "BL9"
+    ],
+    "symbol": "&",
+    "color": "dark_gray",
+    "flags": [
+      "NO_SALVAGE"
+    ]
+  },
+  {
+    "id": "BL9_commander_sample",
+    "looks_like": "mutagen_alpha",
+    "type": "GENERIC",
+    "category": "spare_parts",
+    "name": {
+      "str": "BL9指挥官样本"
+    },
+    "description": "一个来源非常奇怪和未知的有机体样本，当你触摸它时，你可以清楚地感觉到它是如何振动的，移动得比普通样本更为剧烈，似乎它周围的普通样本按照它发送给它们的“波”移动和行动",
+    "weight": "75 g",
+    "volume": "65 ml",
+    "price": 0,
+    "price_postapoc": 0,
+    "material": [
+      "BL9"
+    ],
+    "symbol": "&",
+    "color": "dark_gray",
+    "flags": [
+      "NO_SALVAGE"
+    ]
+  },
+  {
+    "id": "BL9_castlemap",
+    "looks_like": "survivormap",
+    "category": "books",
+    "type": "GENERIC",
+    "symbol": ";",
+    "color": "blue",
+    "name": {
+      "str_sp": "The BL9 Castlelan Castle Map"
+    },
+    "description": "无论谁找到这张地图-这是一个求救信号，长期的幸存者，我需要你的帮助，大灾难后最大的危险之一最近突然冒出来，帮帮我，尽快到达城堡入口",
+    "material": "paper",
+    "weight": "30 g",
+    "volume": "250 ml",
+    "to_hit": -1,
+    "use_action": {
+      "type": "reveal_map",
+      "radius": 180,
+      "terrain": [
+        "castlelan_castle_entr1_left",
+        "castlelan_castle_entr2_left"
+      ],
+      "message": "你仔细检查地图，找到城堡的入口，上面写着“桥通向正门”"
+    }
+  },
+  {
+    "id": "BL9_islandmap",
+    "looks_like": "militarymap",
+    "category": "books",
+    "type": "GENERIC",
+    "symbol": ";",
+    "color": "red",
+    "name": {
+      "str_sp": "The BL9 Secret Island Map"
+    },
+    "description": "似乎你终于找到了“他们”的主要作战基地……这是一个巨大的遥远岛屿，其防御工事和结构甚至会给最专业的军事工程师留下深刻印象",
+    "material": "paper",
+    "weight": "30 g",
+    "volume": "250 ml",
+    "to_hit": -1,
+    "use_action": {
+      "type": "reveal_map",
+      "radius": 180,
+      "terrain": [
+        "BL9_Island_Entrance1",
+        "BL9_Island_Entrance2"
+      ],
+      "message": "你仔细检查地图，找出到达岛上的路，很明显，为了通过，你必须穿过多个洞穴结构和地面军营。。。"
+    }
+  },
+  {
+    "id": "BL9_biomesmap",
+    "looks_like": "subwaymap",
+    "category": "books",
+    "type": "GENERIC",
+    "symbol": ";",
+    "color": "green",
+    "name": {
+      "str_sp": "The BL9 Hidden Structures Map"
+    },
+    "description": "所以有更多的秘密结构可以找到BL9？天哪，这真的那么普遍吗EE的时间探索和根除似乎。。。",
+    "material": "paper",
+    "weight": "30 g",
+    "volume": "250 ml",
+    "to_hit": -1,
+    "use_action": {
+      "type": "reveal_map",
+      "radius": 180,
+      "terrain": [
+        "hive_caves_surface",
+        "water_caves_surface",
+        "sandruins_caves_surface",
+        "lava_caves_surface",
+        "acid_caves_surface",
+        "island_base_storage1"
+      ],
+      "message": "你仔细检查地图，发现了多个奇怪的入口，导致了一些地下生物群落…更多的BL9感染。。。"
+    }
+  }
+]

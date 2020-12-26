@@ -1,0 +1,866 @@
+[
+  {
+    "id": "BL9_tendril_sword",
+    "looks_like": "machete",
+    "type": "TOOL",
+    "category": "weapons",
+    "name": {
+      "str": "BL9卷须剑"
+    },
+    "description": "一把用BL9卷须刀片的残余制成的方便的剑",
+    "weight": "1490 g",
+    "volume": "1115 ml",
+    "price": 40000,
+    "price_postapoc": 6000,
+    "to_hit": 1,
+    "bashing": 8,
+    "cutting": 27,
+    "material": [
+      "BL9",
+      "steel"
+    ],
+    "symbol": ";",
+    "color": "light_gray",
+    "techniques": [
+      "WBLOCK_1",
+      "BRUTAL",
+      "WIDE",
+      "tec_brawl_feint_melee",
+      "tec_swordsmanship_grab",
+      "tec_swordsmanship_mordhau"
+    ],
+    "flags": [
+      "DURABLE_MELEE",
+      "NONCONDUCTIVE",
+      "SHEATH_SWORD"
+    ]
+  },
+  {
+    "id": "BL9_worm_whip",
+    "looks_like": "bullwhip_razor",
+    "type": "TOOL",
+    "category": "weapons",
+    "name": {
+      "str": "BL9虫鞭"
+    },
+    "description": "一种鞭子，由一种类似BL9蠕虫的寄生虫制成，能够伸展和摆动自己",
+    "weight": "945 g",
+    "volume": "635 ml",
+    "price": 40000,
+    "price_postapoc": 6000,
+    "to_hit": 1,
+    "bashing": 24,
+    "cutting": 14,
+    "material": [
+      "BL9",
+      "steel"
+    ],
+    "symbol": ";",
+    "color": "light_gray",
+    "techniques": [
+      "WBLOCK_1",
+      "SWEEP",
+      "BRUTAL",
+      "tec_brawl_feint_melee",
+      "tec_silat_hamstring",
+      "tec_silat_precise"
+    ],
+    "flags": [
+      "DURABLE_MELEE",
+      "REACH_ATTACK",
+      "WHIP",
+      "NONCONDUCTIVE"
+    ]
+  },
+  {
+    "id": "BL9_claws_melee",
+    "looks_like": "bio_claws_weapon",
+    "type": "TOOL",
+    "category": "weapons",
+    "name": {
+      "str": "BL9灌注爪"
+    },
+    "description": "用注入了BL9的盲人爪子的残余物制成的锋利的爪子",
+    "weight": "745 g",
+    "volume": "400 ml",
+    "price": 40000,
+    "price_postapoc": 6000,
+    "to_hit": 1,
+    "bashing": 1,
+    "cutting": 40,
+    "material": [
+      "BL9",
+      "steel"
+    ],
+    "symbol": ";",
+    "color": "light_gray",
+    "techniques": [
+      "WBLOCK_1",
+      "RAPID",
+      "tec_precise",
+      "tec_krav_maga_rapid",
+      "tec_krav_maga_counter"
+    ],
+    "flags": [
+      "DURABLE_MELEE",
+      "NONCONDUCTIVE"
+    ]
+  },
+  {
+    "id": "BL9_repto_spear",
+    "looks_like": "naginata",
+    "type": "TOOL",
+    "category": "weapons",
+    "name": {
+      "str": "BL9雷普托矛"
+    },
+    "description": "利普托用利普托的爪子残片制成的一种非常坚固耐用的长矛",
+    "weight": "1965 g",
+    "volume": "1475 ml",
+    "price": 40000,
+    "price_postapoc": 6000,
+    "to_hit": 1,
+    "bashing": 9,
+    "cutting": 35,
+    "material": [
+      "BL9",
+      "steel"
+    ],
+    "symbol": ";",
+    "color": "light_gray",
+    "techniques": [
+      "WBLOCK_2",
+      "IMPALE",
+      "tec_brawl_trip",
+      "niten_water_cut",
+      "niten_feint",
+      "tec_medievalpole_feint",
+      "tec_medievalpole_highround"
+    ],
+    "flags": [
+      "DURABLE_MELEE",
+      "NONCONDUCTIVE",
+      "SPEAR",
+      "REACH_ATTACK",
+      "STAB"
+    ]
+  },
+  {
+    "id": "BL9_spiky_sword",
+    "looks_like": "jian",
+    "type": "TOOL",
+    "category": "weapons",
+    "name": {
+      "str": "BL9刺剑"
+    },
+    "description": "一把非常锋利的剑，上面有多个突起，由BL9尖刺样本制成",
+    "weight": "2475 g",
+    "volume": "1975 ml",
+    "price": 40000,
+    "price_postapoc": 6000,
+    "to_hit": 1,
+    "bashing": 8,
+    "cutting": 39,
+    "material": [
+      "BL9",
+      "steel"
+    ],
+    "symbol": ";",
+    "color": "light_gray",
+    "techniques": [
+      "WBLOCK_2",
+      "SWEEP",
+      "BRUTAL",
+      "tec_brawl_feint_melee",
+      "tec_swordsmanship_grab",
+      "tec_swordsmanship_zornhau"
+    ],
+    "flags": [
+      "DURABLE_MELEE",
+      "NONCONDUCTIVE",
+      "SHEATH_SWORD"
+    ]
+  },
+  {
+    "id": "BL9_tail_whip",
+    "looks_like": "bullwhip_razor",
+    "type": "TOOL",
+    "category": "weapons",
+    "name": {
+      "str": "BL9尾鞭"
+    },
+    "description": "用BL9刺客的尾巴样本制成的锋利的，非常刺眼的鞭子",
+    "weight": "1015 g",
+    "volume": "465 ml",
+    "price": 40000,
+    "price_postapoc": 6000,
+    "to_hit": 1,
+    "bashing": 17,
+    "cutting": 33,
+    "material": [
+      "BL9",
+      "steel"
+    ],
+    "symbol": ";",
+    "color": "light_gray",
+    "techniques": [
+      "WBLOCK_2",
+      "SWEEP",
+      "BRUTAL",
+      "tec_brawl_feint_melee",
+      "tec_silat_hamstring",
+      "tec_silat_brutal",
+      "tec_medievalpole_hook",
+      "tec_medievalpole_highround"
+    ],
+    "flags": [
+      "DURABLE_MELEE",
+      "REACH_ATTACK",
+      "WHIP",
+      "NONCONDUCTIVE",
+      "STAB"
+    ]
+  },
+  {
+    "id": "BL9_tentacle_axe",
+    "looks_like": "scythe_war",
+    "type": "TOOL",
+    "category": "weapons",
+    "name": {
+      "str": "BL9触角斧"
+    },
+    "description": "一把巨大的斧头，不知怎的，这个奇怪的触须样本设法采取的形式，形成了长柄和一个巨大的刀片",
+    "weight": "3775 g",
+    "volume": "2440 ml",
+    "price": 40000,
+    "price_postapoc": 6000,
+    "to_hit": 1,
+    "bashing": 10,
+    "cutting": 46,
+    "material": [
+      "BL9",
+      "steel"
+    ],
+    "symbol": ";",
+    "color": "light_gray",
+    "techniques": [
+      "WBLOCK_2",
+      "SWEEP",
+      "BRUTAL",
+      "niten_stone_cut",
+      "niten_timing_attack",
+      "tec_krav_maga_crit",
+      "tec_krav_maga_counter"
+    ],
+    "flags": [
+      "DURABLE_MELEE",
+      "NONCONDUCTIVE",
+      "SHEATH_SWORD"
+    ]
+  },
+  {
+    "id": "BL9_bladed_tentacle_claws",
+    "looks_like": "bio_claws_weapon",
+    "type": "TOOL",
+    "category": "weapons",
+    "name": {
+      "str": "BL9叶片触手爪"
+    },
+    "description": "一对有刃的爪子，通过对附在它们上的触须施加很小的力来造成很大的伤害",
+    "weight": "975 g",
+    "volume": "715 ml",
+    "price": 40000,
+    "price_postapoc": 6000,
+    "to_hit": 1,
+    "bashing": 1,
+    "cutting": 60,
+    "material": [
+      "BL9",
+      "steel"
+    ],
+    "symbol": ";",
+    "color": "light_gray",
+    "techniques": [
+      "WBLOCK_2",
+      "RAPID",
+      "tec_precise",
+      "tec_krav_maga_rapid",
+      "tec_krav_maga_counter"
+    ],
+    "flags": [
+      "DURABLE_MELEE",
+      "NONCONDUCTIVE"
+    ]
+  },
+  {
+    "id": "BL9_spiked_worm_polearm",
+    "looks_like": "glaive",
+    "type": "TOOL",
+    "category": "weapons",
+    "name": {
+      "str": "BL9蜗牛"
+    },
+    "description": "一种由BL9制成的polearm，形似蠕虫，全身有多个突起，能够伸展和摆动",
+    "weight": "1900 g",
+    "volume": "1780 ml",
+    "price": 40000,
+    "price_postapoc": 6000,
+    "to_hit": 1,
+    "bashing": 18,
+    "cutting": 46,
+    "material": [
+      "BL9",
+      "steel"
+    ],
+    "symbol": ";",
+    "color": "light_gray",
+    "techniques": [
+      "WBLOCK_2",
+      "SWEEP",
+      "BRUTAL",
+      "tec_brawl_feint_melee",
+      "tec_medievalpole_highround",
+      "tec_medievalpole_execute"
+    ],
+    "flags": [
+      "DURABLE_MELEE",
+      "NONCONDUCTIVE",
+      "SPEAR",
+      "REACH_ATTACK",
+      "STAB"
+    ]
+  },
+  {
+    "id": "BL9_tentacle_spike_flail",
+    "looks_like": "2h_flail_steel",
+    "type": "TOOL",
+    "category": "weapons",
+    "name": {
+      "str": "鳞状触须"
+    },
+    "description": "连枷一种有触须的连枷，其链端是由一些奇怪的硬组织制成的尖头球",
+    "weight": "2100 g",
+    "volume": "1645 ml",
+    "price": 40000,
+    "price_postapoc": 6000,
+    "to_hit": 1,
+    "bashing": 38,
+    "cutting": 30,
+    "material": [
+      "BL9",
+      "steel"
+    ],
+    "symbol": ";",
+    "color": "light_gray",
+    "techniques": [
+      "WBLOCK_1",
+      "SWEEP",
+      "BRUTAL",
+      "tec_silat_dirty",
+      "tec_silat_brutal",
+      "tec_silat_hamstring"
+    ],
+    "flags": [
+      "DURABLE_MELEE",
+      "REACH_ATTACK",
+      "WHIP",
+      "NONCONDUCTIVE"
+    ]
+  },
+  {
+    "id": "BL9_repto_evo_spear",
+    "looks_like": "ji",
+    "type": "TOOL",
+    "category": "weapons",
+    "name": {
+      "str": "BL9进化雷普托长矛"
+    },
+    "description": "用进化的雷普托的爪子制成的一种更吓人、更锋利、刺得很深的矛",
+    "weight": "2300 g",
+    "volume": "1700 ml",
+    "price": 40000,
+    "price_postapoc": 6000,
+    "to_hit": 1,
+    "bashing": 4,
+    "cutting": 68,
+    "material": [
+      "BL9",
+      "steel"
+    ],
+    "symbol": ";",
+    "color": "light_gray",
+    "techniques": [
+      "WBLOCK_2",
+      "IMPALE",
+      "tec_brawl_trip",
+      "niten_water_cut",
+      "niten_feint",
+      "tec_medievalpole_highround",
+      "tec_medievalpole_execute"
+    ],
+    "flags": [
+      "DURABLE_MELEE",
+      "NONCONDUCTIVE",
+      "SPEAR",
+      "REACH_ATTACK",
+      "STAB"
+    ]
+  },
+  {
+    "id": "BL9_pincer_sword",
+    "looks_like": "zweihander",
+    "type": "TOOL",
+    "category": "weapons",
+    "name": {
+      "str": "BL9钳形剑"
+    },
+    "description": "一把巨大而光滑的剑，是用嵌在嵌合体钳子里的BL9碎片制成的",
+    "weight": "3390 g",
+    "volume": "2900 ml",
+    "price": 40000,
+    "price_postapoc": 6000,
+    "to_hit": 1,
+    "bashing": 6,
+    "cutting": 71,
+    "material": [
+      "BL9",
+      "steel"
+    ],
+    "symbol": ";",
+    "color": "light_gray",
+    "techniques": [
+      "WBLOCK_2",
+      "SWEEP",
+      "BRUTAL",
+      "tec_brawl_feint_melee",
+      "tec_swordsmanship_grab",
+      "tec_swordsmanship_mordhau",
+      "tec_swordsmanship_zornhau"
+    ],
+    "flags": [
+      "DURABLE_MELEE",
+      "NONCONDUCTIVE",
+      "SHEATH_SWORD"
+    ]
+  },
+  {
+    "id": "BL9_claws_evo",
+    "looks_like": "bio_claws_weapon",
+    "type": "TOOL",
+    "category": "weapons",
+    "name": {
+      "str": "BL9进化出的爪子"
+    },
+    "description": "修改，硬化和加强BL9注入爪子有一个大大增加的大小，有一个更可怕的外观和一个荒谬的怪诞相似的东方球迷",
+    "weight": "1200 g",
+    "volume": "790 ml",
+    "price": 40000,
+    "price_postapoc": 6000,
+    "to_hit": 1,
+    "bashing": 1,
+    "cutting": 81,
+    "material": [
+      "BL9",
+      "steel"
+    ],
+    "symbol": ";",
+    "color": "light_gray",
+    "techniques": [
+      "WBLOCK_2",
+      "RAPID",
+      "tec_precise",
+      "tec_krav_maga_rapid",
+      "tec_krav_maga_crit",
+      "tec_krav_maga_counter"
+    ],
+    "flags": [
+      "DURABLE_MELEE",
+      "NONCONDUCTIVE"
+    ]
+  },
+  {
+    "id": "BL9_spiked_sledgehammer",
+    "looks_like": "hammer_sledge_heavy",
+    "type": "TOOL",
+    "category": "weapons",
+    "name": {
+      "str": "BL9尖头大锤"
+    },
+    "description": "一种巨大的大锤，有多个尖刺状突起，是由一种注入了BL9的甲壳虫的可怕变异的腿制成的",
+    "weight": "4500 g",
+    "volume": "3500 ml",
+    "price": 40000,
+    "price_postapoc": 6000,
+    "to_hit": 1,
+    "bashing": 71,
+    "cutting": 17,
+    "material": [
+      "BL9",
+      "steel"
+    ],
+    "symbol": ";",
+    "color": "light_gray",
+    "techniques": [
+      "WBLOCK_2",
+      "SWEEP",
+      "BRUTAL",
+      "niten_stone_cut",
+      "niten_timing_attack",
+      "tec_krav_maga_crit",
+      "tec_krav_maga_counter"
+    ],
+    "flags": [
+      "DURABLE_MELEE",
+      "NONCONDUCTIVE",
+      "STAB"
+    ]
+  },
+  {
+    "id": "BL9_tail_whip_enhanced",
+    "looks_like": "bullwhip_razor",
+    "type": "TOOL",
+    "category": "weapons",
+    "name": {
+      "str": "BL9增强型尾鞭"
+    },
+    "description": "极大的增强，甚至更致命和更多的恐惧灌输剃刀锋利，非常刺眼的鞭子制成的BL9刺客的尾巴样本",
+    "weight": "1015 g",
+    "volume": "465 ml",
+    "price": 40000,
+    "price_postapoc": 6000,
+    "to_hit": 1,
+    "bashing": 21,
+    "cutting": 84,
+    "material": [
+      "BL9",
+      "steel"
+    ],
+    "symbol": ";",
+    "color": "light_gray",
+    "techniques": [
+      "WBLOCK_2",
+      "SWEEP",
+      "BRUTAL",
+      "tec_brawl_feint_melee",
+      "tec_silat_hamstring",
+      "tec_silat_brutal",
+      "tec_medievalpole_hook",
+      "tec_medievalpole_highround"
+    ],
+    "flags": [
+      "DURABLE_MELEE",
+      "REACH_ATTACK",
+      "WHIP",
+      "NONCONDUCTIVE",
+      "STAB"
+    ]
+  },
+  {
+    "id": "BL9_tentacle_axe_enhanced",
+    "looks_like": "scythe_war",
+    "type": "TOOL",
+    "category": "weapons",
+    "name": {
+      "str": "BL9触须强化斧头"
+    },
+    "description": "一个大大增强，甚至更致命和更恐惧注入巨大的斧头，不知何故，这个奇怪的触手样本设法采取的形式，形成了长柄和一个巨大的刀片",
+    "weight": "3775 g",
+    "volume": "2440 ml",
+    "price": 40000,
+    "price_postapoc": 6000,
+    "to_hit": 1,
+    "bashing": 10,
+    "cutting": 95,
+    "material": [
+      "BL9",
+      "steel"
+    ],
+    "symbol": ";",
+    "color": "light_gray",
+    "techniques": [
+      "WBLOCK_2",
+      "SWEEP",
+      "BRUTAL",
+      "niten_stone_cut",
+      "niten_timing_attack",
+      "tec_krav_maga_crit",
+      "tec_krav_maga_counter"
+    ],
+    "flags": [
+      "DURABLE_MELEE",
+      "NONCONDUCTIVE",
+      "SHEATH_SWORD"
+    ]
+  },
+  {
+    "id": "BL9_tentacle_spike_flail_enhanced",
+    "looks_like": "2h_flail_steel",
+    "type": "TOOL",
+    "category": "weapons",
+    "name": {
+      "str": "BL9触手增强尖刺连枷"
+    },
+    "description": "一个大大增强，甚至更致命和更可怕的灌输连枷的触角，因为它的链端是一个由一些奇怪的非常硬的组织组成的尖头球",
+    "weight": "2100 g",
+    "volume": "1645 ml",
+    "price": 40000,
+    "price_postapoc": 6000,
+    "to_hit": 1,
+    "bashing": 72,
+    "cutting": 33,
+    "material": [
+      "BL9",
+      "steel"
+    ],
+    "symbol": ";",
+    "color": "light_gray",
+    "techniques": [
+      "WBLOCK_1",
+      "SWEEP",
+      "BRUTAL",
+      "tec_silat_dirty",
+      "tec_silat_brutal",
+      "tec_silat_hamstring"
+    ],
+    "flags": [
+      "DURABLE_MELEE",
+      "REACH_ATTACK",
+      "WHIP",
+      "NONCONDUCTIVE"
+    ]
+  },
+  {
+    "id": "BL9_repto_evo_spear_enhanced",
+    "looks_like": "ji",
+    "type": "TOOL",
+    "category": "weapons",
+    "name": {
+      "str": "BL9进化雷普托强化长矛"
+    },
+    "description": "一种由雷普托的爪子进化而成的长矛，它的威力大大增强，甚至更致命，更具威慑力，更锐利，更具恐惧感",
+    "weight": "2300 g",
+    "volume": "1700 ml",
+    "price": 40000,
+    "price_postapoc": 6000,
+    "to_hit": 1,
+    "bashing": 1,
+    "cutting": 104,
+    "material": [
+      "BL9",
+      "steel"
+    ],
+    "symbol": ";",
+    "color": "light_gray",
+    "techniques": [
+      "WBLOCK_2",
+      "IMPALE",
+      "tec_brawl_trip",
+      "niten_water_cut",
+      "niten_feint",
+      "tec_medievalpole_highround",
+      "tec_medievalpole_execute"
+    ],
+    "flags": [
+      "DURABLE_MELEE",
+      "NONCONDUCTIVE",
+      "SPEAR",
+      "REACH_ATTACK",
+      "STAB"
+    ]
+  },
+  {
+    "id": "BL9_pincer_sword_enhanced",
+    "looks_like": "zweihander",
+    "type": "TOOL",
+    "category": "weapons",
+    "name": {
+      "str": "BL9钳子强化剑"
+    },
+    "description": "一把大大增强的，甚至更致命的，更令人恐惧的巨大光滑的剑，由注入BL9的奇美拉钳子制成",
+    "weight": "3390 g",
+    "volume": "2900 ml",
+    "price": 40000,
+    "price_postapoc": 6000,
+    "to_hit": 1,
+    "bashing": 6,
+    "cutting": 99,
+    "material": [
+      "BL9",
+      "steel"
+    ],
+    "symbol": ";",
+    "color": "light_gray",
+    "techniques": [
+      "WBLOCK_2",
+      "SWEEP",
+      "BRUTAL",
+      "tec_brawl_feint_melee",
+      "tec_swordsmanship_grab",
+      "tec_swordsmanship_mordhau",
+      "tec_swordsmanship_zornhau"
+    ],
+    "flags": [
+      "DURABLE_MELEE",
+      "NONCONDUCTIVE",
+      "SHEATH_SWORD"
+    ]
+  },
+  {
+    "id": "BL9_claws_evo_enhanced",
+    "looks_like": "bio_claws_weapon",
+    "type": "TOOL",
+    "category": "weapons",
+    "name": {
+      "str": "BL9强化进化爪"
+    },
+    "description": "大大增强，甚至更致命和更恐惧灌输修改，硬化和加强BL9注入爪子有一个大大增加的大小，有一个更可怕的外观和一个荒谬的怪诞相似的东方球迷",
+    "weight": "1200 g",
+    "volume": "790 ml",
+    "price": 40000,
+    "price_postapoc": 6000,
+    "to_hit": 1,
+    "bashing": 1,
+    "cutting": 104,
+    "material": [
+      "BL9",
+      "steel"
+    ],
+    "symbol": ";",
+    "color": "light_gray",
+    "techniques": [
+      "WBLOCK_2",
+      "RAPID",
+      "tec_precise",
+      "tec_krav_maga_rapid",
+      "tec_krav_maga_crit",
+      "tec_krav_maga_counter"
+    ],
+    "flags": [
+      "DURABLE_MELEE",
+      "NONCONDUCTIVE"
+    ]
+  },
+  {
+    "id": "buildinggoesboomhahafunny",
+    "type": "TOOL",
+    "name": "LOL",
+    "description": "这真是太棒了。",
+    "volume": "0 L",
+    "weight": "0 kg",
+    "price": 0,
+    "to_hit": -2,
+    "bashing": 1,
+    "material": [
+      "veggy"
+    ],
+    "symbol": "0",
+    "color": "red",
+    "drop_action": {
+      "target": "buildinggoesboomhahafunny_act",
+      "target_charges": 1,
+      "active": true,
+      "type": "transform"
+    },
+    "flags": [
+      "ZERO_WEIGHT"
+    ]
+  },
+  {
+    "id": "buildinggoesboomhahafunny_act",
+    "type": "TOOL",
+    "name": "HAHA FUNNY",
+    "description": "这真是太棒了",
+    "volume": "0 L",
+    "weight": "0 kg",
+    "price": 0,
+    "to_hit": -2,
+    "bashing": 1,
+    "material": [
+      "veggy"
+    ],
+    "symbol": "0",
+    "color": "red",
+    "countdown_interval": 5,
+    "countdown_destroy": true,
+    "countdown_action": {
+      "type": "cast_spell",
+      "spell_id": "buildinggoesboomhahafunny_boom",
+      "no_fail": true,
+      "level": 0
+    },
+    "flags": [
+      "ZERO_WEIGHT"
+    ]
+  },
+  {
+    "id": "BL9_repair_soldering",
+    "looks_like": "soldering_iron",
+    "type": "TOOL",
+    "name": {
+      "str": "BL9灌注烙铁"
+    },
+    "description": "一个烙铁，以某种方式注入了完全有知觉的BL9，以某种方式在精神上与你交流，它被覆盖和完全加强它的厚组织与多个尖刺几乎不明显的振动突出，给它一个更吓人的，有活力的外观，",
+    "weight": "281 g",
+    "volume": "785 ml",
+    "price": 1000,
+    "price_postapoc": 100,
+    "bashing": 2,
+    "cutting": 6,
+    "material": [
+      "iron",
+      "BL9"
+    ],
+    "symbol": "%",
+    "color": "light_gray",
+    "ammo": [
+      "battery"
+    ],
+    "charges_per_use": 1,
+    "use_action": [
+      {
+        "type": "repair_item",
+        "item_action_type": "repair_metal",
+        "materials": [
+          "BL9",
+          "BL9_mk2",
+          "BL9_mk2_mid1",
+          "BL9_mk2_mid2",
+          "BL9_mid1",
+          "BL9_mid2",
+          "steel",
+          "plastic"
+        ],
+        "skill": "fabrication",
+        "cost_scaling": 0.15,
+        "move_cost": 845
+      },
+      {
+        "flame": false,
+        "type": "cauterize"
+      }
+    ],
+    "flags": [
+      "SPEAR",
+      "BELT_CLIP",
+      "ALLOWS_REMOTE_USE"
+    ],
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE_WELL",
+        "rigid": true,
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [
+          "light_minus_battery_cell",
+          "light_battery_cell",
+          "light_plus_battery_cell",
+          "light_atomic_battery_cell",
+          "light_minus_atomic_battery_cell",
+          "light_minus_disposable_cell",
+          "light_disposable_cell"
+        ]
+      }
+    ]
+  }
+]
