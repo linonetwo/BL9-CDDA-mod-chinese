@@ -2,6 +2,7 @@
 
 一个巨大的内容mod，适用于《大灾变：黑暗的未来》，灵感来自Capcom的《生化危机4》
 
+![HowDownload.png](./HowDownload.png)
 ## 先决条件 
 
 无，但强烈建议您使用BIG内容模组（Magiclysm，Aftershock，Secronom，Cata ++，Arcana，Fallout新英格兰，PK重新平衡，Blazemod），因为此模组的内容相当适中，所以武器，装甲其他模组的平衡变更将派上用场
