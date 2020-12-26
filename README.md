@@ -1,37 +1,39 @@
 # BL9
-A huge content mod for Cataclysm Dark Days Ahead greatly inspired by Resident Evil 4 by Capcom
 
-## Prerequisites 
-**None, but playing with BIG content mods (Magiclysm, Aftershock, Secronom, Cata++, Arcana, Fallout New England, PK rebalancing, Blazemod) is STRONGLY ADVISED because the content of this mod is QUITE MID-GAME to END-GAME so weapons, armor and balance changes from other mods will come in handy**
+一个巨大的内容mod，适用于《大灾变：黑暗的未来》，灵感来自Capcom的《生化危机4》
 
-**IMPORTANT - PUT ONLY ONE OUT OF 3 VERSIONS DEPENDING ON YOUR CHOSEN MONSTER_RESILIENCE MODIFIER DURING WORLD GENERATION**
+## 先决条件 
 
-## What you'll experience: main features
+无，但强烈建议您使用BIG内容模组（Magiclysm，Aftershock，Secronom，Cata ++，Arcana，Fallout新英格兰，PK重新平衡，Blazemod），因为此模组的内容相当适中，所以武器，装甲其他模组的平衡变更将派上用场
 
-**1) Adds over 175+ overmaps - huge crazed Ancient Castlelan Castle, Military heavily guarded Island, various custom unique structures-biomes infested by ALL kinds of monsters with GREAT rewards and bosses to fight**
+重要提示-在生成世界的过程中，仅取决于您选择的MONSTER_RESILIENCE修改器的3个版本中的一个
 
-**2) New guns (30 ranged weapons - 3 tiers of them with 2 tiers of sleek and unique craftable ammo - BALLISTICS TOO), unique craftable melee weapons (using all kinds of vanilla martial arts) and armor (2 tiers of well-made strong BL9-infused survivor armor)**
+## 您将体验的：主要功能
 
-**3) Dangerous monsters and bosses to fight - from cultist and heavily armed military roaming patrols to heavily mutated creatures and tough bosses inspired greatly by Resident Evil by Capcom creatures**
+1）添加超过175张以上的地图-巨大的疯狂古卡斯尔兰城堡，军事严密的守卫岛，各种自定义独特的结构生物群系，这些生物群系受到各种种类的怪物的极大奖励和首领战斗
 
-**4) Carefully and well-made linear balance system - you'll be slowly going from mid-game structures and monsters to end-game truly DANGEROUS locations and bosses with lots of valuable stuff to collect and craft**
+2）新枪（30种远程武器-3层，其中2层光滑且独特的可制制弹药-BALLISTICS TOO），独特的可近战武器（使用各种香草武术）和装甲（2层精心制作的结实武器注入BL9的幸存者装甲）
 
-**5) Unique lore in the form of journals and notes - learn about secret organizations, origin of "BL9" organism and the evil plans of a vile faction that wants to establish the New World Order**
+3）危险的怪物和老板在战斗-从邪教徒和全副武装的军事巡逻队到受到严重变异的生物和坚强的上司，受到Capcom怪物的极大启发
 
-**6) Unique Merchant NPC system done by Axema - collect currency from BL9 monsters and buy Tier 1 and Tier 2 ranged weapons and armor - what are ya buying, stranger?**
+4）精心制作的线性平衡系统-您将逐渐从游戏中期的结构和怪物过渡到最终的真正危险的地点和老板，那里有很多有价值的东西可以收集和制作
 
-**7) New well-made beautiful vivid and colorful terrain biome tiles support made by the great tileset maker SomeDeadGuy - truly vivid and nice looking biome terrains**
+5）以日记和便笺形式出现的独特知识-了解秘密组织，“ BL9”生物的起源以及想要建立新世界秩序的邪恶派别的邪恶计划
 
-**8) Unique Herb Healing system done by me - You can instantly heal a certain part of your HP while in combat but be careful to not overdo it in combat - you get a stacking temporary debuff which gets only longer the more you use the herbs**
+6）由阿克玛（Axema）完成的独特的商人NPC系统-从BL9怪物那里收集货币并购买1级和2级远程武器和盔甲-你们在买什么，陌生人？
 
-**9) Bright Nights and Pre-nested version support - NO errors, working perfectly fine - get it here https://mega.nz/file/SJ8iHALb#q9_tnapZGe6PAH1oiPHjuBj3LHsHWQYbykV0LemV_WY**
+7）由伟大的图集制作商SomeDeadGuy提供的精心制作的美丽生动，色彩丰富的地形生物群落瓷砖支持-真正生动，美观的生物群落地形
+
+8）由我完成的独特草药治疗系统-您可以在战斗中立即治愈HP的特定部位，但要小心，不要在战斗中过度使用-堆叠的临时减益效果越好，使用时间越长
+
+9）Bright Nights和预嵌套版本支持-没有错误，工作正常-在此处获取它https://mega.nz/file/SJ8iHALb#q9_tnapZGe6PAH1oiPHjuBj3jHHsHWQYbykV0LemV_WY
 
 
-## Mod developers, assistants, my greatest supporters
+## Mod开发人员，助手，我最大的支持者
 
-Mod has been developed by **me (Kenan) and Axema Vales** with TREMENDOUS help from **Chaosvolt**, **El-Jekozo/1123132123**, AMAZING assistance **from GoatGod, Mutaman, Aptronym** along with my loyal and GREATEST supporters and someone who inspired me - **Cuddlebaby/Go-Goat, SomeDeadGuy, SzQ, Mechmaster, ChidingAmoeba, Tefnut, Maleclypse, Dissociativity, Meem** , I would like to thank CDDA developers as well - **Mark/mlangsdorf** for spreading information about my project and helping me out with my questions, **anothersimularcrum, cursedwist, esotericist** for helping me out with my questions, **Kevin Granade** for working on **blind/screen reader accessibility for CDDA** - you guys are **THE BEST**
+Kenan（英文原版开发者）和 Axema Vales ，以及 Chaosvolt，El-Jekozo / 1123132123，GoatGod，Mutaman，Aptronym 的惊人帮助，以及我忠实的，最伟大的支持者以及启发我的人的大力支持下开发的-Cuddlebaby / Go-Goat ，SomeDeadGuy，SzQ，Mechmaster，ChidingAmoeba，Tefnut，Maleclypse，Dissociativity，Meem，我也要感谢CDDA开发人员-Mark / mlangsdorf传播了有关我的项目的信息，并帮助我解决了我的问题，另一个模仿者，受诅咒的人，神秘主义者帮助我解决我的问题，Kevin Granade致力于CDDA的盲人/屏幕阅读器可访问性-你们是最好的！
 
-## Links to work of my supporters 
+## Kenan 工作的支持者的链接
 
 **1) https://discourse.cataclysmdda.org/t/secronom-zombies-mod-thread/16211**
 
@@ -55,14 +57,14 @@ Mod has been developed by **me (Kenan) and Axema Vales** with TREMENDOUS help fr
 
 **11) https://github.com/dissociativity/PKs_Rebalancing**
 
-## Link to my personal greatly updated soundpack
+## 链接到Kenan适配的最新声音包
 
 **https://github.com/Kenan2000/Otopack-Mods-Updates**
 
-## Link to Bright Nights CDDA fork by Coolcthulhu
+## 链接到Coolcthulhu的Bright Nights CDDA 分支版
 
 **https://github.com/cataclysmbnteam/Cataclysm-BN**
 
-## Link to my CDDA modding server
+## 链接到Kenan的CDDA改装服务器
 
 **https://discord.com/invite/xj9E3Sp**
