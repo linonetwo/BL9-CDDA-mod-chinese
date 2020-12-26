@@ -11,6 +11,7 @@ const sourceModDirs = [
   `BL9-140%${sourceModDirSuffix}`,
   `BL9-175%${sourceModDirSuffix}`,
 ];
+// 别忘了把百度翻译 API 的 .env 文件黏贴到文件夹里！
 dotenv.config();
 const translate = new BaiduTranslate(process.env.TRANSLATION_APP_ID, process.env.TRANSLATION_SECRET, 'zh', 'en');
 
@@ -217,6 +218,26 @@ const attacks = async (item) => {
     item.attacks.attack_text_npc = await translateFunction(item.attacks.attack_text_npc);
   }
 };
+const monsterAttack = async (item) => {
+  if (item.hit_dmg_u) {
+    item.hit_dmg_u = await translateFunction(item.hit_dmg_u);
+  }
+  if (item.hit_dmg_npc) {
+    item.hit_dmg_npc = await translateFunction(item.hit_dmg_npc);
+  }
+  if (item.no_dmg_msg_u) {
+    item.no_dmg_msg_u = await translateFunction(item.no_dmg_msg_u);
+  }
+  if (item.no_dmg_msg_npc) {
+    item.no_dmg_msg_npc = await translateFunction(item.no_dmg_msg_npc);
+  }
+  if (item.miss_msg_u) {
+    item.miss_msg_u = await translateFunction(item.miss_msg_u);
+  }
+  if (item.miss_msg_npc) {
+    item.miss_msg_npc = await translateFunction(item.miss_msg_npc);
+  }
+};
 const namePlDesc = async (item) => {
   if (item.name) {
     item.name.str = await translateFunction(item.name.str);
@@ -257,24 +278,7 @@ const namePlDesc = async (item) => {
       if (specialAttacks.no_ammo_sound) {
         specialAttacks.no_ammo_sound = await translateFunction(specialAttacks.no_ammo_sound);
       }
-      if (specialAttacks.hit_dmg_u) {
-        specialAttacks.hit_dmg_u = await translateFunction(specialAttacks.hit_dmg_u);
-      }
-      if (specialAttacks.hit_dmg_npc) {
-        specialAttacks.hit_dmg_npc = await translateFunction(specialAttacks.hit_dmg_npc);
-      }
-      if (specialAttacks.no_dmg_msg_u) {
-        specialAttacks.no_dmg_msg_u = await translateFunction(specialAttacks.no_dmg_msg_u);
-      }
-      if (specialAttacks.no_dmg_msg_npc) {
-        specialAttacks.no_dmg_msg_npc = await translateFunction(specialAttacks.no_dmg_msg_npc);
-      }
-      if (specialAttacks.miss_msg_u) {
-        specialAttacks.miss_msg_u = await translateFunction(specialAttacks.miss_msg_u);
-      }
-      if (specialAttacks.miss_msg_npc) {
-        specialAttacks.miss_msg_npc = await translateFunction(specialAttacks.miss_msg_npc);
-      }
+      await monsterAttack(item);
     }
   }
 
@@ -522,6 +526,7 @@ translators.event_statistic = async (item) => {
 };
 translators.event_transformation = noop;
 translators.MAGAZINE = namePlDesc;
+translators.monsterAttack = namePlDesc;
 
 /**
  * 开始翻译
