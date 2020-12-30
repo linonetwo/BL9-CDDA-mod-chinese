@@ -574,85 +574,85 @@
           "x": 6,
           "y": 10
         }
+      ],
+      "place_monster": [
+        {
+          "monster": "mon_BL9_cultist_stab",
+          "x": 17,
+          "y": 5
+        },
+        {
+          "monster": "mon_BL9_cultist_cut",
+          "x": 18,
+          "y": 5
+        },
+        {
+          "monster": "mon_BL9_cultist_crossbow",
+          "x": 20,
+          "y": 4
+        },
+        {
+          "monster": "mon_BL9_cultist_bash",
+          "x": 21,
+          "y": 11
+        },
+        {
+          "monster": "mon_BL9_cultist_cut",
+          "x": 22,
+          "y": 11
+        },
+        {
+          "monster": "mon_BL9_mutant_1",
+          "x": 5,
+          "y": 10
+        },
+        {
+          "monster": "mon_BL9_cultist_bash",
+          "x": 7,
+          "y": 10
+        },
+        {
+          "monster": "mon_BL9_cultist_crossbow",
+          "x": 4,
+          "y": 17
+        },
+        {
+          "monster": "mon_BL9_cultist_stab",
+          "x": 6,
+          "y": 17
+        },
+        {
+          "monster": "mon_BL9_cultist_cut",
+          "x": 8,
+          "y": 17
+        },
+        {
+          "monster": "mon_BL9_cultist_bash",
+          "x": 15,
+          "y": 19
+        },
+        {
+          "monster": "mon_BL9_mutant_1",
+          "x": 23,
+          "y": 19
+        },
+        {
+          "monster": "mon_BL9_cultist_cut",
+          "x": 21,
+          "y": 22
+        },
+        {
+          "monster": "mon_BL9_mutant_1",
+          "x": 21,
+          "y": 19
+        },
+        {
+          "monster": "mon_BL9_cultist_stab",
+          "x": 5,
+          "y": 9
+        }
       ]
-    },
-    "place_monster": [
-      {
-        "monster": "mon_BL9_cultist_stab",
-        "x": 17,
-        "y": 5
-      },
-      {
-        "monster": "mon_BL9_cultist_cut",
-        "x": 18,
-        "y": 5
-      },
-      {
-        "monster": "mon_BL9_cultist_crossbow",
-        "x": 20,
-        "y": 4
-      },
-      {
-        "monster": "mon_BL9_cultist_bash",
-        "x": 21,
-        "y": 11
-      },
-      {
-        "monster": "mon_BL9_cultist_cut",
-        "x": 22,
-        "y": 11
-      },
-      {
-        "monster": "mon_BL9_mutant_1",
-        "x": 5,
-        "y": 10
-      },
-      {
-        "monster": "mon_BL9_cultist_bash",
-        "x": 7,
-        "y": 10
-      },
-      {
-        "monster": "mon_BL9_cultist_crossbow",
-        "x": 4,
-        "y": 17
-      },
-      {
-        "monster": "mon_BL9_cultist_stab",
-        "x": 6,
-        "y": 17
-      },
-      {
-        "monster": "mon_BL9_cultist_cut",
-        "x": 8,
-        "y": 17
-      },
-      {
-        "monster": "mon_BL9_cultist_bash",
-        "x": 15,
-        "y": 19
-      },
-      {
-        "monster": "mon_BL9_mutant_1",
-        "x": 23,
-        "y": 19
-      },
-      {
-        "monster": "mon_BL9_cultist_cut",
-        "x": 21,
-        "y": 22
-      },
-      {
-        "monster": "mon_BL9_mutant_1",
-        "x": 21,
-        "y": 19
-      },
-      {
-        "monster": "mon_BL9_cultist_stab",
-        "x": 5,
-        "y": 9
-      }
-    ]
+    }
   },
   {
     "type": "mapgen",
@@ -1191,60 +1191,60 @@
           "x": 23,
           "y": 14
         }
+      ],
+      "place_monster": [
+        {
+          "monster": "mon_BL9_cultist_cut",
+          "x": 8,
+          "y": 8
+        },
+        {
+          "monster": "mon_BL9_cultist_stab",
+          "x": 8,
+          "y": 16
+        },
+        {
+          "monster": "mon_BL9_mutant_1",
+          "x": 12,
+          "y": 8
+        },
+        {
+          "monster": "mon_BL9_cultist_crossbow",
+          "x": 12,
+          "y": 16
+        },
+        {
+          "monster": "mon_BL9_cultist_bash",
+          "x": 17,
+          "y": 8
+        },
+        {
+          "monster": "mon_BL9_cultist_stab",
+          "x": 17,
+          "y": 16
+        },
+        {
+          "monster": "mon_BL9_cultist_bash",
+          "x": 23,
+          "y": 9
+        },
+        {
+          "monster": "mon_BL9_cultist_crossbow",
+          "x": 23,
+          "y": 10
+        },
+        {
+          "monster": "mon_BL9_cultist_cut",
+          "x": 23,
+          "y": 14
+        },
+        {
+          "monster": "mon_dr_gonzalez",
+          "x": 23,
+          "y": 15
+        }
       ]
-    },
-    "place_monster": [
-      {
-        "monster": "mon_BL9_cultist_cut",
-        "x": 8,
-        "y": 8
-      },
-      {
-        "monster": "mon_BL9_cultist_stab",
-        "x": 8,
-        "y": 16
-      },
-      {
-        "monster": "mon_BL9_mutant_1",
-        "x": 12,
-        "y": 8
-      },
-      {
-        "monster": "mon_BL9_cultist_crossbow",
-        "x": 12,
-        "y": 16
-      },
-      {
-        "monster": "mon_BL9_cultist_bash",
-        "x": 17,
-        "y": 8
-      },
-      {
-        "monster": "mon_BL9_cultist_stab",
-        "x": 17,
-        "y": 16
-      },
-      {
-        "monster": "mon_BL9_cultist_bash",
-        "x": 23,
-        "y": 9
-      },
-      {
-        "monster": "mon_BL9_cultist_crossbow",
-        "x": 23,
-        "y": 10
-      },
-      {
-        "monster": "mon_BL9_cultist_cut",
-        "x": 23,
-        "y": 14
-      },
-      {
-        "monster": "mon_dr_gonzalez",
-        "x": 23,
-        "y": 15
-      }
-    ]
+    }
   },
   {
     "type": "mapgen",
@@ -3782,8 +3782,19 @@
       ],
       "terrain": {
         "0": "t_floor_resin",
+        "1": "t_carpet_red",
+        "2": "t_carpet_purple",
+        "3": "t_carpet_green",
         "4": "t_floor_blue",
         " ": "t_dirt",
+        "?": [
+          "t_door_metal_c",
+          "t_door_metal_c",
+          "t_door_metal_c",
+          "t_door_metal_c",
+          "t_door_metal_o"
+        ],
+        "!": "t_column",
         ".": "t_rock_floor",
         "=": "t_bars",
         "%": "t_rock_wall",
