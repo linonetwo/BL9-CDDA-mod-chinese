@@ -714,12 +714,12 @@
       "steel"
     ],
     "flags": [
-      "FIRE_20",
       "NEVER_JAMS",
       "NON-FOULING",
       "NEEDS_NO_LUBE",
       "WATERPROOF_GUN"
     ],
+    "ammo_to_fire": 20,
     "skill": "launcher",
     "ammo": [
       "BL9spray_type"
@@ -1750,12 +1750,12 @@
       "steel"
     ],
     "flags": [
-      "FIRE_20",
       "NEVER_JAMS",
       "NON-FOULING",
       "NEEDS_NO_LUBE",
       "WATERPROOF_GUN"
     ],
+    "ammo_to_fire": 20,
     "skill": "launcher",
     "ammo": [
       "BL9spraymk2_type"
@@ -2786,12 +2786,12 @@
       "steel"
     ],
     "flags": [
-      "FIRE_20",
       "NEVER_JAMS",
       "NON-FOULING",
       "NEEDS_NO_LUBE",
       "WATERPROOF_GUN"
     ],
+    "ammo_to_fire": 20,
     "skill": "launcher",
     "ammo": [
       "BL9spraymk2_type"
