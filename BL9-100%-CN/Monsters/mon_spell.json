@@ -124,7 +124,8 @@
     "description": "温和的治愈感谢温和的草药",
     "message": "你吃了药草，伤口就稍微愈合了！",
     "valid_targets": [
-      "self"
+      "self",
+      "ally"
     ],
     "flags": [
       "SILENT",
@@ -155,7 +156,8 @@
     "description": "中度愈合感谢中度治疗草药",
     "message": "你吃了这个药草，一定程度上你感觉好了！",
     "valid_targets": [
-      "self"
+      "self",
+      "ally"
     ],
     "flags": [
       "SILENT",
@@ -186,7 +188,8 @@
     "description": "强大的治愈感谢强大的治愈药草",
     "message": "你吃了这个药草，你感觉很好的治愈了！",
     "valid_targets": [
-      "self"
+      "self",
+      "ally"
     ],
     "flags": [
       "SILENT",
