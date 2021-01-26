@@ -743,7 +743,9 @@
   {
     "id": "buildinggoesboomhahafunny",
     "type": "TOOL",
-    "name": "LOL",
+    "name": {
+      "str": "英雄联盟"
+    },
     "description": "这真是太棒了。",
     "volume": "0 L",
     "weight": "0 kg",
@@ -768,7 +770,9 @@
   {
     "id": "buildinggoesboomhahafunny_act",
     "type": "TOOL",
-    "name": "HAHA FUNNY",
+    "name": {
+      "str": "哈哈好笑"
+    },
     "description": "这真是太棒了",
     "volume": "0 L",
     "weight": "0 kg",

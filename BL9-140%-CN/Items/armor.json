@@ -114,7 +114,9 @@
     "looks_like": "helmet_survivor",
     "type": "ARMOR",
     "category": "armor",
-    "name": "BL9-infused survivor helmet",
+    "name": {
+      "str": "BL9灌注幸存者头盔"
+    },
     "description": "一个幸存者头盔，现代化和注入BL9，它是部分覆盖几乎有知觉的BL9加强和硬化头盔作为kevlar或陶瓷替代品",
     "weight": "1075 g",
     "volume": "2100 ml",
@@ -153,7 +155,9 @@
     "looks_like": "pants_survivor",
     "type": "ARMOR",
     "category": "armor",
-    "name": "BL9-infused survivor cargo pants",
+    "name": {
+      "str": "BL9注入幸存者货物长裤"
+    },
     "description": "一双幸存者的货物裤，现代化和注入了BL9，它的一部分覆盖几乎有知觉的BL9加强和硬化裤子作为凯夫拉尔或陶瓷替代品",
     "weight": "1800 g",
     "volume": "2275 ml",
@@ -236,7 +240,9 @@
     "looks_like": "survivor_suit",
     "type": "ARMOR",
     "category": "armor",
-    "name": "BL9-infused survivor suit",
+    "name": {
+      "str": "BL9注入幸存者套装"
+    },
     "description": "一个幸存者装甲服，现代化和注入了BL9，它的一部分覆盖了几乎有知觉的BL9加强和硬化的西装充当凯夫拉或陶瓷替代品",
     "weight": "1775 g",
     "volume": "6500 ml",
@@ -301,7 +307,9 @@
     "looks_like": "gloves_survivor",
     "type": "ARMOR",
     "category": "armor",
-    "name": "pair of BL9-infused survivor gloves",
+    "name": {
+      "str": "一副注入BL9的幸存者手套"
+    },
     "description": "一对幸存者手套，现代化和注入BL9，它的一部分覆盖着几乎有知觉的BL9加强和硬化作为凯夫拉或陶瓷替代手套",
     "weight": "185 g",
     "volume": "575 ml",
@@ -333,7 +341,9 @@
     "looks_like": "boots_survivor",
     "type": "ARMOR",
     "category": "armor",
-    "name": "pair of BL9-infused survivor boots",
+    "name": {
+      "str": "一双注入BL9的幸存者靴子"
+    },
     "description": "一双幸存者靴子，现代化和注入了BL9，它的一部分覆盖着几乎有知觉的BL9加强和硬化的靴子作为凯夫拉或陶瓷替代品",
     "weight": "1045 g",
     "volume": "2175 ml",
@@ -366,7 +376,9 @@
     "looks_like": "lsurvivor_armor",
     "type": "ARMOR",
     "category": "armor",
-    "name": "BL9-infused body armor",
+    "name": {
+      "str": "BL9灌注防弹衣"
+    },
     "description": "这是一种现代化的、注入了BL9的防弹衣，它的一部分被几乎有知觉的BL9覆盖，用来加强和硬化装甲，充当kevlar或陶瓷的替代品",
     "weight": "2535 g",
     "volume": "4440 ml",
@@ -399,7 +411,9 @@
     "looks_like": "helmet_hsurvivor",
     "type": "ARMOR",
     "category": "armor",
-    "name": "BL9-infused survivor helmet MK ii",
+    "name": {
+      "str": "BL9注入幸存者头盔MK ii"
+    },
     "description": "一个幸存者头盔，现代化和充分注入BL9，它是完全覆盖和加强了一个非常强大的，进化，完美的感知和持久版本的BL9，多个尖刺振动突出物出现在外层的厚组织",
     "weight": "1875 g",
     "volume": "2745 ml",
@@ -438,7 +452,9 @@
     "looks_like": "bunker_pants",
     "type": "ARMOR",
     "category": "armor",
-    "name": "BL9-infused survivor cargo pants MK ii",
+    "name": {
+      "str": "BL9注入幸存者货裤MK ii"
+    },
     "description": "这是一条充满了BL9的现代化的幸存者货裤，它被一个非常坚固、进化、完美感知和耐用的BL9完全覆盖和加固，多个尖尖的振动突起从它的厚组织的外层出现",
     "weight": "2145 g",
     "volume": "2885 ml",
@@ -520,7 +536,9 @@
     "looks_like": "hsurvivor_suit",
     "type": "ARMOR",
     "category": "armor",
-    "name": "BL9-infused survivor suit MK ii",
+    "name": {
+      "str": "BL9注入幸存者套装MK ii"
+    },
     "description": "幸存者装甲服，现代化和充分注入了BL9，它是完全覆盖和加强了一个非常强大的，进化，完美的感知和耐用版本的BL9，多个尖刺振动突出物出现在外层的厚组织",
     "weight": "1910 g",
     "volume": "5445 ml",
@@ -584,7 +602,9 @@
     "looks_like": "gloves_hsurvivor",
     "type": "ARMOR",
     "category": "armor",
-    "name": "Pair of BL9-infused survivor gloves MK ii",
+    "name": {
+      "str": "一副BL9注入幸存者手套MK ii"
+    },
     "description": "一副幸存者手套，现代化和充分注入了BL9，它完全覆盖和加强了一个非常强大，进化，完美的感知和耐用版本的BL9，多个尖刺振动突出物从外层的厚组织",
     "weight": "475 g",
     "volume": "745 ml",
@@ -615,7 +635,9 @@
     "looks_like": "boots_combat",
     "type": "ARMOR",
     "category": "armor",
-    "name": "Pair of BL9-infused survivor boots MK ii",
+    "name": {
+      "str": "一双BL9注入幸存者靴子MK ii"
+    },
     "description": "一双幸存者靴，现代化和充分注入了BL9，它完全覆盖和加强了一个非常强大，进化，完美的感知和耐用版本的BL9，多个尖刺振动突出物从外层的厚组织",
     "weight": "1715 g",
     "volume": "2375 ml",
@@ -648,7 +670,9 @@
     "looks_like": "dragonskin",
     "type": "ARMOR",
     "category": "armor",
-    "name": "BL9-infused body armor MK ii",
+    "name": {
+      "str": "BL9注入式防弹衣MK ii"
+    },
     "description": "这是一种现代化的防弹衣，完全注入了BL9，它完全覆盖和加强了一个非常强大，进化，完美的感知和耐用版本的BL9，多个尖尖的振动突出物从它的厚组织的外层出现",
     "weight": "3 kg",
     "volume": "5 L",

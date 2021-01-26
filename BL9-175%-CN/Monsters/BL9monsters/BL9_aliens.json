@@ -3,7 +3,9 @@
     "id": "mon_BL9_ezron_1",
     "looks_like": "mon_spider_cellar_giant",
     "type": "MONSTER",
-    "name": "Ezrondium Mutant",
+    "name": {
+      "str": "突变体"
+    },
     "description": "一种生物，上半身是一个仍在活动的人类，已经变成了野性动物，下半身是一种血淋淋的红色巨型蛛形纲动物，动作僵硬，但充满了动物般的侵略性",
     "default_faction": "BL9_cultists",
     "species": [
@@ -86,7 +88,9 @@
     "id": "mon_BL9_ezron_2",
     "looks_like": "mon_spider_cellar_mega",
     "type": "MONSTER",
-    "name": "Ezrondium Beast",
+    "name": {
+      "str": "兽"
+    },
     "description": "它是一种血色的巨大蜘蛛类怪物，有着令人难以置信的锋利和致命的细长腿，腹部有一种类似蠕虫的小突起，牙齿从它的腹部冒出来，它无数的眼睛在黑暗中以可怕的方式闪烁",
     "default_faction": "BL9_cultists",
     "species": [
@@ -169,7 +173,9 @@
     "id": "mon_BL9_ezron_3",
     "looks_like": "mon_spider_wolf_mega",
     "type": "MONSTER",
-    "name": "Ezrondium Evolved Mutant",
+    "name": {
+      "str": "进化突变体"
+    },
     "description": "它的上半身是一个几乎认不出来的变异人类——它的头部被无数闪亮的红宝石色眼睛拉长，躯干——覆盖着大量的红发，下半身——是一个血红色的巨大蜘蛛纲动物，优雅地移动着，却充满了可怕的嗜血侵略",
     "default_faction": "BL9_cultists",
     "species": [
@@ -252,7 +258,9 @@
     "id": "mon_BL9_ezron_4",
     "looks_like": "mon_spider_web_mega",
     "type": "MONSTER",
-    "name": "Ezrondium Mutated Beast",
+    "name": {
+      "str": "变异兽"
+    },
     "description": "一个血红色的巨大蛛形纲动物怪物，长着令人难以置信的锋利和致命的长腿，腹部伸出多个凶猛的中等大小的蠕虫状生物，它无数的眼睛在黑暗中以恐怖的方式闪闪发光",
     "default_faction": "BL9_cultists",
     "species": [
@@ -354,7 +362,9 @@
     "id": "mon_BL9_ezron_5",
     "looks_like": "mon_spider_jumping_mega",
     "type": "MONSTER",
-    "name": "Ezrondium Mutant Amalgamation",
+    "name": {
+      "str": "突变体融合"
+    },
     "description": "一种生物，身体上部是人形的，头部被拉长，有无数闪闪发光的红宝石色眼睛，躯干上布满了大量的红发，布满了肉质的洞，从中伸出多个触角，向各个方向疯狂摆动，下部是一种血色的巨大蜘蛛纲动物，动作优雅，但充满了可怕的嗜血侵略",
     "default_faction": "BL9_cultists",
     "species": [
@@ -456,7 +466,9 @@
     "id": "mon_BL9_tavrav_1",
     "looks_like": "mon_zombie_gasbag_impaler",
     "type": "MONSTER",
-    "name": "Tavravium Mutant",
+    "name": {
+      "str": "塔夫拉菌突变体"
+    },
     "description": "一个仍能正常工作的人类变得野性了——在左臂和右腿上都是青色的触手，躯干的左半部似乎被从里面渗出的青色液体部分地凝固了，它的目光迷茫却又咄咄逼人",
     "default_faction": "BL9_cultists",
     "species": [
@@ -539,7 +551,9 @@
     "id": "mon_BL9_tavrav_2",
     "looks_like": "mon_tadpole_grabber",
     "type": "MONSTER",
-    "name": "Tavravium Beast",
+    "name": {
+      "str": "塔夫拉维姆野兽"
+    },
     "description": "一种青色漂浮的头足类动物，头部呈脑形，略微拉长，有多只闪闪发光的眼睛，它的身体类似于一团不成形的凝胶，从下部伸出3根触手，其中2根用于移动，而中部则有一只锋利的爪子用于自卫",
     "default_faction": "BL9_cultists",
     "species": [
@@ -622,7 +636,9 @@
     "id": "mon_BL9_tavrav_3",
     "looks_like": "mon_mi_go_surgeon",
     "type": "MONSTER",
-    "name": "Tavravium Evolved Mutant",
+    "name": {
+      "str": "Tavravium进化突变体"
+    },
     "description": "一个几乎无法辨认的变异人类-它的头被可怕地扭曲了，变成了一个头足类人的头足类，触角从嘴里长出来，以前的人类手臂变成了鞭状的触须，它的身体和腿是一个青色液体渗出凝胶状的物质，僵硬但有侵略性",
     "default_faction": "BL9_cultists",
     "species": [
@@ -705,7 +721,9 @@
     "id": "mon_BL9_tavrav_4",
     "looks_like": "mon_mi_go_myrmidon",
     "type": "MONSTER",
-    "name": "Tavravium Mutated Beast",
+    "name": {
+      "str": "塔夫拉维姆变异兽"
+    },
     "description": "一种青色漂浮的头足类动物，有两个扭曲的脑形细长的头，多个不均匀展开的闪闪发光的眼睛，它的身体类似于一团不成形的凝胶，从下面露出4个触手——所有触手都有锋利的爪子——似乎不仅仅是为了防御",
     "default_faction": "BL9_cultists",
     "species": [
@@ -788,7 +806,9 @@
     "id": "mon_BL9_tavrav_5",
     "looks_like": "mon_thing",
     "type": "MONSTER",
-    "name": "Tavravium Mutant Amalgamation",
+    "name": {
+      "str": "Tavravium突变体融合"
+    },
     "description": "一个几乎认不出来的人形外星人——它的头被可怕地扭曲，变成了一个奇怪的扭曲的头足类动物的头，尖刺的触角从它的嘴里长出来，以前的人类手臂变成尖刺的触角，它的身体和腿是一个蓝绿色的液体渗出凝胶状的肿块，以中等的速度移动，嗜血的侵略性",
     "default_faction": "BL9_cultists",
     "species": [
@@ -890,7 +910,9 @@
     "id": "mon_BL9_yengn_1",
     "looks_like": "mon_locust_small",
     "type": "MONSTER",
-    "name": "Yengnutrium Mutant",
+    "name": {
+      "str": "野豌豆突变体"
+    },
     "description": "一个仍在运作的人类野性消失了-2个黄色的昆虫天线从它的头上长出来，在嘴的地方有一个昆虫的下颌，它的左臂变成了一个黄色锯齿状的昆虫爪，黄色弯曲的昆虫腿在它的右腿的地方，缓慢地移动着，脸上带着愤怒而困惑的表情",
     "default_faction": "BL9_cultists",
     "species": [
@@ -973,7 +995,9 @@
     "id": "mon_BL9_yengn_2",
     "looks_like": "mon_locust",
     "type": "MONSTER",
-    "name": "Yengnutrium Beast",
+    "name": {
+      "str": "燕鸥兽"
+    },
     "description": "一种黄色的四足大熊幼崽大小的昆虫，身体稍长，有两个弯曲的锯齿状爪子，它的头像一只扭曲得可怕的螳螂或蝗虫的头，有三只奇怪的快速眨眼的眼睛，两个天线从中伸出，它移动迅速而危险",
     "default_faction": "BL9_cultists",
     "species": [
@@ -1056,7 +1080,9 @@
     "id": "mon_BL9_yengn_3",
     "looks_like": "mon_skittering_plague",
     "type": "MONSTER",
-    "name": "Yengnutrium Evolved Mutant",
+    "name": {
+      "str": "延海棠进化突变体"
+    },
     "description": "一种黄色的外星昆虫-它的头像螳螂和苍蝇的头混合体-它的形状是一个奇怪的弯曲菱形，有多个奇怪的快速眨眼的眼睛，它的人体残存部分扭曲-略微垂直拉长，背部突出2个翅膀，手臂处有2个锯齿状弯曲的爪子，还有两条细而远的昆虫腿",
     "default_faction": "BL9_cultists",
     "species": [
@@ -1139,7 +1165,9 @@
     "id": "mon_BL9_yengn_4",
     "looks_like": "mon_dragonfly_mega",
     "type": "MONSTER",
-    "name": "Yengnutrium Mutated Beast",
+    "name": {
+      "str": "燕鸥变异兽"
+    },
     "description": "一种黄色的四足鹿大小的昆虫外星人，身体细长，有4个弯曲的锯齿状爪子，它的头像是一只扭曲得可怕的螳螂和蟑螂的头融合在一起，有5只奇怪的快速眨眼的眼睛，3根天线从它身上长出来，2根长长的触须从它的背部伸出身体，它移动不可预测而且相当快",
     "default_faction": "BL9_cultists",
     "species": [
@@ -1241,7 +1269,9 @@
     "id": "mon_BL9_yengn_5",
     "looks_like": "mon_wasp_mega",
     "type": "MONSTER",
-    "name": "Yengnutrium Mutant Amalgamation",
+    "name": {
+      "str": "野豌豆突变体融合"
+    },
     "description": "一个黄色的外星人，极度扭曲的昆虫类动物——它有两个不对称生长的头——一个像螳螂和苍蝇的头，有多个快速眨眼的眼睛——另一个像蝗虫和蟑螂的头，两边都有两只眼睛，剩下的人形身体几乎认不出来——它是垂直拉长的它的背部伸出两个有翼的触须，手臂处有2个锯齿状弯曲的爪子，2个刺状的昆虫腿",
     "default_faction": "BL9_cultists",
     "species": [
@@ -1343,7 +1373,9 @@
     "id": "mon_BL9_inhrav_1",
     "looks_like": "mon_zombie_rot",
     "type": "MONSTER",
-    "name": "Inhravtidius Mutant",
+    "name": {
+      "str": "Inhravtidius突变体"
+    },
     "description": "一个浅白的人类似乎没有生命，但仍然在移动，尽管僵硬缓慢，背部有一种奇怪的预感——它是某种畜栏颜色的外星甲壳类动物，以水蛭般的方式紧紧地附着在它的背部，可能消耗宿主的肉和血，利用它作为自己生长的物质",
     "default_faction": "BL9_cultists",
     "species": [
@@ -1426,7 +1458,9 @@
     "id": "mon_BL9_inhrav_2",
     "looks_like": "mon_razorclaw",
     "type": "MONSTER",
-    "name": "Inhravtidius Beast",
+    "name": {
+      "str": "因斯拉夫提迪乌斯野兽"
+    },
     "description": "一个畜栏色的甲壳类动物怪物，有一个形状奇特的弯曲甲壳，2个长长的畜栏色天线从它的头部突出，它的5个杂乱无章的小眼睛在快速闪烁，它的微小的快速移动的腿给它一个几乎荒谬的外观，但它的2个尖刺钳子使它真正的威胁",
     "default_faction": "BL9_cultists",
     "species": [
@@ -1509,7 +1543,9 @@
     "id": "mon_BL9_inhrav_3",
     "looks_like": "mon_mi_go",
     "type": "MONSTER",
-    "name": "Inhravtidius Evolved Mutant",
+    "name": {
+      "str": "Inhravtidius进化突变体"
+    },
     "description": "一个几乎认不出来的人类，已经和它背上的甲壳类动物融合在一起——它长出了一个厚厚的兽栏色盔甲，完全覆盖了它的整个躯干，它的头上长了2个天线，看起来缩小了，形状奇怪，上面有多个快速眨眼的眼睛，它长了2个钳子代替手臂，唯一能表明这曾经是人类的迹象是它僵硬的移动着的腿",
     "default_faction": "BL9_cultists",
     "species": [
@@ -1592,7 +1628,9 @@
     "id": "mon_BL9_inhrav_4",
     "looks_like": "mon_alpha_razorclaw",
     "type": "MONSTER",
-    "name": "Inhravtidius Mutated Beast",
+    "name": {
+      "str": "异兽"
+    },
     "description": "一个扩大的畜栏色甲壳类动物怪物，有一个形状奇特的弯曲甲壳，2个长长的畜栏色尖刺天线从它的头部突出，它的5个杂乱无章的小眼睛在快速闪烁，疯狂摆动的触须从它的背部出现，钳子看起来锯齿状和锋利，使它真正凶猛",
     "default_faction": "BL9_cultists",
     "species": [
@@ -1694,7 +1732,9 @@
     "id": "mon_BL9_inhrav_5",
     "looks_like": "mon_mi_go_surgeon",
     "type": "MONSTER",
-    "name": "Inhravtidius Mutant Amalgamation",
+    "name": {
+      "str": "Inhravtidius突变融合"
+    },
     "description": "一种人形外星甲壳类动物——它全身覆盖着厚厚的兽栏色盔甲，完全覆盖了它的整个躯干，它的奇怪形状的头上有两个尖尖的天线，上面有多个快速眨眼的眼睛，2个尖尖的弯曲触须从这个生物的侧面出现，它的手臂上有钳子，它用4条中等大小的甲壳类动物的腿移动得相当快",
     "default_faction": "BL9_cultists",
     "species": [
@@ -1796,7 +1836,9 @@
     "id": "mon_BL9_ulniv_1",
     "looks_like": "mon_zombie_mancroc",
     "type": "MONSTER",
-    "name": "Ulniviunite Mutant",
+    "name": {
+      "str": "突变体"
+    },
     "description": "一只野性消失的人类——慢慢变成某种沙褐色的外来穿山甲生物——它的身体部分覆盖着粘液状的厚而耐用的鳞片，背部下部露出奇怪的肉质穿山甲般的尾巴，它的手正在慢慢变成令人难以置信的锋利和强壮的爪子，它看起来困惑而又愤怒",
     "default_faction": "BL9_cultists",
     "species": [
@@ -1879,7 +1921,9 @@
     "id": "mon_BL9_ulniv_2",
     "looks_like": "mon_kreck",
     "type": "MONSTER",
-    "name": "Ulniviunite Beast",
+    "name": {
+      "str": "乌尔尼维兽"
+    },
     "description": "一种沙褐色的穿山甲般的外星怪物——虽然它的身体上覆盖着厚厚而持久的鳞片，但它的腹部和尾巴却异常的肉质和粘液，它有一个七鳃鳗式的嘴，有一副凶猛的牙齿，从牙齿上可以看到食蚁兽般的长舌头，它的末端有着难以置信的厚而结实的爪子它的四肢",
     "default_faction": "BL9_cultists",
     "species": [
@@ -1962,7 +2006,9 @@
     "id": "mon_BL9_ulniv_3",
     "looks_like": "mon_zombie_biter",
     "type": "MONSTER",
-    "name": "Ulniviunite Evolved Mutant",
+    "name": {
+      "str": "Ulniviune进化突变体"
+    },
     "description": "一个几乎认不出来的人类，变成了一种奇怪的沙褐色外星穿山甲生物——它的身体上完全覆盖着粘液般的厚而耐用的鳞片，它的头部萎缩了——它的嘴变成了一种七鳃鳗型，上面挂着一条长的食蚁兽一样的舌头，奇怪的肉质的穿山甲般的尾巴从它的背部下部露出，它的手变成了令人难以置信的锋利和强壮的爪子，它充满了凶猛和动物的愤怒",
     "default_faction": "BL9_cultists",
     "species": [
@@ -2045,7 +2091,9 @@
     "id": "mon_BL9_ulniv_4",
     "looks_like": "mon_spawn_raptor_unstable",
     "type": "MONSTER",
-    "name": "Ulniviunite Mutated Beast",
+    "name": {
+      "str": "乌尔尼维变异兽"
+    },
     "description": "一种巨大的沙褐色穿山甲状外星怪物——虽然它的身体上覆盖着厚厚的、耐用的鳞片，但它的腹部和尾巴都是怪诞的肉质和黏糊糊的，它有一张七鳃鳗式的嘴，嘴上有一对看起来很危险的牙齿，从中可以看到两条分叉的舌头状长刺触手，它的四肢末端有着难以置信的粗壮的爪子",
     "default_faction": "BL9_cultists",
     "species": [
@@ -2147,7 +2195,9 @@
     "id": "mon_BL9_ulniv_5",
     "looks_like": "mon_zombie_urchin",
     "type": "MONSTER",
-    "name": "Ulniviunite Mutant Amalgamation",
+    "name": {
+      "str": "突变体融合"
+    },
     "description": "一种沙褐色的仿人穿山甲状的外星生物——它的身体完全覆盖着粘液状的厚而耐用的鳞片，它的头收缩了——它的嘴变成了一种七鳃鳗型，分叉的舌头像两个长尖刺的触须悬在它的背上，它的手有一组奇怪的肉质的尖刺触须变成了令人难以置信的锋利和强壮的爪子，充满了凶猛和动物的愤怒",
     "default_faction": "BL9_cultists",
     "species": [

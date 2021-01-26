@@ -292,7 +292,9 @@
     "id": "mon_BL9_assassin",
     "looks_like": "mon_alpha_razorclaw",
     "type": "MONSTER",
-    "name": "The Assassin",
+    "name": {
+      "str": "刺客"
+    },
     "description": "一种类似爬行动物的变种，有高度抗药性的鳞片和长而双刃的尾巴。除了它的灵活和致命的攻击，它也可以与周围的环境，如果条件满足。",
     "default_faction": "BL9_cultists",
     "species": [
@@ -431,7 +433,9 @@
     "id": "mon_BL9_twisted_one",
     "looks_like": "mon_mi_go_myrmidon",
     "type": "MONSTER",
-    "name": "The Twisted One",
+    "name": {
+      "str": "扭曲的那个"
+    },
     "description": "变异的人类茧，它是一个可怕的触手合并基础的头部，身体由刺客的严重变异的残骸形成，有多个张开的张开的嘴巴，里面有几十颗锋利的牙齿，不明来源的触角从它的背部起，就像它的腿一样，也可以从中攻击。很远的距离",
     "default_faction": "BL9_cultists",
     "species": [
@@ -621,7 +625,9 @@
     "id": "mon_BL9_regen",
     "looks_like": "mon_zombie_hollow",
     "type": "MONSTER",
-    "name": "BL9 Regenerator",
+    "name": {
+      "str": "BL9再生器"
+    },
     "description": "面色苍白的变种人。它强大的再生能力抵消了它脆弱的身体。",
     "default_faction": "BL9_military",
     "species": [
@@ -720,7 +726,9 @@
     "id": "mon_BL9_regen_spiky",
     "looks_like": "mon_charred_nightmare",
     "type": "MONSTER",
-    "name": "BL9 Iron Maiden",
+    "name": {
+      "str": "BL9铁娘子"
+    },
     "description": "一种实验性的突变体，它的身体里有几个尖刺。与regenerador有相似之处，但它似乎完全控制了它的突起。",
     "default_faction": "BL9_military",
     "species": [
@@ -843,7 +851,9 @@
     "id": "mon_BL9_chimera",
     "looks_like": "mon_jabberwock",
     "type": "MONSTER",
-    "name": "The Chimera",
+    "name": {
+      "str": "凯米拉"
+    },
     "description": "一种可怕的人类、昆虫和爬行动物的DNA不完全融合成一个个体的可怕的嵌合体，它本身拥有BL9。它拥有人类躯干的上部和人类的头部，它的脸是可怕的扭曲的，在它的颈背和王冠上有奇怪的疤痕，一只有爪的手臂，另一只代替另一只的触须",
     "default_faction": "BL9_military",
     "species": [
@@ -950,7 +960,9 @@
     "id": "mon_BL9_chimera_mutated",
     "looks_like": "mon_jabberwock",
     "type": "MONSTER",
-    "name": "The Mutated Chimera",
+    "name": {
+      "str": "变异的嵌合体"
+    },
     "description": "它的第一个触角已经和一个爬行动物的触角融合成了一个可怕的阶段。这只触须还带有一对很重的钳子",
     "default_faction": "BL9_military",
     "species": [
@@ -1057,7 +1069,9 @@
     "id": "mon_BL9_general_mutated",
     "looks_like": "mon_zombie_kevlar_2",
     "type": "MONSTER",
-    "name": "Mutated Elite General",
+    "name": {
+      "str": "变异精英将军"
+    },
     "description": "一个高个子，穿着伪装和轻甲的人，看起来像一个绝对正常的人相比，你不得不面对的一切，除了它似乎有不人道的灵活性和反应，此外，它最突出的特点是巨大的叶片盾牌像BL9增长，已经完全接管了它的右臂",
     "default_faction": "BL9_military",
     "species": [
@@ -1158,7 +1172,9 @@
     "id": "mon_BL9_vile_one",
     "looks_like": "mon_zombie_scissorlimbs",
     "type": "MONSTER",
-    "name": "The Vile One",
+    "name": {
+      "str": "卑鄙的人"
+    },
     "description": "大得惊人的变异，多腿的野兽。这些甲壳类动物的腿仍然和一个看起来像人形的身体相连，这个身体像一条残存的肢体一样悬挂在他变异的身体上。他的头现在连在一个长长的蛇形脖子上，周围是坚硬的刀片状下颌骨。身体周围还分布着一系列眼睛，腿的每个关节上都有一只眼睛，嘴里还有一只大眼睛",
     "default_faction": "BL9_military",
     "species": [

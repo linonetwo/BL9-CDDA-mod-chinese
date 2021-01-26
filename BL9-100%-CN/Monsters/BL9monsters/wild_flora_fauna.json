@@ -3,7 +3,9 @@
     "id": "mon_BL9_repto",
     "looks_like": "mon_zombie_mancroc",
     "type": "MONSTER",
-    "name": "Repto",
+    "name": {
+      "str": "雷普托"
+    },
     "description": "一种长着锋利闪亮爪子的人形爬行动物。它的身体定位是为跳跃而建立的，因此它能够扑向毫无防备的猎物。",
     "default_faction": "BL9_cultists",
     "species": [
@@ -110,7 +112,9 @@
     "id": "mon_BL9_repto_evo",
     "looks_like": "mon_mutant_evolved",
     "type": "MONSTER",
-    "name": "Evolved Repto",
+    "name": {
+      "str": "进化的Repto"
+    },
     "description": "它们是可怕的爬行动物变种的改良版，它有一个弹性的外壳状表皮，使它们免受小型武器的伤害。这些生物的左臂仍然比右臂略长，尽管它们的爪子锋利得可怕。它的嘴两侧都有下颚，让它们看起来更加不安",
     "default_faction": "BL9_military",
     "species": [
@@ -217,7 +221,9 @@
     "id": "mon_BL9_scrawler",
     "looks_like": "mon_skittering_plague",
     "type": "MONSTER",
-    "name": "Shadow Crawler",
+    "name": {
+      "str": "影子爬虫"
+    },
     "description": "在半空中盘旋的有翅膀的虫子状生物。它有一对锋利的爪子和一个类似鸡冠的头。",
     "default_faction": "BL9_cultists",
     "species": [
@@ -321,7 +327,9 @@
     "id": "mon_BL9_scrawler_evo",
     "looks_like": "mon_plague_vector",
     "type": "MONSTER",
-    "name": "Evolved Shadow Crawler",
+    "name": {
+      "str": "进化的影子爬虫"
+    },
     "description": "一种类似昆虫的两足动物，前肢上有一套锯齿状的甲壳质刀片。它有厚厚的甲壳素外壳，保护它免受伤害。",
     "default_faction": "BL9_cultists",
     "species": [
@@ -458,7 +466,9 @@
     "id": "mon_BL9_ivy",
     "looks_like": "mon_zombie_thorny",
     "type": "MONSTER",
-    "name": "BL9 ivy zombie",
+    "name": {
+      "str": "BL9常春藤僵尸"
+    },
     "description": "被未知种类的植物严重感染的尸体。虽然它的动作非常僵硬，但它的嘴已经发生了一定程度的变化，它占据了整个脸，脸上布满了锋利的牙齿。",
     "default_faction": "BL9_military",
     "species": [
@@ -561,7 +571,9 @@
     "id": "mon_BL9_ivy_brute",
     "looks_like": "mon_zombie_thorny",
     "type": "MONSTER",
-    "name": "BL9 ivy zombie brute",
+    "name": {
+      "str": "BL9常春藤僵尸畜生"
+    },
     "description": "一具肌肉肿胀的尸体，严重感染了未知种类的植物。虽然它的动作非常僵硬，但它的嘴已经发生了一定程度的变化，它占据了整个脸，脸上布满了锋利的牙齿。",
     "default_faction": "BL9_military",
     "species": [
@@ -667,7 +679,9 @@
     "id": "mon_BL9_ivy_bulb",
     "looks_like": "mon_vinebeast",
     "type": "MONSTER",
-    "name": "BL9 ivy bulb zombie",
+    "name": {
+      "str": "BL9常春藤球茎僵尸"
+    },
     "description": "被未知种类的植物严重感染的尸体。虽然它的运动非常僵硬，但它的身体突然变成了一个盔甲状的球状物，一个突出物占据了它的上部，灯泡的内部布满了可怕的锋利的牙齿。",
     "default_faction": "BL9_military",
     "species": [

@@ -33,6 +33,7 @@
     "skill": "pistol",
     "weight": "850 g",
     "volume": "500 ml",
+    "longest_side": "200 mm",
     "bashing": 8,
     "to_hit": -1,
     "ranged_damage": {
@@ -148,6 +149,7 @@
     "skill": "smg",
     "weight": "2850 g",
     "volume": "1 L",
+    "longest_side": "680 mm",
     "bashing": 8,
     "to_hit": -1,
     "ranged_damage": {
@@ -271,6 +273,7 @@
     "skill": "rifle",
     "weight": "4100 g",
     "volume": "3 L",
+    "longest_side": "1230 mm",
     "bashing": 8,
     "to_hit": -1,
     "ranged_damage": {
@@ -380,6 +383,7 @@
     "skill": "rifle",
     "weight": "3600 g",
     "volume": "2 L",
+    "longest_side": "1020 mm",
     "bashing": 8,
     "to_hit": -1,
     "ranged_damage": {
@@ -505,6 +509,7 @@
     "skill": "shotgun",
     "weight": "4900 g",
     "volume": "2500 ml",
+    "longest_side": "920 mm",
     "bashing": 8,
     "to_hit": -1,
     "ranged_damage": {
@@ -612,6 +617,7 @@
     "skill": "pistol",
     "weight": "4200 g",
     "volume": "1900 ml",
+    "longest_side": "340 mm",
     "bashing": 8,
     "to_hit": -1,
     "ranged_damage": {
@@ -705,6 +711,7 @@
     "description": "一个笨重的，BL9喷雾器，不知何故注入了几乎有知觉的BL9，它似乎用这个武器制造了一个家，用它的组织覆盖它的一部分并加强它",
     "weight": "4588 g",
     "volume": "4250 ml",
+    "longest_side": "1100 mm",
     "price": 10000,
     "price_postapoc": 1000,
     "to_hit": -1,
@@ -799,6 +806,7 @@
     "skill": "launcher",
     "weight": "4300 g",
     "volume": "1500 ml",
+    "longest_side": "1170 mm",
     "price": 2920000,
     "price_postapoc": 8000,
     "to_hit": -1,
@@ -899,6 +907,7 @@
     ],
     "weight": "907 g",
     "volume": "1500 ml",
+    "longest_side": "1170 mm",
     "price_postapoc": 3500,
     "bashing": 8,
     "to_hit": 1,
@@ -972,6 +981,7 @@
     ],
     "weight": "3000 g",
     "volume": "1750 ml",
+    "longest_side": "680 mm",
     "price_postapoc": 6000,
     "bashing": 11,
     "to_hit": 1,
@@ -1067,6 +1077,7 @@
     "skill": "pistol",
     "weight": "850 g",
     "volume": "500 ml",
+    "longest_side": "200 mm",
     "bashing": 8,
     "to_hit": -1,
     "ranged_damage": {
@@ -1182,6 +1193,7 @@
     "skill": "smg",
     "weight": "2850 g",
     "volume": "1 L",
+    "longest_side": "680 mm",
     "bashing": 8,
     "to_hit": -1,
     "ranged_damage": {
@@ -1305,6 +1317,7 @@
     "skill": "rifle",
     "weight": "4100 g",
     "volume": "3 L",
+    "longest_side": "1230 mm",
     "bashing": 8,
     "to_hit": -1,
     "ranged_damage": {
@@ -1414,6 +1427,7 @@
     "skill": "rifle",
     "weight": "3600 g",
     "volume": "2 L",
+    "longest_side": "1020 mm",
     "bashing": 8,
     "to_hit": -1,
     "ranged_damage": {
@@ -1540,6 +1554,7 @@
     "skill": "shotgun",
     "weight": "4900 g",
     "volume": "2500 ml",
+    "longest_side": "920 mm",
     "bashing": 8,
     "to_hit": -1,
     "ranged_damage": {
@@ -1648,6 +1663,7 @@
     "skill": "pistol",
     "weight": "4200 g",
     "volume": "1900 ml",
+    "longest_side": "340 mm",
     "bashing": 8,
     "to_hit": -1,
     "ranged_damage": {
@@ -1741,6 +1757,7 @@
     "description": "一个笨重的，BL9喷雾器，以某种方式注入了完全有知觉的BL9，以某种方式在精神上与你交流，它被覆盖和完全加强它的厚组织与多个几乎不明显的振动突出，给它一个更吓人的，有活力的外观",
     "weight": "4588 g",
     "volume": "4250 ml",
+    "longest_side": "1100 mm",
     "price": 10000,
     "price_postapoc": 1000,
     "to_hit": -1,
@@ -1835,6 +1852,7 @@
     "skill": "launcher",
     "weight": "4300 g",
     "volume": "1500 ml",
+    "longest_side": "1170 mm",
     "price": 2920000,
     "price_postapoc": 8000,
     "to_hit": -1,
@@ -1935,6 +1953,7 @@
     ],
     "weight": "907 g",
     "volume": "1500 ml",
+    "longest_side": "1170 mm",
     "price_postapoc": 3500,
     "bashing": 8,
     "to_hit": 1,
@@ -2008,6 +2027,7 @@
     ],
     "weight": "3000 g",
     "volume": "1750 ml",
+    "longest_side": "680 mm",
     "price_postapoc": 6000,
     "bashing": 11,
     "to_hit": 1,
@@ -2103,6 +2123,7 @@
     "skill": "pistol",
     "weight": "850 g",
     "volume": "500 ml",
+    "longest_side": "200 mm",
     "bashing": 8,
     "to_hit": -1,
     "ranged_damage": {
@@ -2218,6 +2239,7 @@
     "skill": "smg",
     "weight": "2850 g",
     "volume": "1 L",
+    "longest_side": "680 mm",
     "bashing": 8,
     "to_hit": -1,
     "ranged_damage": {
@@ -2341,6 +2363,7 @@
     "skill": "rifle",
     "weight": "4100 g",
     "volume": "3 L",
+    "longest_side": "1230 mm",
     "bashing": 8,
     "to_hit": -1,
     "ranged_damage": {
@@ -2450,6 +2473,7 @@
     "skill": "rifle",
     "weight": "3600 g",
     "volume": "2 L",
+    "longest_side": "1020 mm",
     "bashing": 8,
     "to_hit": -1,
     "ranged_damage": {
@@ -2576,6 +2600,7 @@
     "skill": "shotgun",
     "weight": "4900 g",
     "volume": "2500 ml",
+    "longest_side": "920 mm",
     "bashing": 8,
     "to_hit": -1,
     "ranged_damage": {
@@ -2684,6 +2709,7 @@
     "skill": "pistol",
     "weight": "4200 g",
     "volume": "1900 ml",
+    "longest_side": "340 mm",
     "bashing": 8,
     "to_hit": -1,
     "ranged_damage": {
@@ -2777,6 +2803,7 @@
     "description": "一个笨重的，BL9喷雾器，不知怎么地注入了完全有知觉的BL9，它在某种程度上与你交流，它完全由BL9制成，看起来比以往任何时候都更加恐怖和恐惧-一个活的有机体，以某种方式满足了它无法满足的邪恶饥饿，它吞噬了一切与它的'喷雾'",
     "weight": "4588 g",
     "volume": "4250 ml",
+    "longest_side": "1100 mm",
     "price": 10000,
     "price_postapoc": 1000,
     "to_hit": -1,
@@ -2871,6 +2898,7 @@
     "skill": "launcher",
     "weight": "4300 g",
     "volume": "1500 ml",
+    "longest_side": "1170 mm",
     "price": 2920000,
     "price_postapoc": 8000,
     "to_hit": -1,
@@ -2971,6 +2999,7 @@
     ],
     "weight": "907 g",
     "volume": "1500 ml",
+    "longest_side": "1170 mm",
     "price_postapoc": 3500,
     "bashing": 8,
     "to_hit": 1,
@@ -3044,6 +3073,7 @@
     ],
     "weight": "3000 g",
     "volume": "1750 ml",
+    "longest_side": "680 mm",
     "price_postapoc": 6000,
     "bashing": 11,
     "to_hit": 1,

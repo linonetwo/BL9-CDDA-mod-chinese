@@ -3,7 +3,9 @@
     "id": "mon_BL9_cultist_bash",
     "looks_like": "mon_dementia",
     "type": "MONSTER",
-    "name": "Armed BL9-Cultist - Flail",
+    "name": {
+      "str": "武装BL9邪教者-连枷"
+    },
     "description": "被BL9感染的狂热分子。它似乎是有知觉的，除了异常庄严的凝视，死气沉沉的皮肤和血迹斑斑的眼睛表明了BL9的存在，他们的动机是杀死那些不接受他们“迪奥”祝福的人，这个人装备连枷，似乎知道如何使用它。",
     "default_faction": "BL9_cultists",
     "species": [
@@ -71,7 +73,9 @@
     "id": "mon_BL9_cultist_stab",
     "looks_like": "mon_zombie_master",
     "type": "MONSTER",
-    "name": "Armed BL9-Cultist - Spear",
+    "name": {
+      "str": "武装的BL9信徒-长矛"
+    },
     "description": "被BL9感染的狂热分子。它似乎是有知觉的，除了异常庄严的凝视、死气沉沉的皮肤和血迹斑斑的眼睛表明了BL9的存在，它们的动机是杀死那些不接受“迪奥”祝福的人，这个人手持长矛，似乎知道如何使用它。",
     "default_faction": "BL9_cultists",
     "species": [
@@ -139,7 +143,9 @@
     "id": "mon_BL9_patrolcultist_stab",
     "looks_like": "mon_zombie_master",
     "type": "MONSTER",
-    "name": "Armed Patrolling BL9-Cultist - Spear",
+    "name": {
+      "str": "武装巡逻BL9邪教-长矛"
+    },
     "description": "被BL9感染的狂热分子。它似乎是有知觉的，除了异常庄严的凝视、死气沉沉的皮肤和血迹斑斑的眼睛表明了BL9的存在，它们的动机是杀死那些不接受“迪奥”祝福的人，这个人手持长矛，似乎知道如何使用它。",
     "default_faction": "BL9_cultists",
     "species": [
@@ -207,7 +213,9 @@
     "id": "mon_BL9_mutant_1",
     "looks_like": "mon_zombie_gasbag_impaler",
     "type": "MONSTER",
-    "name": "BL9 Mutant - Type i ",
+    "name": {
+      "str": "BL9突变体-Ⅰ型"
+    },
     "description": "一个注射了BL9的人的头部破裂，露出一条细长的卷须状鞭子。这鞭子顶端有一把锋利灵活的刀刃。",
     "default_faction": "BL9_cultists",
     "species": [
@@ -298,7 +306,9 @@
     "id": "mon_BL9_cultist_cut",
     "looks_like": "mon_zombie_necro",
     "type": "MONSTER",
-    "name": "Armed BL9-Cultist - Sword",
+    "name": {
+      "str": "武装的BL9邪教者-剑"
+    },
     "description": "被BL9感染的狂热分子。它似乎有知觉，拥有正常人的所有特征，除了异常庄严的凝视，死气沉沉的皮肤和血迹斑斑的眼睛表明了BL9的存在，他们的动机是杀死那些不接受他们“迪奥”祝福的人，这个人手持一把剑，似乎知道如何使用它。",
     "default_faction": "BL9_cultists",
     "species": [
@@ -366,7 +376,9 @@
     "id": "mon_BL9_patrolcultist_cut",
     "looks_like": "mon_zombie_necro",
     "type": "MONSTER",
-    "name": "Armed Patrolling BL9-Cultist - Sword",
+    "name": {
+      "str": "武装巡逻BL9邪教-剑"
+    },
     "description": "被BL9感染的狂热分子。它似乎有知觉，拥有正常人的所有特征，除了异常庄严的凝视，死气沉沉的皮肤和血迹斑斑的眼睛表明了BL9的存在，他们的动机是杀死那些不接受他们“迪奥”祝福的人，这个人手持一把剑，似乎知道如何使用它。",
     "default_faction": "BL9_cultists",
     "species": [
@@ -434,7 +446,9 @@
     "id": "mon_BL9_mutant_2",
     "looks_like": "mon_dark_wyrm",
     "type": "MONSTER",
-    "name": "BL9 Mutant - type ii",
+    "name": {
+      "str": "BL9突变体-Ⅱ型"
+    },
     "description": "一个由BL9诱发的人类头部破裂，显示出一个巨大而细长的蠕虫状寄生虫。由于它的大嘴巴，当它咬的时候可能是致命的。",
     "default_faction": "BL9_cultists",
     "species": [
@@ -537,7 +551,9 @@
     "id": "mon_BL9_cultist_crossbow",
     "looks_like": "mon_dementia",
     "type": "MONSTER",
-    "name": "Armed BL9-Cultist - Crossbow",
+    "name": {
+      "str": "武装BL9邪教-弩"
+    },
     "description": "被BL9感染的狂热分子。它似乎是有知觉的，拥有正常人的所有特征，除了奇怪的庄严的凝视，死气沉沉的皮肤和血迹斑斑的眼睛表明了BL9的存在，他们的动机是杀死那些不接受他们“迪奥”祝福的人，这只手上有一把弩，它似乎知道如何使用它。",
     "default_faction": "BL9_cultists",
     "species": [
@@ -625,7 +641,9 @@
     "id": "mon_BL9_patrolcultist_crossbow",
     "looks_like": "mon_dementia",
     "type": "MONSTER",
-    "name": "Armed Patrolling BL9-Cultist - Crossbow",
+    "name": {
+      "str": "武装巡逻BL9邪教-弩"
+    },
     "description": "被BL9感染的狂热分子。它似乎是有知觉的，拥有正常人的所有特征，除了奇怪的庄严的凝视，死气沉沉的皮肤和血迹斑斑的眼睛表明了BL9的存在，他们的动机是杀死那些不接受他们“迪奥”祝福的人，这只手上有一把弩，它似乎知道如何使用它。",
     "default_faction": "BL9_cultists",
     "species": [
@@ -713,7 +731,9 @@
     "id": "mon_BL9_mutant_3",
     "looks_like": "mon_mi_go_scout",
     "type": "MONSTER",
-    "name": "BL9 Mutant - type iii",
+    "name": {
+      "str": "BL9突变体-Ⅲ型"
+    },
     "description": "一个由BL9诱发的头部破裂的寄生虫，它的头部突出，是一种寄生虫，有几个细长的尖刺状四肢和一个酸液流口水的孔。",
     "default_faction": "BL9_cultists",
     "species": [
@@ -815,7 +835,9 @@
     "id": "mon_BL9_cultist_patrolleader",
     "looks_like": "mon_zombie_necro",
     "type": "MONSTER",
-    "name": "Armed BL9-Cultist - Patrol Leader",
+    "name": {
+      "str": "武装BL9邪教-巡逻队长"
+    },
     "description": "一个身穿红色长袍的狂热者，戴着一个奇怪的头骨面具，被BL9感染。它似乎有知觉，拥有正常人的所有特征，除了异常庄严的凝视，死气沉沉的皮肤和血迹斑斑的眼睛表明了BL9的存在，他们的动机是杀死那些不接受他们“迪奥”祝福的人，这个人手持一把剑，似乎知道如何使用它。",
     "default_faction": "BL9_Drops_Cultistpatrol",
     "species": [
@@ -883,7 +905,9 @@
     "id": "mon_BL9_military_bash",
     "looks_like": "mon_zombie_soldier",
     "type": "MONSTER",
-    "name": "Armed BL9-Mercenary - Hammer",
+    "name": {
+      "str": "武装BL9雇佣兵-锤子"
+    },
     "description": "被BL9感染的装甲雇佣兵。它似乎是有知觉的，除了脸上奇怪的攻击性和烦躁的表情，似乎更快的反应和血淋淋的眼睛表明了BL9的存在，他们会尽最大努力阻止任何闯入他们的化合物的入侵者，这只手拿着一把锤子，它似乎知道如何使用它。",
     "default_faction": "BL9_military",
     "species": [
@@ -951,7 +975,9 @@
     "id": "mon_BL9_military_stab",
     "looks_like": "mon_zombie_soldier",
     "type": "MONSTER",
-    "name": "Armed BL9-Mercenary - Bayonet",
+    "name": {
+      "str": "武装BL9雇佣兵-刺刀"
+    },
     "description": "被BL9感染的装甲雇佣兵。它看起来是有知觉的，除了脸上奇怪的攻击性和烦躁的表情，似乎更快的反应和血淋淋的眼睛表明了BL9的存在，他们会尽最大努力阻止任何入侵者，这是一个有刺刀的武装，显然知道如何用好它",
     "default_faction": "BL9_military",
     "species": [
@@ -1019,7 +1045,9 @@
     "id": "mon_BL9_patrolmilitary_stab",
     "looks_like": "mon_zombie_soldier",
     "type": "MONSTER",
-    "name": "Armed BL9-Patrolling Mercenary - Bayonet",
+    "name": {
+      "str": "武装BL9巡逻佣兵-刺刀"
+    },
     "description": "被BL9感染的装甲雇佣兵。它看起来是有知觉的，除了脸上奇怪的攻击性和烦躁的表情，似乎更快的反应和血淋淋的眼睛表明了BL9的存在，他们会尽最大努力阻止任何入侵者，这是一个有刺刀的武装，显然知道如何用好它",
     "default_faction": "BL9_military",
     "species": [
@@ -1087,7 +1115,9 @@
     "id": "mon_BL9_military_cut",
     "looks_like": "mon_zombie_soldier_blackops_2",
     "type": "MONSTER",
-    "name": "Armed BL9-Mercenary - Military Knife",
+    "name": {
+      "str": "武装BL9雇佣兵-军刀"
+    },
     "description": "被BL9感染的装甲雇佣兵。它似乎是有知觉的，除了脸上奇怪的攻击性和烦躁的表情，似乎更快的反应和血淋淋的眼睛表明了BL9的存在，他们会尽最大努力阻止任何入侵者设法渗透到他们的化合物，这是一个武装了锋利的军刀和它显然知道如何用好它",
     "default_faction": "BL9_military",
     "species": [
@@ -1160,7 +1190,9 @@
     "id": "mon_BL9_patrolmilitary_cut",
     "looks_like": "mon_zombie_soldier_blackops_2",
     "type": "MONSTER",
-    "name": "Armed Patrolling BL9-Mercenary - Military Knife",
+    "name": {
+      "str": "武装巡逻BL9雇佣兵-军刀"
+    },
     "description": "被BL9感染的装甲雇佣兵。它似乎是有知觉的，除了脸上奇怪的攻击性和烦躁的表情，似乎更快的反应和血淋淋的眼睛表明了BL9的存在，他们会尽最大努力阻止任何入侵者设法渗透到他们的化合物，这是一个武装了锋利的军刀和它显然知道如何用好它",
     "default_faction": "BL9_military",
     "species": [
@@ -1233,7 +1265,9 @@
     "id": "mon_BL9_military_shockrod",
     "looks_like": "mon_zombie_flamer",
     "type": "MONSTER",
-    "name": "Armed BL9-Mercenary - Shock-Rod",
+    "name": {
+      "str": "武装BL9佣兵-电击棒"
+    },
     "description": "被BL9感染的装甲雇佣兵。它似乎是有知觉的，除了脸上奇怪的攻击性和烦躁的表情，似乎更快的反应和血淋淋的眼睛表明了BL9的存在，他们会尽最大努力阻止任何闯入他们的化合物的入侵者，这是一个配备了冲击杆，它显然知道如何使用它",
     "default_faction": "BL9_military",
     "species": [
@@ -1305,7 +1339,9 @@
     "id": "mon_BL9_patrolmilitary_shockrod",
     "looks_like": "mon_zombie_flamer",
     "type": "MONSTER",
-    "name": "Armed Patrolling BL9-Mercenary - Shock-Rod",
+    "name": {
+      "str": "武装巡逻BL9雇佣兵-电击棒"
+    },
     "description": "被BL9感染的装甲雇佣兵。它似乎是有知觉的，除了脸上奇怪的攻击性和烦躁的表情，似乎更快的反应和血淋淋的眼睛表明了BL9的存在，他们会尽最大努力阻止任何闯入他们的化合物的入侵者，这是一个配备了冲击杆，它显然知道如何使用它",
     "default_faction": "BL9_military",
     "species": [
@@ -1377,7 +1413,9 @@
     "id": "mon_BL9_military_crossbow",
     "looks_like": "mon_zombie_soldier_acid_1",
     "type": "MONSTER",
-    "name": "Armed BL9-Mercenary - Crossbow",
+    "name": {
+      "str": "武装BL9雇佣兵-弩"
+    },
     "description": "被BL9感染的装甲雇佣兵。它似乎是有知觉的，除了脸上奇怪的攻击性和烦躁的表情，似乎更快的反应和血淋淋的眼睛表明了BL9的存在，他们会尽最大努力阻止任何闯入他们的化合物的入侵者，这只手拿着一把弩，它显然知道如何使用它。",
     "default_faction": "BL9_military",
     "species": [
@@ -1465,7 +1503,9 @@
     "id": "mon_BL9_patrolmilitary_crossbow",
     "looks_like": "mon_zombie_soldier_acid_1",
     "type": "MONSTER",
-    "name": "Armed Patrolling BL9-Mercenary - Crossbow",
+    "name": {
+      "str": "武装巡逻BL9雇佣兵-弩"
+    },
     "description": "被BL9感染的装甲雇佣兵。它似乎是有知觉的，除了脸上奇怪的攻击性和烦躁的表情，似乎更快的反应和血淋淋的眼睛表明了BL9的存在，他们会尽最大努力阻止任何闯入他们的化合物的入侵者，这只手拿着一把弩，它显然知道如何使用它。",
     "default_faction": "BL9_military",
     "species": [
@@ -1553,7 +1593,9 @@
     "id": "mon_BL9_military_patrolleader",
     "looks_like": "mon_zombie_soldier_blackops_1",
     "type": "MONSTER",
-    "name": "Armed BL9-Mercenary - Patrol Leader",
+    "name": {
+      "str": "武装BL9雇佣兵-巡逻队长"
+    },
     "description": "一个精打细算的装甲雇佣兵，穿着被BL9感染的光滑战斗装甲。它看起来是有知觉的，除了脸上奇怪的攻击性和烦躁的表情，似乎更快的反应和血淋淋的眼睛表明了BL9的存在，他们会尽最大努力阻止任何入侵者，这是一个有刺刀的武装，显然知道如何用好它",
     "default_faction": "BL9_military",
     "species": [
@@ -1621,7 +1663,9 @@
     "id": "mon_BL9_mutant_evo_1",
     "looks_like": "mon_zombie_crushed_giant",
     "type": "MONSTER",
-    "name": "BL9 Mutant Evolved - Type i ",
+    "name": {
+      "str": "BL9突变体-Ⅰ型"
+    },
     "description": "一个注射了BL9的人的头部破裂，露出一条细长的卷须状鞭子。这条鞭子的尖上有一根锋利而灵活的鞭子刀锋。多重触须从它身体两侧长出来，向各个方向疯狂摆动。",
     "default_faction": "BL9_military",
     "species": [
@@ -1712,7 +1756,9 @@
     "id": "mon_BL9_mutant_evo_2",
     "looks_like": "mon_yugg",
     "type": "MONSTER",
-    "name": "BL9 Mutant Evolved - type ii",
+    "name": {
+      "str": "BL9突变体-Ⅱ型"
+    },
     "description": "一个由BL9诱发的人类头部破裂，显示出一个巨大而细长的蠕虫状寄生虫。由于它的大嘴巴，它可能是致命的，当它来咬人。多重触须从它身体两侧长出来，向各个方向疯狂摆动。",
     "default_faction": "BL9_military",
     "species": [
@@ -1815,7 +1861,9 @@
     "id": "mon_BL9_mutant_evo_3",
     "looks_like": "mon_mi_go",
     "type": "MONSTER",
-    "name": "BL9 Mutant Evolved - type iii",
+    "name": {
+      "str": "BL9突变体-Ⅲ型"
+    },
     "description": "一个由BL9诱发的头部破裂的寄生虫，头部突出，是一种寄生虫，四肢细长，流着酸液孔板。多个触须从它身体两侧长出来，向各个方向疯狂摆动。",
     "default_faction": "BL9_military",
     "species": [
@@ -1917,7 +1965,9 @@
     "id": "mon_BL9_military_behemoth",
     "looks_like": "mon_zombie_kevlar_1",
     "type": "MONSTER",
-    "name": "Armed BL9-Behemoth - Sledgehammer",
+    "name": {
+      "str": "武装BL9庞然大物-大锤"
+    },
     "description": "一个被BL9感染的重装甲雇佣兵。它的尺寸似乎已经超过7英尺了很高。它看起来很有知觉，除了脸上奇怪的非常有攻击性的表情，更大的力量和耐力，血丝般的眼睛显示出BL9的存在，他们会尽最大努力阻止任何闯入他们住所的入侵者，这只手拿着一把巨大的大锤，它显然知道如何使用它。",
     "default_faction": "BL9_military",
     "species": [
@@ -1985,7 +2035,9 @@
     "id": "mon_BL9_patrolmilitary_behemoth",
     "looks_like": "mon_zombie_kevlar_1",
     "type": "MONSTER",
-    "name": "Armed Patrolling BL9-Behemoth - Sledgehammer",
+    "name": {
+      "str": "武装巡逻BL9庞然大物-大锤"
+    },
     "description": "一个被BL9感染的重装甲雇佣兵。它的尺寸似乎已经超过7英尺了很高。它看起来很有知觉，除了脸上奇怪的非常有攻击性的表情，更大的力量和耐力，血丝般的眼睛显示出BL9的存在，他们会尽最大努力阻止任何闯入他们住所的入侵者，这只手拿着一把巨大的大锤，它显然知道如何使用它。",
     "default_faction": "BL9_military",
     "species": [
@@ -2053,7 +2105,9 @@
     "id": "mon_BL9_military_behemoth_minigun",
     "looks_like": "mon_zombie_kevlar_1",
     "type": "MONSTER",
-    "name": "Armed BL9-Behemoth - Minigun",
+    "name": {
+      "str": "武装BL9庞然大物-微型枪"
+    },
     "description": "一个装备精良的雇佣兵被BL9感染。它的尺寸似乎已经超过7英尺了很高。它看起来很有知觉，除了脸上奇怪的非常有攻击性的表情，更大的力量和耐力，血丝般的眼睛显示出BL9的存在，他们会尽最大努力阻止任何闯入他们住所的入侵者，这一个配备了一个巨大的机关枪，它显然知道如何使用它。",
     "default_faction": "BL9_military",
     "species": [
@@ -2141,7 +2195,9 @@
     "id": "mon_BL9_patrolmilitary_behemoth_minigun",
     "looks_like": "mon_zombie_kevlar_1",
     "type": "MONSTER",
-    "name": "Armed Patrolling BL9-Behemoth - Minigun",
+    "name": {
+      "str": "武装巡逻BL9庞然大物-微型枪"
+    },
     "description": "一个装备精良的雇佣兵被BL9感染。它的尺寸似乎已经超过7英尺了很高。它看起来很有知觉，除了脸上奇怪的非常有攻击性的表情，更大的力量和耐力，血丝般的眼睛显示出BL9的存在，他们会尽最大努力阻止任何闯入他们住所的入侵者，这一个配备了一个巨大的机关枪，它显然知道如何使用它。",
     "default_faction": "BL9_military",
     "species": [

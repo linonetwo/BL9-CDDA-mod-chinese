@@ -2,7 +2,9 @@
   {
     "id": "blazingtest",
     "type": "SPELL",
-    "name": "ABLAZE!!!",
+    "name": {
+      "str": "燃烧！！！"
+    },
     "description": "放火烧世界！！",
     "message": "",
     "flags": [
@@ -28,7 +30,9 @@
   {
     "id": "stairs_creation",
     "type": "SPELL",
-    "name": "Stairs appears",
+    "name": {
+      "str": "出现楼梯"
+    },
     "description": "楼梯出现了，哈哈！！！",
     "message": "<color_light_green>H A H A\n 楼梯 go<color_red>出现</color></color>",
     "flags": [
@@ -51,7 +55,9 @@
   {
     "id": "buildinggoesboomhahafunny_boom",
     "type": "SPELL",
-    "name": "House go boom!",
+    "name": {
+      "str": "加油！"
+    },
     "description": "哈哈！！！",
     "message": "<color_light_green>H A H A\n楼 去吧！去吧！</color></color>",
     "flags": [
@@ -84,7 +90,9 @@
   {
     "id": "BL9_item_herb_stun",
     "type": "SPELL",
-    "name": "Herb Stun",
+    "name": {
+      "str": "药草眩晕"
+    },
     "description": "赫伯把你打晕了",
     "flags": [
       "SILENT"
@@ -101,7 +109,9 @@
   {
     "id": "BL9_pain_relieve",
     "type": "SPELL",
-    "name": "Pain Relief",
+    "name": {
+      "str": "减轻疼痛"
+    },
     "description": "药草解除你的痛苦！",
     "flags": [
       "SILENT"
@@ -120,7 +130,9 @@
   {
     "id": "BL9_item_mild_curing_herb",
     "type": "SPELL",
-    "name": "Mild Curing Herb healing",
+    "name": {
+      "str": "温和的草药治疗"
+    },
     "description": "温和的治愈感谢温和的草药",
     "message": "你吃了药草，伤口就稍微愈合了！",
     "valid_targets": [
@@ -152,7 +164,9 @@
   {
     "id": "BL9_item_medium_curing_herb",
     "type": "SPELL",
-    "name": "Medium Curing Herb healing",
+    "name": {
+      "str": "中草药治疗"
+    },
     "description": "中度愈合感谢中度治疗草药",
     "message": "你吃了这个药草，一定程度上你感觉好了！",
     "valid_targets": [
@@ -184,7 +198,9 @@
   {
     "id": "BL9_item_strong_curing_herb",
     "type": "SPELL",
-    "name": "Strong Curing Herb healing",
+    "name": {
+      "str": "强疗草"
+    },
     "description": "强大的治愈感谢强大的治愈药草",
     "message": "你吃了这个药草，你感觉很好的治愈了！",
     "valid_targets": [
@@ -216,7 +232,9 @@
   {
     "id": "BL9_teleport_spell",
     "type": "SPELL",
-    "name": "Secret teleport",
+    "name": {
+      "str": "秘密传送"
+    },
     "description": "传送用户到一个调谐门。",
     "message": "你传送到调谐门！",
     "valid_targets": [
@@ -233,7 +251,9 @@
     "//": "Let's push the charger back from the player. This does work SOMETIMES, and this'll prevent the glitch to occur.",
     "id": "mon_charge_push",
     "type": "SPELL",
-    "name": "Stop",
+    "name": {
+      "str": "住手"
+    },
     "description": "怪物施法的。如果你看到的是这个，那么读这个吧：\n'施法者停在目标旁边",
     "effect": "area_push",
     "shape": "blast",
@@ -250,7 +270,9 @@
   {
     "id": "boulder_throw",
     "type": "SPELL",
-    "name": "Boulder Throw",
+    "name": {
+      "str": "投石"
+    },
     "description": "怪物施法的。如果你看到了这个，那么读这个吧：\n'施法者击中弱点，施法3回合眩晕效果",
     "flags": [
       "SILENT",
@@ -280,7 +302,9 @@
   {
     "id": "mon_giant_charge",
     "type": "SPELL",
-    "name": "Charge!",
+    "name": {
+      "str": "冲锋！"
+    },
     "description": "怪物施法的。如果你看到了这个，那就读这个吧：\n'施法者获得动量，增加移动速度，命中几率和冲击伤害",
     "flags": [
       "SILENT"
@@ -302,7 +326,9 @@
   {
     "id": "mon_giant_charge_pull",
     "type": "SPELL",
-    "name": "Charge",
+    "name": {
+      "str": "充电"
+    },
     "description": "怪物施法的。如果你看到了这个，那么读这个吧：\n'施法者冲向目标。这是随机铸造15到25次",
     "effect": "area_pull",
     "shape": "blast",
@@ -327,7 +353,9 @@
   {
     "type": "SPELL",
     "id": "mon_giant_charge_target_random",
-    "name": "a spell",
+    "name": {
+      "str": "咒语"
+    },
     "description": "怪物施法的目标。如果你看到这个，那么读这个吧：\n'施法者锁定目标的视线，然后施法一个咒语",
     "extra_effects": [
       {
@@ -355,7 +383,9 @@
   {
     "type": "SPELL",
     "id": "mon_giant_random",
-    "name": "a spell",
+    "name": {
+      "str": "咒语"
+    },
     "description": "怪物施法的目标。如果你看到这个，那么读这个吧：\n'施法者锁定目标的视线，然后施法",
     "extra_effects": [
       {
@@ -383,7 +413,9 @@
   {
     "id": "mon_clawer_charge",
     "type": "SPELL",
-    "name": "Charge!",
+    "name": {
+      "str": "冲锋！"
+    },
     "description": "怪物施法的。如果你看到了这个，那就读这个吧：\n'施法者获得动量，增加移动速度，命中几率和冲击伤害",
     "flags": [
       "SILENT"
@@ -405,7 +437,9 @@
   {
     "id": "mon_clawer_charge_pull",
     "type": "SPELL",
-    "name": "Charge",
+    "name": {
+      "str": "充电"
+    },
     "description": "怪物施法的。如果你看到了这个，那么读这个吧：\n'施法者冲向目标。这是随机铸造20至30次",
     "effect": "area_pull",
     "shape": "blast",
@@ -430,7 +464,9 @@
   {
     "type": "SPELL",
     "id": "mon_clawer_charge_target_random",
-    "name": "a spell",
+    "name": {
+      "str": "咒语"
+    },
     "description": "怪物施法的目标。如果你看到这个，那么读这个吧：\n'施法者锁定目标的视线，然后施法一个咒语",
     "extra_effects": [
       {
@@ -458,7 +494,9 @@
   {
     "id": "scrawler_acidbarf",
     "type": "SPELL",
-    "name": "Acid Barf",
+    "name": {
+      "str": "酸棒"
+    },
     "description": "怪物施法的。如果你看到了这个，那就改读这个：\n“施法者向目标吐出，造成酸伤害。”",
     "affected_body_parts": [
       "head",
@@ -484,7 +522,9 @@
   {
     "id": "BL9_1_violentwrithe",
     "type": "SPELL",
-    "name": "Violent Writhe",
+    "name": {
+      "str": "剧烈的扭动"
+    },
     "description": "怪物施法的。如果你看到的是这个，那么读这个吧：\n'在一次准确的斜切之后，施法者的刃状卷须在运动中变得更加狂野，随机划过空中，对所有受影响的目标造成切割伤害",
     "affected_body_parts": [
       "head",
@@ -512,7 +552,9 @@
   {
     "id": "BL9_1_horizontalslash",
     "type": "SPELL",
-    "name": "Horizontal Slash",
+    "name": {
+      "str": "水平斜杠"
+    },
     "description": "怪物施法的。如果你看到了这一点，那就改读这一条：\n'施法者将它的叶片卷须刷向圆锥体中的目标，造成切割伤害。'",
     "affected_body_parts": [
       "head",
@@ -545,7 +587,9 @@
   {
     "id": "BL9_3_acidbarf",
     "type": "SPELL",
-    "name": "Acid Barf",
+    "name": {
+      "str": "酸棒"
+    },
     "description": "怪物施法的。如果你看到了这个，那就改读这个：\n“施法者向目标吐出，造成酸伤害。”",
     "affected_body_parts": [
       "head",
@@ -571,7 +615,9 @@
   {
     "id": "twisted_one_tentwhip",
     "type": "SPELL",
-    "name": "Tentacle Whip",
+    "name": {
+      "str": "触手鞭"
+    },
     "description": "怪物施法的。如果你看到了这个，那就改为读这个：\n“施法者的触须拍打目标，造成重击伤害。”",
     "affected_body_parts": [
       "head",
@@ -597,7 +643,9 @@
   {
     "id": "BL9_1evo_violentwrithe",
     "type": "SPELL",
-    "name": "Violent Writhe",
+    "name": {
+      "str": "剧烈的扭动"
+    },
     "description": "怪物施法的。如果你看到的是这个，那么读这个吧：\n'在一次准确的斜切之后，施法者的刃状卷须在运动中变得更加狂野，随机划过空中，对所有受影响的目标造成切割伤害",
     "affected_body_parts": [
       "head",
@@ -625,7 +673,9 @@
   {
     "id": "BL9_1evo_horizontalslash",
     "type": "SPELL",
-    "name": "Horizontal Slash",
+    "name": {
+      "str": "水平斜杠"
+    },
     "description": "怪物施法的。如果你看到了这一点，那就改读这一条：\n'施法者将它的叶片卷须刷向圆锥体中的目标，造成切割伤害。'",
     "affected_body_parts": [
       "head",
@@ -658,7 +708,9 @@
   {
     "id": "BL9_3evo_acidbarf",
     "type": "SPELL",
-    "name": "Acid Barf",
+    "name": {
+      "str": "酸棒"
+    },
     "description": "怪物施法的。如果你看到了这个，那就改读这个：\n“施法者向目标吐出，造成酸伤害。”",
     "affected_body_parts": [
       "head",
@@ -684,7 +736,9 @@
   {
     "id": "scrawlerevo_acidbarf",
     "type": "SPELL",
-    "name": "Acid Barf",
+    "name": {
+      "str": "酸棒"
+    },
     "description": "怪物施法的。如果你看到了这个，那就改读这个：\n“施法者向目标吐出，造成酸伤害。”",
     "affected_body_parts": [
       "head",
@@ -710,7 +764,9 @@
   {
     "id": "chimera_mutated_pincerpinch",
     "type": "SPELL",
-    "name": "Pincer Pinch",
+    "name": {
+      "str": "钳夹"
+    },
     "description": "怪物施法的。如果你看到的是这个，那么读一读这个：\n“施法者的触角用钳子末端击中目标，造成割伤伤害。”",
     "flags": [
       "SILENT",
@@ -734,7 +790,9 @@
   {
     "id": "merc_leaping_slash",
     "type": "SPELL",
-    "name": "Leaping Slash",
+    "name": {
+      "str": "跳跃式斜杠"
+    },
     "description": "怪物施法的。如果你看到的是这个，那么读这个吧：\n'施法者向目标跳跃，用手臂上的刀刃砍伤目标，造成很高的切割伤害，然后施法者跳回原来的位置'",
     "flags": [
       "SILENT",
@@ -760,7 +818,9 @@
   {
     "id": "vile_one_mandiblecrunch",
     "type": "SPELL",
-    "name": "Mandible Crunch",
+    "name": {
+      "str": "下颌紧缩"
+    },
     "description": "怪物施法的。如果你看到了这个，那就改为读这个：\n'施法者的头伸向目标，咬他们造成很高的切割伤害'",
     "flags": [
       "SILENT",

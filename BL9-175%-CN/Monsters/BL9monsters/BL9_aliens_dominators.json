@@ -3,7 +3,9 @@
     "id": "mon_BL9_argan_1",
     "looks_like": "mon_mi_go_scout",
     "type": "MONSTER",
-    "name": "Arganoide Grunt",
+    "name": {
+      "str": "阿加诺德咕噜"
+    },
     "description": "它是一个高大、优雅、纤细的人形外星人，散发着明亮的紫色水晶光，它的头看起来像一个水样的水滴，上面长着像头发一样的长触须，除了充满恶意的细长眼睛外，几乎看不出它的面部特征",
     "default_faction": "BL9_cultists",
     "species": [
@@ -86,7 +88,9 @@
     "id": "mon_BL9_argan_2",
     "looks_like": "mon_mi_go",
     "type": "MONSTER",
-    "name": "Arganoide Mutant",
+    "name": {
+      "str": "Arganoide突变体"
+    },
     "description": "这是一个身材修长的人形外星人，散发着明亮的紫色水晶光，动作僵硬，它的头看起来像某种形状不好的液滴，它的触须从它剩下的任何地方长出来，向各个方向疯狂地摆动",
     "default_faction": "BL9_cultists",
     "species": [
@@ -169,7 +173,9 @@
     "id": "mon_BL9_argan_3",
     "looks_like": "mon_zombie_phase_skulker",
     "type": "MONSTER",
-    "name": "Arganoide Psionics Master",
+    "name": {
+      "str": "阿甘诺德灵能大师"
+    },
     "description": "一个高大优雅纤细的人形外星人，散发着明亮的紫色水晶光，它的头看起来像一个水状的水滴，长出毛发般的长触手，它披着斗篷，挥舞着发光的球状外星人神器",
     "default_faction": "BL9_cultists",
     "species": [
@@ -260,7 +266,9 @@
     "id": "mon_BL9_argan_4",
     "looks_like": "mon_mi_go_surgeon",
     "type": "MONSTER",
-    "name": "Arganoide Warrior",
+    "name": {
+      "str": "阿甘诺德战士"
+    },
     "description": "它是一个高大、优雅、纤细的人形外星人，散发着明亮的紫色水晶光，它的头看起来像一个水样的水滴，上面长着头发一样的长触须，它穿着一套轻型盔甲，挥舞着一把发光的武士刀",
     "default_faction": "BL9_cultists",
     "species": [
@@ -351,7 +359,9 @@
     "id": "mon_BL9_argan_5",
     "looks_like": "mon_mi_go_slaver",
     "type": "MONSTER",
-    "name": "Arganoide Ranger",
+    "name": {
+      "str": "Arganoid游骑兵"
+    },
     "description": "这是一个高大、优雅、纤细的人形外星人，散发着明亮的紫色水晶光，它的头看起来像一个水样的水滴，上面长着头发一样的长触须，它穿着一套轻便的盔甲，挥舞着一把外形圆滑的未来派小型冲锋枪",
     "default_faction": "BL9_cultists",
     "species": [
@@ -450,7 +460,9 @@
     "id": "mon_BL9_argan_6",
     "looks_like": "mon_thing",
     "type": "MONSTER",
-    "name": "Arganoide Amalgamation",
+    "name": {
+      "str": "Arganoide拼合"
+    },
     "description": "令人毛骨悚然的BL9触手，散发出明亮的紫色水晶光，在融合的中心注入了似乎是阿加诺德头部的残余物，眼眶和嘴巴发出明亮邪恶的紫光",
     "default_faction": "BL9_cultists",
     "species": [
@@ -549,7 +561,9 @@
     "id": "mon_BL9_wanzel_1",
     "looks_like": "mon_charred_nightmare",
     "type": "MONSTER",
-    "name": "Wanzeltium Grunt",
+    "name": {
+      "str": "万寿草"
+    },
     "description": "超过5英尺8英尺高的类爬行动物，发出明亮的绿色水晶光，一个爬行动物类人的头部有一个大大加宽的前额覆盖着多条厚厚的皮肤线，多个毛发状的尖刺突出物从它的头部后部和两侧伸出，它睁大的眼睛充满威胁地凝视着",
     "default_faction": "BL9_cultists",
     "species": [
@@ -632,7 +646,9 @@
     "id": "mon_BL9_wanzel_2",
     "looks_like": "mon_zombie_thorny",
     "type": "MONSTER",
-    "name": "Wanzeltium Mutant",
+    "name": {
+      "str": "万寿草突变体"
+    },
     "description": "身高超过5英尺8英尺的类爬行动物类人，散发出明亮的绿色水晶光，严重扭曲的爬行动物头部有一个大大加宽的前额，覆盖着多条厚厚的皮肤线条，头部后部和两侧有多个像BL9尖尖触须一样的脉动毛发",
     "default_faction": "BL9_cultists",
     "species": [
@@ -715,7 +731,9 @@
     "id": "mon_BL9_wanzel_3",
     "looks_like": "mon_zombie_phase_skulker",
     "type": "MONSTER",
-    "name": "Wanzeltium Psionics Master",
+    "name": {
+      "str": "Wanzeltium灵能大师"
+    },
     "description": "身高超过5英尺8英寸的类爬虫类人形生物，发出明亮的绿色水晶光，一个类爬虫类人形生物的头部前额大大加宽，覆盖着多条厚厚的皮肤线，背部和头部两侧有多个毛发状的尖尖突起，它戴着斗篷，挥舞着发光棒状的外星人神器",
     "default_faction": "BL9_cultists",
     "species": [
@@ -806,7 +824,9 @@
     "id": "mon_BL9_wanzel_4",
     "looks_like": "mon_zombie_soldier_acid_1",
     "type": "MONSTER",
-    "name": "Wanzeltium Warrior",
+    "name": {
+      "str": "万泽尔提姆勇士"
+    },
     "description": "身高超过5英尺8英尺的爬行动物类人形动物，散发出明亮的绿色水晶光，一个爬行动物类人形头部有一个大大加宽的前额，覆盖着多条厚厚的皮肤线条，头部背部和两侧多处毛发状的尖刺状突起，它穿着一套轻型装甲服，挥舞着发光的弯刀状刀片",
     "default_faction": "BL9_cultists",
     "species": [
@@ -897,7 +917,9 @@
     "id": "mon_BL9_wanzel_5",
     "looks_like": "mon_zombie_soldier_acid_2",
     "type": "MONSTER",
-    "name": "Wanzeltium Ranger",
+    "name": {
+      "str": "万寿草护林员"
+    },
     "description": "超过5英尺8英尺高的类爬行动物类人，发出明亮的绿色水晶光，爬行动物类人的头部有一个大大加宽的前额，覆盖着多条厚厚的皮肤线，头部后部和两侧有多个毛发状的尖刺状突起，它穿着一件轻甲套装，挥舞着一把圆滑的未来派紧凑型冲锋枪",
     "default_faction": "BL9_cultists",
     "species": [
@@ -996,7 +1018,9 @@
     "id": "mon_BL9_wanzel_6",
     "looks_like": "mon_thing",
     "type": "MONSTER",
-    "name": "Wanzeltium Amalgamation",
+    "name": {
+      "str": "万寿草拼合"
+    },
     "description": "令人毛骨悚然的BL9触须散发着明亮的绿色水晶光，在融合的中心注入了宛泽尔提姆头部的残余物，眼眶和嘴上闪烁着明亮邪恶的绿光",
     "default_faction": "BL9_cultists",
     "species": [
@@ -1095,7 +1119,9 @@
     "id": "mon_BL9_davran_1",
     "looks_like": "mon_zombie_electric",
     "type": "MONSTER",
-    "name": "Davranide Grunt",
+    "name": {
+      "str": "达夫兰尼德咕哝"
+    },
     "description": "它是一种平均身高、皮肤光滑的两栖类人形生物，发出明亮的蓝蓝色水晶光，头部两侧各有一对细长的头盖骨和突出的眼睛，目光敏锐而富有侵略性",
     "default_faction": "BL9_cultists",
     "species": [
@@ -1178,7 +1204,9 @@
     "id": "mon_BL9_davran_2",
     "looks_like": "mon_zombie_nullfield",
     "type": "MONSTER",
-    "name": "Davranide Mutant",
+    "name": {
+      "str": "达夫兰尼德突变体"
+    },
     "description": "一种平均身高、皮肤光滑、动作僵硬的两栖类人形动物，散发出明亮的蓝蓝色水晶光，细长的爆裂头盖骨从中伸出2个小触须，眼睛从头部两侧伸出，长触须柄上突出",
     "default_faction": "BL9_cultists",
     "species": [
@@ -1261,7 +1289,9 @@
     "id": "mon_BL9_davran_3",
     "looks_like": "mon_zombie_phase_skulker",
     "type": "MONSTER",
-    "name": "Davranide Psionics Master",
+    "name": {
+      "str": "达夫兰尼德灵能大师"
+    },
     "description": "这是一种平均身高、皮肤光滑的两栖类人形生物，散发出明亮的蓝蓝色水晶光，长着细长的头盖骨和从头部两侧伸出的眼睛，长着短柄，穿着斗篷，挥舞着发光的长而优雅的杖形外星神器",
     "default_faction": "BL9_cultists",
     "species": [
@@ -1352,7 +1382,9 @@
     "id": "mon_BL9_davran_4",
     "looks_like": "mon_zombie_brute_shocker",
     "type": "MONSTER",
-    "name": "Davranide Warrior",
+    "name": {
+      "str": "达夫兰尼德战士"
+    },
     "description": "一个平均身高、皮肤光滑的两栖类人形生物发出明亮的蓝蓝色水晶光，头盖骨细长，眼睛从头部两侧伸出，短柄，身穿轻型盔甲，挥舞着双刃发光的短剑状武器",
     "default_faction": "BL9_cultists",
     "species": [
@@ -1443,7 +1475,9 @@
     "id": "mon_BL9_davran_5",
     "looks_like": "mon_zombie_bio_op2",
     "type": "MONSTER",
-    "name": "Davranide Ranger",
+    "name": {
+      "str": "达夫兰尼德游侠"
+    },
     "description": "一种平均身高、皮肤光滑的两栖类人形生物，散发出明亮的湛蓝水晶光，细长的头盖骨以及从头部两侧伸出的眼睛，短柄，它穿着一套轻型装甲服，挥舞着一把外形圆滑的未来派小型机枪",
     "default_faction": "BL9_cultists",
     "species": [
@@ -1542,7 +1576,9 @@
     "id": "mon_BL9_davran_6",
     "looks_like": "mon_thing",
     "type": "MONSTER",
-    "name": "Davranide Amalgamation",
+    "name": {
+      "str": "达夫兰尼德拼合"
+    },
     "description": "一团可怕的BL9触角，发出明亮的蓝蓝色水晶光，注入了达夫兰尼德头部的残余物，在这个融合的中心，眼眶和嘴巴发出明亮邪恶的蓝蓝色光",
     "default_faction": "BL9_cultists",
     "species": [
@@ -1641,7 +1677,9 @@
     "id": "mon_BL9_salden_1",
     "looks_like": "mon_zombie_fiend",
     "type": "MONSTER",
-    "name": "Saldenium Grunt",
+    "name": {
+      "str": "沙丁鱼"
+    },
     "description": "一个高大的皮革皮肤，看起来凶猛的人形外星人发出明亮的太阳橙色水晶光，它的前额是隆起的，它的整个脸上覆盖着多个弯曲的刺，它的脖子上有一些呼吸管，它的目光就像猎人在努力寻找它的猎物",
     "default_faction": "BL9_cultists",
     "species": [
@@ -1724,7 +1762,9 @@
     "id": "mon_BL9_salden_2",
     "looks_like": "mon_gas_zombie",
     "type": "MONSTER",
-    "name": "Saldenium Mutant",
+    "name": {
+      "str": "Saldenium突变体"
+    },
     "description": "一个高大的皮革皮肤的野性外形的人形外星人发出明亮的太阳橙色水晶光，它的前额是隆起的，它的整个脸上覆盖着多个弯曲的尖刺，从它的脖子呼吸管的残余突出的触角，它的脸上有一个疯狂的野性看",
     "default_faction": "BL9_cultists",
     "species": [
@@ -1815,7 +1855,9 @@
     "id": "mon_BL9_salden_3",
     "looks_like": "mon_zombie_phase_skulker",
     "type": "MONSTER",
-    "name": "Saldenium Psionics Master",
+    "name": {
+      "str": "灵能大师"
+    },
     "description": "一个高大的皮革皮肤凶猛的人形外星人发射出明亮的太阳橙色水晶光，它的前额是脊状的，它的整个脸上覆盖着多个弯曲的尖刺，它的脖子上有一些呼吸管，它穿着斗篷，挥舞着一个光滑发光的类似PDA的外星人神器",
     "default_faction": "BL9_cultists",
     "species": [
@@ -1906,7 +1948,9 @@
     "id": "mon_BL9_salden_4",
     "looks_like": "mon_zombie_hammer_hands",
     "type": "MONSTER",
-    "name": "Saldenium Warrior",
+    "name": {
+      "str": "萨尔德尼姆战士"
+    },
     "description": "一个高大的皮革皮肤，看起来凶猛的人形外星人发出明亮的太阳橙色水晶光，它的前额是隆起的，它的整个脸上覆盖着多个弯曲的尖刺，它的脖子上有一些呼吸管，它穿着一件轻型盔甲，挥舞着一个沉重的发光戟状武器",
     "default_faction": "BL9_cultists",
     "species": [
@@ -1997,7 +2041,9 @@
     "id": "mon_BL9_salden_5",
     "looks_like": "mon_zombie_armored",
     "type": "MONSTER",
-    "name": "Saldenium Ranger",
+    "name": {
+      "str": "索尔德尼姆游侠"
+    },
     "description": "一个高大的皮革皮肤凶猛的人形外星人发射出明亮的太阳橙色水晶光，它的前额是脊状的，它的整个脸上覆盖着多个弯曲的尖刺，它的脖子上有一些呼吸管，它穿着一套轻型装甲服，挥舞着一把外形圆滑的未来派小型机关枪",
     "default_faction": "BL9_cultists",
     "species": [
@@ -2096,7 +2142,9 @@
     "id": "mon_BL9_salden_6",
     "looks_like": "mon_thing",
     "type": "MONSTER",
-    "name": "Saldenium Amalgamation",
+    "name": {
+      "str": "熔盐拼合"
+    },
     "description": "在这片明亮的橙色光柱的中心，散发着令人毛骨悚然的太阳光",
     "default_faction": "BL9_cultists",
     "species": [
