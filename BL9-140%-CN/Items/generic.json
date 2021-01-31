@@ -382,7 +382,9 @@
       "str_sp": "The BL9 Castlelan Castle Map"
     },
     "description": "无论谁找到这张地图-这是一个求救信号，长期的幸存者，我需要你的帮助，大灾难后最大的危险之一最近突然冒出来，帮帮我，尽快到达城堡入口",
-    "material": "paper",
+    "material": [
+      "paper"
+    ],
     "weight": "30 g",
     "volume": "250 ml",
     "to_hit": -1,
@@ -407,7 +409,9 @@
       "str_sp": "The BL9 Secret Island Map"
     },
     "description": "似乎你终于找到了“他们”的主要作战基地……这是一个巨大的遥远岛屿，其防御工事和结构甚至会给最专业的军事工程师留下深刻印象",
-    "material": "paper",
+    "material": [
+      "paper"
+    ],
     "weight": "30 g",
     "volume": "250 ml",
     "to_hit": -1,
@@ -432,7 +436,9 @@
       "str_sp": "The BL9 Hidden Structures Map"
     },
     "description": "所以有更多的秘密结构可以找到BL9？天哪，这真的那么普遍吗EE的时间探索和根除似乎。。。",
-    "material": "paper",
+    "material": [
+      "paper"
+    ],
     "weight": "30 g",
     "volume": "250 ml",
     "to_hit": -1,

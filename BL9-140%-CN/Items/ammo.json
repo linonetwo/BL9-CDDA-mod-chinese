@@ -38,7 +38,9 @@
     "volume": "0 ml",
     "price": 50,
     "price_postapoc": 10,
-    "material": "gold",
+    "material": [
+      "gold"
+    ],
     "symbol": "$",
     "color": "yellow",
     "count": 1,
@@ -65,7 +67,9 @@
     "volume": "0 ml",
     "price": 5000,
     "price_postapoc": 1000,
-    "material": "gold",
+    "material": [
+      "gold"
+    ],
     "symbol": "$",
     "color": "yellow",
     "count": 1,
@@ -92,7 +96,9 @@
     "volume": "0 ml",
     "price": 100,
     "price_postapoc": 18,
-    "material": "platinum",
+    "material": [
+      "platinum"
+    ],
     "symbol": "$",
     "color": "dark_gray",
     "count": 1,
@@ -119,7 +125,9 @@
     "volume": "0 ml",
     "price": 10000,
     "price_postapoc": 1800,
-    "material": "platinum",
+    "material": [
+      "platinum"
+    ],
     "symbol": "$",
     "color": "dark_gray",
     "count": 1,
