@@ -60,7 +60,7 @@
   {
     "type": "material",
     "id": "BL9_mid2",
-    "name": "中段BL9",
+    "name": "中级2BL9",
     "density": 6,
     "bash_resist": 18,
     "cut_resist": 17,
@@ -147,7 +147,7 @@
   {
     "type": "material",
     "id": "BL9_mk2_mid2",
-    "name": "MK2中段9",
+    "name": "BL9MK2中级2",
     "density": 8,
     "bash_resist": 19,
     "cut_resist": 20,

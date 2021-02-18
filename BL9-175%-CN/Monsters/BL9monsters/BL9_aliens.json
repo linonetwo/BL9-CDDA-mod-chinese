@@ -1629,7 +1629,7 @@
     "looks_like": "mon_alpha_razorclaw",
     "type": "MONSTER",
     "name": {
-      "str": "异兽"
+      "str": "Inhravtidius异兽"
     },
     "description": "一个扩大的畜栏色甲壳类动物怪物，有一个形状奇特的弯曲甲壳，2个长长的畜栏色尖刺天线从它的头部突出，它的5个杂乱无章的小眼睛在快速闪烁，疯狂摆动的触须从它的背部出现，钳子看起来锯齿状和锋利，使它真正凶猛",
     "default_faction": "BL9_cultists",

@@ -445,7 +445,7 @@
         }
       },
       {
-        "text": "[35Gcomb]*BL9注入万能酒*",
+        "text": "[35Gcomb]*BL9灌注马格南*",
         "condition": {
           "not": {
             "u_has_item": "BL9_magnum"
@@ -482,7 +482,7 @@
         }
       },
       {
-        "text": "[94Pcomb]*BL9注入万能MK ii*",
+        "text": "[94Pcomb]*BL9注入马格南MK ii*",
         "condition": {
           "and": [
             {
